@@ -2659,7 +2659,7 @@ textarea.form-control {
 .form-control-blue[readonly]{
 	background-color: #2168a0;
 	border: 1px solid #184d75;
-	color: a0d3ff;
+	color: #a0d3ff;
 	outline: 0; 
 }
 .form-control-blue[disabled],
@@ -6767,7 +6767,6 @@ button.close {
 	letter-spacing: normal;
 	line-height: 1.846;
 	text-align: left;
-	text-align: start;
 	text-decoration: none;
 	text-shadow: none;
 	text-transform: none;
@@ -6884,7 +6883,6 @@ button.close {
 	letter-spacing: normal;
 	line-height: 1.846;
 	text-align: left;
-	text-align: start;
 	text-decoration: none;
 	text-shadow: none;
 	text-transform: none;
@@ -8688,7 +8686,7 @@ label:nth-child(n+2) {
 .dropdown-submenu.pull-left>.dropdown-menu {
     left: -100%;
     margin-left: 10px;
-    border-radius: opx;
+    border-radius: 0px;
 }
 
 /* Override default text selection color*/
