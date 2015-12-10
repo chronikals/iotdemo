@@ -4085,7 +4085,6 @@ fieldset[disabled] .btn-danger.active {
 	font-size: 35px;
 	height: 160px;
 	width: 160px;
-	border-bottom: 5px solid #e2e2e2;
 }
 .btn-xxl:hover,
 .btn-xxl:focus,
@@ -4099,7 +4098,6 @@ fieldset[disabled] .btn-danger.active {
 	font-size: 35px;
 	height: 160px;
 	width: 160px;
-	border-bottom: 5px solid #e2e2e2;
 }
 .btn-sm,
 .btn-group-sm > .btn {
@@ -8776,5 +8774,5 @@ label:nth-child(n+2) {
 }
 
 .well {
-    background: #efefef;
+    background: #f9f9f9;
 }
