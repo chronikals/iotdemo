@@ -3157,28 +3157,28 @@ fieldset[disabled] a.btn {
 
 /* Button default*/
 .btn-default {
-	background: #e5e5e5;
-	border: 1px solid #dbdbdb;
-	border-bottom: 1px solid #9f9f9f;
+	background: #efefef;
+	border: 1px solid #e5e5e5;
+	border-bottom: 1px solid #a9a9a9;
 	color: #454545;
 }
 .btn-default:focus,
 .btn-default.focus {
-	background: #e5e5e5;
-	border: 1px solid #a9a9a9;
-	border-bottom: 1px solid #9f9f9f;
+	background: #efefef;
+	border: 1px solid #c7c7c7;
+	border-bottom: 1px solid #959595;
 }
 .btn-default:hover {
-	background: #e5e5e5;
-	border: 1px solid #a9a9a9;
-	border-bottom: 1px solid #9f9f9f;
+	background: #efefef;
+	border: 1px solid #c7c7c7;
+	border-bottom: 1px solid #959595;
 }
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-	background: #bdbdbd;
-	border: 1px solid #b3b3b3;
-	border-top: 1px solid #8b8b8b;
+	background: #c7c7c7;
+	border: 1px solid #c2c2c2;
+	border-top: 1px solid #959595;
 }
 .btn-default:active:hover,
 .btn-default.active:hover,
@@ -3189,9 +3189,9 @@ fieldset[disabled] a.btn {
 .btn-default:active.focus,
 .btn-default.active.focus,
 .open > .dropdown-toggle.btn-default.focus {
-	background: #d1d1d1;
-	border: 1px solid #cccccc;
-	border-top: 1px solid #9f9f9f;
+	background: #dbdbdb;
+	border: 1px solid #d6d6d6;
+	border-top: 1px solid #a9a9a9;
 }
 .btn-default.disabled,
 .btn-default[disabled],
@@ -3211,11 +3211,76 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
+	background: rgba(239,239,239,0.8);
+	border: 1px solid rgba(229,229,229,0.8);
+	color: rgba(69,69,69,0.5);
+}
+.btn-default .badge {
+	background: #e5e5e5;
+	color: #454545;
+}
+
+/* Button default*/
+.btn-default-gray {
+	background: #e5e5e5;
+	border: 1px solid #dbdbdb;
+	border-bottom: 1px solid #9f9f9f;
+	color: #454545;
+}
+.btn-default-gray:focus,
+.btn-default-gray.focus {
+	background: #e5e5e5;
+	border: 1px solid #a9a9a9;
+	border-bottom: 1px solid #9f9f9f;
+}
+.btn-default-gray:hover {
+	background: #e5e5e5;
+	border: 1px solid #a9a9a9;
+	border-bottom: 1px solid #9f9f9f;
+}
+.btn-default-gray:active,
+.btn-default-gray.active,
+.open > .dropdown-toggle.btn-default-gray {
+	background: #bdbdbd;
+	border: 1px solid #b3b3b3;
+	border-top: 1px solid #8b8b8b;
+}
+.btn-default-gray:active:hover,
+.btn-default-gray.active:hover,
+.open > .dropdown-toggle.btn-default-gray:hover,
+.btn-default-gray:active:focus,
+.btn-default-gray.active:focus,
+.open > .dropdown-toggle.btn-default-gray:focus,
+.btn-default-gray:active.focus,
+.btn-default-gray.active.focus,
+.open > .dropdown-toggle.btn-default-gray.focus {
+	background: #d1d1d1;
+	border: 1px solid #cccccc;
+	border-top: 1px solid #9f9f9f;
+}
+.btn-default-gray.disabled,
+.btn-default-gray[disabled],
+fieldset[disabled] .btn-default-gray,
+.btn-default-gray.disabled:hover,
+.btn-default-gray[disabled]:hover,
+fieldset[disabled] .btn-default-gray:hover,
+.btn-default-gray.disabled:focus,
+.btn-default-gray[disabled]:focus,
+fieldset[disabled] .btn-default-gray:focus,
+.btn-default-gray.disabled.focus,
+.btn-default-gray[disabled].focus,
+fieldset[disabled] .btn-default-gray.focus,
+.btn-default-gray.disabled:active,
+.btn-default-gray[disabled]:active,
+fieldset[disabled] .btn-default-gray:active,
+.btn-default-gray.disabled.active,
+.btn-default-gray[disabled].active,
+fieldset[disabled] .btn-default-gray.active {
 	background: rgba(229,229,229,0.8);
 	border: 1px solid rgba(224,224,224,0.8);
 	color: rgba(69,69,69,0.5);
 }
-.btn-default .badge {
+.btn-default-gray .badge {
 	background: #e5e5e5;
 	color: #454545;
 }
