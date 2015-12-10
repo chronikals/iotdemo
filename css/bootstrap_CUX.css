@@ -2570,14 +2570,14 @@ output {
 .form-control {
 	display: block;
 	width: 100%;
-	height: 34px;
-	padding: 6px 12px;
+	height: 36px;
+	padding: 12px 12px;
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #454545;
-	background-color: #f9f9f9;
+	background-color: #ffffff;
 	background-image: none;
-	border: 1px solid #d6d6d6;
+	border: 1px solid #dbdbdb;
 	border-radius: 0px;
 	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
 	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -2619,12 +2619,65 @@ textarea.form-control {
 	height: auto;
 }
 
+/*From control gray*/
+.form-control-gray {
+	display: block;
+	width: 100%;
+	height: 36px;
+	padding: 12px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #454545;
+	background-color: #f9f9f9;
+	background-image: none;
+	border: 1px solid #d6d6d6;
+	border-radius: 0px;
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control-gray:focus {
+	border: 1px solid #3da7ff;
+	outline: 0;
+}
+.form-control-gray:hover {
+	border: 1px solid #b3b3b3;
+	outline: 0;
+}
+.form-control-gray::-moz-placeholder {
+	color: rgba(69,69,69, 0.5);
+}
+.form-control-gray:-ms-input-placeholder {
+	color: rgba(69,69,69, 0.5);
+}
+.form-control-gray::-webkit-input-placeholder {
+	color: rgba(69,69,69, 0.5);
+}
+.form-control-gray[readonly],
+fieldset[readonly] .form-control-gray{
+	color: #454545;
+	background-color: #e5e5e5;
+	border: 1px solid #dbdbdb;
+}
+.form-control-gray[disabled],
+fieldset[disabled] .form-control-gray {
+	background-color: transparent;
+	opacity: 1;
+}
+.form-control-gray[disabled],
+fieldset[disabled] .form-control-gray {
+	cursor: not-allowed;
+}
+textarea.form-control-gray {
+	height: auto;
+}
+
 /*From control blue*/
 .form-control-blue {
 	display: block;
 	width: 100%;
-	height: 34px;
-	padding: 6px 12px;
+	height: 36px;
+	padding: 12px 12px;
 	font-size: 14px;
 	line-height: 1.42857143;
 	color:#c7c7c7;
@@ -2681,8 +2734,8 @@ textarea.form-control-blue {
 .form-control-black {
 	display: block;
 	width: 100%;
-	height: 34px;
-	padding: 6px 12px;
+	height: 36px;
+	padding: 12px 12px;
 	font-size: 14px;
 	line-height: 1.42857143;
 	color:#c7c7c7;
@@ -4321,6 +4374,7 @@ tbody.collapse.in {
 	outline: 0;
 }
 
+/*General settings for dropdown*/
 .dropdown-menu {
 	position: absolute;
 	top: 100%;
@@ -4329,8 +4383,8 @@ tbody.collapse.in {
 	display: none;
 	float: left;
 	min-width: 160px;
-	padding: 5px 0;
-	margin: 2px 0 0;
+	padding: 0;
+	margin: 0;
 	list-style: none;
 	font-size: 13px;
 	text-align: left;
@@ -4342,6 +4396,7 @@ tbody.collapse.in {
 	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
+	color: #454545;
 }
 
 .dropdown-menu.pull-right {
@@ -4350,9 +4405,9 @@ tbody.collapse.in {
 }
 .dropdown-menu .divider {
 	height: 1px;
-	margin: 10.5px 0;
+	margin: 0;
 	overflow: hidden;
-	background-color: #e5e5e5;
+	background-color: #eaeaea;
 }
 .dropdown-menu > li > a {
 	display: block;
@@ -4367,8 +4422,10 @@ tbody.collapse.in {
 .dropdown-menu > li > a:focus {
 	text-decoration: none;
 	color: #141414;
-	background-color: #3899e9;
+	background-color: #d6d6d6;
 }
+
+/*Color for dropdown active*/
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
@@ -4380,7 +4437,7 @@ tbody.collapse.in {
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
-	color: #bbbbbb;
+	color: #eaeaea;
 }
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
@@ -4406,8 +4463,8 @@ tbody.collapse.in {
 }
 .dropdown-header {
 	display: block;
-	padding: 3px 20px;
-	font-size: 12px;
+	padding: 8px 20px;
+	font-size: 13px;
 	line-height: 1.846;
 	color: #bbbbbb;
 	white-space: nowrap;
@@ -5276,7 +5333,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 	height: 60px;
 }
 .navbar-nav .active {
-	border-top: 5px solid #3899e9;
+	border-top: 6px solid #3799e9;
 	height: 55px;
 	}
 .navbar-nav .active a  {	
@@ -8855,11 +8912,12 @@ label:nth-child(n+2) {
     position: relative;
 }
 
+/*Overlapping for dropdown sub-menus*/
 .dropdown-submenu>.dropdown-menu {
     top: 0;
     left: 100%;
-    margin-top: -5px;
-    margin-left: 1px;
+    margin-top: 4px;
+    margin-left: -5px;
     border-radius: 0px;
 }
 
