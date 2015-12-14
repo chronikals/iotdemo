@@ -9,7 +9,7 @@
   vertical-align: middle;
   border-radius: 0px;
   width: 100%;
-  line-height: 18px;
+  line-height: 30px;
   cursor: text;
 }
 .bootstrap-tagsinput input {
@@ -28,14 +28,15 @@
 }
 .bootstrap-tagsinput .tag {
   margin-right: 2px;
-  color: white;
 }
 .bootstrap-tagsinput .tag [data-role="remove"] {
-  margin-left: 8px;
+  margin-left: 15px;
   cursor: pointer;
 }
 .bootstrap-tagsinput .tag [data-role="remove"]:after {
-  content: "x";
+  font-family: FontAwesome;
+  content: "\f00d";
+  font-size: 14px;
   padding: 0px 2px;
 }
 .bootstrap-tagsinput .tag [data-role="remove"]:hover {
