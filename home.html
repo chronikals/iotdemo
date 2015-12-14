@@ -1697,12 +1697,6 @@
 						<!-- UI-Status info -->
 						<h3 id="ui-view">Status info</h3>
 						<p>Progress indicators are something nice to have</p>
-						<div class="well well-transparent">
-							<button class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">expand-left</span></button>
-							<button class="btn btn-success ladda-button" data-style="slide-right"><span class="ladda-label">slide-right</span></button>
-							<button class="btn btn-default ladda-button" data-style="zoom-in"><span class="ladda-label">zoom-in</span></button>
-							<button class="btn btn-default ladda-button" data-style="zoom-out"><span class="ladda-label">zoom-out</span></button>
-						</div>
 						<div class="well well-transparent progress-demo">
 							<button class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">expand-left</span></button>
 							<button class="btn btn-success ladda-button" data-style="slide-right"><span class="ladda-label">slide-right</span></button>
@@ -1716,10 +1710,11 @@
 						
 						<h3 id="ui-view">Fancy error messages</h3>
 						<div class="well well-transparent">
-							<button class="btn btn-primary" id="test-1">Update</button>
-							<button class="btn btn-default" id="test-2"><i class="fa fa-trash-o"></i></button>
-							<button class="btn btn-primary"id="test-4">Check</button>
-							<button class="btn btn-default" id="test-3">Delete</button>
+							<button class="btn btn-default" id="test-1">Information</button>
+							<button class="btn btn-danger" id="test-2"><i class="fa fa-trash-o"></i></button>
+							<button class="btn btn-warning"id="test-4">Test</button>
+							<button class="btn btn-primary" id="test-3">Save</button>
+							<button class="btn btn-success" id="test-5"><i class="fa fa-plus"></i></button>
 						</div>
 						
 						<h3 id="ui-view">Alerts</h3>
@@ -1791,7 +1786,7 @@
 						
 						<!-- UI-Pupups -->
 						<h3 id="ui-view">Pop-ups / Dialogs</h3>
-						<p>Progress indicators are something nice to have</p>
+						<p>See how cool modal we developed</p>
 						<div class="well well-transparent">
 							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
 								Launch demo modal
@@ -1838,7 +1833,7 @@
 						
 						<!-- UI-Tooltips -->
 						<h3 id="ui-view">Tooltips</h3>
-						<p>Progress indicators are something nice to have</p>
+						<p>Remember to use tooltips for quick help to users</p>
 						<div class="well well-transparent">
 							<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">On left</button>
 							<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">On top</button>
@@ -1848,7 +1843,7 @@
 						
 						<!-- UI-Popover -->
 						<h3 id="ui-view">Popovers</h3>
-						<p>Progress indicators are something nice to have</p>
+						<p>Popovers are nice but tricky elements to implement </p>
 						<div class="well well-transparent">
 							<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
 								On left
@@ -2514,16 +2509,19 @@
 			<!-- Sweetalert scripts-->
 			<script>
 				document.querySelector('button#test-1').onclick = function(){
-					swal("The information was updated!");
+					swal({   title: "Information message",   text: "If needed, additional text. Lorem ipsum dolor sit amet, in mei adhuc possim quaestio, cibo quas falli mel ex, at sumo nostro appareat usu.",   type: "info",   showCancelButton: false, confirmButtonText: "OK", confirmButtonClass: 'btn-default',   closeOnConfirm: true });
 				};
 				document.querySelector('button#test-2').onclick = function(){
-					swal({   title: "Are you sure?",   text: "You will not be able to recover this imaginary file!",   type: "warning",   showCancelButton: true,   confirmButtonColor: "#DD6B55",   confirmButtonText: "Yes, delete it!",   closeOnConfirm: false }, function(){   swal("Deleted!", "Your imaginary file has been deleted.", "success"); });
+					swal({   title: "Are you sure to delete this alarm?",   text: "You will not be able to recover the information unless you back up your file",   type: "warning",   showCancelButton: true,  confirmButtonText: "Continue", confirmButtonClass: 'btn-primary',   closeOnConfirm: false }, function(){   swal("Deleted!", "Your imaginary file has been deleted.", "success"); });
 				};
 				document.querySelector('button#test-3').onclick = function(){
-					swal({   title: "Are you sure?",   text: "You will not be able to recover this imaginary file!",   type: "warning",   showCancelButton: true,   confirmButtonColor: "#DD6B55",   confirmButtonText: "Yes, delete it!",   cancelButtonText: "No, cancel plx!",   closeOnConfirm: false,   closeOnCancel: false }, function(isConfirm){   if (isConfirm) {     swal("Deleted!", "Your imaginary file has been deleted.", "success");   } else {     swal("Cancelled", "Your imaginary file is safe :)", "error");   } });
+					swal({   title: "This alarm is linked to a rule",   text: "Please select the action you want to perform",   type: "warning",   showCancelButton: true,   confirmButtonClass: 'btn-primary',   cancelButtonText: "Cancel",   confirmButtonText: "Save and overwrite rule",   closeOnConfirm: false,   closeOnCancel: false }, function(isConfirm){   if (isConfirm) {     swal("Saved", "Changes have been saved and rule has been updated", "success");   } else {     swal("Cancelled", "No changes were saved", "error");   } });
 				};
 				document.querySelector('button#test-4').onclick = function(){
 					swal("Oops...", "Something went wrong!", "error");
+				};
+				document.querySelector('button#test-5').onclick = function(){
+					swal({   title: "New alarm created",   text: "Alarm 200TTX201 has been created and added to Jackfish 2 master alarm database",  timer: 2000, showConfirmButton: false, showCancelButton: false });
 				};
 			</script>
 			
