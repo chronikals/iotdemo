@@ -893,25 +893,7 @@
 								<li role="presentation"><a href="#">Messages</a></li>
 							</ul>
 						</div>
-						
-						<!-- UI-Pills -->
-						<h3 id="ui-menus-pills">Pills</h3>							
-						<div class="well well-transparent">
-							<section>
-								<ul class="nav nav-pills">
-									<li role="presentation" class="active"><a href="#">Home</a></li>
-									<li role="presentation"><a href="#">Profile</a></li>
-									<li role="presentation"><a href="#">Messages</a></li>
-								</ul>
-							</section>
-						</div>						
-						<div class="well well-transparent">
-							<ul class="nav nav-pills" role="tablist">
-								<li role="presentation" class="active"><a href="home">Home <span class="badge">42</span></a></li>
-								<li role="presentation"><a href="profile">Profile</a></li>
-								<li role="presentation"><a href="messages">Messages <span class="badge">3</span></a></li>
-							</ul>
-						</div>
+					
 						
 						<!-- UI-Tree -->
 						<h3 id="ui-menus-tree">Tree</h3>							
@@ -1227,18 +1209,16 @@
 						<h3 id="ui-buttons-black">Dropdown gray background</h3>
 						<div class="well" style="background: #f9f9f9;">			
 							<h4>Dropdown button</h4>
-							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-									Dropdown
-									<span class="caret"></span>
+							<div class="btn-group btn-input clearfix">
+								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+								<span data-bind="label">Select One</span>&nbsp;<span class="caret"></span>
 								</button>
-								<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-									<li><a href="#">Action</a></li>
-									<li><a href="#">Another action</a></li>
-									<li><a href="#">Something else here</a></li>
-									<li><a href="#">Separated link</a></li>
+								<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Item 1</a></li>
+								<li><a href="#">Another item</a></li>
+								<li><a href="#">This is a longer item that will not fit properly</a></li>
 								</ul>
-							</div>
+               				</div>
 							<h4>Dropdown button disabled</h4>
 							<div class="dropdown">
 								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" disabled>
@@ -2714,6 +2694,22 @@
 					}
 				}
 			</script>
+			
+			<!-- Dropdown fix -->
+			<script>
+				   $( document.body ).on( 'click', '.dropdown-menu li', function( event ) {
+
+      var $target = $( event.currentTarget );
+
+      $target.closest( '.btn-group' )
+         .find( '[data-bind="label"]' ).text( $target.text() )
+            .end()
+         .children( '.dropdown-toggle' ).dropdown( 'toggle' );
+
+      return false;
+
+   });
+   </script>
 		</body>
 		
 	</html>																																																																																																																																																																																																																																																																															
