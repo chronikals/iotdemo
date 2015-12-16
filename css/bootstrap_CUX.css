@@ -5346,7 +5346,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 	height: 50px;
 }
 .navbar-nav :hover {
-	background: #3d5563;
 }
 .navbar-nav .active {
 	border-top: 6px solid #3799e9;
