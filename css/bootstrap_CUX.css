@@ -4062,8 +4062,8 @@ fieldset[disabled] .btn-link-primary-black:active{
 /* Button success*/
 .btn-success {
 	color: #ffffff;
-	background-color: #29d295;
-	border: 1px solid #29d295;
+	background-color: #66e1b5;
+	border: 1px solid #66e1b5;
 	border-bottom: 1px solid #19865F;
 }
 .btn-success:focus,
