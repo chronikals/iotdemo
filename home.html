@@ -485,7 +485,7 @@
 											</li>
 											<li><a href="#contact">Alarm Rationalization Tool</a>
 											</li>
-											<li class="dropdown" style="margin-left:80px;">
+											<li class="dropdown" style="margin-left:140px;">
 												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-ellipsis-h fa-2x"></i></a>
 												<ul class="dropdown-menu pull-right">
 													<li><a href="#">Alarm Insight</a>
@@ -669,7 +669,7 @@
 							<nav class="navbar navbar-inverse navbar-static-bottom" style="margin-top:-25px;">
 								<div class="container-fluid">
 									<div class="navbar-header">
-										<span class="badge alert-success" style="margin-left:-615px; margin-top:8px;"> ONLINE </span>
+										<span class="badge alert-success" style="margin-left:-615px; margin-top:5px;"> ONLINE </span>
                                         <span class="badge-nav-default alert-warning-discrete" style="margin-left:-180px;"> <i class="fa fa-exclamation-triangle fa-lg"></i> Warning </span>
                                         <span class="badge-nav-default alert-danger-discrete" style="margin-left:-310px;"> <i class="fa fa-exclamation-triangle fa-lg"></i> Critical error in System 24 </span>
 										<a class="navbar-brand" style="margin-left:750px;" href="#"></a>
@@ -864,7 +864,7 @@
 						
 						<!-- UI-Radios-->
 						<h3 id="ui-selections-radios">Radio buttons</h3>
-						<p>Use checkboxes for only one options</p>
+						<p>Use radios for only one options</p>
 						<div class="well well-transparent">
 							<div class="bs-example" data-example-id="radios">
 								<form>
@@ -1676,6 +1676,220 @@
 							text: 'Indicates a neutral informative change or action',
 							type: 'info'
 							});">Info</button>
+                            <h4>High contrast with buttons</h4>
+                            <button class="btn btn-default source"
+							onclick="new PNotify({
+							type: 'warning',
+							text: 'You have three options to choose from.',
+							hide: false,
+							confirm: {
+							confirm: true,
+							buttons: [{
+							text: 'Fries',
+							addClass: 'btn-warning',
+							click: function(notice) {
+							notice.update({
+							text: 'You want fries.',
+							icon: true,
+							type: 'warning',
+							hide: true,
+							confirm: {
+							confirm: false
+							},
+							buttons: {
+							closer: true,
+							sticker: true
+							}
+							});
+							}
+							}, {
+							text: 'Mashed Potatoes',
+							addClass: 'btn-warning',
+							click: function(notice) {
+							notice.update({
+							text: 'You want mashed potatoes.',
+							icon: true,
+							type: 'warning',
+							hide: true,
+							confirm: {
+							confirm: false
+							},
+							buttons: {
+							closer: true,
+							sticker: true
+							}
+							});
+							}
+							}, {
+							text: 'Fruit',
+							addClass: 'btn-warning',
+							click: function(notice) {
+							notice.update({
+							text: 'You want fruit.',
+							icon: true,
+							type: 'warning',
+							hide: true,
+							confirm: {
+							confirm: false
+							},
+							buttons: {
+							closer: true,
+							sticker: true
+							}
+							});
+							}
+							}]
+							},
+							buttons: {
+							closer: false,
+							sticker: false
+							},
+							history: {
+							history: false
+							}
+							});">Warning with buttons</button>
+                            <button class="btn btn-default source"
+							onclick="new PNotify({
+							type: 'success',
+							text: 'You have three options to choose from.',
+							hide: false,
+							confirm: {
+							confirm: true,
+							buttons: [{
+							text: 'Fries',
+							addClass: 'btn-success',
+							click: function(notice) {
+							notice.update({
+							text: 'You want fries.',
+							icon: true,
+							type: 'success',
+							hide: true,
+							confirm: {
+							confirm: false
+							},
+							buttons: {
+							closer: true,
+							sticker: true
+							}
+							});
+							}
+							}, {
+							text: 'Mashed Potatoes',
+							addClass: 'btn-success',
+							click: function(notice) {
+							notice.update({
+							text: 'You want mashed potatoes.',
+							icon: true,
+							type: 'success',
+							hide: true,
+							confirm: {
+							confirm: false
+							},
+							buttons: {
+							closer: true,
+							sticker: true
+							}
+							});
+							}
+							}, {
+							text: 'Fruit',
+							addClass: 'btn-success',
+							click: function(notice) {
+							notice.update({
+							text: 'You want fruit.',
+							icon: true,
+							type: 'success',
+							hide: true,
+							confirm: {
+							confirm: false
+							},
+							buttons: {
+							closer: true,
+							sticker: true
+							}
+							});
+							}
+							}]
+							},
+							buttons: {
+							closer: false,
+							sticker: false
+							},
+							history: {
+							history: false
+							}
+							});">Success with buttons</button>
+                            <button class="btn btn-default source"
+							onclick="new PNotify({
+							type: 'error',
+							text: 'You have three options to choose from.',
+							hide: false,
+							confirm: {
+							confirm: true,
+							buttons: [{
+							text: 'Fries',
+							addClass: 'btn-danger',
+							click: function(notice) {
+							notice.update({
+							text: 'You want fries.',
+							icon: true,
+							type: 'error',
+							hide: true,
+							confirm: {
+							confirm: false
+							},
+							buttons: {
+							closer: true,
+							sticker: true
+							}
+							});
+							}
+							}, {
+							text: 'Mashed Potatoes',
+							addClass: 'btn-danger',
+							click: function(notice) {
+							notice.update({
+							text: 'You want mashed potatoes.',
+							icon: true,
+							type: 'error',
+							hide: true,
+							confirm: {
+							confirm: false
+							},
+							buttons: {
+							closer: true,
+							sticker: true
+							}
+							});
+							}
+							}, {
+							text: 'Fruit',
+							addClass: 'btn-danger',
+							click: function(notice) {
+							notice.update({
+							text: 'You want fruit.',
+							icon: true,
+							type: 'error',
+							hide: true,
+							confirm: {
+							confirm: false
+							},
+							buttons: {
+							closer: true,
+							sticker: true
+							}
+							});
+							}
+							}]
+							},
+							buttons: {
+							closer: false,
+							sticker: false
+							},
+							history: {
+							history: false
+							}
+							});">Error with buttons</button>
 							<button class="btn btn-default source"
 							onclick="new PNotify({
 							type: 'info',
@@ -1747,77 +1961,6 @@
 							history: false
 							}
 							});">Info with buttons</button>
-							<button class="btn btn-default source"
-							onclick="new PNotify({
-							type: 'success',
-							text: 'You have three options to choose from.',
-							hide: false,
-							confirm: {
-							confirm: true,
-							buttons: [{
-							text: 'Fries',
-							addClass: 'btn-success',
-							click: function(notice) {
-							notice.update({
-							text: 'You want fries.',
-							icon: true,
-							type: 'success',
-							hide: true,
-							confirm: {
-							confirm: false
-							},
-							buttons: {
-							closer: true,
-							sticker: true
-							}
-							});
-							}
-							}, {
-							text: 'Mashed Potatoes',
-							addClass: 'btn-success',
-							click: function(notice) {
-							notice.update({
-							text: 'You want mashed potatoes.',
-							icon: true,
-							type: 'success',
-							hide: true,
-							confirm: {
-							confirm: false
-							},
-							buttons: {
-							closer: true,
-							sticker: true
-							}
-							});
-							}
-							}, {
-							text: 'Fruit',
-							addClass: 'btn-success',
-							click: function(notice) {
-							notice.update({
-							text: 'You want fruit.',
-							icon: true,
-							type: 'success',
-							hide: true,
-							confirm: {
-							confirm: false
-							},
-							buttons: {
-							closer: true,
-							sticker: true
-							}
-							});
-							}
-							}]
-							},
-							buttons: {
-							closer: false,
-							sticker: false
-							},
-							history: {
-							history: false
-							}
-							});">Success with buttons</button>
 							<h4>Discrete</h4>
 							<button class="btn btn-default source" onclick="new PNotify({
 							text: 'Indicates a warning that might need attention',
@@ -1838,6 +1981,7 @@
 							addclass: 'discrete-info',
 							type: 'info',
 							});">Info</button>
+                            <h4>Discrete with buttons</h4>
 							<button class="btn btn-default source"
 							onclick="(new PNotify({
 							text: 'Are you sure you want to do this horrible action?',	
@@ -1854,6 +1998,23 @@
 							history: false
 							}
 							}));">Warning with buttons</button>
+                            <button class="btn btn-default source"
+							onclick="(new PNotify({
+							text: 'Are you sure you want to do this horrible action?',	
+							addclass: 'discrete-success',
+                            type: 'success',		
+							hide: false,
+							confirm: {
+							confirm: true,
+							},
+							buttons: {
+							closer: false,
+							sticker: false
+							},
+							history: {
+							history: false
+							}
+							}));">Success with buttons</button>
 							<button class="btn btn-default source"
 							onclick="(new PNotify({
 							text: 'Are you sure you want to do this horrible action?',	
@@ -1871,6 +2032,23 @@
 							history: false
 							}
 							}));">Error with buttons</button>
+                            <button class="btn btn-default source"
+							onclick="(new PNotify({
+							text: 'Are you sure you want to do this horrible action?',	
+							addclass: 'discrete-info',	
+                            type: 'info',	
+							hide: false,
+							confirm: {
+							confirm: true,
+							},
+							buttons: {
+							closer: false,
+							sticker: false
+							},
+							history: {
+							history: false
+							}
+							}));">Info with buttons</button>
 						</div>
                         <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">These components use the <a style="font-weight: bold;" href="http://sciactive.com/pnotify/"target="_blank">Pnotify bootstrap</a> library</span>	
 						

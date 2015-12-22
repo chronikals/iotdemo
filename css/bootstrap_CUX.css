@@ -4359,8 +4359,8 @@ fieldset[disabled] .btn-success.active {
 /* Button warning*/
 .btn-warning {
 	color: #ffffff;
-	background-color: #ee6b3b;
-	border: 1px solid #ee6b3b;
+	background-color: #f18862;
+	border: 1px solid #f18862;
 	border-bottom: 1px solid #ab4c2a;
 }
 .btn-warning:focus,
@@ -4429,8 +4429,8 @@ fieldset[disabled] .btn-warning.active {
 /* Button danger*/
 .btn-danger {
 	color: #ffffff;
-	background-color: #ef2f3f;
-	border: 1px solid #ef2f3f;
+	background-color: #f25865;
+	border: 1px solid #f25865;
 	border-bottom: 1px solid #ac212c;
 }
 .btn-danger:focus,
