@@ -145,7 +145,7 @@
 						
 						
 						<!-- Sidebar -->
-						<h3 id="ui-view-windows">Horizontal navbar alternative color</h3>					
+						<h3 id="ui-view-windows">Horizontal navbar alternative color</h3>			
 						<div class="well well-transparent" style="background: #f9f9f9;">
 							
 							<nav class="navbar navbar-default" role="navigation">
@@ -230,7 +230,8 @@
 							</div>
 						</div>	
 						
-						<h3 id="ui-view-windows">Horizontal navbar</h3>					
+						<h3 id="ui-view-windows">Horizontal navbar</h3>
+                        <p>Examples for diffetent types of navigation based on text-only, icon-only and text + icon</p>							
 						<div class="well well-transparent" style="background: #f9f9f9;">
 							
 							<!-- Text menus -->
@@ -271,12 +272,14 @@
 												</ul>
 											</li>
 										</ul>
-										<ul class="nav navbar-nav" style="margin-left:120px;">
+										<ul class="nav navbar-nav" style="margin-left:168px;">
 											<li class="dropdown">
 												<a href="#" class="dropdown-toggle"  data-toggle="dropdown"><i class="fa fa-th fa-2x"></i></a>
 												<ul class="dropdown-menu pull-right">
 													<div class="col-lg-12">
-														<li><a href="#"><i class="fa fa-contao"></i></a></li>
+														<li style="margin-top:10px;"><a href="#"><i class="fa fa-modx fa-3x"></i> Product 1</a></li>
+                                                        <li style="margin-top:10px;"><a href="#"><i class="fa fa-slideshare fa-3x"></i> Product 2</a></li>
+                                                        <li style="margin-top:10px; margin-bottom:10px;"><a href="#"><i class="fa fa-github-alt fa-3x"></i> Product 3</a></li>
 													</div>
 												</ul>
 											</li>
@@ -370,7 +373,8 @@
 							</div>					
 						</div>
 						
-						<h3 id="ui-view-windows">Submenus and notifications</h3>					
+						<h3 id="ui-view-windows">Submenus</h3>
+                        <p>Examples for several levels in the top-level navigation (Alarm Insight > Alarm Analysis > Frequent Alarms)</p>					
 						<div class="well well-transparent" style="background: #f9f9f9;">
 							<!-- Text + alarms and notifications -->
 							<div class="navbar navbar-inverse">
@@ -458,7 +462,8 @@
 						</div>
 						
 						<!-- Combined Sidebar -->
-						<h3 id="ui-view-windows">Combined navbar</h3>					
+						<h3 id="ui-view-windows">Combined navbar</h3>
+                        <p>Example application where black top navigation and gray side navigation are used</p>				
 						<div class="well well-transparent" style="background: #f9f9f9;">		
 							
 							<div class="navbar navbar-inverse">
@@ -505,7 +510,7 @@
 							<div class="row">
 								<div class="col-lg-3">
 									<div class="sidebar-nav">
-										<div class="navbar navbar-default" role="navigation" style="height:500px; margin-top:-20px;">
+										<div class="navbar navbar-default" role="navigation" style="height:500px; margin-top:-25px;">
 											<div class="navbar-header">
 												<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
 													<span class="sr-only">Toggle navigation</span>
@@ -530,6 +535,7 @@
 								</div>
 							</div>
 						</div>
+						<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The graphs in this example use the <a style="font-weight: bold;" href="http://nvd3.org/index.html"target="_blank">NVD3.js</a> library</span>
 						
 						<!-- Touch example -->
 						<h3 id="ui-view-windows">Touch example PCS100</h3>					
@@ -663,7 +669,9 @@
 							<nav class="navbar navbar-inverse navbar-static-bottom" style="margin-top:-25px;">
 								<div class="container-fluid">
 									<div class="navbar-header">
-										<span class="badge alert-success" style="margin-left:-300px; margin-top:20px; color:#ffffff;"> ONLINE </span>
+										<span class="badge alert-success" style="margin-left:-630px; margin-top:15px; color:#ffffff;"> ONLINE </span>
+                                        <span class="badge-nav-default alert-warning" style="margin-left:-160px; color:#ffffff;"> <i class="fa fa-bell"></i> Warning </span>
+                                        <span class="badge-nav-default alert-danger" style="margin-left:-270px; color:#ffffff;"> <i class="fa fa-exclamation-circle"></i> Critical error in System 24 </span>
 										<a class="navbar-brand" style="margin-left:750px;" href="#"></a>
 									</div>
 								</div>
@@ -742,38 +750,38 @@
 						
 						
 						<!-- UI-Tree -->
-						<h3 id="ui-menus-tree">Tree</h3>							
-						<div class="well well-transparent">
+						<!--h3 id="ui-menus-tree">Tree</h3>							
+							<div class="well well-transparent">
 							<ul class="nav nav-stacked">
-								<li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">Settings <i class="glyphicon glyphicon-chevron-down"></i></a>
-									<ul class="nav nav-stacked collapse in" id="userMenu">
-										<li class="active"> <a href="#"><i class="glyphicon glyphicon-home"></i> Home</a></li>
-										<li><a href="#"><i class="glyphicon glyphicon-envelope"></i> Messages <span class="badge badge-info">4</span></a></li>
-										<li><a href="#"><i class="glyphicon glyphicon-cog"></i> Options</a></li>
-										<li><a href="#"><i class="glyphicon glyphicon-comment"></i> Shoutbox</a></li>
-										<li><a href="#"><i class="glyphicon glyphicon-user"></i> Staff List</a></li>
-										<li><a href="#"><i class="glyphicon glyphicon-flag"></i> Transactions</a></li>
-										<li><a href="#"><i class="glyphicon glyphicon-exclamation-sign"></i> Rules</a></li>
-										<li><a href="#"><i class="glyphicon glyphicon-off"></i> Logout</a></li>
-									</ul>
-								</li>
-								<li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#menu2"> Reports <i class="glyphicon glyphicon-chevron-right"></i></a>
-									
-									<ul class="nav nav-stacked collapse" id="menu2">
-										<li><a href="#">Information Stats</a>
-										</li>
-										<li><a href="#">Views</a>
-										</li>
-										<li><a href="#">Requests</a>
-										</li>
-										<li><a href="#">Timetable</a>
-										</li>
-										<li><a href="#">Alerts</a>
-										</li>
-									</ul>
-								</li>
+							<li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">Settings <i class="glyphicon glyphicon-chevron-down"></i></a>
+							<ul class="nav nav-stacked collapse in" id="userMenu">
+							<li class="active"> <a href="#"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-envelope"></i> Messages <span class="badge badge-info">4</span></a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-cog"></i> Options</a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-comment"></i> Shoutbox</a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-user"></i> Staff List</a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-flag"></i> Transactions</a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-exclamation-sign"></i> Rules</a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-off"></i> Logout</a></li>
 							</ul>
-						</div>						
+							</li>
+							<li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#menu2"> Reports <i class="glyphicon glyphicon-chevron-right"></i></a>
+							
+							<ul class="nav nav-stacked collapse" id="menu2">
+							<li><a href="#">Information Stats</a>
+							</li>
+							<li><a href="#">Views</a>
+							</li>
+							<li><a href="#">Requests</a>
+							</li>
+							<li><a href="#">Timetable</a>
+							</li>
+							<li><a href="#">Alerts</a>
+							</li>
+							</ul>
+							</li>
+							</ul>
+						</div-->						
 						
 						<!-- UI-Breadcumbs -->
 						<h3 id="ui-menus-breadcumbs">Breadcumbs</h3>
@@ -877,20 +885,21 @@
 						
 						<!-- UI-Sliders -->
 						<h3 id="ui-selections-sliders">Sliders</h3>
-						<p>The examples were build with Bootstrap-slider library </p>
+						<p>Sliders allow you to select/visualize values within ranges</p>		
 						<div class="well well-transparent">							
 							<input id="ex4" type="text" data-slider-min="-5" data-slider-max="20" data-slider-step="1" data-slider-value="-3" data-slider-orientation="vertical"/>
 							<input id="ex5" type="text" data-slider-min="-5" data-slider-max="20" data-slider-step="1" data-slider-value="-3" data-slider-orientation="horizontal"/>
 						</div>
+						<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a style="font-weight: bold;" href="http://seiyria.com/bootstrap-slider/"target="_blank">Bootstrap-slider</a> library</span>
 						
 						<!-- UI-Toggles -->
 						<h3 id="ui-selections-toggles">Toggles</h3>
-						<p>This example is based on Bootstrap-toggle library</p>
+						<p>Toggles are checkbox-like components that are used to select between two states</p>
 						<div class="well well-transparent">
 							<input type="checkbox" checked data-toggle="toggle">
 						</div>
+						<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a style="font-weight: bold;" href="http://www.bootstraptoggle.com/"target="_blank">Bootstrap-toggle</a> library</span>
 						
-						<p>This example is based on Flat-toggle library</p>
 						<div class="well well-transparent">
 							<div class="flat-toggle">
 								<span>Label</span>
@@ -901,6 +910,7 @@
 								});
 							</script>	
 						</div>
+						<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a style="font-weight: bold;" href="http://www.jqueryscript.net/form/Create-Flat-Smooth-Toggle-Switches-with-jQuery-CSS3.html"target="_blank">Flat-toggle</a> library</span>
 						
 						<!-- UI-Tags -->
 						<h3 id="ui-selections-tags">Tags</h3>
@@ -930,6 +940,7 @@
 								});
 							</script>
 						</div>
+						<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a style="font-weight: bold;" href="http://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/"target="_blank">Bootstrap tags-input</a> library</span>
 						
 						<!--UI-Buttons-->							
 						<p style="height:100px;"/>
@@ -969,6 +980,7 @@
 							<button type="button" class="btn btn-link disabled">Link default</button>
 							<button type="button" class="btn btn-link-primary disabled">Link primary</button>
 						</div>
+                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The colorpicker in this example uses the <a style="font-weight: bold;" href="http://labs.abeautifulsite.net/jquery-minicolors/"target="_blank">jQuery MiniColors</a> library</span>
 						
 						<!--Buttons gray-->
 						<h3 id="ui-buttons-gray">Buttons gray background</h3>
@@ -1369,7 +1381,7 @@
 									<label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio12">Android</label>
 								</div>
 								<div class="form-group">
-									<label for="inputType" class="control-label">State robot type (disabled)</label>
+									<label style="margin-top:12px;" for="inputType" class="control-label">State robot type (disabled)</label>
 									<input type="text" class="form-control" id="inputType" placeholder="MEC200" disabled>
 								</div>
 								<div class="form-group">
@@ -1381,6 +1393,7 @@
 								</div>
 							</form>
 						</div>
+						<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The error and success messages in this form are using <a style="font-weight: bold;" href="http://1000hz.github.io/bootstrap-validator/"target="_blank">Bootstrap validator</a> library</span>
 						
 						<!--Form example blue-->
 						<h3 id="ui-forms-notes">Form with notes blue background</h3>
@@ -1399,35 +1412,35 @@
 										required>
 									</div>
 									<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-									<span class="help-block with-errors">Hey look, this one has feedback icons!</span>
+									<span class="help-block-blue with-errors">Hey look, this one has feedback icons!</span>
 								</div>
 								<div class="form-group">
 									<label for="inputEmail" class="control-label-blue">Email</label>
 									<input type="email" class="form-control-blue" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid"
 									required>
-									<div class="help-block with-errors"></div>
+									<div class="help-block-blue with-errors"></div>
 								</div>
 								<div class="form-group">
 									<label for="inputPassword" class="control-label-blue">Password</label>
 									<input type="password" data-minlength="6" class="form-control-blue" id="inputPassword" placeholder="Password" required>
-									<span class="help-block">Minimum of 6 characters</span>
+									<span class="help-block-blue">Minimum of 6 characters</span>
 								</div>
 								<div class="form-group">
 									<label for="inlineCheckbox20" class="control-label-blue">Terms and conditions</label>
 									<input type="checkbox" checked="checked" id="inlineCheckbox20" value="option1"> 
-									<label style="margin-left:-20px; margin-right:30px;" class="checkbox-inline" for="inlineCheckbox20">I agree to everything</label>
-								</div>
-								<div class="form-group-blue">
-									<label for="inlineRadio20" class="control-label-blue">Please select category</label>
-									<input type="radio" id="inlineRadio20" checked="checked" value="option1"> 
-									<label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio20">Human</label>
-									<input type="radio" id="inlineRadio21" value="option1"> 
-									<label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio21">Robot</label>
-									<input type="radio" id="inlineRadio22" value="option1"> 
-									<label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio22">Android</label>
+									<label style="margin-left:-20px; margin-right:30px; color:#bdddf5;" class="checkbox-inline" for="inlineCheckbox20">I agree to everything</label>
 								</div>
 								<div class="form-group">
-									<label for="inputType" class="control-label-blue">State robot type (disabled)</label>
+									<label for="inlineRadio20" class="control-label-blue">Please select category</label>
+									<input type="radio" id="inlineRadio20" checked="checked" value="option1"> 
+									<label style="margin-left:-20px; margin-right:30px; color:#bdddf5;" class="radio-inline" for="inlineRadio20">Human</label>
+									<input type="radio" id="inlineRadio21" value="option1"> 
+									<label style="margin-left:-20px; margin-right:30px; color:#bdddf5;" class="radio-inline" for="inlineRadio21">Robot</label>
+									<input type="radio" id="inlineRadio22" value="option1"> 
+									<label style="margin-left:-20px; margin-right:30px; color:#bdddf5;" class="radio-inline" for="inlineRadio22">Android</label>
+								</div>
+								<div class="form-group">
+									<label style="margin-top:12px;" for="inputType" class="control-label-blue">State robot type (disabled)</label>
 									<input type="text" class="form-control-blue" id="inputType" placeholder="MEC200" disabled>
 								</div>
 								<div class="form-group">
@@ -1439,6 +1452,7 @@
 								</div>
 							</form>
 						</div>
+						<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The error and success messages in this form are using <a style="font-weight: bold;" href="http://1000hz.github.io/bootstrap-validator/"target="_blank">Bootstrap validator</a> library</span>
 						
 						<!--Form example black-->
 						<h3 id="ui-forms-notes">Form with notes black background</h3>
@@ -1457,35 +1471,35 @@
 										required>
 									</div>
 									<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-									<span class="help-block with-errors">Hey look, this one has feedback icons!</span>
+									<span class="help-block-black with-errors">Hey look, this one has feedback icons!</span>
 								</div>
 								<div class="form-group">
 									<label for="inputEmail" class="control-label-black">Email</label>
 									<input type="email" class="form-control-black" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid"
 									required>
-									<div class="help-block with-errors"></div>
+									<div class="help-block-black with-errors"></div>
 								</div>
 								<div class="form-group">
 									<label for="inputPassword" class="control-label-black">Password</label>
 									<input type="password" data-minlength="6" class="form-control-black" id="inputPassword" placeholder="Password" required>
-									<span class="help-block">Minimum of 6 characters</span>
+									<span class="help-block-black">Minimum of 6 characters</span>
 								</div>
 								<div class="form-group">
 									<label for="inlineCheckbox30" class="control-label-black">Terms and conditions</label>
 									<input type="checkbox" checked="checked" id="inlineCheckbox30" value="option1"> 
-									<label style="margin-left:-20px; margin-right:30px;" class="checkbox-inline" for="inlineCheckbox30">I agree to everything</label>
+									<label style="margin-left:-20px; margin-right:30px; color:#9f9f9f;" class="checkbox-inline" for="inlineCheckbox30">I agree to everything</label>
 								</div>
 								<div class="form-group">
 									<label for="inlineRadio30" class="control-label-black">Please select category</label>
 									<input type="radio" id="inlineRadio30" checked="checked" value="option1"> 
-									<label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio30">Human</label>
+									<label style="margin-left:-20px; margin-right:30px; color:#9f9f9f;" class="radio-inline" for="inlineRadio30">Human</label>
 									<input type="radio" id="inlineRadio31" value="option1"> 
-									<label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio31">Robot</label>
+									<label style="margin-left:-20px; margin-right:30px; color:#9f9f9f;" class="radio-inline" for="inlineRadio31">Robot</label>
 									<input type="radio" id="inlineRadio32" value="option1"> 
-									<label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio32">Android</label>
+									<label style="margin-left:-20px; margin-right:30px; color:#9f9f9f;" class="radio-inline" for="inlineRadio32">Android</label>
 								</div>
 								<div class="form-group">
-									<label for="inputType" class="control-label-black">State robot type (disabled)</label>
+									<label style="margin-top:12px;" for="inputType" class="control-label-black">State robot type (disabled)</label>
 									<input type="text" class="form-control-black" id="inputType" placeholder="MEC200" disabled>
 								</div>
 								<div class="form-group">
@@ -1497,6 +1511,7 @@
 								</div>
 							</form>
 						</div>
+						<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The error and success messages in this form are using <a style="font-weight: bold;" href="http://1000hz.github.io/bootstrap-validator/"target="_blank">Bootstrap validator</a> library</span>
 						
 						<!-- UI-Pickers -->
 						<p style="height:100px;" />
@@ -1520,6 +1535,7 @@
 								</fieldset>
 							</form>
 						</div>
+                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a style="font-weight: bold;" href="http://www.daterangepicker.com/"target="_blank">Date range picker</a> library</span>
 						
 						<!-- UI-Calendar -->
 						<h3 id="ui-pickers-calendar">Calendar</h3>
@@ -1530,12 +1546,7 @@
 								<span></span> <b class="caret"></b>
 							</div>
 						</div>
-						
-						<!-- UI-View -->
-						<h3 id="ui-pickers-view">View picker</h3>
-						<p>Date pickers are difficult to find</p>
-						<div class="well well-transparent">
-						</div>
+                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a style="font-weight: bold;" href="http://www.daterangepicker.com/"target="_blank">Date range picker</a> library</span>
 						
 						<!-- UI-Progress indicators -->
 						<p style="height:100px;" />
@@ -1576,7 +1587,8 @@
 							<button class="btn btn-success ladda-button" data-style="slide-right"><span class="ladda-label">slide-right</span></button>
 							<button class="btn btn-default ladda-button" data-style="zoom-in"><span class="ladda-label">zoom-in</span></button>
 							<button class="btn btn-default ladda-button" data-style="zoom-out"><span class="ladda-label">zoom-out</span></button>
-						</div>						
+						</div>
+                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">These component use the <a style="font-weight: bold;" href="http://msurguy.github.io/ladda-bootstrap/"target="_blank">Ladda</a> library</span>						
 						
 						<!--UI-Notifications-->
 						<p style="height:100px;" />
@@ -1590,6 +1602,7 @@
 							<button class="btn btn-primary" id="test-3">Save</button>
 							<button class="btn btn-success" id="test-5"><i class="fa fa-plus"></i></button>
 						</div>
+                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">These components use the <a style="font-weight: bold;" href="http://lipis.github.io/bootstrap-sweetalert/"target="_blank">Sweet alert Bootstrap</a> library</span>	
 						
 						<h3 id="ui-view">Alerts</h3>
 						<p>Alerts are awesome</p>
@@ -1859,6 +1872,7 @@
 							}
 							}));">Error with buttons</button>
 						</div>
+                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">These components use the <a style="font-weight: bold;" href="http://sciactive.com/pnotify/"target="_blank">Pnotify bootstrap</a> library</span>	
 						
 						<!-- UI-Pupups -->
 						<h3 id="ui-view">Pop-ups / Dialogs</h3>
@@ -2280,6 +2294,7 @@
 							<p><svg id="chart2" class="sparkline"></svg></p>
 							<p><svg id="chart3" class="sparkline"></svg></p>
 						</div>
+                        						<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The graphs in this example use the <a style="font-weight: bold;" href="http://nvd3.org/index.html"target="_blank">NVD3.js</a> library</span>
 						
 						<h3 id="ui-forms-text">Scatterplots</h3>
 						<p>Scatterplots as used by Mr. Hans "Gapminder" Rosling </p>
@@ -2288,6 +2303,7 @@
 								<svg></svg>
 							</div>
 						</div>
+                        						<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The graphs in this example use the <a style="font-weight: bold;" href="http://nvd3.org/index.html"target="_blank">NVD3.js</a> library</span>
 						
 						<!-- UI-Gauges -->
 						<!--h3 id="ui-widgets-gauges">Gauges</h3>							
@@ -2851,4 +2867,4 @@
 				</script>
 			</body>
 			
-		</html>																																																																																																																																																																																																																																																																																	
+		</html>																																																																																																																																																																																																																																																																																			
