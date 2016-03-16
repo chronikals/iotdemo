@@ -30,6 +30,7 @@
 		<link href="css/pnotify.css" rel="stylesheet">
 		<link href="css/nv.d3.css" rel="stylesheet">
 		<link href="css/flat-toggle.css" rel="stylesheet">
+        <link href="css/bootstrap-gtreetable.css" rel="stylesheet">
 		
 		<!-- Custom Fonts -->
 		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -2538,6 +2539,17 @@
 								</ul>
 							</div>
 						</div>
+                        
+                        <!--TRAC Examples-->
+                        <h3 id="ui-widgets-gallery">TRAC Components</h3>
+						<div class="well well-transparent">	
+							<h3>Organization structure</h3>
+							<table class="table gtreetable" id="gtreetable">
+                            <thead><tr><th>Category</th></tr></thead>
+                            <tbody></tbody>
+                            </table>
+							
+						</div>
 						
 						<!--UI-Graphs-->
 						<p style="height:100px;" />
@@ -2610,6 +2622,7 @@
 				<script type='text/javascript' src="js/sweet-alert.js"></script>
 				<script type='text/javascript' src="js/pnotify.js"></script>
 				<script type='text/javascript' src="js/flat-toggle.js"></script>
+                <script type='text/javascript' src="js/bootstrap-gtreetable.js"></script>
 				
 				<!-- Libraries associated with NVD3 charts-->
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
@@ -2912,6 +2925,49 @@
 						swal({   title: "Are you sure to delete this tag?",   text: "The tag 200TT201X together with all its configured alarms: Low, LowLow, High will be deleted",   type: "warning",   showCancelButton: true,  confirmButtonText: "Continue", confirmButtonClass: 'btn-primary',   closeOnConfirm: false }, function(){   swal("Deleted!", "The tag and its alarms have been deleted.", "success"); });
 					};
 				</script>
+                
+                <!-- Gtreetable scripts-->
+                <script>
+                jQuery('#gtreetable').gtreetable({
+                'source': function (id) {
+                    return {
+                    type: 'GET',
+                    url: 'nodeChildren',
+                    data: { 'id': id },        
+                    dataType: 'json',
+                    error: function(XMLHttpRequest) {
+                        alert(XMLHttpRequest.status+': '+XMLHttpRequest.responseText);
+                    }
+                    }
+                },
+                'onSave':function (oNode) {
+                    return {
+                    type: 'POST',
+                    url: !oNode.isSaved() ? 'nodeCreate' : 'nodeUpdate?id=' + oNode.getId(),
+                    data: {
+                        parent: oNode.getParent(),
+                        name: oNode.getName(),
+                        position: oNode.getInsertPosition(),
+                        related: oNode.getRelatedNodeId()
+                    },
+                    dataType: 'json',
+                    error: function(XMLHttpRequest) {
+                        alert(XMLHttpRequest.status+': '+XMLHttpRequest.responseText);
+                    }
+                    };
+                },
+                'onDelete':function (oNode) {
+                    return {
+                    type: 'POST',
+                    url: 'nodeDelete?id=' + oNode.getId(),
+                    dataType: 'json',
+                    error: function(XMLHttpRequest) {
+                        alert(XMLHttpRequest.status+': '+XMLHttpRequest.responseText);
+                    }
+                    };
+                }
+                });   
+                </script>
 				
 				<!-- Charty AlarmInsight Example-->
 				<script>
