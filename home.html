@@ -2320,7 +2320,7 @@
 							<button type="button" class="btn btn-default btn-sm"><i class="fa fa-pencil" style="color:#ee6b3b;"></i></button> 
 							<button type="button" class="btn btn-default btn-sm"><i class="fa fa-times" style="color:#ef2f3f;"></i></button>
 							<h3>Buttons inside tables</h3>
-							<table class="table table-condensed">
+							<table class="table table-striped">
 								<thead>
 									<tr>
 										<th>Default</th>
@@ -2541,12 +2541,17 @@
 						</div>
                         
                         <!--TRAC Examples-->
-                        <h3 id="ui-widgets-gallery">TRAC Components</h3>
+                        <h2 id="ui-widgets-gallery">TRAC Components</h2>
 						<div class="well well-transparent">	
-							<h3>Organization structure</h3>
-							<table class="table gtreetable" id="gtreetable">
-                            <thead><tr><th>Category</th></tr></thead>
-                            <tbody></tbody>
+						<h3>Instrument list</h3>
+                            
+                           <table class="table table-striped" data-provide="datagrid">
+                            <thead><tr><th>Parameter</th><th>Base</th><th>Factor</th><th>For calculation</th><th>Justification</th><th>Actual (field)</th></tr></thead>
+                            <tbody>
+                            <tr><td>&#955 D</td><td>0.00483</td><td>10</td><td>0.0483</td><td>Suitable justification for factor 10</td><td>0.006678</td></tr>
+                            <tr><td>&#955 S</td><td>9.6E-6</td><td>10</td><td>9.6E-5</td><td>Suitable justification for factor 10</td><td>0.00091</td></tr>
+                            <tr><td>MTTR</td><td>72</td><td>1</td><td>72</td><td></td><td>50</td></tr>
+                            </tbody>
                             </table>
 							
 						</div>
@@ -2623,6 +2628,7 @@
 				<script type='text/javascript' src="js/pnotify.js"></script>
 				<script type='text/javascript' src="js/flat-toggle.js"></script>
                 <script type='text/javascript' src="js/bootstrap-gtreetable.js"></script>
+                <script type='text/javascript' src="js/bootstrap-datagrid.js"></script>
 				
 				<!-- Libraries associated with NVD3 charts-->
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
@@ -2925,6 +2931,11 @@
 						swal({   title: "Are you sure to delete this tag?",   text: "The tag 200TT201X together with all its configured alarms: Low, LowLow, High will be deleted",   type: "warning",   showCancelButton: true,  confirmButtonText: "Continue", confirmButtonClass: 'btn-primary',   closeOnConfirm: false }, function(){   swal("Deleted!", "The tag and its alarms have been deleted.", "success"); });
 					};
 				</script>
+                
+                <!-- Editable grid scripts-->
+                <script>
+
+                </script>
                 
                 <!-- Gtreetable scripts-->
                 <script>
