@@ -1,0 +1,15 @@
+[
+  ["Flow transmitter - ABB - FlowTrans280","Flow transmitter","ABB","FlowTrans280","SIL 2","SIL 2",0.034,0.034,23],
+  ["Pressure transmitter - ABB - PresTrans400","Pressure transmitter","ABB","PresTrans400","SIL 2","SIL 2",0.034,0.034,23],
+  ["Pressure transmitter - ABB - PresTrans800","Pressure transmitter","ABB","PresTrans800","SIL 2","SIL 2",0.034,0.034,23],
+  ["Level transmitter - ABB - LeveTrans800","Level transmitter","ABB","LeveTrans800","SIL 2","SIL 2",0.034,0.034,23],
+  ["Level transmitter - Rockwell - LeveTrans800","Level transmitter","Rockwell","LeveTrans800","SIL 2","SIL 2",0.034,0.034,23],
+  ["Level transmitter - ABB - LeveTrans200","Level transmitter","ABB","LeveTrans200","SIL 2","SIL 2",0.034,0.034,23],
+  ["Solenoid valve - Swagelok - VS 301 v2.1","Solenoid valve","Swagelok","VS 301 v2.1","SIL 2","SIL 2",0.034,0.034,23],
+  ["Flow transmitter - ABB - FlowTrans800","Flow transmitter","ABB","FlowTrans800","SIL 2","SIL 2",0.034,0.034,23],
+  ["Level transmitter - ABB - LeveTrans800","Level transmitter","ABB","LeveTrans800","SIL 2","SIL 2",0.034,0.034,23],
+  ["Temperature transmitter - ABB - TempTrans800","Temperature transmitter","ABB","TempTrans800","SIL 2","SIL 2",0.034,0.034,23],
+  ["Temperature transmitter - Emerson - TempTrans801","Temperature transmitter","Emerson","TempTrans801","SIL 2","SIL 2",0.034,0.034,23],
+  ["Temperature transmitter - ABB - TempTrans802","Temperature transmitter","ABB","TempTrans802","SIL 2","SIL 2",0.034,0.034,23],
+  ["Temperature transmitter - ABB - TempTrans803","Temperature transmitter","ABB","TempTrans803","SIL 2","SIL 2",0.034,0.034,23]
+]

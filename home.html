@@ -3070,14 +3070,18 @@
 																<div class="col-lg-12">
                                                                     <h4 style="padding-top:20px;">Instruments part of this template</h4>
                                                                     
-																	<form class="form-inline">
-																		<div class="input-group">
-																			<span class="input-group-addon"><i class="fa fa-search"></i></span>
-																			<input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false" placeholder="Search the template database" style="width:600px;">
-																		</div>  
-																		<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal3"><i style="margin-right:5px;" class="fa fa-plus"></i> Add new</button>
-																	</form>    
-																	
+                                                                    <div class="typeahead-container">                                                              
+                                                                        <span class="typeahead-query">
+                                                                            <form class="form-inline">
+                                                                                <div class="input-group">
+                                                                                    <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                                                                                    <input style="width:300px;" id="trac-instruments" name="instrument-query" type="text" placeholder="Search" autocomplete="off">
+                                                                                </div>
+                                                                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal2"><i style="margin-right:5px;" class="fa fa-plus"></i> Add new</button>  
+                                                                            </form>
+                                                                        </span>
+                                                                    </div>
+                                                                    
 																	<form style="padding-top:20px;">
 																		<table class="table">
 																			<thead>
@@ -3637,12 +3641,17 @@
                                     
                                     <!-- TRAC Loop template typeahead-->
                                     <script type="text/javascript">
-                                    $(document).ready(function(){
-                                        $('input.typeahead').typeahead({
-                                            name: 'accounts',
-                                            local: ['Audi', 'BMW', 'Bugatti', 'Ferrari', 'Ford', 'Lamborghini', 'Mercedes Benz', 'Porsche', 'Rolls-Royce', 'Volkswagen']
-                                        });
-                                    });  
+                                    $('#trac-instruments').typeahead({
+                                        order: "desc",
+                                        source: {
+                                            url: ["/assets/instruments.json"]
+                                        },
+                                        callback: {
+                                            onInit: function (node) {
+                                                console.log('Typeahead Initiated on ' + node.selector);
+                                            }
+                                        }
+                                    });
                                     </script>
 									
 									<!-- Charty AlarmInsight Example-->
