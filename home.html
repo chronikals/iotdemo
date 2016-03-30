@@ -31,6 +31,7 @@
 		<link href="css/nv.d3.css" rel="stylesheet">
 		<link href="css/flat-toggle.css" rel="stylesheet">
 		<link href="css/bootstrap-treefy.css" rel="stylesheet">
+        <link href="css/jquery.typeahead.css" rel="stylesheet">
         
 		<!-- Custom Fonts -->
 		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -802,41 +803,6 @@
 							</ul>
 						</div>
 						
-						
-						<!-- UI-Tree -->
-						<!--h3 id="ui-menus-tree">Tree</h3>							
-							<div class="well well-transparent">
-							<ul class="nav nav-stacked">
-							<li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">Settings <i class="glyphicon glyphicon-chevron-down"></i></a>
-							<ul class="nav nav-stacked collapse in" id="userMenu">
-							<li class="active"> <a href="#"><i class="glyphicon glyphicon-home"></i> Home</a></li>
-							<li><a href="#"><i class="glyphicon glyphicon-envelope"></i> Messages <span class="badge badge-info">4</span></a></li>
-							<li><a href="#"><i class="glyphicon glyphicon-cog"></i> Options</a></li>
-							<li><a href="#"><i class="glyphicon glyphicon-comment"></i> Shoutbox</a></li>
-							<li><a href="#"><i class="glyphicon glyphicon-user"></i> Staff List</a></li>
-							<li><a href="#"><i class="glyphicon glyphicon-flag"></i> Transactions</a></li>
-							<li><a href="#"><i class="glyphicon glyphicon-exclamation-sign"></i> Rules</a></li>
-							<li><a href="#"><i class="glyphicon glyphicon-off"></i> Logout</a></li>
-							</ul>
-							</li>
-							<li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#menu2"> Reports <i class="glyphicon glyphicon-chevron-right"></i></a>
-							
-							<ul class="nav nav-stacked collapse" id="menu2">
-							<li><a href="#">Information Stats</a>
-							</li>
-							<li><a href="#">Views</a>
-							</li>
-							<li><a href="#">Requests</a>
-							</li>
-							<li><a href="#">Timetable</a>
-							</li>
-							<li><a href="#">Alerts</a>
-							</li>
-							</ul>
-							</li>
-							</ul>
-						</div-->
-						
 						<!-- UI-Breadcumbs -->
 						<h3 id="ui-menus-breadcumbs">Breadcumbs</h3>
 						<p>Empty forms look like this</p>
@@ -880,6 +846,64 @@
 							</section>
 						</div>
                         
+                        <!-- UI-Tree -->
+						<h3 id="ui-menus-tree">Tree</h3>							
+						<div class="well well-transparent">
+							<div>
+								<ul class="nav nav-list">
+									<li><label class="tree-toggle nav-header">Bootstrap</label>
+										<ul class="nav nav-list tree">
+											<li><a href="#">JavaScript</a></li>
+											<li><a href="#">CSS</a></li>
+											<li><label class="tree-toggle nav-header">Buttons</label>
+												<ul class="nav nav-list tree">
+													<li><a href="#">Colors</a></li>
+													<li><a href="#">Sizes</a></li>
+													<li><label class="tree-toggle nav-header">Forms</label>
+														<ul class="nav nav-list tree">
+															<li><a href="#">Horizontal</a></li>
+															<li><a href="#">Vertical</a></li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li class="divider"></li>
+									<li><label class="tree-toggle nav-header">Responsive</label>
+										<ul class="nav nav-list tree">
+											<li><a href="#">Overview</a></li>
+											<li><a href="#">CSS</a></li>
+											<li><label class="tree-toggle nav-header">Media Queries</label>
+												<ul class="nav nav-list tree">
+													<li><a href="#">Text</a></li>
+													<li><a href="#">Images</a></li>
+													<li><label class="tree-toggle nav-header">Mobile Devices</label>
+														<ul class="nav nav-list tree">
+															<li><a href="#">iPhone</a></li>
+															<li><a href="#">Samsung</a></li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+											<li><label class="tree-toggle nav-header">Coding</label>
+												<ul class="nav nav-list tree">
+													<li><a href="#">JavaScript</a></li>
+													<li><a href="#">jQuery</a></li>
+													<li><label class="tree-toggle nav-header">HTML DOM</label>
+														<ul class="nav nav-list tree">
+															<li><a href="#">DOM Elements</a></li>
+															<li><a href="#">Recursive</a></li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+                        
                         <!-- UI-TreeTable -->
 						<h3 id="ui-menus-tree">Tree table with buttons</h3>
 						<p>Tree trable</p>
@@ -896,31 +920,31 @@
                                 <thead>
                                     <tr>
                                         <th></th><th>Column A</th><th>Column B</th><th>Column C</th><th>Column D</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
+									</tr>
+								</thead>
+								<tbody>
                                     <tr data-node="treetable-1">
                                         <td><input type="checkbox" name="row.id"/></td>
                                         <td>Node</td><td>1</td><td>c</td><td>info</td>
-                                    </tr>
+									</tr>
                                     <tr data-node="treetable-2" data-pnode="treetable-parent-1">
                                         <td><input type="checkbox" name="row.id"/></td>
                                         <td>Node</td> <td>1-1</td><td>c</td> <td>info</td>
-                                    </tr>
+									</tr>
                                     <tr data-node="treetable-3" data-pnode="treetable-parent-1">
                                         <td><input type="checkbox" name="row.id"/></td>
                                         <td>Node</td><td>1-2</td><td>c</td><td>info</td>
-                                    </tr>
+									</tr>
                                     <tr data-node="treetable-4" data-pnode="treetable-parent-3">
                                         <td><input type="checkbox" name="row.id"/></td>
                                         <td>Node</td><td>1-2-1</td><td>c</td><td>info</td>
-                                    </tr>
+									</tr>
                                     <tr data-node="treetable-5">
                                         <td><input type="checkbox" name="row.id"/></td>
                                         <td>Node</td><td>2</td><td>c</td><td>info</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+									</tr>
+								</tbody>
+							</table>
 						</div>
                         <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This table uses the <a style="font-weight: bold;" href="http://supwisdom.github.io/bootstrap-treefy/"target="_blank">Bootstrap Treefy</a> library</span>
 						
@@ -2755,10 +2779,10 @@
 									
 									<div class="row">
 										<div class="col-lg-12">
-											<table class="table table-striped">
+											<table class="table table-striped table-hover">
 												<thead><tr><th>Instrument type</th><th>Manufacturer</th><th>Model</th><th>Version</th><th>Dataset</th><th>Max HW SIL</th><th>Sys capability</th><th>&#955 D</th><th>&#955 S</th></tr></thead>
 												<tbody>
-													<tr><td>Flow transmitter</td><td>ABB</td><td>FlowTrans200</td><td>1</td><td>ABB SEC</td><td>SIL 2</td><td>SIL 2</td><td>0.1</td><td>0.00321</td></tr>
+													<tr style="cursor: pointer" data-toggle="modal" data-target="#myModal2"><td>Flow transmitter</td><td>ABB</td><td>FlowTrans200</td><td>1</td><td>ABB SEC</td><td>SIL 2</td><td>SIL 2</td><td>0.1</td><td>0.00321</td></tr>
 													<tr><td>Flow transmitter</td><td>ABB</td><td>FlowTrans200</td><td>1</td><td>ABB SEC</td><td>SIL 2</td><td>SIL 2</td><td>0.1</td><td>0.00321</td></tr>
 													<tr><td>Flow transmitter</td><td>ABB</td><td>FlowTrans200</td><td>1</td><td>ABB SEC</td><td>SIL 2</td><td>SIL 2</td><td>0.1</td><td>0.00321</td></tr>
 													<tr><td>Flow transmitter</td><td>ABB</td><td>FlowTrans200</td><td>1</td><td>ABB SEC</td><td>SIL 2</td><td>SIL 2</td><td>0.1</td><td>0.00321</td></tr>
@@ -3002,873 +3026,833 @@
 														<span class="input-group-addon"><i class="fa fa-search"></i></span>
 														<input type="text" class="form-control" placeholder="Search the template database" style="width:600px;">
 													</div>  
-													<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal2"><i class="fa fa-plus"></i> Add new</button>
+													<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal3"><i style="margin-right:5px;" class="fa fa-plus"></i> Add new</button>
 												</form>
 											</div>  
 											</div>
 											
 											<div class="row">
 												<div class="col-lg-12">
-													<table class="table table-striped">
+													<table class="table table-striped table-hover">
 														<thead><tr><th>Template name</th><th>Max HW SIL</th><th>Sys capability</th></tr></thead>
 														<tbody>
 															<tr><td>ABB temperature loop default template</td><td>SIL 2</td><td>SIL 2</td></tr>
+                                                            <tr><td>ABB temperature loop default template</td><td>SIL 2</td><td>SIL 2</td></tr>
+                                                            <tr><td>ABB temperature loop default template</td><td>SIL 2</td><td>SIL 2</td></tr>
+                                                            <tr><td>ABB temperature loop default template</td><td>SIL 2</td><td>SIL 2</td></tr>
+                                                            <tr><td>ABB temperature loop default template</td><td>SIL 2</td><td>SIL 2</td></tr>
+                                                            <tr><td>ABB temperature loop default template</td><td>SIL 2</td><td>SIL 2</td></tr>
+                                                            <tr><td>ABB temperature loop default template</td><td>SIL 2</td><td>SIL 2</td></tr>
 														</tbody>
 													</table>
 												</div>  
 											</div>
 											
-											<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+											<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
 												<div class="modal-dialog" role="document" style="width: 70%;">
 													<div class="modal-content">
 														<div class="modal-header">
 															<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-															<h3 class="modal-title" id="myModalLabel">Instrument details</h3>
+															<h3 class="modal-title" id="myModalLabel">Loop template details</h3>
 														</div>
 														<div class="modal-body">
 															
 															<div class="row">
-																<div class="col-lg-7">
-																	
-																	<h4>Identifiers</h4>
-																	
-																	
+																<div class="col-lg-12">																																		
 																	<div class="form-group">
-																		<label for="inputName" class="control-label">Instrument type</label>
+																		<label for="inputName" class="control-label">Loop template name</label>
 																		<input type="text" class="form-control" id="inputName" required>
 																	</div>
-																	<div class="form-group">
-																		<label for="inputName" class="control-label">Manufacturer</label>
-																		<input type="text" class="form-control" id="inputName" required>
-																	</div>
-																	<form class="form-inline">
-																		<div class="form-group">
-																			<label for="inputName" class="control-label">Model</label>
-																			<input type="text" class="form-control" id="inputName" style="width: 634px;" required>
-																		</div>
-																		<div class="form-group">
-																			<label for="inputName" class="control-label">Version</label>
-																			<select class="form-control">
-																				<option>1</option>
-																				<option>2</option>
-																				<option>3</option>
-																			</select>
-																		</div>
-																		<div class="form-group">
-																			<label for="inputName" class="control-label">Wetted?</label>
-																			<select class="form-control">
-																				<option>-</option>
-																				<option>Yes</option>
-																				<option>No</option>
-																			</select>
-																		</div>
-																	</form>
-																</div>
-																
-																<div class="col-lg-4 col-lg-offset-1">
-																	
-																	<h4>References</h4>
-																	<div class="form-group">
-																		<label for="inputName" class="control-label">Link</label>
-																		<input type="text" class="form-control" id="inputName" required>
-																	</div>
-																	<div class="form-group">
-																		<label for="inputName" class="control-label">Proven in use?</label>
-																		<input type="text" class="form-control" id="inputName" required>
-																	</div>
-																</div>
-																
+																</div>						
 															</div>
 															
 															<div class="row">
 																<div class="col-lg-12">
-																	
-																	<h4 style="padding-top:20px;">Reliability data</h4>
-																	
+                                                                    <h4 style="padding-top:20px;">Instruments part of this template</h4>
+                                                                    
 																	<form class="form-inline">
-																		<div class="form-group">
-																			<label for="inputName" class="control-label">Dataset</label>
-																			<select class="form-control" style="width:300px;">
-																				<option>Manufacturer's predicted reliability data</option>
-																				<option>ABB Safety Excecution Centers data</option>
-																				<option>Actual field data</option>
-																			</select>
-																		</div>
-																		<div class="form-group">
-																			<label for="inputName" class="control-label" style="width:300px; margin-left:50px;">Information source</label>
-																			<input type="text" class="form-control" id="inputName" style="width:940px; margin-left:50px;" required>
-																		</div>
-																	</form>
+																		<div class="input-group">
+																			<span class="input-group-addon"><i class="fa fa-search"></i></span>
+																			<input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false" placeholder="Search the template database" style="width:600px;">
+																		</div>  
+																		<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal3"><i style="margin-right:5px;" class="fa fa-plus"></i> Add new</button>
+																	</form>    
+																	
 																	<form style="padding-top:20px;">
-																		<table class="table" data-provide="datagrid">
+																		<table class="table">
 																			<thead>
 																				<tr>
-																					<th>Parameter</th>
-																					<th>Base</th>
-																					<th>Factor</th>
-																					<th>For calculation</th>
-																					<th>Justification</th>
-																					<th>Actual (field)</th>
+																					<th>Instrument type</th>
+																					<th>Manufacturer</th>
+																					<th>Model</th>
+																					<th>Max HW SIL</th>
+																					<th>Sys capability</th>
+																					<th>&#955 D</th>
+                                                                                    <th>&#955 S</th>
+                                                                                    <th>MTTR</th>
 																				</tr>
 																			</thead>
 																			<tbody>
 																				<tr>
-																					<td>&#955 D</td>
-																					<td>0.00483</td>
-																					<td>10</td>
-																					<td>0.0483</td>
-																					<td>Suitable justification for factor 10</td>
-																					<td>0.006678</td>
+																					<td>Pressure transmitter</td>
+																					<td>ABB</td>
+																					<td>PT100 v3.2</td>
+																					<td>SIL 2</td>
+																					<td>SIL 2</td>
+																					<td>0.0021</td>
+                                                                                    <td>0.0025</td>
+                                                                                    <td>54</td>
 																				</tr>
-																				<tr>
-																					<td>&#955 S</td>
-																					<td>9.6E-6</td>
-																					<td>10</td>
-																					<td>9.6E-5</td>
-																					<td>Suitable justification for factor 10</td>
-																					<td>0.00091</td>
-																				</tr>
-																				<tr>
-																					<td>MTTR</td>
-																					<td>72</td>
-																					<td>1</td>
-																					<td>72</td>
-																					<td></td>
-																					<td>50</td>
+                                                                                <tr>       																				
+																					<td>Pressure transmitter</td>
+																					<td>ABB</td>
+																					<td>PT100 v3.2</td>
+																					<td>SIL 2</td>
+																					<td>SIL 2</td>
+																					<td>0.0021</td>
+                                                                                    <td>0.0025</td>
+                                                                                    <td>54</td>
 																				</tr>
 																			</tbody>
 																		</table>
 																	</form>
 																</div>
 															</div>
-															
-															<div class="row">
+                                                            
+                                                            <div class="row">
 																<div class="col-lg-12">
-																	
-																	<h4 style="padding-top:20px;">SIL capabilities</h4>
 																	<form class="form-inline">
-																		<div class="form-group">
-																			<label for="inputName" class="control-label">Diagnostic coverage</label>
-																			<div class="input-group">
-																				<input type="text" class="form-control" id="inputName" style="width:100px;" required>
-																				<span class="input-group-addon">%</span>
-																			</div>
-																		</div>
-																		<div class="form-group">
-																			<label for="inputName" class="control-label">Safe failure fraction (SFF)</label>
-																			<div class="input-group">
-																				<input type="text" class="form-control" id="inputName" style="width:100px;" required>
-																				<span class="input-group-addon">%</span>
-																			</div>
-																		</div>
-																		<div class="form-group">
-																			<label for="inputName" class="control-label" style="margin-left:70px;">Safe failure fraction band</label>
-																			<input type="text" class="form-control" id="inputName" style="margin-left:70px;" readonly>
-																		</div>
-																	</form>
-																	<form class="form-inline" style="margin-top:15px;">
-																		<div class="form-group">
-																			<label for="inputName" class="control-label">Type</label>
-																			<select class="form-control">
-																				<option>A</option>
-																				<option>B</option>
-																				<option>C</option>
-																			</select>
-																		</div>
-																		<div class="form-group">
-																			<label for="inputName" class="control-label">HW fault tolerance</label>
-																			<input type="text" class="form-control" id="inputName" required>
-																		</div>
-																		<div class="form-group">
-																			<label for="inputName" class="control-label" style="margin-left:130px;">Max HW SIL (IEC 61508)</label>
-																			<input type="text" class="form-control" id="inputName" style="margin-left:130px;" readonly>
-																		</div>
-																		<div class="form-group">
-																			<label for="inputName" class="control-label">Systematic capability</label>
-																			<input type="text" class="form-control" id="inputName" required>
-																		</div>
-																	</form>
+																		<h4 style="padding-top:20px;">Safety functions using this loop template</h4>
+																		<button type="button" class="btn btn-link-primary" data-toggle="collapse" data-target="#SIFs">Show/Hide SIFs <i style="margin-left:10px;" class="fa fa-angle-right"></i></button>
+																	</form>																	
+                                                                    
+																	<form id="SIFs" class="collapse" style="padding-top:20px;">
+																		<table class="table">
+																			<thead>
+																				<tr>
+																					<th>SIF name</th>
+																					<th>I/O Function</th>
+																					<th>Voting</th>
+																					<th>Type</th>
+																					<th>Example tag</th>
+																				</tr>
+																			</thead>
+																			<tbody>
+																				<tr>
+																					<td>Reactor overpressure (v3)</td>
+																					<td>PT 231 Input</td>
+																					<td>Simple</td>
+																					<td>IN</td>
+																					<td>PT 231</td>
+																				</tr>
+                                                                                <tr>       																				<tr>
+																					<td>Pressure transmitter downstream generator</td>
+																					<td>PT 467a Input</td>
+																					<td>Simple</td>
+																					<td>IN</td>
+																					<td>PT 467a</td>
+																				</tr>
+																				</tbody>
+																			</table>
+																		</form>
+																	</div>
 																</div>
-															</div>
-															<div class="modal-footer">
-																<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-trash-o"></i> Delete</button>
-																<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-																<button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+																
+																<div class="modal-footer">
+																	<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-trash-o"></i> Delete</button>
+																	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+																	<button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+																</div>
 															</div>
 														</div>
 													</div>
+												</div>      
+												
+											</div>
+											
+											<!--UI-Graphs-->
+											<p style="height:100px;" />
+											<h2 id="ui-graphs">Graphs</h2>
+											
+											<h3 id="ui-forms-text">Sparklines</h3>
+											<p>Tufte would be proud of you if you use them</p>
+											<div class="well well-transparent">
+												<p>
+													<svg id="chart1" class="sparkline"></svg>
+												</p>
+												<p>
+													<svg id="chart2" class="sparkline"></svg>
+												</p>
+												<p>
+													<svg id="chart3" class="sparkline"></svg>
+												</p>
+											</div>
+											<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The graphs in this example use the <a style="font-weight: bold;" href="http://nvd3.org/index.html"target="_blank">NVD3.js</a> library</span>
+											
+											<h3 id="ui-forms-text">Scatterplots</h3>
+											<p>Scatterplots as used by Mr. Hans "Gapminder" Rosling </p>
+											<div class="well well-transparent">
+												<div id="test1" class="chartWrap" style="height:400px;">
+													<svg></svg>
 												</div>
-											</div>      
+											</div>
+											<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The graphs in this example use the <a style="font-weight: bold;" href="http://nvd3.org/index.html"target="_blank">NVD3.js</a> library</span>
 											
+											<!-- UI-Gauges -->
+											<!--h3 id="ui-widgets-gauges">Gauges</h3>							
+												<div class="well well-transparent" style="height:300px; background:#f6f6f6;">	
+												<form class="form-inline">
+												<div class="form-group">
+												<div id="slider1" class="col-xs-4 rslider" style="margin-right:100px;"></div>
+												<div id="slider2" class="col-xs-4 rslider" style="margin-right:100px;"></div>	
+												<div id="slider3" class="col-xs-4 rslider"></div>		
+												</div>
+												</form>
+												</div>
+												<div class="well well-transparent" style="background: #242424;">	
+												<form class="form-inline">
+												<div class="form-group">
+												<div id="dark1" class="col-xs-4 rslider dark" style="margin-right:100px;"></div>
+												<div id="dark2" class="col-xs-4 rslider dark" style="margin-right:100px;"></div>
+												<div id="dark3" class="col-xs-4 rslider dark"></div>
+												</div>
+												</form>
+											</div-->
 										</div>
-										
-										<!--UI-Graphs-->
-										<p style="height:100px;" />
-										<h2 id="ui-graphs">Graphs</h2>
-										
-										<h3 id="ui-forms-text">Sparklines</h3>
-										<p>Tufte would be proud of you if you use them</p>
-										<div class="well well-transparent">
-											<p>
-												<svg id="chart1" class="sparkline"></svg>
-											</p>
-											<p>
-												<svg id="chart2" class="sparkline"></svg>
-											</p>
-											<p>
-												<svg id="chart3" class="sparkline"></svg>
-											</p>
-										</div>
-										<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The graphs in this example use the <a style="font-weight: bold;" href="http://nvd3.org/index.html"target="_blank">NVD3.js</a> library</span>
-										
-										<h3 id="ui-forms-text">Scatterplots</h3>
-										<p>Scatterplots as used by Mr. Hans "Gapminder" Rosling </p>
-										<div class="well well-transparent">
-											<div id="test1" class="chartWrap" style="height:400px;">
-												<svg></svg>
-											</div>
-										</div>
-										<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The graphs in this example use the <a style="font-weight: bold;" href="http://nvd3.org/index.html"target="_blank">NVD3.js</a> library</span>
-										
-										<!-- UI-Gauges -->
-										<!--h3 id="ui-widgets-gauges">Gauges</h3>							
-											<div class="well well-transparent" style="height:300px; background:#f6f6f6;">	
-											<form class="form-inline">
-											<div class="form-group">
-											<div id="slider1" class="col-xs-4 rslider" style="margin-right:100px;"></div>
-											<div id="slider2" class="col-xs-4 rslider" style="margin-right:100px;"></div>	
-											<div id="slider3" class="col-xs-4 rslider"></div>		
-											</div>
-											</form>
-											</div>
-											<div class="well well-transparent" style="background: #242424;">	
-											<form class="form-inline">
-											<div class="form-group">
-											<div id="dark1" class="col-xs-4 rslider dark" style="margin-right:100px;"></div>
-											<div id="dark2" class="col-xs-4 rslider dark" style="margin-right:100px;"></div>
-											<div id="dark3" class="col-xs-4 rslider dark"></div>
-											</div>
-											</form>
-										</div-->
-									</div>
-								</section>
-								
-								<!-- jQuery -->
-								<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
-								
-								<!-- Bootstrap Core JavaScript -->
-								<script type='text/javascript' src="js/bootstrap.js"></script>
-								
-								<!-- Libraries for UI Components -->
-								<script type='text/javascript' src="js/navbar.js"></script>
-								<script type='text/javascript' src="js/modernizr.js"></script>
-								<script type='text/javascript' src="js/modernizr.custom.js"></script>
-								<script type='text/javascript' src="js/validator.js"></script>
-								<script type='text/javascript' src="js/bootstrap-slider.js"></script>
-								<script type='text/javascript' src="js/bootstrap-toggle.js"></script>
-								<script type='text/javascript' src="js/bootstrap-spinner.js"></script>
-								<script type='text/javascript' src="js/spin.min.js"></script>
-								<script type='text/javascript' src="js/ladda.min.js"></script>
-								<script type="text/javascript" src="js/moment.js"></script>
-								<script type='text/javascript' src="js/daterangepicker.js"></script>
-								<script type='text/javascript' src="js/typeahead.js"></script>
-								<script type='text/javascript' src="js/jquery.minicolors.js"></script>
-								<script type='text/javascript' src="js/bootstrap-tagsinput.js"></script>
-								<script type='text/javascript' src="js/roundslider.js"></script>
-								<script type='text/javascript' src="js/sweet-alert.js"></script>
-								<script type='text/javascript' src="js/pnotify.js"></script>
-								<script type='text/javascript' src="js/flat-toggle.js"></script>
-								<script type='text/javascript' src="js/bootstrap-gtreetable.js"></script>
-								<script type='text/javascript' src="js/bootstrap-datagrid.js"></script>
-                                <script type='text/javascript' src="js/bootstrap-treefy.js"></script>
-                                <script type='text/javascript' src="js/yii.js"></script>
-								
-								<!-- Libraries associated with NVD3 charts-->
-								<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
-								<script type='text/javascript' src="js/nv.d3.js"></script>
-								<script type='text/javascript' src="js/stream_layers.js"></script>
-								
-								<!--Ladda code-->
-								<script>
-									// Bind normal buttons
-									// Ladda.bind( 'div:not(.progress-demo) button', { timeout: 2000 } ); //This one makes all buttons in the screen to show ladda
+									</section>
 									
-									// Bind progress buttons and simulate loading progress
-									Ladda.bind( '.progress-demo button', {
-										callback: function( instance ) {
-											var progress = 0;
-											var interval = setInterval( function() {
-												progress = Math.min( progress + Math.random() * 0.1, 1 );
-												instance.setProgress( progress );
-												
-												if( progress === 1 ) {
-													instance.stop();
-													clearInterval( interval );
-												}
-											}, 200 );
-										}
-									} );
+									<!-- jQuery -->
+									<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
 									
-									// You can control loading explicitly using the JavaScript API
-									// as outlined below:
+									<!-- Bootstrap Core JavaScript -->
+									<script type='text/javascript' src="js/bootstrap.js"></script>
 									
-									// var l = Ladda.create( document.querySelector( 'button' ) );
-									// l.start();
-									// l.stop();
-									// l.toggle();
-									// l.isLoading();
-									// l.setProgress( 0-1 );
-								</script>
-								
-								<!--Typeahead code-->
-								<script>
-									$('#search').typeahead({
-										name: 'search',
-										remote: {
-											url: 'http://suggestqueries.google.com/complete/search?client=chrome&q=%QUERY',
-											dataType: 'jsonp',
-											cache: false,
-											filter: function(parsedResponse){
-												return (parsedResponse.length > 1) ? parsedResponse[1] : [] ;
-											}
-										}
-										}).on('typeahead:selected', function(e){
-										e.target.form.submit();
-									});
-								</script>
-								
-								<!-- Minicolors -->
-								<script>
-									$(document).ready( function() {
+									<!-- Libraries for UI Components -->
+									<script type='text/javascript' src="js/navbar.js"></script>
+									<script type='text/javascript' src="js/modernizr.js"></script>
+									<script type='text/javascript' src="js/modernizr.custom.js"></script>
+									<script type='text/javascript' src="js/validator.js"></script>
+									<script type='text/javascript' src="js/bootstrap-slider.js"></script>
+									<script type='text/javascript' src="js/bootstrap-toggle.js"></script>
+									<script type='text/javascript' src="js/bootstrap-spinner.js"></script>
+									<script type='text/javascript' src="js/spin.min.js"></script>
+									<script type='text/javascript' src="js/ladda.min.js"></script>
+									<script type="text/javascript" src="js/moment.js"></script>
+									<script type='text/javascript' src="js/daterangepicker.js"></script>
+									<script type='text/javascript' src="js/typeahead.js"></script>
+									<script type='text/javascript' src="js/jquery.minicolors.js"></script>
+									<script type='text/javascript' src="js/bootstrap-tagsinput.js"></script>
+									<script type='text/javascript' src="js/roundslider.js"></script>
+									<script type='text/javascript' src="js/sweet-alert.js"></script>
+									<script type='text/javascript' src="js/pnotify.js"></script>
+									<script type='text/javascript' src="js/flat-toggle.js"></script>
+									<script type='text/javascript' src="js/bootstrap-gtreetable.js"></script>
+									<script type='text/javascript' src="js/bootstrap-datagrid.js"></script>
+									<script type='text/javascript' src="js/bootstrap-treefy.js"></script>
+									<script type='text/javascript' src="js/yii.js"></script>
+                                    <script type='text/javascript' src="js/jquery.typeahead.js"></script>
+									
+									<!-- Libraries associated with NVD3 charts-->
+									<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
+									<script type='text/javascript' src="js/nv.d3.js"></script>
+									<script type='text/javascript' src="js/stream_layers.js"></script>
+									
+									<!--Ladda code-->
+									<script>
+										// Bind normal buttons
+										// Ladda.bind( 'div:not(.progress-demo) button', { timeout: 2000 } ); //This one makes all buttons in the screen to show ladda
 										
-										$('.demo').each( function() {
-											//
-											// Dear reader, it's actually very easy to initialize MiniColors. For example:
-											//
-											//  $(selector).minicolors();
-											//
-											// The way I've done it below is just for the demo, so don't get confused
-											// by it. Also, data- attributes aren't supported at this time...they're
-											// only used for this demo.
-											//
-											$(this).minicolors({
-												control: $(this).attr('data-control') || 'hue',
-												defaultValue: $(this).attr('data-defaultValue') || '',
-												format: $(this).attr('data-format') || 'hex',
-												keywords: $(this).attr('data-keywords') || '',
-												inline: $(this).attr('data-inline') === 'true',
-												letterCase: $(this).attr('data-letterCase') || 'lowercase',
-												opacity: $(this).attr('data-opacity'),
-												position: $(this).attr('data-position') || 'bottom left',
-												change: function(value, opacity) {
-													if( !value ) return;
-													if( opacity ) value += ', ' + opacity;
-													if( typeof console === 'object' ) {
-														console.log(value);
+										// Bind progress buttons and simulate loading progress
+										Ladda.bind( '.progress-demo button', {
+											callback: function( instance ) {
+												var progress = 0;
+												var interval = setInterval( function() {
+													progress = Math.min( progress + Math.random() * 0.1, 1 );
+													instance.setProgress( progress );
+													
+													if( progress === 1 ) {
+														instance.stop();
+														clearInterval( interval );
 													}
-												},
-												theme: 'bootstrap'
+												}, 200 );
+											}
+										} );
+										
+										// You can control loading explicitly using the JavaScript API
+										// as outlined below:
+										
+										// var l = Ladda.create( document.querySelector( 'button' ) );
+										// l.start();
+										// l.stop();
+										// l.toggle();
+										// l.isLoading();
+										// l.setProgress( 0-1 );
+									</script>
+									
+									<!--Typeahead code-->
+									<script>
+										$('#search').typeahead({
+											name: 'search',
+											remote: {
+												url: 'http://suggestqueries.google.com/complete/search?client=chrome&q=%QUERY',
+												dataType: 'jsonp',
+												cache: false,
+												filter: function(parsedResponse){
+													return (parsedResponse.length > 1) ? parsedResponse[1] : [] ;
+												}
+											}
+											}).on('typeahead:selected', function(e){
+											e.target.form.submit();
+										});
+									</script>
+									
+									<!-- Minicolors -->
+									<script>
+										$(document).ready( function() {
+											
+											$('.demo').each( function() {
+												//
+												// Dear reader, it's actually very easy to initialize MiniColors. For example:
+												//
+												//  $(selector).minicolors();
+												//
+												// The way I've done it below is just for the demo, so don't get confused
+												// by it. Also, data- attributes aren't supported at this time...they're
+												// only used for this demo.
+												//
+												$(this).minicolors({
+													control: $(this).attr('data-control') || 'hue',
+													defaultValue: $(this).attr('data-defaultValue') || '',
+													format: $(this).attr('data-format') || 'hex',
+													keywords: $(this).attr('data-keywords') || '',
+													inline: $(this).attr('data-inline') === 'true',
+													letterCase: $(this).attr('data-letterCase') || 'lowercase',
+													opacity: $(this).attr('data-opacity'),
+													position: $(this).attr('data-position') || 'bottom left',
+													change: function(value, opacity) {
+														if( !value ) return;
+														if( opacity ) value += ', ' + opacity;
+														if( typeof console === 'object' ) {
+															console.log(value);
+														}
+													},
+													theme: 'bootstrap'
+													
+												});
 												
 											});
 											
+											$("#fillColor").bind("change", function() {
+												document.getElementById("fillColor").style.background = selectedColor.value;
+												
+											});
 										});
-										
-										$("#fillColor").bind("change", function() {
-											document.getElementById("fillColor").style.background = selectedColor.value;
+									</script>
+									
+									<!-- Datepickers -->
+									<script type="text/javascript">
+										$(document).ready(function() {
+											$('#reservation').daterangepicker(null, function(start, end, label) {
+												console.log(start.toISOString(), end.toISOString(), label);
+											});
+										});
+									</script>
+									<script type="text/javascript">
+										$(function() {
+											
+											function cb(start, end) {
+												$('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+											}
+											cb(moment().subtract(29, 'days'), moment());
+											
+											$('#reportrange').daterangepicker({
+												ranges: {
+													'Today': [moment(), moment()],
+													'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+													'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+													'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+													'This Month': [moment().startOf('month'), moment().endOf('month')],
+													'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+												}
+											}, cb);
 											
 										});
-									});
-								</script>
-								
-								<!-- Datepickers -->
-								<script type="text/javascript">
-									$(document).ready(function() {
-										$('#reservation').daterangepicker(null, function(start, end, label) {
-											console.log(start.toISOString(), end.toISOString(), label);
-										});
-									});
-								</script>
-								<script type="text/javascript">
-									$(function() {
+									</script>
+									
+									<!-- Slider -->
+									<script>
+										var RGBChange = function() {
+											$('#RGB').css('background', 'rgb('+r.getValue()+','+g.getValue()+','+b.getValue()+')')
+										};
 										
-										function cb(start, end) {
-											$('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+										var r = $('#R').slider()
+										.on('slide', RGBChange)
+										.data('slider');
+										var g = $('#G').slider()
+										.on('slide', RGBChange)
+										.data('slider');
+										var b = $('#B').slider()
+										.on('slide', RGBChange)
+										.data('slider');
+									</script>
+									<style>
+										#RGB {
+										height: 40px;
+										background: rgb(128, 128, 128);
 										}
-										cb(moment().subtract(29, 'days'), moment());
 										
-										$('#reportrange').daterangepicker({
-											ranges: {
-												'Today': [moment(), moment()],
-												'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
-												'Last 7 Days': [moment().subtract(6, 'days'), moment()],
-												'Last 30 Days': [moment().subtract(29, 'days'), moment()],
-												'This Month': [moment().startOf('month'), moment().endOf('month')],
-												'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+										#RC .slider-selection {
+										background: #f2c0c0;
+										}
+										
+										#RC .slider-handle {
+										background: red;
+										}
+										
+										#GC .slider-selection {
+										background: #c0f2d2;
+										}
+										
+										#GC .slider-handle {
+										background: green;
+										}
+										
+										#BC .slider-selection {
+										background: #bedef3;
+										}
+										
+										#BC .slider-handle {
+										border-bottom-color: blue;
+										}
+										
+										#R,
+										#G,
+										#B {
+										width: 300px;
+										}
+									</style>
+									
+									<script type='text/javascript'>
+										$("#ex4").slider({
+											reversed : true
+										});
+										$("#ex5").slider({
+											reversed : true
+										});
+									</script>
+									
+									<!-- Tooltips -->
+									<script>
+										$(document).ready(function(){
+											$('[data-toggle="tooltip"]').tooltip(); 
+										});
+									</script>
+									
+									<!-- Popovers -->
+									<script>
+										$(function () {
+											$('[data-toggle="popover"]').popover()
+										})
+									</script>
+									
+									<!-- Form load spinner -->
+									<script>
+										// Remember set you events before call bootstrapSwitch or they will fire after bootstrapSwitch's events
+										$("[name='checkbox2']").change(function() {
+											if(!confirm('Do you wanna cancel me!')) {
+												this.checked = true;
 											}
-										}, cb);
+										});
 										
-									});
-								</script>
-								
-								<!-- Slider -->
-								<script>
-									var RGBChange = function() {
-										$('#RGB').css('background', 'rgb('+r.getValue()+','+g.getValue()+','+b.getValue()+')')
-									};
-									
-									var r = $('#R').slider()
-									.on('slide', RGBChange)
-									.data('slider');
-									var g = $('#G').slider()
-									.on('slide', RGBChange)
-									.data('slider');
-									var b = $('#B').slider()
-									.on('slide', RGBChange)
-									.data('slider');
-								</script>
-								<style>
-									#RGB {
-									height: 40px;
-									background: rgb(128, 128, 128);
-									}
-									
-									#RC .slider-selection {
-									background: #f2c0c0;
-									}
-									
-									#RC .slider-handle {
-									background: red;
-									}
-									
-									#GC .slider-selection {
-									background: #c0f2d2;
-									}
-									
-									#GC .slider-handle {
-									background: green;
-									}
-									
-									#BC .slider-selection {
-									background: #bedef3;
-									}
-									
-									#BC .slider-handle {
-									border-bottom-color: blue;
-									}
-									
-									#R,
-									#G,
-									#B {
-									width: 300px;
-									}
-								</style>
-								
-								<script type='text/javascript'>
-									$("#ex4").slider({
-										reversed : true
-									});
-									$("#ex5").slider({
-										reversed : true
-									});
-								</script>
-								
-								<!-- Tooltips -->
-								<script>
-									$(document).ready(function(){
-										$('[data-toggle="tooltip"]').tooltip(); 
-									});
-								</script>
-								
-								<!-- Popovers -->
-								<script>
-									$(function () {
-										$('[data-toggle="popover"]').popover()
-									})
-								</script>
-								
-								<!-- Form load spinner -->
-								<script>
-									// Remember set you events before call bootstrapSwitch or they will fire after bootstrapSwitch's events
-									$("[name='checkbox2']").change(function() {
-										if(!confirm('Do you wanna cancel me!')) {
-											this.checked = true;
-										}
-									});
-									
-									$('#after').bootstrapNumber();
-									$('#colorful').bootstrapNumber({
-										upClass: 'success',
-										downClass: 'danger'
-									});
-								</script>
-								
-								<!--For roundslider-->
-								<script>
-									$("#slider").roundSlider({
-										radius: 80,
-										circleShape: "pie",
-										value: 64,
-										startAngle: 315,
-										sliderType: "min-range"
-									});
-								</script>
-								<script>
-									$("#slider1").roundSlider({
-										sliderType: "min-range",
-										radius: 100,
-										value: 45,
-										width: 13,
-										circleShape: "pie",
-										startAngle: 315
-									});
-									$("#slider2").roundSlider({
-										sliderType: "min-range",
-										radius: 100,
-										value: 87,
-										width: 13,
-										circleShape: "pie",
-										startAngle: 315
-									});
-									$("#slider3").roundSlider({
-										sliderType: "min-range",
-										radius: 100,
-										value: 12,
-										width: 13,
-										circleShape: "pie",
-										startAngle: 315
-									});
-									$("#dark1").roundSlider({
-										radius: 100,
-										width: 15,
-										handleSize: "+16",
-										handleShape: "dot",
-										sliderType: "min-range",
-										value: 27,
-										circleShape: "pie",
-										startAngle: 315
-									});
-									$("#dark2").roundSlider({
-										radius: 100,
-										width: 15,
-										handleSize: "+16",
-										handleShape: "dot",
-										sliderType: "min-range",
-										value: 43,
-										circleShape: "pie",
-										startAngle: 315
-									});
-									$("#dark3").roundSlider({
-										radius: 100,
-										width: 15,
-										handleSize: "+16",
-										handleShape: "dot",
-										sliderType: "min-range",
-										value: 68, 						
-										circleShape: "pie",
-										startAngle: 315
-									});
-								</script>
-								
-								<!-- Sweetalert scripts-->
-								<script>
-									document.querySelector('button#test-1').onclick = function(){
-										swal({   title: "Information message",   text: "If needed, additional text. Lorem ipsum dolor sit amet, in mei adhuc possim quaestio, cibo quas falli mel ex, at sumo nostro appareat usu.",   type: "info",   showCancelButton: false, confirmButtonText: "OK", confirmButtonClass: 'btn-default',   closeOnConfirm: true });
-									};
-									document.querySelector('button#test-2').onclick = function(){
-										swal({   title: "Are you sure to delete this alarm?",   text: "You will not be able to recover the information unless you back up your file",   type: "warning",   showCancelButton: true,  confirmButtonText: "Continue", confirmButtonClass: 'btn-primary',   closeOnConfirm: false }, function(){   swal("Deleted!", "Your imaginary file has been deleted.", "success"); });
-									};
-									document.querySelector('button#test-3').onclick = function(){
-										swal({   title: "This alarm is linked to a rule",   text: "Please select the action you want to perform",   type: "warning",   showCancelButton: true,   confirmButtonClass: 'btn-primary',   cancelButtonText: "Cancel",   confirmButtonText: "Save and overwrite rule",   closeOnConfirm: false,   closeOnCancel: false }, function(isConfirm){   if (isConfirm) {     swal("Saved", "Changes have been saved and rule has been updated", "success");   } else {     swal("Cancelled", "No changes were saved", "error");   } });
-									};
-									document.querySelector('button#test-4').onclick = function(){
-										swal("Oops...", "Something went wrong!", "error");
-									};
-									document.querySelector('button#test-5').onclick = function(){
-										swal({   title: "New alarm created",   text: "Alarm 200TTX201 has been created and added to Jackfish 2 master alarm database",  timer: 2000, showConfirmButton: false, showCancelButton: false });
-									};
-									document.querySelector('#test-6').onclick = function(){
-										swal({   title: "Are you sure to delete this alarm?",   text: "HighHigh alarm from tag 200TT201X will be deleted",   type: "warning",   showCancelButton: true,  confirmButtonText: "Continue", confirmButtonClass: 'btn-primary',   closeOnConfirm: false }, function(){   swal("Deleted!", "The alarm has been deleted.", "success"); });
-									};
-									document.querySelector('#test-7').onclick = function(){
-										swal({   title: "Are you sure to delete this tag?",   text: "The tag 200TT201X together with all its configured alarms: Low, LowLow, High will be deleted",   type: "warning",   showCancelButton: true,  confirmButtonText: "Continue", confirmButtonClass: 'btn-primary',   closeOnConfirm: false }, function(){   swal("Deleted!", "The tag and its alarms have been deleted.", "success"); });
-									};
-								</script>
-								
-								<!-- Editable grid scripts-->
-								<script>
-									
-								</script>
-								
-								<!-- Gtreetable scripts-->
-								<script>
-									jQuery(document).ready(function () {
-										jQuery('#w0').gtreetable({"source":function (id) {
-											return {
-												type: 'GET',
-												url: URI('/web/index.php?r=site%2FnodeChildren').addSearch({'id':id}).toString(),
-												dataType: 'json',
-												error: function(XMLHttpRequest) {
-													alert(XMLHttpRequest.status+': '+XMLHttpRequest.responseText);
-												}
-											}; 
-											},"onSave":function (oNode) {
-											return {
-												type: 'POST',
-												url: !oNode.isSaved() ? '/web/index.php?r=site%2FnodeCreate' : URI('/web/index.php?r=site%2FnodeUpdate').addSearch({'id':oNode.getId()}).toString(),
-												data: {
-													parent: oNode.getParent(),
-													name: oNode.getName(),
-													position: oNode.getInsertPosition(),
-													related: oNode.getRelatedNodeId()
-												},
-												dataType: 'json',
-												error: function(XMLHttpRequest) {
-													alert(XMLHttpRequest.status+': '+XMLHttpRequest.responseText);
-												}
-											};        
-											},"onDelete":function(oNode) {
-											return {
-												type: 'POST',
-												url: URI('/web/index.php?r=site%2FnodeDelete').addSearch({'id':oNode.getId()}).toString(),
-												dataType: 'json',
-												error: function(XMLHttpRequest) {
-													alert(XMLHttpRequest.status+': '+XMLHttpRequest.responseText);
-												}
-											};        
-											},"onMove":function(oSource, oDestination, position) {
-											return {
-												type: 'POST',
-												url: URI('/web/index.php?r=site%2FnodeMove').addSearch({'id':oSource.getId()}).toString(),
-												data: {
-													related: oDestination.getId(),
-													position: position
-												},
-												dataType: 'json',
-												error: function(XMLHttpRequest) {
-													alert(XMLHttpRequest.status+': '+XMLHttpRequest.responseText);
-												}
-											};        
-										},"language":"en-US","manyroots":true,"draggable":true,"inputWidth":"300px"});
-									});
-								</script>
-                                
-                                <!-- Treefy example for parent rows in tables-->
-                                <script>
-									$(function() {
-										$("#treefy").treeFy({
-											treeColumn: 1
+										$('#after').bootstrapNumber();
+										$('#colorful').bootstrapNumber({
+											upClass: 'success',
+											downClass: 'danger'
 										});
-									});
-								</script>
-								
-								<!-- Charty AlarmInsight Example-->
-								<script>
-									var histcatexplong = [
-									{
-										"key" : "System 12" ,
-										"values" : [ [ 1138683600000 , 27.38478809681] , [ 1141102800000 , 27.371377218208] , [ 1143781200000 , 26.309915460827] , [ 1146369600000 , 26.425199957521] , [ 1149048000000 , 26.823411519395] , [ 1151640000000 , 23.850443591584] , [ 1154318400000 , 23.158355444054] , [ 1156996800000 , 22.998689393694] , [ 1159588800000 , 27.977128511299] , [ 1162270800000 , 29.073672469721] , [ 1164862800000 , 28.587640408904] , [ 1167541200000 , 22.788453687638] , [ 1170219600000 , 22.429199073597] , [ 1172638800000 , 22.324103271051] , [ 1175313600000 , 17.558388444186] , [ 1177905600000 , 16.769518096208] , [ 1180584000000 , 16.214738201302] , [ 1183176000000 , 18.729632971228] , [ 1185854400000 , 18.814523318848] , [ 1188532800000 , 19.789986451358] , [ 1191124800000 , 17.070049054933] , [ 1193803200000 , 16.121349575715] , [ 1196398800000 , 15.141659430091] , [ 1199077200000 , 17.175388025298] , [ 1201755600000 , 17.286592443521] , [ 1204261200000 , 16.323141626569] , [ 1206936000000 , 19.231263773952] , [ 1209528000000 , 18.446256391094] , [ 1212206400000 , 17.822632399764] , [ 1214798400000 , 15.539366475979] , [ 1217476800000 , 15.255131790216] , [ 1220155200000 , 15.660963922593] , [ 1222747200000 , 13.254482273697] , [ 1225425600000 , 11.920796202299] , [ 1228021200000 , 12.122809090925] , [ 1230699600000 , 15.691026271393] , [ 1233378000000 , 14.720881635107] , [ 1235797200000 , 15.387939360044] , [ 1238472000000 , 13.765436672229] , [ 1241064000000 , 14.6314458648] , [ 1243742400000 , 14.292446536221] , [ 1246334400000 , 16.170071367016] , [ 1249012800000 , 15.948135554337] , [ 1251691200000 , 16.612872685134] , [ 1254283200000 , 18.778338719091] , [ 1256961600000 , 16.75602606542] , [ 1259557200000 , 19.385804443147] , [ 1262235600000 , 22.950590240168] , [ 1264914000000 , 23.61159018141] , [ 1267333200000 , 25.708586989581] , [ 1270008000000 , 26.883915999885] , [ 1272600000000 , 25.893486687065] , [ 1275278400000 , 24.678914263176] , [ 1277870400000 , 25.937275793023] , [ 1280548800000 , 29.46138169384] , [ 1283227200000 , 27.357322961862] , [ 1285819200000 , 29.057235285673] , [ 1288497600000 , 28.549434189386] , [ 1291093200000 , 28.506352379723] , [ 1293771600000 , 29.449241421597] , [ 1296450000000 , 25.796838168807] , [ 1298869200000 , 28.740145449189] , [ 1301544000000 , 22.091744141872] , [ 1304136000000 , 25.079662545409] , [ 1306814400000 , 23.674906973064] , [ 1309406400000 , 23.41800274293] , [ 1312084800000 , 23.243644138871] , [ 1314763200000 , 31.591854066817] , [ 1317355200000 , 31.497112374114] , [ 1320033600000 , 26.672380820431] , [ 1322629200000 , 27.297080015495] , [ 1325307600000 , 20.174315530051] , [ 1327986000000 , 19.631084213899] , [ 1330491600000 , 20.366462219462] , [ 1333166400000 , 17.429019937289] , [ 1335758400000 , 16.75543633539] , [ 1338436800000 , 16.182906906042]]
-									} ,					
-									{
-										"key" : "System 76" ,
-										"values" : [ [ 1138683600000 , 1.544303464167] , [ 1141102800000 , 1.4387289432421] , [ 1143781200000 , 0] , [ 1146369600000 , 0] , [ 1149048000000 , 0] , [ 1151640000000 , 1.328626801128] , [ 1154318400000 , 1.2874050802627] , [ 1156996800000 , 1.0872743105593] , [ 1159588800000 , 0.96042562635813] , [ 1162270800000 , 0.93139372870616] , [ 1164862800000 , 0.94432167305385] , [ 1167541200000 , 1.277750166208] , [ 1170219600000 , 1.2204893886811] , [ 1172638800000 , 1.207489123122] , [ 1175313600000 , 1.2490651414113] , [ 1177905600000 , 1.2593129913052] , [ 1180584000000 , 1.373329808388] , [ 1183176000000 , 0] , [ 1185854400000 , 0] , [ 1188532800000 , 0] , [ 1191124800000 , 0] , [ 1193803200000 , 0] , [ 1196398800000 , 0] , [ 1199077200000 , 0] , [ 1201755600000 , 0] , [ 1204261200000 , 0] , [ 1206936000000 , 0] , [ 1209528000000 , 0] , [ 1212206400000 , 0] , [ 1214798400000 , 0] , [ 1217476800000 , 0] , [ 1220155200000 , 0] , [ 1222747200000 , 1.4516108933695] , [ 1225425600000 , 1.1856025268225] , [ 1228021200000 , 1.3430470355439] , [ 1230699600000 , 2.2752595354509] , [ 1233378000000 , 2.4031560010523] , [ 1235797200000 , 2.0822430731926] , [ 1238472000000 , 1.5640902826938] , [ 1241064000000 , 1.5812873972356] , [ 1243742400000 , 1.9462448548894] , [ 1246334400000 , 2.9464870223957] , [ 1249012800000 , 3.0744699383222] , [ 1251691200000 , 2.9422304628446] , [ 1254283200000 , 2.7503075599999] , [ 1256961600000 , 2.6506701800427] , [ 1259557200000 , 2.8005425319977] , [ 1262235600000 , 2.6816184971185] , [ 1264914000000 , 2.681206271327] , [ 1267333200000 , 2.8195488011259] , [ 1270008000000 , 0] , [ 1272600000000 , 0] , [ 1275278400000 , 0] , [ 1277870400000 , 1.0687057346382] , [ 1280548800000 , 1.2539400544134] , [ 1283227200000 , 1.1862969445955] , [ 1285819200000 , 0] , [ 1288497600000 , 0] , [ 1291093200000 , 0] , [ 1293771600000 , 0] , [ 1296450000000 , 1.941972859484] , [ 1298869200000 , 2.1142247697552] , [ 1301544000000 , 2.3788590206824] , [ 1304136000000 , 2.5337302877545] , [ 1306814400000 , 2.3163370395199] , [ 1309406400000 , 2.0645451843195] , [ 1312084800000 , 2.1004446672411] , [ 1314763200000 , 3.6301875804303] , [ 1317355200000 , 2.454204664652] , [ 1320033600000 , 2.196082370894] , [ 1322629200000 , 2.3358418255202] , [ 1325307600000 , 0] , [ 1327986000000 , 0] , [ 1330491600000 , 0] , [ 1333166400000 , 0.39001201038526] , [ 1335758400000 , 0.30945472725559] , [ 1338436800000 , 0.31062439305591]]
-									} ,					
-									{
-										"key" : "System 18" ,
-										"values" : [ [ 1138683600000 , 14.212410956029] , [ 1141102800000 , 13.973193618249] , [ 1143781200000 , 15.218233920665] , [ 1146369600000 , 14.38210972745] , [ 1149048000000 , 13.894310878491] , [ 1151640000000 , 15.593086090032] , [ 1154318400000 , 16.244839695188] , [ 1156996800000 , 16.017088850646] , [ 1159588800000 , 14.183951830055] , [ 1162270800000 , 14.148523245697] , [ 1164862800000 , 13.424326059972] , [ 1167541200000 , 12.974450435753] , [ 1170219600000 , 13.23247041802] , [ 1172638800000 , 13.318762655574] , [ 1175313600000 , 15.961407746104] , [ 1177905600000 , 16.287714639805] , [ 1180584000000 , 16.246590583889] , [ 1183176000000 , 17.564505594809] , [ 1185854400000 , 17.872725373165] , [ 1188532800000 , 18.018998508757] , [ 1191124800000 , 15.584518016603] , [ 1193803200000 , 15.480850647181] , [ 1196398800000 , 15.699120036984] , [ 1199077200000 , 19.184281817226] , [ 1201755600000 , 19.691226605207] , [ 1204261200000 , 18.982314051295] , [ 1206936000000 , 18.707820309008] , [ 1209528000000 , 17.459630929761] , [ 1212206400000 , 16.500616076782] , [ 1214798400000 , 18.086324003979] , [ 1217476800000 , 18.929464156258] , [ 1220155200000 , 18.233728682084] , [ 1222747200000 , 16.315776297325] , [ 1225425600000 , 14.63289219025] , [ 1228021200000 , 14.667835024478] , [ 1230699600000 , 13.946993947308] , [ 1233378000000 , 14.394304684397] , [ 1235797200000 , 13.724462792967] , [ 1238472000000 , 10.930879035806] , [ 1241064000000 , 9.8339915513708] , [ 1243742400000 , 10.053858541872] , [ 1246334400000 , 11.786998438287] , [ 1249012800000 , 11.780994901769] , [ 1251691200000 , 11.305889670276] , [ 1254283200000 , 10.918452290083] , [ 1256961600000 , 9.6811395055706] , [ 1259557200000 , 10.971529744038] , [ 1262235600000 , 13.330210480209] , [ 1264914000000 , 14.592637568961] , [ 1267333200000 , 14.605329141157] , [ 1270008000000 , 13.936853794037] , [ 1272600000000 , 12.189480759072] , [ 1275278400000 , 11.676151385046] , [ 1277870400000 , 13.058852800017] , [ 1280548800000 , 13.62891543203] , [ 1283227200000 , 13.811107569918] , [ 1285819200000 , 13.786494560787] , [ 1288497600000 , 14.04516285753] , [ 1291093200000 , 13.697412447288] , [ 1293771600000 , 13.677681376221] , [ 1296450000000 , 19.961511864531] , [ 1298869200000 , 21.049198298158] , [ 1301544000000 , 22.687631094008] , [ 1304136000000 , 25.469010617433] , [ 1306814400000 , 24.883799437121] , [ 1309406400000 , 24.203843814248] , [ 1312084800000 , 22.138760964038] , [ 1314763200000 , 16.034636966228] , [ 1317355200000 , 15.394958944556] , [ 1320033600000 , 12.625642461969] , [ 1322629200000 , 12.973735699739] , [ 1325307600000 , 15.786018336149] , [ 1327986000000 , 15.227368020134] , [ 1330491600000 , 15.899752650734] , [ 1333166400000 , 18.994731295388] , [ 1335758400000 , 18.450055817702] , [ 1338436800000 , 17.863719889669]]
-									} ,
-									{
-										"key" : "System 21" ,
-										"values" : [ [ 1138683600000 , 13.242301508051] , [ 1141102800000 , 12.863536342042] , [ 1143781200000 , 21.034044171629] , [ 1146369600000 , 21.419084618803] , [ 1149048000000 , 21.142678863691] , [ 1151640000000 , 26.568489677529] , [ 1154318400000 , 24.839144939905] , [ 1156996800000 , 25.456187462167] , [ 1159588800000 , 26.350164502826] , [ 1162270800000 , 26.47833320519] , [ 1164862800000 , 26.425979547847] , [ 1167541200000 , 28.191461582256] , [ 1170219600000 , 28.930307448808] , [ 1172638800000 , 29.521413891117] , [ 1175313600000 , 28.188285966466] , [ 1177905600000 , 27.704619625832] , [ 1180584000000 , 27.490862424829] , [ 1183176000000 , 28.770679721286] , [ 1185854400000 , 29.060480671449] , [ 1188532800000 , 28.240998844973] , [ 1191124800000 , 33.004893194127] , [ 1193803200000 , 34.075180359928] , [ 1196398800000 , 32.548560664833] , [ 1199077200000 , 30.629727432728] , [ 1201755600000 , 28.642858788159] , [ 1204261200000 , 27.973575227842] , [ 1206936000000 , 27.393351882726] , [ 1209528000000 , 28.476095288523] , [ 1212206400000 , 29.29667866426] , [ 1214798400000 , 29.222333802896] , [ 1217476800000 , 28.092966093843] , [ 1220155200000 , 28.107159262922] , [ 1222747200000 , 25.482974832098] , [ 1225425600000 , 21.208115993834] , [ 1228021200000 , 20.295043095268] , [ 1230699600000 , 15.925754618401] , [ 1233378000000 , 17.162864628346] , [ 1235797200000 , 17.084345773174] , [ 1238472000000 , 22.246007102281] , [ 1241064000000 , 24.530543998509] , [ 1243742400000 , 25.084184918242] , [ 1246334400000 , 16.606166527358] , [ 1249012800000 , 17.239620011628] , [ 1251691200000 , 17.336739127379] , [ 1254283200000 , 25.478492475753] , [ 1256961600000 , 23.017152085245] , [ 1259557200000 , 25.617745423683] , [ 1262235600000 , 24.061133998642] , [ 1264914000000 , 23.223933318644] , [ 1267333200000 , 24.425887263937] , [ 1270008000000 , 35.501471156693] , [ 1272600000000 , 33.775013878676] , [ 1275278400000 , 30.417993630285] , [ 1277870400000 , 30.023598978467] , [ 1280548800000 , 33.327519522436] , [ 1283227200000 , 31.963388450371] , [ 1285819200000 , 30.498967232092] , [ 1288497600000 , 32.403696817912] , [ 1291093200000 , 31.47736071922] , [ 1293771600000 , 31.53259666241] , [ 1296450000000 , 41.760282761548] , [ 1298869200000 , 45.605771243237] , [ 1301544000000 , 39.986557966215] , [ 1304136000000 , 43.846330510051] , [ 1306814400000 , 39.857316881857] , [ 1309406400000 , 37.675127768208] , [ 1312084800000 , 35.775077970313] , [ 1314763200000 , 48.631009702577] , [ 1317355200000 , 42.830831754505] , [ 1320033600000 , 35.611502589362] , [ 1322629200000 , 35.320136981738] , [ 1325307600000 , 31.564136901516] , [ 1327986000000 , 32.074407502433] , [ 1330491600000 , 35.053013769976] , [ 1333166400000 , 26.434568573937] , [ 1335758400000 , 25.305617871002] , [ 1338436800000 , 24.520919418236]]
-									} ,
-									{
-										"key" : "System 43" ,
-										"values" : [ [ 1138683600000 , 3.7056975170243] , [ 1141102800000 , 3.7561118692318] , [ 1143781200000 , 2.861913700854] , [ 1146369600000 , 2.9933744103381] , [ 1149048000000 , 2.7127537218463] , [ 1151640000000 , 3.1195497076283] , [ 1154318400000 , 3.4066964004508] , [ 1156996800000 , 3.3754571113569] , [ 1159588800000 , 2.2965579982924] , [ 1162270800000 , 2.4486818633018] , [ 1164862800000 , 2.4002308848517] , [ 1167541200000 , 1.9649579750349] , [ 1170219600000 , 1.9385263638056] , [ 1172638800000 , 1.9128975336387] , [ 1175313600000 , 2.3412869836298] , [ 1177905600000 , 2.4337870351445] , [ 1180584000000 , 2.62179703171] , [ 1183176000000 , 3.2642864957929] , [ 1185854400000 , 3.3200396223709] , [ 1188532800000 , 3.3934212707572] , [ 1191124800000 , 4.2822327088179] , [ 1193803200000 , 4.1474964228541] , [ 1196398800000 , 4.1477082879801] , [ 1199077200000 , 5.2947122916128] , [ 1201755600000 , 5.2919843508028] , [ 1204261200000 , 5.1989783050309] , [ 1206936000000 , 3.5603057673513] , [ 1209528000000 , 3.3009087690692] , [ 1212206400000 , 3.1784852603792] , [ 1214798400000 , 4.5889503538868] , [ 1217476800000 , 4.401779617494] , [ 1220155200000 , 4.2208301828278] , [ 1222747200000 , 3.89396671475] , [ 1225425600000 , 3.0423832241354] , [ 1228021200000 , 3.135520611578] , [ 1230699600000 , 1.9631418164089] , [ 1233378000000 , 1.8963543874958] , [ 1235797200000 , 1.8266636017025] , [ 1238472000000 , 0.93136635895188] , [ 1241064000000 , 0.92737801918888] , [ 1243742400000 , 0.97591889805002] , [ 1246334400000 , 2.6841193805515] , [ 1249012800000 , 2.5664341140531] , [ 1251691200000 , 2.3887523699873] , [ 1254283200000 , 1.1737801663681] , [ 1256961600000 , 1.0953582317281] , [ 1259557200000 , 1.2495674976653] , [ 1262235600000 , 0.36607452464754] , [ 1264914000000 , 0.3548719047291] , [ 1267333200000 , 0.36769242398939] , [ 1270008000000 , 0] , [ 1272600000000 , 0] , [ 1275278400000 , 0] , [ 1277870400000 , 0] , [ 1280548800000 , 0] , [ 1283227200000 , 0] , [ 1285819200000 , 0.85450741275337] , [ 1288497600000 , 0.91360317921637] , [ 1291093200000 , 0.89647678692269] , [ 1293771600000 , 0.87800687192639] , [ 1296450000000 , 0] , [ 1298869200000 , 0] , [ 1301544000000 , 0.43668720882994] , [ 1304136000000 , 0.4756523602692] , [ 1306814400000 , 0.46947368328469] , [ 1309406400000 , 0.45138896152316] , [ 1312084800000 , 0.43828726648117] , [ 1314763200000 , 2.0820861395316] , [ 1317355200000 , 0.9364411075395] , [ 1320033600000 , 0.60583907839773] , [ 1322629200000 , 0.61096950747437] , [ 1325307600000 , 0] , [ 1327986000000 , 0] , [ 1330491600000 , 0] , [ 1333166400000 , 0] , [ 1335758400000 , 0] , [ 1338436800000 , 0]]
-									} ,					
-									];
-									var colors = d3.scale.category20();
-									var chart;
-									nv.addGraph(function() {
-										chart = nv.models.stackedAreaChart()
-										.useInteractiveGuideline(true)
-										.x(function(d) { return d[0] })
-										.y(function(d) { return d[1] })
-										.controlLabels({stacked: "Stacked"})
-										.duration(300);
-										chart.xAxis.tickFormat(function(d) { return d3.time.format('%x')(new Date(d)) });
-										chart.yAxis.tickFormat(d3.format(',.4f'));
-										chart.legend.vers('furious');
-										d3.select('#chart4')
-										.datum(histcatexplong)
-										.transition().duration(1000)
-										.call(chart)
-										.each('start', function() {
-											setTimeout(function() {
-												d3.selectAll('#chart4 *').each(function() {
-													if(this.__transition__)
-													this.__transition__.duration = 1;
-												})
-											}, 0)
+									</script>
+									
+									<!--For roundslider-->
+									<script>
+										$("#slider").roundSlider({
+											radius: 80,
+											circleShape: "pie",
+											value: 64,
+											startAngle: 315,
+											sliderType: "min-range"
 										});
-										nv.utils.windowResize(chart.update);
-										return chart;
-									});
-								</script>
-								
-								<!-- Chart-Sparkline -->
-								<script>
-									function defaultChartConfig(containerId, data) {
-										nv.addGraph(function() {
-											var chart = nv.models.sparklinePlus();
-											chart.margin({left:70})
-											.x(function(d,i) { return i })
-											.showLastValue(true)
-											.xTickFormat(function(d) {
-												return d3.time.format('%x')(new Date(data[d].x))
+									</script>
+									<script>
+										$("#slider1").roundSlider({
+											sliderType: "min-range",
+											radius: 100,
+											value: 45,
+											width: 13,
+											circleShape: "pie",
+											startAngle: 315
+										});
+										$("#slider2").roundSlider({
+											sliderType: "min-range",
+											radius: 100,
+											value: 87,
+											width: 13,
+											circleShape: "pie",
+											startAngle: 315
+										});
+										$("#slider3").roundSlider({
+											sliderType: "min-range",
+											radius: 100,
+											value: 12,
+											width: 13,
+											circleShape: "pie",
+											startAngle: 315
+										});
+										$("#dark1").roundSlider({
+											radius: 100,
+											width: 15,
+											handleSize: "+16",
+											handleShape: "dot",
+											sliderType: "min-range",
+											value: 27,
+											circleShape: "pie",
+											startAngle: 315
+										});
+										$("#dark2").roundSlider({
+											radius: 100,
+											width: 15,
+											handleSize: "+16",
+											handleShape: "dot",
+											sliderType: "min-range",
+											value: 43,
+											circleShape: "pie",
+											startAngle: 315
+										});
+										$("#dark3").roundSlider({
+											radius: 100,
+											width: 15,
+											handleSize: "+16",
+											handleShape: "dot",
+											sliderType: "min-range",
+											value: 68, 						
+											circleShape: "pie",
+											startAngle: 315
+										});
+									</script>
+									
+									<!-- Sweetalert scripts-->
+									<script>
+										document.querySelector('button#test-1').onclick = function(){
+											swal({   title: "Information message",   text: "If needed, additional text. Lorem ipsum dolor sit amet, in mei adhuc possim quaestio, cibo quas falli mel ex, at sumo nostro appareat usu.",   type: "info",   showCancelButton: false, confirmButtonText: "OK", confirmButtonClass: 'btn-default',   closeOnConfirm: true });
+										};
+										document.querySelector('button#test-2').onclick = function(){
+											swal({   title: "Are you sure to delete this alarm?",   text: "You will not be able to recover the information unless you back up your file",   type: "warning",   showCancelButton: true,  confirmButtonText: "Continue", confirmButtonClass: 'btn-primary',   closeOnConfirm: false }, function(){   swal("Deleted!", "Your imaginary file has been deleted.", "success"); });
+										};
+										document.querySelector('button#test-3').onclick = function(){
+											swal({   title: "This alarm is linked to a rule",   text: "Please select the action you want to perform",   type: "warning",   showCancelButton: true,   confirmButtonClass: 'btn-primary',   cancelButtonText: "Cancel",   confirmButtonText: "Save and overwrite rule",   closeOnConfirm: false,   closeOnCancel: false }, function(isConfirm){   if (isConfirm) {     swal("Saved", "Changes have been saved and rule has been updated", "success");   } else {     swal("Cancelled", "No changes were saved", "error");   } });
+										};
+										document.querySelector('button#test-4').onclick = function(){
+											swal("Oops...", "Something went wrong!", "error");
+										};
+										document.querySelector('button#test-5').onclick = function(){
+											swal({   title: "New alarm created",   text: "Alarm 200TTX201 has been created and added to Jackfish 2 master alarm database",  timer: 2000, showConfirmButton: false, showCancelButton: false });
+										};
+										document.querySelector('#test-6').onclick = function(){
+											swal({   title: "Are you sure to delete this alarm?",   text: "HighHigh alarm from tag 200TT201X will be deleted",   type: "warning",   showCancelButton: true,  confirmButtonText: "Continue", confirmButtonClass: 'btn-primary',   closeOnConfirm: false }, function(){   swal("Deleted!", "The alarm has been deleted.", "success"); });
+										};
+										document.querySelector('#test-7').onclick = function(){
+											swal({   title: "Are you sure to delete this tag?",   text: "The tag 200TT201X together with all its configured alarms: Low, LowLow, High will be deleted",   type: "warning",   showCancelButton: true,  confirmButtonText: "Continue", confirmButtonClass: 'btn-primary',   closeOnConfirm: false }, function(){   swal("Deleted!", "The tag and its alarms have been deleted.", "success"); });
+										};
+									</script>
+									
+									<!-- Tree collapse-->
+									<script>
+										$('.tree-toggle').click(function () {
+											$(this).parent().children('ul.tree').toggle(200);
+										});
+										$(function(){
+											$('.tree-toggle').parent().children('ul.tree').toggle(200);
+										})
+									</script>
+									
+									<!-- Gtreetable scripts-->
+									<script>
+										jQuery(document).ready(function () {
+											jQuery('#w0').gtreetable({"source":function (id) {
+												return {
+													type: 'GET',
+													url: URI('/web/index.php?r=site%2FnodeChildren').addSearch({'id':id}).toString(),
+													dataType: 'json',
+													error: function(XMLHttpRequest) {
+														alert(XMLHttpRequest.status+': '+XMLHttpRequest.responseText);
+													}
+												}; 
+												},"onSave":function (oNode) {
+												return {
+													type: 'POST',
+													url: !oNode.isSaved() ? '/web/index.php?r=site%2FnodeCreate' : URI('/web/index.php?r=site%2FnodeUpdate').addSearch({'id':oNode.getId()}).toString(),
+													data: {
+														parent: oNode.getParent(),
+														name: oNode.getName(),
+														position: oNode.getInsertPosition(),
+														related: oNode.getRelatedNodeId()
+													},
+													dataType: 'json',
+													error: function(XMLHttpRequest) {
+														alert(XMLHttpRequest.status+': '+XMLHttpRequest.responseText);
+													}
+												};        
+												},"onDelete":function(oNode) {
+												return {
+													type: 'POST',
+													url: URI('/web/index.php?r=site%2FnodeDelete').addSearch({'id':oNode.getId()}).toString(),
+													dataType: 'json',
+													error: function(XMLHttpRequest) {
+														alert(XMLHttpRequest.status+': '+XMLHttpRequest.responseText);
+													}
+												};        
+												},"onMove":function(oSource, oDestination, position) {
+												return {
+													type: 'POST',
+													url: URI('/web/index.php?r=site%2FnodeMove').addSearch({'id':oSource.getId()}).toString(),
+													data: {
+														related: oDestination.getId(),
+														position: position
+													},
+													dataType: 'json',
+													error: function(XMLHttpRequest) {
+														alert(XMLHttpRequest.status+': '+XMLHttpRequest.responseText);
+													}
+												};        
+											},"language":"en-US","manyroots":true,"draggable":true,"inputWidth":"300px"});
+										});
+									</script>
+									
+									<!-- Treefy example for parent rows in tables-->
+									<script>
+										$(function() {
+											$("#treefy").treeFy({
+												treeColumn: 1
 											});
-											d3.select(containerId)
-											.datum(data)
-											.call(chart);
+										});
+									</script>
+                                    
+                                    <!-- TRAC Loop template typeahead-->
+                                    <script type="text/javascript">
+                                    $(document).ready(function(){
+                                        $('input.typeahead').typeahead({
+                                            name: 'accounts',
+                                            local: ['Audi', 'BMW', 'Bugatti', 'Ferrari', 'Ford', 'Lamborghini', 'Mercedes Benz', 'Porsche', 'Rolls-Royce', 'Volkswagen']
+                                        });
+                                    });  
+                                    </script>
+									
+									<!-- Charty AlarmInsight Example-->
+									<script>
+										var histcatexplong = [
+										{
+											"key" : "System 12" ,
+											"values" : [ [ 1138683600000 , 27.38478809681] , [ 1141102800000 , 27.371377218208] , [ 1143781200000 , 26.309915460827] , [ 1146369600000 , 26.425199957521] , [ 1149048000000 , 26.823411519395] , [ 1151640000000 , 23.850443591584] , [ 1154318400000 , 23.158355444054] , [ 1156996800000 , 22.998689393694] , [ 1159588800000 , 27.977128511299] , [ 1162270800000 , 29.073672469721] , [ 1164862800000 , 28.587640408904] , [ 1167541200000 , 22.788453687638] , [ 1170219600000 , 22.429199073597] , [ 1172638800000 , 22.324103271051] , [ 1175313600000 , 17.558388444186] , [ 1177905600000 , 16.769518096208] , [ 1180584000000 , 16.214738201302] , [ 1183176000000 , 18.729632971228] , [ 1185854400000 , 18.814523318848] , [ 1188532800000 , 19.789986451358] , [ 1191124800000 , 17.070049054933] , [ 1193803200000 , 16.121349575715] , [ 1196398800000 , 15.141659430091] , [ 1199077200000 , 17.175388025298] , [ 1201755600000 , 17.286592443521] , [ 1204261200000 , 16.323141626569] , [ 1206936000000 , 19.231263773952] , [ 1209528000000 , 18.446256391094] , [ 1212206400000 , 17.822632399764] , [ 1214798400000 , 15.539366475979] , [ 1217476800000 , 15.255131790216] , [ 1220155200000 , 15.660963922593] , [ 1222747200000 , 13.254482273697] , [ 1225425600000 , 11.920796202299] , [ 1228021200000 , 12.122809090925] , [ 1230699600000 , 15.691026271393] , [ 1233378000000 , 14.720881635107] , [ 1235797200000 , 15.387939360044] , [ 1238472000000 , 13.765436672229] , [ 1241064000000 , 14.6314458648] , [ 1243742400000 , 14.292446536221] , [ 1246334400000 , 16.170071367016] , [ 1249012800000 , 15.948135554337] , [ 1251691200000 , 16.612872685134] , [ 1254283200000 , 18.778338719091] , [ 1256961600000 , 16.75602606542] , [ 1259557200000 , 19.385804443147] , [ 1262235600000 , 22.950590240168] , [ 1264914000000 , 23.61159018141] , [ 1267333200000 , 25.708586989581] , [ 1270008000000 , 26.883915999885] , [ 1272600000000 , 25.893486687065] , [ 1275278400000 , 24.678914263176] , [ 1277870400000 , 25.937275793023] , [ 1280548800000 , 29.46138169384] , [ 1283227200000 , 27.357322961862] , [ 1285819200000 , 29.057235285673] , [ 1288497600000 , 28.549434189386] , [ 1291093200000 , 28.506352379723] , [ 1293771600000 , 29.449241421597] , [ 1296450000000 , 25.796838168807] , [ 1298869200000 , 28.740145449189] , [ 1301544000000 , 22.091744141872] , [ 1304136000000 , 25.079662545409] , [ 1306814400000 , 23.674906973064] , [ 1309406400000 , 23.41800274293] , [ 1312084800000 , 23.243644138871] , [ 1314763200000 , 31.591854066817] , [ 1317355200000 , 31.497112374114] , [ 1320033600000 , 26.672380820431] , [ 1322629200000 , 27.297080015495] , [ 1325307600000 , 20.174315530051] , [ 1327986000000 , 19.631084213899] , [ 1330491600000 , 20.366462219462] , [ 1333166400000 , 17.429019937289] , [ 1335758400000 , 16.75543633539] , [ 1338436800000 , 16.182906906042]]
+										} ,					
+										{
+											"key" : "System 76" ,
+											"values" : [ [ 1138683600000 , 1.544303464167] , [ 1141102800000 , 1.4387289432421] , [ 1143781200000 , 0] , [ 1146369600000 , 0] , [ 1149048000000 , 0] , [ 1151640000000 , 1.328626801128] , [ 1154318400000 , 1.2874050802627] , [ 1156996800000 , 1.0872743105593] , [ 1159588800000 , 0.96042562635813] , [ 1162270800000 , 0.93139372870616] , [ 1164862800000 , 0.94432167305385] , [ 1167541200000 , 1.277750166208] , [ 1170219600000 , 1.2204893886811] , [ 1172638800000 , 1.207489123122] , [ 1175313600000 , 1.2490651414113] , [ 1177905600000 , 1.2593129913052] , [ 1180584000000 , 1.373329808388] , [ 1183176000000 , 0] , [ 1185854400000 , 0] , [ 1188532800000 , 0] , [ 1191124800000 , 0] , [ 1193803200000 , 0] , [ 1196398800000 , 0] , [ 1199077200000 , 0] , [ 1201755600000 , 0] , [ 1204261200000 , 0] , [ 1206936000000 , 0] , [ 1209528000000 , 0] , [ 1212206400000 , 0] , [ 1214798400000 , 0] , [ 1217476800000 , 0] , [ 1220155200000 , 0] , [ 1222747200000 , 1.4516108933695] , [ 1225425600000 , 1.1856025268225] , [ 1228021200000 , 1.3430470355439] , [ 1230699600000 , 2.2752595354509] , [ 1233378000000 , 2.4031560010523] , [ 1235797200000 , 2.0822430731926] , [ 1238472000000 , 1.5640902826938] , [ 1241064000000 , 1.5812873972356] , [ 1243742400000 , 1.9462448548894] , [ 1246334400000 , 2.9464870223957] , [ 1249012800000 , 3.0744699383222] , [ 1251691200000 , 2.9422304628446] , [ 1254283200000 , 2.7503075599999] , [ 1256961600000 , 2.6506701800427] , [ 1259557200000 , 2.8005425319977] , [ 1262235600000 , 2.6816184971185] , [ 1264914000000 , 2.681206271327] , [ 1267333200000 , 2.8195488011259] , [ 1270008000000 , 0] , [ 1272600000000 , 0] , [ 1275278400000 , 0] , [ 1277870400000 , 1.0687057346382] , [ 1280548800000 , 1.2539400544134] , [ 1283227200000 , 1.1862969445955] , [ 1285819200000 , 0] , [ 1288497600000 , 0] , [ 1291093200000 , 0] , [ 1293771600000 , 0] , [ 1296450000000 , 1.941972859484] , [ 1298869200000 , 2.1142247697552] , [ 1301544000000 , 2.3788590206824] , [ 1304136000000 , 2.5337302877545] , [ 1306814400000 , 2.3163370395199] , [ 1309406400000 , 2.0645451843195] , [ 1312084800000 , 2.1004446672411] , [ 1314763200000 , 3.6301875804303] , [ 1317355200000 , 2.454204664652] , [ 1320033600000 , 2.196082370894] , [ 1322629200000 , 2.3358418255202] , [ 1325307600000 , 0] , [ 1327986000000 , 0] , [ 1330491600000 , 0] , [ 1333166400000 , 0.39001201038526] , [ 1335758400000 , 0.30945472725559] , [ 1338436800000 , 0.31062439305591]]
+										} ,					
+										{
+											"key" : "System 18" ,
+											"values" : [ [ 1138683600000 , 14.212410956029] , [ 1141102800000 , 13.973193618249] , [ 1143781200000 , 15.218233920665] , [ 1146369600000 , 14.38210972745] , [ 1149048000000 , 13.894310878491] , [ 1151640000000 , 15.593086090032] , [ 1154318400000 , 16.244839695188] , [ 1156996800000 , 16.017088850646] , [ 1159588800000 , 14.183951830055] , [ 1162270800000 , 14.148523245697] , [ 1164862800000 , 13.424326059972] , [ 1167541200000 , 12.974450435753] , [ 1170219600000 , 13.23247041802] , [ 1172638800000 , 13.318762655574] , [ 1175313600000 , 15.961407746104] , [ 1177905600000 , 16.287714639805] , [ 1180584000000 , 16.246590583889] , [ 1183176000000 , 17.564505594809] , [ 1185854400000 , 17.872725373165] , [ 1188532800000 , 18.018998508757] , [ 1191124800000 , 15.584518016603] , [ 1193803200000 , 15.480850647181] , [ 1196398800000 , 15.699120036984] , [ 1199077200000 , 19.184281817226] , [ 1201755600000 , 19.691226605207] , [ 1204261200000 , 18.982314051295] , [ 1206936000000 , 18.707820309008] , [ 1209528000000 , 17.459630929761] , [ 1212206400000 , 16.500616076782] , [ 1214798400000 , 18.086324003979] , [ 1217476800000 , 18.929464156258] , [ 1220155200000 , 18.233728682084] , [ 1222747200000 , 16.315776297325] , [ 1225425600000 , 14.63289219025] , [ 1228021200000 , 14.667835024478] , [ 1230699600000 , 13.946993947308] , [ 1233378000000 , 14.394304684397] , [ 1235797200000 , 13.724462792967] , [ 1238472000000 , 10.930879035806] , [ 1241064000000 , 9.8339915513708] , [ 1243742400000 , 10.053858541872] , [ 1246334400000 , 11.786998438287] , [ 1249012800000 , 11.780994901769] , [ 1251691200000 , 11.305889670276] , [ 1254283200000 , 10.918452290083] , [ 1256961600000 , 9.6811395055706] , [ 1259557200000 , 10.971529744038] , [ 1262235600000 , 13.330210480209] , [ 1264914000000 , 14.592637568961] , [ 1267333200000 , 14.605329141157] , [ 1270008000000 , 13.936853794037] , [ 1272600000000 , 12.189480759072] , [ 1275278400000 , 11.676151385046] , [ 1277870400000 , 13.058852800017] , [ 1280548800000 , 13.62891543203] , [ 1283227200000 , 13.811107569918] , [ 1285819200000 , 13.786494560787] , [ 1288497600000 , 14.04516285753] , [ 1291093200000 , 13.697412447288] , [ 1293771600000 , 13.677681376221] , [ 1296450000000 , 19.961511864531] , [ 1298869200000 , 21.049198298158] , [ 1301544000000 , 22.687631094008] , [ 1304136000000 , 25.469010617433] , [ 1306814400000 , 24.883799437121] , [ 1309406400000 , 24.203843814248] , [ 1312084800000 , 22.138760964038] , [ 1314763200000 , 16.034636966228] , [ 1317355200000 , 15.394958944556] , [ 1320033600000 , 12.625642461969] , [ 1322629200000 , 12.973735699739] , [ 1325307600000 , 15.786018336149] , [ 1327986000000 , 15.227368020134] , [ 1330491600000 , 15.899752650734] , [ 1333166400000 , 18.994731295388] , [ 1335758400000 , 18.450055817702] , [ 1338436800000 , 17.863719889669]]
+										} ,
+										{
+											"key" : "System 21" ,
+											"values" : [ [ 1138683600000 , 13.242301508051] , [ 1141102800000 , 12.863536342042] , [ 1143781200000 , 21.034044171629] , [ 1146369600000 , 21.419084618803] , [ 1149048000000 , 21.142678863691] , [ 1151640000000 , 26.568489677529] , [ 1154318400000 , 24.839144939905] , [ 1156996800000 , 25.456187462167] , [ 1159588800000 , 26.350164502826] , [ 1162270800000 , 26.47833320519] , [ 1164862800000 , 26.425979547847] , [ 1167541200000 , 28.191461582256] , [ 1170219600000 , 28.930307448808] , [ 1172638800000 , 29.521413891117] , [ 1175313600000 , 28.188285966466] , [ 1177905600000 , 27.704619625832] , [ 1180584000000 , 27.490862424829] , [ 1183176000000 , 28.770679721286] , [ 1185854400000 , 29.060480671449] , [ 1188532800000 , 28.240998844973] , [ 1191124800000 , 33.004893194127] , [ 1193803200000 , 34.075180359928] , [ 1196398800000 , 32.548560664833] , [ 1199077200000 , 30.629727432728] , [ 1201755600000 , 28.642858788159] , [ 1204261200000 , 27.973575227842] , [ 1206936000000 , 27.393351882726] , [ 1209528000000 , 28.476095288523] , [ 1212206400000 , 29.29667866426] , [ 1214798400000 , 29.222333802896] , [ 1217476800000 , 28.092966093843] , [ 1220155200000 , 28.107159262922] , [ 1222747200000 , 25.482974832098] , [ 1225425600000 , 21.208115993834] , [ 1228021200000 , 20.295043095268] , [ 1230699600000 , 15.925754618401] , [ 1233378000000 , 17.162864628346] , [ 1235797200000 , 17.084345773174] , [ 1238472000000 , 22.246007102281] , [ 1241064000000 , 24.530543998509] , [ 1243742400000 , 25.084184918242] , [ 1246334400000 , 16.606166527358] , [ 1249012800000 , 17.239620011628] , [ 1251691200000 , 17.336739127379] , [ 1254283200000 , 25.478492475753] , [ 1256961600000 , 23.017152085245] , [ 1259557200000 , 25.617745423683] , [ 1262235600000 , 24.061133998642] , [ 1264914000000 , 23.223933318644] , [ 1267333200000 , 24.425887263937] , [ 1270008000000 , 35.501471156693] , [ 1272600000000 , 33.775013878676] , [ 1275278400000 , 30.417993630285] , [ 1277870400000 , 30.023598978467] , [ 1280548800000 , 33.327519522436] , [ 1283227200000 , 31.963388450371] , [ 1285819200000 , 30.498967232092] , [ 1288497600000 , 32.403696817912] , [ 1291093200000 , 31.47736071922] , [ 1293771600000 , 31.53259666241] , [ 1296450000000 , 41.760282761548] , [ 1298869200000 , 45.605771243237] , [ 1301544000000 , 39.986557966215] , [ 1304136000000 , 43.846330510051] , [ 1306814400000 , 39.857316881857] , [ 1309406400000 , 37.675127768208] , [ 1312084800000 , 35.775077970313] , [ 1314763200000 , 48.631009702577] , [ 1317355200000 , 42.830831754505] , [ 1320033600000 , 35.611502589362] , [ 1322629200000 , 35.320136981738] , [ 1325307600000 , 31.564136901516] , [ 1327986000000 , 32.074407502433] , [ 1330491600000 , 35.053013769976] , [ 1333166400000 , 26.434568573937] , [ 1335758400000 , 25.305617871002] , [ 1338436800000 , 24.520919418236]]
+										} ,
+										{
+											"key" : "System 43" ,
+											"values" : [ [ 1138683600000 , 3.7056975170243] , [ 1141102800000 , 3.7561118692318] , [ 1143781200000 , 2.861913700854] , [ 1146369600000 , 2.9933744103381] , [ 1149048000000 , 2.7127537218463] , [ 1151640000000 , 3.1195497076283] , [ 1154318400000 , 3.4066964004508] , [ 1156996800000 , 3.3754571113569] , [ 1159588800000 , 2.2965579982924] , [ 1162270800000 , 2.4486818633018] , [ 1164862800000 , 2.4002308848517] , [ 1167541200000 , 1.9649579750349] , [ 1170219600000 , 1.9385263638056] , [ 1172638800000 , 1.9128975336387] , [ 1175313600000 , 2.3412869836298] , [ 1177905600000 , 2.4337870351445] , [ 1180584000000 , 2.62179703171] , [ 1183176000000 , 3.2642864957929] , [ 1185854400000 , 3.3200396223709] , [ 1188532800000 , 3.3934212707572] , [ 1191124800000 , 4.2822327088179] , [ 1193803200000 , 4.1474964228541] , [ 1196398800000 , 4.1477082879801] , [ 1199077200000 , 5.2947122916128] , [ 1201755600000 , 5.2919843508028] , [ 1204261200000 , 5.1989783050309] , [ 1206936000000 , 3.5603057673513] , [ 1209528000000 , 3.3009087690692] , [ 1212206400000 , 3.1784852603792] , [ 1214798400000 , 4.5889503538868] , [ 1217476800000 , 4.401779617494] , [ 1220155200000 , 4.2208301828278] , [ 1222747200000 , 3.89396671475] , [ 1225425600000 , 3.0423832241354] , [ 1228021200000 , 3.135520611578] , [ 1230699600000 , 1.9631418164089] , [ 1233378000000 , 1.8963543874958] , [ 1235797200000 , 1.8266636017025] , [ 1238472000000 , 0.93136635895188] , [ 1241064000000 , 0.92737801918888] , [ 1243742400000 , 0.97591889805002] , [ 1246334400000 , 2.6841193805515] , [ 1249012800000 , 2.5664341140531] , [ 1251691200000 , 2.3887523699873] , [ 1254283200000 , 1.1737801663681] , [ 1256961600000 , 1.0953582317281] , [ 1259557200000 , 1.2495674976653] , [ 1262235600000 , 0.36607452464754] , [ 1264914000000 , 0.3548719047291] , [ 1267333200000 , 0.36769242398939] , [ 1270008000000 , 0] , [ 1272600000000 , 0] , [ 1275278400000 , 0] , [ 1277870400000 , 0] , [ 1280548800000 , 0] , [ 1283227200000 , 0] , [ 1285819200000 , 0.85450741275337] , [ 1288497600000 , 0.91360317921637] , [ 1291093200000 , 0.89647678692269] , [ 1293771600000 , 0.87800687192639] , [ 1296450000000 , 0] , [ 1298869200000 , 0] , [ 1301544000000 , 0.43668720882994] , [ 1304136000000 , 0.4756523602692] , [ 1306814400000 , 0.46947368328469] , [ 1309406400000 , 0.45138896152316] , [ 1312084800000 , 0.43828726648117] , [ 1314763200000 , 2.0820861395316] , [ 1317355200000 , 0.9364411075395] , [ 1320033600000 , 0.60583907839773] , [ 1322629200000 , 0.61096950747437] , [ 1325307600000 , 0] , [ 1327986000000 , 0] , [ 1330491600000 , 0] , [ 1333166400000 , 0] , [ 1335758400000 , 0] , [ 1338436800000 , 0]]
+										} ,					
+										];
+										var colors = d3.scale.category20();
+										var chart;
+										nv.addGraph(function() {
+											chart = nv.models.stackedAreaChart()
+											.useInteractiveGuideline(true)
+											.x(function(d) { return d[0] })
+											.y(function(d) { return d[1] })
+											.controlLabels({stacked: "Stacked"})
+											.duration(300);
+											chart.xAxis.tickFormat(function(d) { return d3.time.format('%x')(new Date(d)) });
+											chart.yAxis.tickFormat(d3.format(',.4f'));
+											chart.legend.vers('furious');
+											d3.select('#chart4')
+											.datum(histcatexplong)
+											.transition().duration(1000)
+											.call(chart)
+											.each('start', function() {
+												setTimeout(function() {
+													d3.selectAll('#chart4 *').each(function() {
+														if(this.__transition__)
+														this.__transition__.duration = 1;
+													})
+												}, 0)
+											});
+											nv.utils.windowResize(chart.update);
 											return chart;
 										});
-									}
-									defaultChartConfig("#chart1",sine());
-									defaultChartConfig("#chart2", volatileChart(130.0, 0.02));
-									defaultChartConfig("#chart3", volatileChart(25.0, 0.09,30));
-									function sine() {
-										var sin = [];
-										var now =+new Date();
-										for (var i = 0; i < 100; i++) {
-											sin.push({x: now + i * 1000 * 60 * 60 * 24, y: Math.sin(i/10)});
-										}
-										return sin;
-									}
-									function volatileChart(startPrice, volatility, numPoints) {
-										var rval =  [];
-										var now =+new Date();
-										numPoints = numPoints || 100;
-										for(var i = 1; i < numPoints; i++) {
-											rval.push({x: now + i * 1000 * 60 * 60 * 24, y: startPrice});
-											var rnd = Math.random();
-											var changePct = 2 * volatility * rnd;
-											if ( changePct > volatility) {
-												changePct -= (2*volatility);
-											}
-											startPrice = startPrice + startPrice * changePct;
-										}
-										return rval;
-									}
-								</script>
-								
-								<!-- Chart-Scatterplot -->
-								<script>
-									var chart;
-									nv.addGraph(function() {
-										chart = nv.models.scatterChart()
-										.showDistX(true)
-										.showDistY(true)
-										.duration(300)
-										.color(d3.scale.category10().range());
-										chart.dispatch.on('renderEnd', function(){
-											console.log('render complete');
-										});
-										chart.xAxis.tickFormat(d3.format('.02f'));
-										chart.yAxis.tickFormat(d3.format('.02f'));
-										d3.select('#test1 svg')
-										.datum(nv.log(randomData(4,40)))
-										.call(chart);
-										nv.utils.windowResize(chart.update);
-										chart.dispatch.on('stateChange', function(e) { nv.log('New State:', JSON.stringify(e)); });
-										return chart;
-									});
-									function randomData(groups, points) { //# groups,# points per group
-										var data = [],
-										shapes = ['circle'],
-										random = d3.random.normal();
-										for (i = 0; i < groups; i++) {
-											data.push({
-												key: 'Group ' + i,
-												values: [],
-												slope: Math.random() - .01,
-												intercept: Math.random() - .5
-											});
-											for (j = 0; j < points; j++) {
-												data[i].values.push({
-													x: random(),
-													y: random(),
-													size: Math.random(),
-													shape: shapes[j % shapes.length]
+									</script>
+									
+									<!-- Chart-Sparkline -->
+									<script>
+										function defaultChartConfig(containerId, data) {
+											nv.addGraph(function() {
+												var chart = nv.models.sparklinePlus();
+												chart.margin({left:70})
+												.x(function(d,i) { return i })
+												.showLastValue(true)
+												.xTickFormat(function(d) {
+													return d3.time.format('%x')(new Date(data[d].x))
 												});
+												d3.select(containerId)
+												.datum(data)
+												.call(chart);
+												return chart;
+											});
+										}
+										defaultChartConfig("#chart1",sine());
+										defaultChartConfig("#chart2", volatileChart(130.0, 0.02));
+										defaultChartConfig("#chart3", volatileChart(25.0, 0.09,30));
+										function sine() {
+											var sin = [];
+											var now =+new Date();
+											for (var i = 0; i < 100; i++) {
+												sin.push({x: now + i * 1000 * 60 * 60 * 24, y: Math.sin(i/10)});
+											}
+											return sin;
+										}
+										function volatileChart(startPrice, volatility, numPoints) {
+											var rval =  [];
+											var now =+new Date();
+											numPoints = numPoints || 100;
+											for(var i = 1; i < numPoints; i++) {
+												rval.push({x: now + i * 1000 * 60 * 60 * 24, y: startPrice});
+												var rnd = Math.random();
+												var changePct = 2 * volatility * rnd;
+												if ( changePct > volatility) {
+													changePct -= (2*volatility);
+												}
+												startPrice = startPrice + startPrice * changePct;
+											}
+											return rval;
+										}
+									</script>
+									
+									<!-- Chart-Scatterplot -->
+									<script>
+										var chart;
+										nv.addGraph(function() {
+											chart = nv.models.scatterChart()
+											.showDistX(true)
+											.showDistY(true)
+											.duration(300)
+											.color(d3.scale.category10().range());
+											chart.dispatch.on('renderEnd', function(){
+												console.log('render complete');
+											});
+											chart.xAxis.tickFormat(d3.format('.02f'));
+											chart.yAxis.tickFormat(d3.format('.02f'));
+											d3.select('#test1 svg')
+											.datum(nv.log(randomData(4,40)))
+											.call(chart);
+											nv.utils.windowResize(chart.update);
+											chart.dispatch.on('stateChange', function(e) { nv.log('New State:', JSON.stringify(e)); });
+											return chart;
+										});
+										function randomData(groups, points) { //# groups,# points per group
+											var data = [],
+											shapes = ['circle'],
+											random = d3.random.normal();
+											for (i = 0; i < groups; i++) {
+												data.push({
+													key: 'Group ' + i,
+													values: [],
+													slope: Math.random() - .01,
+													intercept: Math.random() - .5
+												});
+												for (j = 0; j < points; j++) {
+													data[i].values.push({
+														x: random(),
+														y: random(),
+														size: Math.random(),
+														shape: shapes[j % shapes.length]
+													});
+												}
+											}
+											return data;
+										}
+									</script>
+									
+									<!-- Chart-FocusContext -->
+									<script>
+										nv.addGraph(function() {
+											var chart = nv.models.lineWithFocusChart();
+											chart.brushExtent([50,70]);
+											chart.xAxis.tickFormat(d3.format(',f'));
+											chart.x2Axis.tickFormat(d3.format(',f'));
+											chart.yAxis.tickFormat(d3.format(',.2f'));
+											chart.y2Axis.tickFormat(d3.format(',.2f'));
+											chart.useInteractiveGuideline(true);
+											d3.select('#chart svg')
+											.datum(testData())
+											.call(chart);
+											nv.utils.windowResize(chart.update);
+											return chart;
+										});
+										function testData() {
+											return stream_layers(3,128,.1).map(function(data, i) {
+												return {
+													key: 'Stream' + i,
+													area: i === 1,
+													values: data
+												};
+											});
+										}
+									</script>
+									
+									<script>
+										var checkboxes = document.querySelectorAll('input.thing'),
+										checkall = document.getElementById('checkall');
+										
+										for(var i=0; i<checkboxes.length; i++) {
+											checkboxes[i].onclick = function() {
+												var checkedCount = document.querySelectorAll('input.thing:checked').length;
+												
+												checkall.checked = checkedCount > 0;
+												checkall.indeterminate = checkedCount > 0 && checkedCount < checkboxes.length;
 											}
 										}
-										return data;
-									}
-								</script>
-								
-								<!-- Chart-FocusContext -->
-								<script>
-									nv.addGraph(function() {
-										var chart = nv.models.lineWithFocusChart();
-										chart.brushExtent([50,70]);
-										chart.xAxis.tickFormat(d3.format(',f'));
-										chart.x2Axis.tickFormat(d3.format(',f'));
-										chart.yAxis.tickFormat(d3.format(',.2f'));
-										chart.y2Axis.tickFormat(d3.format(',.2f'));
-										chart.useInteractiveGuideline(true);
-										d3.select('#chart svg')
-										.datum(testData())
-										.call(chart);
-										nv.utils.windowResize(chart.update);
-										return chart;
-									});
-									function testData() {
-										return stream_layers(3,128,.1).map(function(data, i) {
-											return {
-												key: 'Stream' + i,
-												area: i === 1,
-												values: data
-											};
-										});
-									}
-								</script>
-								
-								<script>
-									var checkboxes = document.querySelectorAll('input.thing'),
-									checkall = document.getElementById('checkall');
+										
+										checkall.onclick = function() {
+											for(var i=0; i<checkboxes.length; i++) {
+												checkboxes[i].checked = this.checked;
+											}
+										}
+									</script>
 									
-									for(var i=0; i<checkboxes.length; i++) {
-										checkboxes[i].onclick = function() {
-											var checkedCount = document.querySelectorAll('input.thing:checked').length;
+									<!-- Dropdown fix -->
+									<script>
+										$( document.body ).on( 'click', '.dropdown-menu li', function( event ) {
 											
-											checkall.checked = checkedCount > 0;
-											checkall.indeterminate = checkedCount > 0 && checkedCount < checkboxes.length;
-										}
-									}
-									
-									checkall.onclick = function() {
-										for(var i=0; i<checkboxes.length; i++) {
-											checkboxes[i].checked = this.checked;
-										}
-									}
-								</script>
+											var $target = $( event.currentTarget );
+											
+											$target.closest( '.btn-group' )
+											.find( '[data-bind="label"]' ).text( $target.text() )
+											.end()
+											.children( '.dropdown-toggle' ).dropdown( 'toggle' );
+											
+											return false;
+											
+										});
+									</script>
+									<script>
+										PNotify.prototype.options.styling = "fontawesome";
+									</script>
+								</body>
 								
-								<!-- Dropdown fix -->
-								<script>
-									$( document.body ).on( 'click', '.dropdown-menu li', function( event ) {
-										
-										var $target = $( event.currentTarget );
-										
-										$target.closest( '.btn-group' )
-										.find( '[data-bind="label"]' ).text( $target.text() )
-										.end()
-										.children( '.dropdown-toggle' ).dropdown( 'toggle' );
-										
-										return false;
-										
-									});
-								</script>
-								<script>
-									PNotify.prototype.options.styling = "fontawesome";
-								</script>
-							</body>
-							
-						</html>																			
+							</html>																										

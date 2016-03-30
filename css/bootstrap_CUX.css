@@ -2266,7 +2266,7 @@ caption {
 }
 th {
 	text-align: left;
-    background: #e1e1e1;
+    background: #e6e6e6;
 }
 .table {
 	width: 100%;
@@ -2329,7 +2329,7 @@ th {
 	background-color: #f0f0f0;
 }
 .table-hover > tbody > tr:hover {
-	background-color: #ebebeb;
+	background-color: #bedef6;
 }
 table col[class*="col-"] {
 	position: static;
