@@ -741,11 +741,11 @@
                                         <span aria-hidden="true">&laquo;</span>
 										</a>
 									</li>
-									<li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-									<li><a href="#">2</a></li>
-									<li><a href="#">3</a></li>
-									<li><a href="#">4</a></li>
-									<li><a href="#">5</a></li>
+									<li class="active"><a href="#1">1</a></li>
+									<li><a href="#2">2</a></li>
+									<li><a href="#3">3</a></li>
+									<li><a href="#4">4</a></li>
+									<li><a href="#5">5</a></li>
 									<li>
 										<a href="#" aria-label="Next">
                                         <span aria-hidden="true">&raquo;</span>
@@ -797,9 +797,9 @@
 						<h3 id="ui-menus-tabs">Tabs</h3>
 						<div class="well well-transparent">
 							<ul class="nav nav-tabs">
-								<li role="presentation" class="active"><a href="#">Home</a></li>
-								<li role="presentation"><a href="#">Profile</a></li>
-								<li role="presentation"><a href="#">Messages</a></li>
+								<li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+								<li><a href="#profile" data-toggle="tab">Profile</a></li>
+								<li><a href="#messages" data-toggle="tab">Messages</a></li>
 							</ul>
 						</div>
 						
@@ -959,10 +959,10 @@
 							<div class="bs-example" data-example-id="checkboxes">
 								<form>
 									<input type="checkbox" id="inlineCheckbox1" value="option1">
-									<label style="margin-left:-20px; margin-right:30px;" class="checkbox-inline" for="inlineCheckbox1">Unselected</label>
+									<label style="margin-left:-20px; margin-right:30px;" class="checkbox-inline" for="inlineCheckbox1">Option 1</label>
 									
 									<input type="checkbox" checked="checked" id="inlineCheckbox2" value="option2">
-									<label style="margin-left:-20px; margin-right:30px;" class="checkbox-inline" for="inlineCheckbox2">Selected</label>
+									<label style="margin-left:-20px; margin-right:30px;" class="checkbox-inline" for="inlineCheckbox2">Option 2</label>
 									
 									<input type="checkbox" disabled="disabled" id="inlineCheckbox3" value="option3">
 									<label style="margin-left:-20px; margin-right:30px;" class="checkbox-inline" for="inlineCheckbox3">Disabled</label>
@@ -992,21 +992,16 @@
 						<h3 id="ui-selections-radios">Radio buttons</h3>
 						<p>Use radios for only one options</p>
 						<div class="well well-transparent">
-							<div class="bs-example" data-example-id="radios">
-								<form>
-									<input type="radio" id="inlineRadio1" value="option1">
-									<label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio1">Unselected</label>
-									
-									<input type="radio" id="inlineRadio2" checked="checked" value="option2">
-									<label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio2">Selected</label>
-									
-									<input type="radio" id="inlineRadio3" disabled="disabled" value="option3">
-									<label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio3">Disabled</label>
-									
-									<input type="radio" id="inlineRadio4" checked="checked" disabled="disabled" value="option4">
-									<label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio4">Disabled selected</label>
-								</form>
-							</div>
+                            <form>
+                                <input type="radio" name="test" id="inlineRadio1" value="option1">
+                                <label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio1">Option 1</label>
+                                
+                                <input type="radio" name="test" id="inlineRadio2" checked="checked" value="option2">
+                                <label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio2">Option 2</label>
+                                
+                                <input type="radio" name="test" id="inlineRadio3" disabled="disabled" value="option3">
+                                <label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio3">Disabled</label>
+                            </form>
 						</div>
 						
 						<!-- UI-Sliders -->
@@ -1242,12 +1237,12 @@
 						<h3 id="ui-buttons-black">Toggle buttons</h3>
 						<div class="well" style="background: #f9f9f9;">
 							<h4>Toggle buttons</h4>
-							<div class="btn-group">
-								<button type="button" class="btn btn-default">Unselected</button>
-								<button type="button" class="btn btn-default active">Selected</button>
+							<div class="btn-group" data-toggle="buttons-radio">
+								<button type="radio" data-toggle="toggle" class="btn btn-default">Option 1</button>
+								<button type="radio" data-toggle="toggle" class="btn btn-default active">Option 2</button>
 							</div>
 							<h4>Multi-select</h4>
-							<div class="btn-group">
+							<div class="btn-group" data-toggle="buttons-checkboxes">
 								<button type="button" class="btn btn-default">1</button>
 								<button type="button" class="btn btn-default active">2</button>
 								<button type="button" class="btn btn-default active">3</button>
@@ -1500,13 +1495,19 @@
 									<label style="margin-left:-20px; margin-right:30px;" class="checkbox-inline" for="inlineCheckbox10">I agree to everything</label>
 								</div>
 								<div class="form-group">
-									<label for="inlineCheckbox1" class="control-label">Please select category</label>
-									<input type="radio" id="inlineRadio10" checked="checked" value="option1">
-									<label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio10">Human</label>
-									<input type="radio" id="inlineRadio11" value="option1">
-									<label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio11">Robot</label>
-									<input type="radio" id="inlineRadio12" value="option1">
-									<label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio12">Android</label>
+									<label for="inlineRadio10" class="control-label">Please select category</label>
+									<div class="radio" style="margin-left:25px">
+                                        <input type="radio" name="category" id="inlineRadio10" checked="checked" value="1">
+                                        <label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio10">Human</label>
+                                    </div> 
+                                    <div class="radio" style="margin-left:25px">   
+                                        <input type="radio" name="category" id="inlineRadio11" value="2">
+                                        <label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio11">Robot</label>
+                                    </div> 
+                                    <div class="radio" style="margin-left:25px">
+                                        <input type="radio" name="category" id="inlineRadio12" value="3">
+                                        <label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio12">Android</label>
+                                    </div> 
 								</div>
 								<div class="form-group">
 									<label style="margin-top:12px;" for="inputType" class="control-label">State robot type (disabled)</label>
@@ -1560,13 +1561,19 @@
 								</div>
 								<div class="form-group">
 									<label for="inlineRadio20" class="control-label-blue">Please select category</label>
-									<input type="radio" id="inlineRadio20" checked="checked" value="option1">
-									<label style="margin-left:-20px; margin-right:30px; color:#bdddf5;" class="radio-inline" for="inlineRadio20">Human</label>
-									<input type="radio" id="inlineRadio21" value="option1">
-									<label style="margin-left:-20px; margin-right:30px; color:#bdddf5;" class="radio-inline" for="inlineRadio21">Robot</label>
-									<input type="radio" id="inlineRadio22" value="option1">
-									<label style="margin-left:-20px; margin-right:30px; color:#bdddf5;" class="radio-inline" for="inlineRadio22">Android</label>
-								</div>
+                                    <div class="radio" style="margin-left:25px">
+                                        <input type="radio" name="category" id="inlineRadio20" checked="checked" value="1">
+                                        <label style="margin-left:-20px; margin-right:30px; color:#bdddf5;" class="radio-inline" for="inlineRadio20">Human</label>
+									</div>
+                                    <div class="radio" style="margin-left:25px">
+                                        <input type="radio" name="category" id="inlineRadio21" value="2">
+                                        <label style="margin-left:-20px; margin-right:30px; color:#bdddf5;" class="radio-inline" for="inlineRadio21">Robot</label>
+									</div>
+                                    <div class="radio" style="margin-left:25px">
+                                        <input type="radio" name="category" id="inlineRadio22" value="3">
+                                        <label style="margin-left:-20px; margin-right:30px; color:#bdddf5;" class="radio-inline" for="inlineRadio22">Android</label>
+                                    </div>
+								</div>                 
 								<div class="form-group">
 									<label style="margin-top:12px;" for="inputType" class="control-label-blue">State robot type (disabled)</label>
 									<input type="text" class="form-control-blue" id="inputType" placeholder="MEC200" disabled>
@@ -1619,13 +1626,19 @@
 								</div>
 								<div class="form-group">
 									<label for="inlineRadio30" class="control-label-black">Please select category</label>
-									<input type="radio" id="inlineRadio30" checked="checked" value="option1">
-									<label style="margin-left:-20px; margin-right:30px; color:#9f9f9f;" class="radio-inline" for="inlineRadio30">Human</label>
-									<input type="radio" id="inlineRadio31" value="option1">
-									<label style="margin-left:-20px; margin-right:30px; color:#9f9f9f;" class="radio-inline" for="inlineRadio31">Robot</label>
-									<input type="radio" id="inlineRadio32" value="option1">
-									<label style="margin-left:-20px; margin-right:30px; color:#9f9f9f;" class="radio-inline" for="inlineRadio32">Android</label>
-								</div>
+                                    <div class="radio" style="margin-left:25px">
+                                        <input type="radio" name="category" id="inlineRadio30" checked="checked" value="1">
+                                        <label style="margin-left:-20px; margin-right:30px; color:#9f9f9f;" class="radio-inline" for="inlineRadio30">Human</label>
+									</div>
+                                    <div class="radio" style="margin-left:25px">
+                                        <input type="radio" name="category" id="inlineRadio31" value="2">
+                                        <label style="margin-left:-20px; margin-right:30px; color:#9f9f9f;" class="radio-inline" for="inlineRadio31">Robot</label>
+									</div>
+                                    <div class="radio" style="margin-left:25px">
+                                        <input type="radio" name="category" id="inlineRadio32" value="3">
+                                        <label style="margin-left:-20px; margin-right:30px; color:#9f9f9f;" class="radio-inline" for="inlineRadio32">Android</label>
+                                    </div>
+								</div>       
 								<div class="form-group">
 									<label style="margin-top:12px;" for="inputType" class="control-label-black">State robot type (disabled)</label>
 									<input type="text" class="form-control-black" id="inputType" placeholder="MEC200" disabled>
@@ -2670,52 +2683,50 @@
 													<h5>Site</h5>
 													<span>
 														<select class="form-control" style="width:95%;">
-															<option>1</option>
-															<option>2</option>
-															<option>3</option>
-															<option>4</option>
-															<option>5</option>
+															<option>Ormen Lange</option>
+															<option>Kollsness</option>
+															<option>Goliat</option>
+															<option>Veslefrikk</option>
+															<option>Troll B</option>
 														</select>
 													</span> 
 													<h5>Plant</h5>
 													<span>
 														<select class="form-control" style="width:95%;">
-															<option>1</option>
-															<option>2</option>
-															<option>3</option>
-															<option>4</option>
-															<option>5</option>
+															<option>Nyhammna North</option>
+															<option>Nyhammna South</option>
+															<option>Ormen Lange Export</option>
 														</select>
 													</span>    
 													<h5>Area</h5>
 													<span>
 														<select class="form-control" style="width:95%;">
-															<option>1</option>
-															<option>2</option>
-															<option>3</option>
-															<option>4</option>
-															<option>5</option>
+															<option>Condensate train</option>
+															<option>Export compressor</option>
+															<option>Separator train</option>
+															<option>Dehydrator</option>
+															<option>Test compressor</option>
 														</select>
 													</span>       
                                                     <h4 style="margin-top: 20px;">Filter by safety parameters</h4>
 													<h5>Safety Integrity Level</h5>
 													<span>
 														<select class="form-control" style="width:95%;">
-															<option>1</option>
-															<option>2</option>
-															<option>3</option>
-															<option>4</option>
-															<option>5</option>
+															<option>SIL 1</option>
+															<option>SIL 2</option>
+															<option>SIL 3</option>
+															<option>SIL 4</option>
+															<option>-</option>
 														</select>
 													</span> 
 													<h5>Status</h5>
 													<span>
 														<select class="form-control" style="width:95%;">
-															<option>1</option>
-															<option>2</option>
-															<option>3</option>
-															<option>4</option>
-															<option>5</option>
+															<option>New</option>
+															<option>Open</option>
+															<option>Reviewed</option>
+															<option>Approved</option>
+															<option>Closed</option>
 														</select>
 													</span>  
 												</ul>
@@ -2804,184 +2815,187 @@
 									<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
 										<div class="modal-dialog" role="document" style="width: 70%;">
 											<div class="modal-content">
-												<div class="modal-header">
-													<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-													<h3 class="modal-title" id="myModalLabel">Instrument details</h3>
-												</div>
-												<div class="modal-body">
-													
-                                                    <div class="row">
-                                                        <div class="col-lg-7">
-															
-                                                            <h4>Identifiers</h4>
-															
-															
-															<div class="form-group">
-																<label for="inputName" class="control-label">Instrument type</label>
-																<input type="text" class="form-control" id="inputName" required>
-															</div>
-															<div class="form-group">
-																<label for="inputName" class="control-label">Manufacturer</label>
-																<input type="text" class="form-control" id="inputName" required>
-															</div>
-															<form class="form-inline">
-																<div class="form-group">
-																	<label for="inputName" class="control-label">Model</label>
-																	<input type="text" class="form-control" id="inputName" style="width: 634px;" required>
-																</div>
-																<div class="form-group">
-																	<label for="inputName" class="control-label">Version</label>
-																	<select class="form-control">
-																		<option>1</option>
-																		<option>2</option>
-																		<option>3</option>
-																	</select>
-																</div>
-																<div class="form-group">
-																	<label for="inputName" class="control-label">Wetted?</label>
-																	<select class="form-control">
-																		<option>-</option>
-																		<option>Yes</option>
-																		<option>No</option>
-																	</select>
-																</div>
-															</form>
-														</div>
-														
-														<div class="col-lg-4 col-lg-offset-1">
-															
-															<h4>References</h4>
-															<div class="form-group">
-																<label for="inputName" class="control-label">Link</label>
-																<input type="text" class="form-control" id="inputName" required>
-															</div>
-															<div class="form-group">
-																<label for="inputName" class="control-label">Proven in use?</label>
-																<input type="text" class="form-control" id="inputName" required>
-															</div>
-														</div>
-														
+                                                
+                                                <form data-toggle="validator" role="form">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                        <h3 class="modal-title" id="myModalLabel">Instrument details</h3>
 													</div>
-													
-													<div class="row">
-														<div class="col-lg-12">
-															
-															<h4 style="padding-top:20px;">Reliability data</h4>
-															
-															<form class="form-inline">
-																<div class="form-group">
-																	<label for="inputName" class="control-label">Dataset</label>
-																	<select class="form-control" style="width:300px;">
-																		<option>Manufacturer's predicted reliability data</option>
-																		<option>ABB Safety Excecution Centers data</option>
-																		<option>Actual field data</option>
-																	</select>
+                                                    <div class="modal-body">													
+														<div class="row">
+															<div class="col-lg-7">
+																
+																<h4>Identifiers</h4>
+																
+																
+                                                                <div class="form-group">
+                                                                    <label for="inputName" class="control-label">Instrument type</label>
+                                                                    <input type="text" class="form-control" id="inputName" required>
 																</div>
-																<div class="form-group">
-																	<label for="inputName" class="control-label" style="width:300px; margin-left:50px;">Information source</label>
-																	<input type="text" class="form-control" id="inputName" style="width:940px; margin-left:50px;" required>
+                                                                <div class="form-group">
+                                                                    <label for="inputName" class="control-label">Manufacturer</label>
+                                                                    <input type="text" class="form-control" id="inputName" required>
 																</div>
-															</form>
-															<form style="padding-top:20px;">
-																<table class="table" data-provide="datagrid">
-																	<thead>
-																		<tr>
-																			<th>Parameter</th>
-																			<th>Base</th>
-																			<th>Factor</th>
-																			<th>For calculation</th>
-																			<th>Justification</th>
-																			<th>Actual (field)</th>
-																		</tr>
-																	</thead>
-																	<tbody>
-																		<tr>
-																			<td>&#955 D</td>
-																			<td>0.00483</td>
-																			<td>10</td>
-																			<td>0.0483</td>
-																			<td>Suitable justification for factor 10</td>
-																			<td>0.006678</td>
-																		</tr>
-																		<tr>
-																			<td>&#955 S</td>
-																			<td>9.6E-6</td>
-																			<td>10</td>
-																			<td>9.6E-5</td>
-																			<td>Suitable justification for factor 10</td>
-																			<td>0.00091</td>
-																		</tr>
-																		<tr>
-																			<td>MTTR</td>
-																			<td>72</td>
-																			<td>1</td>
-																			<td>72</td>
-																			<td></td>
-																			<td>50</td>
-																		</tr>
-																	</tbody>
-																</table>
-															</form>
-														</div>
-													</div>
-													
-													<div class="row">
-														<div class="col-lg-12">
-															
-															<h4 style="padding-top:20px;">SIL capabilities</h4>
-															<form class="form-inline">
-																<div class="form-group">
-																	<label for="inputName" class="control-label">Diagnostic coverage</label>
-																	<div class="input-group">
-																		<input type="text" class="form-control" id="inputName" style="width:100px;" required>
-																		<span class="input-group-addon">%</span>
+                                                                <div class="form-inline" role="form">
+                                                                    <div class="form-group">
+                                                                        <label for="inputName" class="control-label">Model</label>
+                                                                        <input type="text" class="form-control" id="inputName" style="width: 634px;" required>
+																	</div>
+                                                                    <div class="form-group">
+                                                                        <label for="inputName"  class="control-label">Version</label>
+                                                                        <select class="form-control">
+                                                                            <option>1</option>
+                                                                            <option>2</option>
+                                                                            <option>3</option>
+																		</select>
+																	</div>
+                                                                    <div class="form-group">
+                                                                        <label for="inputName"  class="control-label">Wetted?</label>
+                                                                        <select class="form-control">
+                                                                            <option>-</option>
+                                                                            <option>Yes</option>
+                                                                            <option>No</option>
+																		</select>
 																	</div>
 																</div>
+															</div>
+															
+															<div class="col-lg-4 col-lg-offset-1">
+																
+																<h4>References</h4>
 																<div class="form-group">
-																	<label for="inputName" class="control-label">Safe failure fraction (SFF)</label>
-																	<div class="input-group">
-																		<input type="text" class="form-control" id="inputName" style="width:100px;" required>
-																		<span class="input-group-addon">%</span>
+																	<label for="inputName" class="control-label">Link</label>
+																	<input type="text" class="form-control" id="inputName">
+																</div>
+																<div class="form-group">
+																	<label for="inputName" class="control-label">Proven in use?</label>
+																	<input type="text" class="form-control" id="inputName">
+																</div>
+															</div>
+															
+														</div>
+														
+														<div class="row">
+															<div class="col-lg-12">
+																
+																<h4 style="padding-top:20px;">Reliability data</h4>
+																
+																<div class="form-inline">
+																	<div class="form-group">
+																		<label for="inputName" class="control-label">Dataset</label>
+																		<select class="form-control" style="width:300px;">
+																			<option>Manufacturer's predicted reliability data</option>
+																			<option>ABB Safety Excecution Centers data</option>
+																			<option>Actual field data</option>
+																		</select>
+																	</div>
+																	<div class="form-group">
+																		<label for="inputName" class="control-label" style="width:300px; margin-left:50px;">Information source</label>
+																		<input type="text" class="form-control" id="inputName" style="width:940px; margin-left:50px;">
 																	</div>
 																</div>
-																<div class="form-group">
-																	<label for="inputName" class="control-label" style="margin-left:70px;">Safe failure fraction band</label>
-																	<input type="text" class="form-control" id="inputName" style="margin-left:70px;" readonly>
+																<div style="padding-top:20px;">
+																	<table class="table" data-provide="datagrid">
+																		<thead>
+																			<tr>
+																				<th>Parameter</th>
+																				<th>Base</th>
+																				<th>Factor</th>
+																				<th>For calculation</th>
+																				<th>Justification</th>
+																				<th>Actual (field)</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr>
+																				<td>&#955 D</td>
+																				<td>0.00483</td>
+																				<td>10</td>
+																				<td>0.0483</td>
+																				<td>Suitable justification for factor 10</td>
+																				<td>0.006678</td>
+																			</tr>
+																			<tr>
+																				<td>&#955 S</td>
+																				<td>9.6E-6</td>
+																				<td>10</td>
+																				<td>9.6E-5</td>
+																				<td>Suitable justification for factor 10</td>
+																				<td>0.00091</td>
+																			</tr>
+																			<tr>
+																				<td>MTTR</td>
+																				<td>72</td>
+																				<td>1</td>
+																				<td>72</td>
+																				<td></td>
+																				<td>50</td>
+																			</tr>
+																		</tbody>
+																	</table>
 																</div>
-															</form>
-															<form class="form-inline" style="margin-top:15px;">
-																<div class="form-group">
-																	<label for="inputName" class="control-label">Type</label>
-																	<select class="form-control">
-																		<option>A</option>
-																		<option>B</option>
-																		<option>C</option>
-																	</select>
-																</div>
-																<div class="form-group">
-																	<label for="inputName" class="control-label">HW fault tolerance</label>
-																	<input type="text" class="form-control" id="inputName" required>
-																</div>
-																<div class="form-group">
-																	<label for="inputName" class="control-label" style="margin-left:130px;">Max HW SIL (IEC 61508)</label>
-																	<input type="text" class="form-control" id="inputName" style="margin-left:130px;" readonly>
-																</div>
-																<div class="form-group">
-																	<label for="inputName" class="control-label">Systematic capability</label>
-																	<input type="text" class="form-control" id="inputName" required>
-																</div>
-															</form>
+															</div>
 														</div>
-													</div>
-													<div class="modal-footer">
-														<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-trash-o"></i> Delete</button>
-														<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-														<button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
-													</div>
-												</div>
-											</div>
-										</div>
+														
+														<div class="row">
+															<div class="col-lg-12">
+																
+																<h4 style="padding-top:20px;">SIL capabilities</h4>
+																<div class="form-inline">
+																	<div class="form-group">
+																		<label for="inputName" class="control-label">Diagnostic coverage</label>
+																		<div class="input-group">
+																			<input type="text" class="form-control" id="inputName" style="width:100px;">
+																			<span class="input-group-addon">%</span>
+																		</div>
+																	</div>
+																	<div class="form-group">
+																		<label for="inputName" class="control-label">Safe failure fraction (SFF)</label>
+																		<div class="input-group">
+																			<input type="text" class="form-control" id="inputName" style="width:100px;">
+																			<span class="input-group-addon">%</span>
+																		</div>
+																	</div>
+																	<div class="form-group">
+																		<label for="inputName" class="control-label" style="margin-left:70px;">Safe failure fraction band</label>
+																		<input type="text" class="form-control" id="inputName" style="margin-left:70px;" readonly>
+																	</div>
+																</div>
+																<div class="form-inline" style="margin-top:15px;">
+																	<div class="form-group">
+																		<label for="inputName" class="control-label">Type</label>
+																		<select class="form-control">
+																			<option>A</option>
+																			<option>B</option>
+																			<option>C</option>
+																		</select>
+																	</div>
+																	<div class="form-group">
+																		<label for="inputName" class="control-label">HW fault tolerance</label>
+																		<input type="text" class="form-control" id="inputName">
+																	</div>
+																	<div class="form-group">
+																		<label for="inputName" class="control-label" style="margin-left:130px;">Max HW SIL (IEC 61508)</label>
+																		<input type="text" class="form-control" id="inputName" style="margin-left:130px;" readonly>
+																	</div>
+																	<div class="form-group">
+																		<label for="inputName" class="control-label">Systematic capability</label>
+																		<input type="text" class="form-control" id="inputName">
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-trash-o"></i> Delete</button>
+															<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+															<button type="submit" class="btn btn-primary" data-dismiss="modal">Save</button>
+														</div> 
+													</form> 
+												</div> 
+											</div> 
+										</div> 
 									</div> 
+                                    
 								</div>               
 								
 								<!--TRAC Examples-->
@@ -3076,11 +3090,11 @@
                                                                                 <div class="input-group">
                                                                                     <span class="input-group-addon"><i class="fa fa-search"></i></span>
                                                                                     <input style="width:300px;" id="trac-instruments" name="instrument-query" type="text" placeholder="Search" autocomplete="off">
-                                                                                </div>
+																				</div>
                                                                                 <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal2"><i style="margin-right:5px;" class="fa fa-plus"></i> Add new</button>  
-                                                                            </form>
-                                                                        </span>
-                                                                    </div>
+																			</form>
+																		</span>
+																	</div>
                                                                     
 																	<form style="padding-top:20px;">
 																		<table class="table">
@@ -3254,7 +3268,7 @@
 									<script type='text/javascript' src="js/bootstrap-datagrid.js"></script>
 									<script type='text/javascript' src="js/bootstrap-treefy.js"></script>
 									<script type='text/javascript' src="js/yii.js"></script>
-                                    <script type='text/javascript' src="js/jquery.typeahead.js"></script>
+                                    <script type='text/javascript' src="js/jquery.typeahead.min.js"></script>
 									
 									<!-- Libraries associated with NVD3 charts-->
 									<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
@@ -3641,18 +3655,64 @@
                                     
                                     <!-- TRAC Loop template typeahead-->
                                     <script type="text/javascript">
-                                    $('#trac-instruments').typeahead({
-                                        order: "desc",
-                                        source: {
-                                            url: ["/assets/instruments.json"]
-                                        },
-                                        callback: {
-                                            onInit: function (node) {
-                                                console.log('Typeahead Initiated on ' + node.selector);
-                                            }
-                                        }
-                                    });
-                                    </script>
+										$('#trac-instruments').typeahead({
+											order: "desc",
+											source: {
+												url: ["/assets/instruments.json", "data.id"]
+											},
+											callback: {
+												onNavigateAfter: function (node, query, event) {
+													if (~[38,40].indexOf(event.keyCode)) {
+														var resultList = node.closest("form").find("ul.typeahead-list"),
+														listItem = resultList.find("li.typeahead-item"),
+														activeListItem = listItem.filter(".active"),
+														offsetTop = activeListItem[0] && activeListItem[0].offsetTop - (resultList.height() / 2) || 0;
+														
+														resultList.scrollTop(offsetTop);
+													}
+													
+												},
+												onClickAfter: function (node, a, item, event) {
+													
+													event.preventDefault();
+													
+													var r = confirm("You will be redirected to:\n" + item.href + "\n\nContinue?");
+													if (r == true) {
+														window.open(item.href);
+													}
+													
+													$('#result-container').text('');
+													
+												},
+												onResult: function (node, query, result, resultCount) {
+													if (query === "") return;
+													
+													var text = "";
+													if (result.length > 0 && result.length < resultCount) {
+														text = "Showing <strong>" + result.length + "</strong> of <strong>" + resultCount + '</strong> elements matching "' + query + '"';
+														} else if (result.length > 0) {
+														text = 'Showing <strong>' + result.length + '</strong> elements matching "' + query + '"';
+														} else {
+														text = 'No results matching "' + query + '"';
+													}
+													$('#result-container').html(text);
+													
+												},
+												onMouseEnter: function (node, a, item, event) {
+													
+													if (item.group === "country") {
+														$(a).append('<span class="flag-chart flag-' + item.display.replace(' ', '-').toLowerCase() + '"></span>')
+													}
+													
+												},
+												onMouseLeave: function (node, a, item, event) {
+													
+													$(a).find('.flag-chart').remove();
+													
+												}
+											}
+										});
+									</script>
 									
 									<!-- Charty AlarmInsight Example-->
 									<script>
@@ -3864,4 +3924,4 @@
 									</script>
 								</body>
 								
-							</html>																										
+							</html>																																								
