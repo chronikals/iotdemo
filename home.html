@@ -902,15 +902,7 @@
 									</li>
 								</ul>
 							</div>
-						</div>
-                        
-                        <!-- UI-TreeTable -->
-						<h3 id="ui-menus-tree">Tree table with buttons</h3>
-						<p>Tree trable</p>
-						<div class="well well-transparent">
-                            <table id="w0" class="gtreetable table"><thead><tr><th width="100%">Name</th></tr></thead></table>
-						</div>
-                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This table uses the <a style="font-weight: bold;" href="https://github.com/gilek/bootstrap-gtreetable"target="_blank">GTreeTable 2</a> library</span>
+						</div>                       
                         
                         <!-- UI-TreeTable -->
 						<h3 id="ui-menus-tree">Tree table</h3>
@@ -3047,18 +3039,47 @@
 											
 											<div class="row">
 												<div class="col-lg-12">
-													<table class="table table-striped table-hover">
+													<table class="table table-striped table-hover" id="treefy2">
 														<thead><tr><th>Template name</th><th>Max HW SIL</th><th>Sys capability</th></tr></thead>
 														<tbody>
-															<tr><td>ABB temperature loop default template</td><td>SIL 2</td><td>SIL 2</td></tr>
-                                                            <tr><td>ABB temperature loop default template</td><td>SIL 2</td><td>SIL 2</td></tr>
-                                                            <tr><td>ABB temperature loop default template</td><td>SIL 2</td><td>SIL 2</td></tr>
-                                                            <tr><td>ABB temperature loop default template</td><td>SIL 2</td><td>SIL 2</td></tr>
-                                                            <tr><td>ABB temperature loop default template</td><td>SIL 2</td><td>SIL 2</td></tr>
-                                                            <tr><td>ABB temperature loop default template</td><td>SIL 2</td><td>SIL 2</td></tr>
-                                                            <tr><td>ABB temperature loop default template</td><td>SIL 2</td><td>SIL 2</td></tr>
-														</tbody>
-													</table>
+                                                            <tr data-node="treetable-1">
+                                                                <td>ABB temperature loop default template</td><td></td><td></td>
+                                                            </tr>
+                                                            <tr data-node="treetable-2" data-pnode="treetable-parent-1">
+                                                                <td>Termocouple</td><td>SIL 2</td><td>SIL 2</td>
+                                                            </tr>
+                                                            <tr data-node="treetable-3" data-pnode="treetable-parent-1">
+                                                                <td>Temperature transmitter</td><td>SIL 2</td><td>SIL 2</td>
+                                                            </tr>
+                                                            <tr data-node="treetable-4" data-pnode="treetable-parent-1">
+                                                                <td>I/O connection for temperature transmitter</td><td>SIL 2</td><td>SIL 2</td>
+                                                            </tr>
+                                                            <tr data-node="treetable-5">
+                                                                <td>ABB temperature loop default template</td><td></td><td></td>
+                                                            </tr>
+                                                            <tr data-node="treetable-6" data-pnode="treetable-parent-5">
+                                                                <td>Termocouple</td><td>SIL 2</td><td>SIL 2</td>
+                                                            </tr>
+                                                            <tr data-node="treetable-7" data-pnode="treetable-parent-5">
+                                                                <td>Temperature transmitter</td><td>SIL 2</td><td>SIL 2</td>
+                                                            </tr>
+                                                            <tr data-node="treetable-8" data-pnode="treetable-parent-5">
+                                                                <td>I/O connection for temperature transmitter</td><td>SIL 2</td><td>SIL 2</td>
+                                                            </tr>
+                                                            <tr data-node="treetable-9">
+                                                                <td>ABB temperature loop default template</td><td></td><td></td>
+                                                            </tr>
+                                                            <tr data-node="treetable-10" data-pnode="treetable-parent-9">
+                                                                <td>Termocouple</td><td>SIL 2</td><td>SIL 2</td>
+                                                            </tr>
+                                                            <tr data-node="treetable-11" data-pnode="treetable-parent-9">
+                                                                <td>Temperature transmitter</td><td>SIL 2</td><td>SIL 2</td>
+                                                            </tr>
+                                                            <tr data-node="treetable-12" data-pnode="treetable-parent-9">
+                                                                <td>I/O connection for temperature transmitter</td><td>SIL 2</td><td>SIL 2</td>
+                                                            </tr>
+                                                        </tbody>												
+													</table>                          
 												</div>  
 											</div>
 											
@@ -3264,7 +3285,6 @@
 									<script type='text/javascript' src="js/sweet-alert.js"></script>
 									<script type='text/javascript' src="js/pnotify.js"></script>
 									<script type='text/javascript' src="js/flat-toggle.js"></script>
-									<script type='text/javascript' src="js/bootstrap-gtreetable.js"></script>
 									<script type='text/javascript' src="js/bootstrap-datagrid.js"></script>
 									<script type='text/javascript' src="js/bootstrap-treefy.js"></script>
 									<script type='text/javascript' src="js/yii.js"></script>
@@ -3591,64 +3611,16 @@
 										})
 									</script>
 									
-									<!-- Gtreetable scripts-->
-									<script>
-										jQuery(document).ready(function () {
-											jQuery('#w0').gtreetable({"source":function (id) {
-												return {
-													type: 'GET',
-													url: URI('/web/index.php?r=site%2FnodeChildren').addSearch({'id':id}).toString(),
-													dataType: 'json',
-													error: function(XMLHttpRequest) {
-														alert(XMLHttpRequest.status+': '+XMLHttpRequest.responseText);
-													}
-												}; 
-												},"onSave":function (oNode) {
-												return {
-													type: 'POST',
-													url: !oNode.isSaved() ? '/web/index.php?r=site%2FnodeCreate' : URI('/web/index.php?r=site%2FnodeUpdate').addSearch({'id':oNode.getId()}).toString(),
-													data: {
-														parent: oNode.getParent(),
-														name: oNode.getName(),
-														position: oNode.getInsertPosition(),
-														related: oNode.getRelatedNodeId()
-													},
-													dataType: 'json',
-													error: function(XMLHttpRequest) {
-														alert(XMLHttpRequest.status+': '+XMLHttpRequest.responseText);
-													}
-												};        
-												},"onDelete":function(oNode) {
-												return {
-													type: 'POST',
-													url: URI('/web/index.php?r=site%2FnodeDelete').addSearch({'id':oNode.getId()}).toString(),
-													dataType: 'json',
-													error: function(XMLHttpRequest) {
-														alert(XMLHttpRequest.status+': '+XMLHttpRequest.responseText);
-													}
-												};        
-												},"onMove":function(oSource, oDestination, position) {
-												return {
-													type: 'POST',
-													url: URI('/web/index.php?r=site%2FnodeMove').addSearch({'id':oSource.getId()}).toString(),
-													data: {
-														related: oDestination.getId(),
-														position: position
-													},
-													dataType: 'json',
-													error: function(XMLHttpRequest) {
-														alert(XMLHttpRequest.status+': '+XMLHttpRequest.responseText);
-													}
-												};        
-											},"language":"en-US","manyroots":true,"draggable":true,"inputWidth":"300px"});
-										});
-									</script>
-									
 									<!-- Treefy example for parent rows in tables-->
 									<script>
 										$(function() {
 											$("#treefy").treeFy({
 												treeColumn: 1
+											});
+										});
+                                        $(function() {
+											$("#treefy2").treeFy({
+												treeColumn: 0
 											});
 										});
 									</script>
