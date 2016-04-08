@@ -1274,16 +1274,18 @@ h1,
 h2,
 .h2 {
 	font-size: 25px;
-	color: #272727;  
+	color: #272727;
 }
 h3,
 .h3 {
 	font-size: 18px;
 	color: #454545;
+    font-weight: bold;
 }
 h4,
 .h4 {
 	font-size: 16px;
+    font-weight: bold;
 }
 h5,
 .h5 {
@@ -2576,8 +2578,9 @@ output {
 	height: 36px;
 	padding-left: 12px;
 	font-size: 14px;
+    font-weight: 400;
 	line-height: 1.42857143;
-	color: #454545;
+	color: #414141;
 	background-color: #ffffff;
 	background-image: none;
 	border: 1px solid #dbdbdb;
@@ -2629,6 +2632,7 @@ textarea.form-control {
 	height: 36px;
 	padding-left: 12px;
 	font-size: 14px;
+    font-weight: 400;
 	line-height: 1.42857143;
 	color: #454545;
 	background-color: #f9f9f9;
@@ -2682,6 +2686,7 @@ textarea.form-control-gray {
 	height: 36px;
 	padding-left: 12px;
 	font-size: 14px;
+    font-weight: 400;
 	line-height: 1.42857143;
 	color:#f9f9f9;
 	background-color: #184d75;
@@ -2740,6 +2745,7 @@ textarea.form-control-blue {
 	padding-left: 12px;
 	padding-right: 12px;
 	font-size: 14px;
+    font-weight: 400;
 	line-height: 1.42857143;
 	color: #bdbdbd;
 	background-color: #181818;
@@ -4672,7 +4678,7 @@ tbody.collapse.in {
 	color: #ffffff;
 	text-decoration: none;
 	outline: 0;
-	background-color: #3da8ff;
+	background-color: #389aea;
 }
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
@@ -8250,7 +8256,6 @@ input[type=number],
 [type=email].form-control,
 [type=tel].form-control,
 [contenteditable].form-control {
-	padding: 6px 12px;
 	border-radius: 0;
 	height: 36px;
 }
@@ -8325,17 +8330,17 @@ input[type=number].input-lg,
 }
 select,
 select.form-control {
+    appearance: menulist;
 	-webkit-appearance: menulist;
 	-moz-appearance: menulist;
-	background-size: 13px;
-	background-repeat: no-repeat;
-	background-position: right center;
-	-webkit-box-shadow: inset 0 -1px 0 #dddddd;
-	box-shadow: inset 0 -1px 0 #dddddd;
+    -ms-appearance: menulist;
 }
 select::-ms-expand,
 select.form-control::-ms-expand {
-	display: none;
+	background: inherit;
+    border: transparent;
+    padding-right:6px;
+    padding-left:6px;
 }
 select.input-sm,
 select.form-control.input-sm {
@@ -8349,6 +8354,8 @@ select:focus,
 select.form-control:focus {
 	box-shadow: 1px #389aea;
 	-webkit-box-shadow: 1px #389aea;
+    -moz-box-shadow: 1px #389aea;
+    -ms-box-shadow: 1px #389aea;
 }
 select[multiple],
 select.form-control[multiple] {
@@ -8382,6 +8389,8 @@ input[type="radio"],
 	border: none;
 	background-color: transparent;
 	-webkit-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
 	cursor: pointer;
 }
 input[type="radio"]:focus,
@@ -8478,6 +8487,8 @@ input[type="checkbox"],
 	border: none;
 	margin-bottom: -4px;
 	-webkit-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
 	cursor: pointer;
 }
 input[type="checkbox"]:focus,
@@ -9261,7 +9272,7 @@ label {
 }
 
 label:first-child {
-    font-weight:bold;
+    font-weight:light;
 }
 
 label:nth-child(n+2) {
@@ -9327,15 +9338,18 @@ label:nth-child(n+2) {
 
 /* Control color in control-labels*/
 .control-label {
-	color:#454545;
+	color:#828282;
+    font-weight: lighter;
 }
 
 .control-label-blue {
 	color:#bdddf5;
+    font-weight: lighter;
 }
 
 .control-label-black {
 	color:#bdbdbd;
+    font-weight: lighter;
 }
 
 .well {
