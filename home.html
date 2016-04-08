@@ -32,6 +32,8 @@
 		<link href="css/flat-toggle.css" rel="stylesheet">
 		<link href="css/bootstrap-treefy.css" rel="stylesheet">
         <link href="css/jquery.typeahead.css" rel="stylesheet">
+        <link href="css/lazeemenu.css" rel="stylesheet">
+        <link href="css/d3viz.css" rel="stylesheet">
         
 		<!-- Custom Fonts -->
 		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -849,60 +851,28 @@
                         <!-- UI-Tree -->
 						<h3 id="ui-menus-tree">Tree</h3>							
 						<div class="well well-transparent">
-							<div>
-								<ul class="nav nav-list">
-									<li><label class="tree-toggle nav-header">Bootstrap</label>
-										<ul class="nav nav-list tree">
-											<li><a href="#">JavaScript</a></li>
-											<li><a href="#">CSS</a></li>
-											<li><label class="tree-toggle nav-header">Buttons</label>
-												<ul class="nav nav-list tree">
-													<li><a href="#">Colors</a></li>
-													<li><a href="#">Sizes</a></li>
-													<li><label class="tree-toggle nav-header">Forms</label>
-														<ul class="nav nav-list tree">
-															<li><a href="#">Horizontal</a></li>
-															<li><a href="#">Vertical</a></li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li class="divider"></li>
-									<li><label class="tree-toggle nav-header">Responsive</label>
-										<ul class="nav nav-list tree">
-											<li><a href="#">Overview</a></li>
-											<li><a href="#">CSS</a></li>
-											<li><label class="tree-toggle nav-header">Media Queries</label>
-												<ul class="nav nav-list tree">
-													<li><a href="#">Text</a></li>
-													<li><a href="#">Images</a></li>
-													<li><label class="tree-toggle nav-header">Mobile Devices</label>
-														<ul class="nav nav-list tree">
-															<li><a href="#">iPhone</a></li>
-															<li><a href="#">Samsung</a></li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li><label class="tree-toggle nav-header">Coding</label>
-												<ul class="nav nav-list tree">
-													<li><a href="#">JavaScript</a></li>
-													<li><a href="#">jQuery</a></li>
-													<li><label class="tree-toggle nav-header">HTML DOM</label>
-														<ul class="nav nav-list tree">
-															<li><a href="#">DOM Elements</a></li>
-															<li><a href="#">Recursive</a></li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</div>
-						</div>                       
+                            <div>
+                                <ul id="menu-demo">
+                                <li>
+                                    <h3><a href="#">jQuery Script</a></h3>
+                                    <ul>
+                                        <li class="active"><a href="#">Home</a></li>
+                                        <li><a href="#,">Contact</a></li>
+                                        <li><a href="#,">About</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h3><a href="#,">Site Links</a></h3>
+                                    <ul>
+                                        <li><a href="#,">Blog</a></li>
+                                        <li><a href="#,">Sitemap</a></li>
+                                        <li><a href="#,">RSS Feed</a></li>
+                                    </ul>
+                                </li>
+                                </ul>
+                            </div>
+						</div> 
+                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This table uses the <a style="font-weight: bold;" href="http://www.jqueryscript.net/menu/Multi-level-Vertical-Accordion-Menu-Plugin-lazeemenu.html"target="_blank">Lazee menu</a> library</span>                      
                         
                         <!-- UI-TreeTable -->
 						<h3 id="ui-menus-tree">Tree table</h3>
@@ -2616,7 +2586,7 @@
 						</div>
 						
 						<!--TRAC Examples-->
-						<h2 id="ui-widgets-gallery">TRAC SIF part</h2>
+						<h2 id="ui-widgets-gallery">TRAC SIF list</h2>
 						<div class="well well-transparent">
 							<div class="navbar navbar-inverse">
 								<div class="container">
@@ -2726,11 +2696,45 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-9" style="height:500px; width:100;">		
-									
+								<div class="col-lg-9" style="height:500px; width:100;">											
+								</div>
+							</div>                          
+						</div>
+                        
+                        <!--TRAC Examples-->
+						<h2 id="ui-widgets-gallery">TRAC SIF designer</h2>
+						<div class="well well-transparent">
+							<div class="navbar navbar-inverse">
+								<div class="container">
+									<div class="navbar-header">
+										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+										<a class="navbar-brand" style="margin-left:5px;" href="#">Safety Manager</a>
+									</div>
+									<div class="navbar-collapse collapse">
+										<ul class="nav navbar-nav" style="margin-left:-60px;">
+											<li class="active"><a href="#">SIF Designer</a>
+											</li>
+											<li><a href="#about">Instrument library</a>
+											</li>
+											<li><a href="#about">Template library</a>
+											</li>
+											<li><a href="#contact"><i class="fa fa-user fa-lg" style="margin-left:50px;"> </i> NODAROM </a>
+											</li>
+											<li><a href="#contact"> EN </a>
+											</li>
+											<li><a href="#contact"><i class="fa fa-cog fa-lg" style="margin-left:-12px;"></i></a>
+											</li>
+											
+										</ul>
+									</div>
 								</div>
 							</div>
-                            
+                       
 						</div>
                         
                         <!--TRAC Examples-->
@@ -3237,26 +3241,26 @@
 											</div>
 											<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The graphs in this example use the <a style="font-weight: bold;" href="http://nvd3.org/index.html"target="_blank">NVD3.js</a> library</span>
 											
-											<!-- UI-Gauges -->
-											<!--h3 id="ui-widgets-gauges">Gauges</h3>							
-												<div class="well well-transparent" style="height:300px; background:#f6f6f6;">	
-												<form class="form-inline">
-												<div class="form-group">
-												<div id="slider1" class="col-xs-4 rslider" style="margin-right:100px;"></div>
-												<div id="slider2" class="col-xs-4 rslider" style="margin-right:100px;"></div>	
-												<div id="slider3" class="col-xs-4 rslider"></div>		
-												</div>
-												</form>
-												</div>
-												<div class="well well-transparent" style="background: #242424;">	
-												<form class="form-inline">
-												<div class="form-group">
-												<div id="dark1" class="col-xs-4 rslider dark" style="margin-right:100px;"></div>
-												<div id="dark2" class="col-xs-4 rslider dark" style="margin-right:100px;"></div>
-												<div id="dark3" class="col-xs-4 rslider dark"></div>
-												</div>
-												</form>
-											</div-->
+                                            <h3 id="ui-forms-text">Sankey</h3>
+											<p>Connectivity using visual data mining </p>
+											<div class="well well-transparent">
+												<div id="sankey"></div>
+											</div>
+											<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The graphs in this example use the <a style="font-weight: bold;" href="http://nvd3.org/index.html"target="_blank">NVD3.js</a> library</span>
+                                            
+											<UI-Gauges>
+											<h3 id="ui-widgets-gauges">Gauges</h3>							
+                                            <div class="well well-transparent" style="height:300px; background:#f6f6f6;">	
+                                                <form class="form-inline">
+                                                    <div class="form-group">
+                                                        <div id="slider1" class="col-xs-4 rslider" style="margin-right:100px;"></div>
+                                                        <div id="slider2" class="col-xs-4 rslider" style="margin-right:100px;"></div>	
+                                                        <div id="slider3" class="col-xs-4 rslider"></div>		
+                                                    </div>
+                                                </form>
+                                            </div>
+											<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The graphs in this example use the <a style="font-weight: bold;" href="https://github.com/soundar24/roundSlider" target="_blank">roundSlider</a> library</span>
+
 										</div>
 									</section>
 									
@@ -3287,13 +3291,17 @@
 									<script type='text/javascript' src="js/flat-toggle.js"></script>
 									<script type='text/javascript' src="js/bootstrap-datagrid.js"></script>
 									<script type='text/javascript' src="js/bootstrap-treefy.js"></script>
-									<script type='text/javascript' src="js/yii.js"></script>
                                     <script type='text/javascript' src="js/jquery.typeahead.min.js"></script>
-									
-									<!-- Libraries associated with NVD3 charts-->
-									<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
-									<script type='text/javascript' src="js/nv.d3.js"></script>
+                                    <script type='text/javascript' src="js/lazeemenu-jquery.js"></script>
+
+                                    <!-- D3 Visualizations -->
+                                    <script type='text/javascript' src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+                                    <script type='text/javascript' src="assets/bihisankey.js"></script>
+                                    <script type='text/javascript' src="assets/sankey.js"></script>
+                                    
+									<!-- Libraries associated with NVD3 charts-->						
 									<script type='text/javascript' src="js/stream_layers.js"></script>
+                                    <script type='text/javascript' src="js/nv.d3.js"></script>
 									
 									<!--Ladda code-->
 									<script>
@@ -3603,12 +3611,15 @@
 									
 									<!-- Tree collapse-->
 									<script>
-										$('.tree-toggle').click(function () {
-											$(this).parent().children('ul.tree').toggle(200);
-										});
-										$(function(){
-											$('.tree-toggle').parent().children('ul.tree').toggle(200);
-										})
+                                        $('#menu-demo').lazeemenu({
+
+                                        //  CSS class for active items
+                                        activeClass: 'active',
+
+                                        // or 'expanded', 'collapsed'
+                                        initialState: 'default'
+                                        
+                                        });
 									</script>
 									
 									<!-- Treefy example for parent rows in tables-->
@@ -3792,7 +3803,7 @@
 											.showDistX(true)
 											.showDistY(true)
 											.duration(300)
-											.color(d3.scale.category10().range());
+											.color(d3.scale.ordinal().range(["#7ad6a8", "#f03040", "#87c4ff", "#f1ca5c"]).range());
 											chart.dispatch.on('renderEnd', function(){
 												console.log('render complete');
 											});

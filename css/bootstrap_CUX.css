@@ -8258,6 +8258,7 @@ input[type=number],
 [contenteditable].form-control {
 	border-radius: 0;
 	height: 36px;
+    padding-left: 12px;
 }
 textarea:focus,
 textarea.form-control:focus,
