@@ -15,7 +15,7 @@
   left: 20px;
   padding: 4px;
   margin-top: 1px;
-  border-radius: 4px;
+  border-radius: 0px;
   width:278px;
 }
 
@@ -146,7 +146,7 @@
 .daterangepicker .calendar-table {
   border: 1px solid #ddd;
   padding: 4px;
-  border-radius: 4px;
+  border-radius: 0px;
   background: #fff;
 }
 
@@ -159,7 +159,7 @@
   text-align: center;
   width: 20px;
   height: 20px;
-  border-radius: 4px;
+  border-radius: 0px;
   white-space: nowrap;
   cursor: pointer;
 }
@@ -185,15 +185,15 @@
 }
 
 .daterangepicker td.start-date {
-  border-radius: 4px 0 0 4px;
+  border-radius: 0px;
 }
 
 .daterangepicker td.end-date {
-  border-radius: 0 4px 4px 0;
+  border-radius: 0px;
 }
 
 .daterangepicker td.start-date.end-date {
-  border-radius: 4px;
+  border-radius: 0px;
 }
 
 .daterangepicker td.active, .daterangepicker td.active:hover {
@@ -237,7 +237,7 @@
 
 .daterangepicker .input-mini {
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 0px;
   color: #555;
   display: block;
   height: 30px;
