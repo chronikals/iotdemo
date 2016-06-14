@@ -4,37 +4,37 @@
   font-family: 'Helvetica Neue eText Pro';
   font-style: normal;
   font-weight: 300;
-  src: url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-45Lt.eot");
+  src: url("../fonts/abb-font/HelveticaNeueETPro-45Lt.eot");
   /* IE9 Compat Modes */
-  src: local("Γÿ║"), url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-45Lt.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-45Lt.woff2") format("woff2"), url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-45Lt.woff") format("woff"), url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-45Lt.ttf") format("truetype"), url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-45Lt.svg#HelveticaNeueeTextPro") format("svg");
+  src: local("Γÿ║"), url("../fonts/abb-font/HelveticaNeueETPro-45Lt.eot?#iefix") format("embedded-opentype"), url("../fonts/abb-font/HelveticaNeueETPro-45Lt.woff2") format("woff2"), url("../fonts/abb-font/HelveticaNeueETPro-45Lt.woff") format("woff"), url("../fonts/abb-font/HelveticaNeueETPro-45Lt.ttf") format("truetype"), url("../fonts/abb-font/HelveticaNeueETPro-45Lt.svg#HelveticaNeueeTextPro") format("svg");
   /* Legacy iOS */ }
 @font-face {
   font-family: 'Helvetica Neue eText Pro';
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-65Md.eot");
+  src: url("../fonts/abb-font/HelveticaNeueETPro-65Md.eot");
   /* IE9 Compat Modes */
-  src: local("Γÿ║"), url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-65Md.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-65Md.woff2") format("woff2"), url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-65Md.woff") format("woff"), url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-65Md.ttf") format("truetype"), url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-65Md.svg#HelveticaNeueeTextPro") format("svg");
+  src: local("Γÿ║"), url("../fonts/abb-font/HelveticaNeueETPro-65Md.eot?#iefix") format("embedded-opentype"), url("../fonts/abb-font/HelveticaNeueETPro-65Md.woff2") format("woff2"), url("../fonts/abb-font/HelveticaNeueETPro-65Md.woff") format("woff"), url("../fonts/abb-font/HelveticaNeueETPro-65Md.ttf") format("truetype"), url("../fonts/abb-font/HelveticaNeueETPro-65Md.svg#HelveticaNeueeTextPro") format("svg");
   /* Legacy iOS */ }
 @font-face {
   font-family: 'Helvetica Neue eText Pro';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-75Bd.eot");
+  src: url("../fonts/abb-font/HelveticaNeueETPro-75Bd.eot");
   /* IE9 Compat Modes */
-  src: local("Γÿ║"), url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-75Bd.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-75Bd.woff2") format("woff2"), url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-75Bd.woff") format("woff"), url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-75Bd.ttf") format("truetype"), url("../fonts/HelveticaNeueeTextPro/HelveticaNeueETPro-75Bd.svg#HelveticaNeueeTextPro") format("svg");
+  src: local("Γÿ║"), url("../fonts/abb-font/HelveticaNeueETPro-75Bd.eot?#iefix") format("embedded-opentype"), url("../fonts/abb-font/HelveticaNeueETPro-75Bd.woff2") format("woff2"), url("../fonts/abb-font/HelveticaNeueETPro-75Bd.woff") format("woff"), url("../fonts/abb-font/HelveticaNeueETPro-75Bd.ttf") format("truetype"), url("../fonts/abb-font/HelveticaNeueETPro-75Bd.svg#HelveticaNeueeTextPro") format("svg");
   /* Legacy iOS */ }
 @font-face {
-  font-family: 'abb-commonux';
-  src: url("../fonts/CommonUX/abb-commonux.eot?gs5tf4");
+  font-family: 'abb-ux';
+  src: url("../fonts/abb-icons/abb-ux-icons.eot?gs5tf4");
   /* IE9 Compat Modes */
-  src: url("../fonts/CommonUX/abb-commonux.eot?gs5tf4#iefix") format("embedded-opentype"), url("../fonts/CommonUX/abb-commonux.ttf?gs5tf4") format("truetype"), url("../fonts/CommonUX/abb-commonux.woff?gs5tf4") format("woff"), url("../fonts/CommonUX/abb-commonux.svg?gs5tf4#abb-commonux") format("svg");
+  src: url("../fonts/abb-icons/abb-ux-icons.eot?gs5tf4#iefix") format("embedded-opentype"), url("../fonts/abb-icons/abb-ux-icons.ttf?gs5tf4") format("truetype"), url("../fonts/abb-icons/abb-ux-icons.woff?gs5tf4") format("woff"), url("../fonts/abb-icons/abb-ux-icons.svg?gs5tf4#abb-ux") format("svg");
   /* Legacy iOS */
   font-weight: normal;
   font-style: normal; }
 [class^="abb-ux-"], [class*=" abb-ux-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'abb-commonux' !important;
+  font-family: 'abb-ux' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;

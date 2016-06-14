@@ -30,10 +30,10 @@
 }
 .slider.slider-horizontal {
   width: 210px;
-  height: 20px;
+  height: 6px;
 }
 .slider.slider-horizontal .slider-track {
-  height: 10px;
+  height: 6px;
   width: 100%;
   margin-top: -5px;
   top: 50%;
@@ -48,6 +48,17 @@
 }
 .slider.slider-horizontal .slider-tick,
 .slider.slider-horizontal .slider-handle {
+  margin-left: -10px;
+  margin-top: -2px;
+}
+.slider.slider-horizontal .slider-tick:hover,
+.slider.slider-horizontal .slider-tick.hover,
+.slider.slider-horizontal .slider-handle:hover,
+.slider.slider-horizontal .slider-handle.hover,
+.slider.slider-horizontal .slider-tick:focus,
+.slider.slider-horizontal .slider-tick.focus,
+.slider.slider-horizontal .slider-handle:focus,
+.slider.slider-horizontal .slider-handle.focus {
   margin-left: -10px;
   margin-top: -5px;
 }
@@ -70,10 +81,10 @@
 }
 .slider.slider-vertical {
   height: 210px;
-  width: 20px;
+  width: 6px;
 }
 .slider.slider-vertical .slider-track {
-  width: 10px;
+  width: 6px;
   height: 100%;
   margin-left: -5px;
   left: 50%;
@@ -93,6 +104,17 @@
 }
 .slider.slider-vertical .slider-tick,
 .slider.slider-vertical .slider-handle {
+  margin-left: -2px;
+  margin-top: -10px;
+}
+.slider.slider-vertical .slider-tick:hover,
+.slider.slider-vertical .slider-tick.hover,
+.slider.slider-vertical .slider-handle:hover,
+.slider.slider-vertical .slider-handle.hover,
+.slider.slider-vertical .slider-tick:focus,
+.slider.slider-vertical .slider-tick.focus,
+.slider.slider-vertical .slider-handle:focus,
+.slider.slider-vertical .slider-handle.focus {
   margin-left: -5px;
   margin-top: -10px;
 }
@@ -123,10 +145,30 @@
   display: none;
 }
 .slider .tooltip.top {
-  margin-top: -36px;
+  margin-top: -50px;
+  margin-left: -2px;
+}
+.slider .tooltip.right {
+  margin-top: -50px;
+  margin-left: 5px;
 }
 .slider .tooltip-inner {
   white-space: nowrap;
+  background: #ffffff;
+  border: 1px solid #b4b4b4;
+  color: #0096e0;
+  border-radius: 0;
+  
+}
+.slider .tooltip.top .tooltip-arrow {
+  white-space: nowrap;
+  background: transparent;
+  border: 1px solid transparent;
+}
+.slider .tooltip.right .tooltip-arrow {
+  white-space: nowrap;
+  background: transparent;
+  border: 1px solid transparent;
 }
 .slider .hide {
   display: none;
@@ -134,21 +176,17 @@
 .slider-track {
   position: absolute;
   cursor: pointer;
-  background: #bedef3;
+  background: #0aaeff;
   border-radius: 0px;
-  border: 1px solid #bdbdbd;
 }
 .slider-selection {
   position: absolute;
-  background-image: -webkit-linear-gradient(top, #f9f9f9 0%, #f5f5f5 100%);
-  background-image: -o-linear-gradient(top, #f9f9f9 0%, #f5f5f5 100%);
-  background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+  background: #cdcdcd;
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff9f9f9', endColorstr='#fff5f5f5', GradientType=0);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 0.5px solid #bdbdbd;
+  border: 1px solid #cdcdcd;
   border-radius: 0px;
 }
 .slider-selection.tick-slider-selection {
@@ -169,18 +207,53 @@
 }
 .slider-handle {
   position: absolute;
-  width: 18px;
-  height: 18px;
-  background-color: #3799e9;
+  width: 10px;
+  height: 10px;
+  background: #0aaeff;
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff149bdf', endColorstr='#ff0480be', GradientType=0);
-  filter: none;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 0px solid #ffffff;
+}
+
+.slider-handle.hover,
+.slider-handle:hover {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #0aaeff;
+  background-repeat: repeat-x;
+  -webkit-box-shadow: none;
+  box-shadow: none;
   border: 0px solid transparent;
 }
+
+.slider-handle.focus,
+.slider-handle:focus {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #0aaeff;
+  background-repeat: repeat-x;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 2px solid #206397;
+}
+
+.slider-handle.active,
+.slider-handle:active {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #0aaeff;
+  background-repeat: repeat-x;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #206397;
+}
+
 .slider-handle.round {
-  border-radius: 50%;
+  border-radius: none;
 }
 .slider-handle.triangle {
   background: transparent none;

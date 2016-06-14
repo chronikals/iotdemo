@@ -34,9 +34,10 @@
         <link href="css/jquery.typeahead.css" rel="stylesheet">
         <link href="css/lazeemenu.css" rel="stylesheet">
         <link href="css/d3viz.css" rel="stylesheet">
+		<link href="css/datatables.min.css" rel="stylesheet">
         
 		<!-- Custom Fonts -->
-		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 		
 		
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -61,7 +62,7 @@
 						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand" style="margin-left:14.85px;" href="#" id="nav0">
-					CommonUX CSS for Styleguide v1.0
+					CommonUX CSS for Styleguide v1.1
 					</a>
 				</div>
 			</div>
@@ -89,7 +90,7 @@
 				</ul>
 			</nav>
 			<!--Main Content -->
-			<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12" style="margin-left:20px;">
+			<div class="col-lg-7 col-md-9 col-sm-12 col-xs-12" style="margin-left:20px;">
 				<!--UI-->
 				<section class="group">
 					<div class="bs-docs-section">
@@ -195,7 +196,7 @@
 						<div class="well well-transparent" style="background: #f9f9f9;">
 							<div class="row">
 								<div class="col-lg-3">
-									<div class="sidebar-nav-black">
+									<div class="sidebar-nav-dark">
 										<div class="navbar navbar-default" role="navigation" style="height:500px;">
 											<div class="navbar-header">
 												<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
@@ -535,11 +536,11 @@
 							<div class="panel" style="width:100%; height:650px; background:#efefef; padding:15px;">
 								<div class="row">
 									<div class="col-lg-9" style="margin-top:15px">
-										<button class="btn btn-default-gray btn-xl active" style="width:170px; margin-bottom:10px;"> Status </button>
-										<button class="btn btn-default-gray btn-xl" style="width:170px; margin-bottom:10px;"> Event log </button>
-										<button class="btn btn-default-gray btn-xl" style="width:170px; margin-bottom:10px;"> Product </button>
-										<button class="btn btn-default-gray btn-xl" style="width:170px; margin-bottom:10px;"> Menu </button>
-										<button class="btn btn-default-gray btn-xl" style="width:170px; margin-bottom:10px;"> Summary </button>
+										<button class="btn btn-default btn-xl active" style="width:170px; margin-bottom:10px;"> Status </button>
+										<button class="btn btn-default btn-xl" style="width:170px; margin-bottom:10px;"> Event log </button>
+										<button class="btn btn-default btn-xl" style="width:170px; margin-bottom:10px;"> Product </button>
+										<button class="btn btn-default btn-xl" style="width:170px; margin-bottom:10px;"> Menu </button>
+										<button class="btn btn-default btn-xl" style="width:170px; margin-bottom:10px;"> Summary </button>
 									</div>
 									<div class="col-lg-3" style="margin-top:15px">
 										<button class="btn btn-danger btn-xl active" style="width:170px; height:110px;"> <i class="fa fa-circle-o-notch fa-3x"></i> </button>
@@ -981,7 +982,6 @@
 							<button type="button" class="btn btn-primary"><i class="fa fa-cog"></i> Primary + Icon</button>
 							<button type="button" class="btn btn-primary" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
 							<button type="button" class="btn btn-link">Link default</button>
-							<button type="button" class="btn btn-link-primary">Link primary</button>
 							<h4 style="margin-top:40px;">Active</h4>
 							<button type="button" class="btn btn-default active">Default</button>
 							<button type="button" class="btn btn-default active"><i class="fa fa-cog"></i> Default + Icon</button>
@@ -990,7 +990,6 @@
 							<button type="button" class="btn btn-primary active"><i class="fa fa-cog"></i> Primary + Icon</button>
 							<button type="button" class="btn btn-primary active" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
 							<button type="button" class="btn btn-link active">Link default</button>
-							<button type="button" class="btn btn-link-primary active">Link primary</button>
 							<h4 style="margin-top:40px;">Disabled</h4>
 							<button type="button" class="btn btn-default disabled">Default</button>
 							<button type="button" class="btn btn-default disabled"><i class="fa fa-cog"></i> Default + Icon</button>
@@ -999,45 +998,12 @@
 							<button type="button" class="btn btn-primary disabled"><i class="fa fa-cog"></i> Primary + Icon</button>
 							<button type="button" class="btn btn-primary disabled" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
 							<button type="button" class="btn btn-link disabled">Link default</button>
-							<button type="button" class="btn btn-link-primary disabled">Link primary</button>
 						</div>
 						<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The colorpicker in this example uses the <a style="font-weight: bold;" href="http://labs.abeautifulsite.net/jquery-minicolors/"target="_blank">jQuery MiniColors</a> library</span>
 						
-						<!--Buttons gray-->
-						<h3 id="ui-buttons-gray">Buttons gray background</h3>
-						<div class="well" style="background: #efefef;">
-							<h4 style="margin-top:40px;">Normal</h4>
-							<button type="button" class="btn btn-default-gray">Default</button>
-							<button type="button" class="btn btn-default-gray"><i class="fa fa-cog"></i> Default + Icon</button>
-							<button type="button" class="btn btn-default-gray" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
-							<button type="button" class="btn btn-primary-gray">Primary</button>
-							<button type="button" class="btn btn-primary-gray"><i class="fa fa-cog"></i> Primary + Icon</button>
-							<button type="button" class="btn btn-primary-gray" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
-							<button type="button" class="btn btn-link-gray">Link default</button>
-							<button type="button" class="btn btn-link-primary-gray">Link primary</button>
-							<h4 style="margin-top:40px;">Active</h4>
-							<button type="button" class="btn btn-default-gray active">Default</button>
-							<button type="button" class="btn btn-default-gray active"><i class="fa fa-cog"></i> Default + Icon</button>
-							<button type="button" class="btn btn-default-gray active" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
-							<button type="button" class="btn btn-primary-gray active">Primary</button>
-							<button type="button" class="btn btn-primary-gray active"><i class="fa fa-cog"></i> Primary + Icon</button>
-							<button type="button" class="btn btn-primary-gray active" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
-							<button type="button" class="btn btn-link-gray active">Link default</button>
-							<button type="button" class="btn btn-link-primary-gray active">Link primary</button>
-							<h4 style="margin-top:40px;">Disabled</h4>
-							<button type="button" class="btn btn-default-gray disabled">Default</button>
-							<button type="button" class="btn btn-default-gray disabled"><i class="fa fa-cog"></i> Default + Icon</button>
-							<button type="button" class="btn btn-default-gray disabled" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
-							<button type="button" class="btn btn-primary-gray disabled">Primary</button>
-							<button type="button" class="btn btn-primary-gray disabled"><i class="fa fa-cog"></i> Primary + Icon</button>
-							<button type="button" class="btn btn-primary-gray disabled" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
-							<button type="button" class="btn btn-link-gray disabled">Link default</button>
-							<button type="button" class="btn btn-link-primary-gray disabled">Link primary</button>
-						</div>
-						
 						<!--Buttons blue-->
 						<h3 id="ui-buttons-blue">Buttons blue background</h3>
-						<div class="well" style="background: #1f6296;">
+						<div class="well" style="background: #206397;">
 							<h4 style="color:#f0f0f0;">Normal</h4>
 							<button type="button" class="btn btn-default-blue">Default</button>
 							<button type="button" class="btn btn-default-blue"><i class="fa fa-cog"></i> Default + Icon</button>
@@ -1046,7 +1012,6 @@
 							<button type="button" class="btn btn-primary-blue"><i class="fa fa-cog"></i> Primary + Icon</button>
 							<button type="button" class="btn btn-primary-blue" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
 							<button type="button" class="btn btn-link-blue">Link default</button>
-							<button type="button" class="btn btn-link-primary-blue">Link primary</button>
 							<h4 style="color:#f0f0f0; margin-top:40px;">Active</h4>
 							<button type="button" class="btn btn-default-blue active">Default</button>
 							<button type="button" class="btn btn-default-blue active"><i class="fa fa-cog"></i> Default + Icon</button>
@@ -1055,7 +1020,6 @@
 							<button type="button" class="btn btn-primary-blue active"><i class="fa fa-cog"></i> Primary + Icon</button>
 							<button type="button" class="btn btn-primary-blue active" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
 							<button type="button" class="btn btn-link-blue active">Link default</button>
-							<button type="button" class="btn btn-link-primary-blue active">Link primary</button>
 							<h4 style="color:#f0f0f0; margin-top:40px;">Disabled</h4>
 							<button type="button" class="btn btn-default-blue disabled">Default</button>
 							<button type="button" class="btn btn-default-blue disabled"><i class="fa fa-cog"></i> Default + Icon</button>
@@ -1064,12 +1028,11 @@
 							<button type="button" class="btn btn-primary-blue disabled"><i class="fa fa-cog"></i> Primary + Icon</button>
 							<button type="button" class="btn btn-primary-blue disabled" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
 							<button type="button" class="btn btn-link-blue disabled">Link default</button>
-							<button type="button" class="btn btn-link-primary-blue disabled">Link primary</button>
 						</div>
 						
 						<!--Buttons dark-->
 						<h3 id="ui-buttons-dark">Buttons dark background</h3>
-						<div class="well" style="background: #313131;">
+						<div class="well" style="background: #282828;">
 							<h4 style="color:#f0f0f0;">Normal</h4>
 							<button type="button" class="btn btn-default-dark">Default</button>
 							<button type="button" class="btn btn-default-dark"><i class="fa fa-cog"></i> Default + Icon</button>
@@ -1078,7 +1041,6 @@
 							<button type="button" class="btn btn-primary-dark"><i class="fa fa-cog"></i> Primary + Icon</button>
 							<button type="button" class="btn btn-primary-dark" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
 							<button type="button" class="btn btn-link-dark">Link default</button>
-							<button type="button" class="btn btn-link-primary-dark">Link primary</button>
 							<h4 style="color:#f0f0f0; margin-top:40px;">Active</h4>
 							<button type="button" class="btn btn-default-dark active">Default</button>
 							<button type="button" class="btn btn-default-dark active"><i class="fa fa-cog"></i> Default + Icon</button>
@@ -1087,7 +1049,6 @@
 							<button type="button" class="btn btn-primary-dark active"><i class="fa fa-cog"></i> Primary + Icon</button>
 							<button type="button" class="btn btn-primary-dark active" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
 							<button type="button" class="btn btn-link-dark active">Link default</button>
-							<button type="button" class="btn btn-link-primary-dark active">Link primary</button>
 							<h4 style="color:#f0f0f0; margin-top:40px;">Disabled</h4>
 							<button type="button" class="btn btn-default-dark disabled">Default</button>
 							<button type="button" class="btn btn-default-dark disabled"><i class="fa fa-cog"></i> Default + Icon</button>
@@ -1096,60 +1057,121 @@
 							<button type="button" class="btn btn-primary-dark disabled"><i class="fa fa-cog"></i> Primary + Icon</button>
 							<button type="button" class="btn btn-primary-dark disabled" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
 							<button type="button" class="btn btn-link-dark disabled">Link default</button>
-							<button type="button" class="btn btn-link-primary-dark disabled">Link primary</button>
 						</div>
 						
-						<!--Buttons black-->
-						<h3 id="ui-buttons-black">Buttons black background</h3>
-						<div class="well" style="background: #232323;">
-							<h4 style="color:#f0f0f0;">Normal</h4>
-							<button type="button" class="btn btn-default-black">Default</button>
-							<button type="button" class="btn btn-default-black"><i class="fa fa-cog"></i> Default + Icon</button>
-							<button type="button" class="btn btn-default-black" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
-							<button type="button" class="btn btn-primary-black">Primary</button>
-							<button type="button" class="btn btn-primary-black"><i class="fa fa-cog"></i> Primary + Icon</button>
-							<button type="button" class="btn btn-primary-black" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
-							<button type="button" class="btn btn-link-black">Link default</button>
-							<button type="button" class="btn btn-link-primary-black">Link primary</button>
-							<h4 style="color:#f0f0f0; margin-top:40px;">Active</h4>
-							<button type="button" class="btn btn-default-black active">Default</button>
-							<button type="button" class="btn btn-default-black active"><i class="fa fa-cog"></i> Default + Icon</button>
-							<button type="button" class="btn btn-default-black active" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
-							<button type="button" class="btn btn-primary-black active">Primary</button>
-							<button type="button" class="btn btn-primary-black active"><i class="fa fa-cog"></i> Primary + Icon</button>
-							<button type="button" class="btn btn-primary-black active" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
-							<button type="button" class="btn btn-link-black active">Link default</button>
-							<button type="button" class="btn btn-link-primary-black active">Link primary</button>
-							<h4 style="color:#f0f0f0; margin-top:40px;">Disabled</h4>
-							<button type="button" class="btn btn-default-black disabled">Default</button>
-							<button type="button" class="btn btn-default-black disabled"><i class="fa fa-cog"></i> Default + Icon</button>
-							<button type="button" class="btn btn-default-black disabled" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
-							<button type="button" class="btn btn-primary-black disabled">Primary</button>
-							<button type="button" class="btn btn-primary-black disabled"><i class="fa fa-cog"></i> Primary + Icon</button>
-							<button type="button" class="btn btn-primary-black disabled" style="margin-right:30px;"><i class="fa fa-external-link"></i></button>
-							<button type="button" class="btn btn-link-black disabled">Link default</button>
-							<button type="button" class="btn btn-link-primary-black disabled">Link primary</button>
-						</div>
-						
-						<!--Toggle buttons-->
-						<h3 id="ui-buttons-black">Toggle buttons</h3>
+						<!--Toggle buttons light background-->
+						<h3 id="ui-buttons">Toggle buttons</h3>
 						<div class="well" style="background: #f9f9f9;">
 							<h4>Toggle buttons</h4>
-							<div class="btn-group" data-toggle="buttons-radio">
-								<button type="radio" value="1" id="btn-radio1" name="test-toggle" data-toggle="toggle" class="btn btn-default">Option 1</button>
-								<button type="radio" value="2" id="btn-radio2" name="test-toggle" data-toggle="toggle" class="btn btn-default active">Option 2</button>
+							<div class="btn-group" data-toggle="buttons">
+								<label class="btn btn-default-toggle active">
+									<input type="radio" name="test-toggle" id="option1" checked="checked"/> Option 1
+								</label>
+								<label class="btn btn-default-toggle">
+									<input type="radio" name="test-toggle" id="option2"/> Option 2
+								</label>
+							</div>
+							<h4>Toggle buttons enhanced</h4>
+							<div class="btn-group" data-toggle="buttons">
+								<label class="btn btn-default-toggle-enhanced active">
+									<input type="radio" name="test-toggle" id="option1" checked="checked"/> Option 1
+								</label>
+								<label class="btn btn-default-toggle-enhanced">
+									<input type="radio" name="test-toggle" id="option2"/> Option 2
+								</label>
 							</div>
 							<h4>Multi-select</h4>
 							<div class="btn-group" data-toggle="buttons-checkboxes">
-								<button type="button" class="btn btn-default">1</button>
-								<button type="button" class="btn btn-default active">2</button>
-								<button type="button" class="btn btn-default active">3</button>
-								<button type="button" class="btn btn-default active">4</button>
+								<button type="button" class="btn btn-default-toggle" style="margin-right:6px;">1</button>
+								<button type="button" class="btn btn-default-toggle active" style="margin-right:6px;">2</button>
+								<button type="button" class="btn btn-default-toggle active" style="margin-right:6px;">3</button>
+								<button type="button" class="btn btn-default-toggle active" style="margin-right:6px;">4</button>
+							</div>
+							<h4>Multi-select enhanced</h4>
+							<div class="btn-group" data-toggle="buttons-checkboxes">
+								<button type="button" class="btn btn-default-toggle-enhanced" style="margin-right:6px;">1</button>
+								<button type="button" class="btn btn-default-toggle-enhanced active" style="margin-right:6px;">2</button>
+								<button type="button" class="btn btn-default-toggle-enhanced active" style="margin-right:6px;">3</button>
+								<button type="button" class="btn btn-default-toggle-enhanced active" style="margin-right:6px;">4</button>
+							</div>
+						</div>
+						
+						<!--Toggle buttons blue background-->
+						<h3 id="ui-buttons">Toggle buttons</h3>
+						<div class="well" style="background: #206397;">
+							<h4>Toggle buttons</h4>
+							<div class="btn-group" data-toggle="buttons">
+								<label class="btn btn-default-blue-toggle active">
+									<input type="radio" name="test-toggle" id="option1" checked="checked"/> Option 1
+								</label>
+								<label class="btn btn-default-blue-toggle">
+									<input type="radio" name="test-toggle" id="option2"/> Option 2
+								</label>
+							</div>
+							<h4>Toggle buttons enhanced</h4>
+							<div class="btn-group" data-toggle="buttons">
+								<label class="btn btn-default-blue-toggle-enhanced active">
+									<input type="radio" name="test-toggle" id="option1" checked="checked"/> Option 1
+								</label>
+								<label class="btn btn-default-blue-toggle-enhanced">
+									<input type="radio" name="test-toggle" id="option2"/> Option 2
+								</label>
+							</div>
+							<h4>Multi-select</h4>
+							<div class="btn-group" data-toggle="buttons-checkboxes">
+								<button type="button" class="btn btn-default-blue-toggle" style="margin-right:6px;">1</button>
+								<button type="button" class="btn btn-default-blue-toggle active" style="margin-right:6px;">2</button>
+								<button type="button" class="btn btn-default-blue-toggle active" style="margin-right:6px;">3</button>
+								<button type="button" class="btn btn-default-blue-toggle active" style="margin-right:6px;">4</button>
+							</div>
+							<h4>Multi-select enhanced</h4>
+							<div class="btn-group" data-toggle="buttons-checkboxes">
+								<button type="button" class="btn btn-default-blue-toggle-enhanced" style="margin-right:6px;">1</button>
+								<button type="button" class="btn btn-default-blue-toggle-enhanced active" style="margin-right:6px;">2</button>
+								<button type="button" class="btn btn-default-blue-toggle-enhanced active" style="margin-right:6px;">3</button>
+								<button type="button" class="btn btn-default-blue-toggle-enhanced active" style="margin-right:6px;">4</button>
+							</div>
+						</div>
+						
+						<!--Toggle buttons dark background-->
+						<h3 id="ui-buttons">Toggle buttons</h3>
+						<div class="well" style="background: #282828;">
+							<h4>Toggle buttons</h4>
+							<div class="btn-group" data-toggle="buttons">
+								<label class="btn btn-default-dark-toggle active">
+									<input type="radio" name="test-toggle" id="option1" checked="checked"/> Option 1
+								</label>
+								<label class="btn btn-default-dark-toggle">
+									<input type="radio" name="test-toggle" id="option2"/> Option 2
+								</label>
+							</div>
+							<h4>Toggle buttons enhanced</h4>
+							<div class="btn-group" data-toggle="buttons">
+								<label class="btn btn-default-dark-toggle-enhanced active">
+									<input type="radio" name="test-toggle" id="option1" checked="checked"/> Option 1
+								</label>
+								<label class="btn btn-default-dark-toggle-enhanced">
+									<input type="radio" name="test-toggle" id="option2"/> Option 2
+								</label>
+							</div>
+							<h4>Multi-select</h4>
+							<div class="btn-group" data-toggle="buttons-checkboxes">
+								<button type="button" class="btn btn-default-dark-toggle" style="margin-right:6px;">1</button>
+								<button type="button" class="btn btn-default-dark-toggle active" style="margin-right:6px;">2</button>
+								<button type="button" class="btn btn-default-dark-toggle active" style="margin-right:6px;">3</button>
+								<button type="button" class="btn btn-default-dark-toggle active" style="margin-right:6px;">4</button>
+							</div>
+							<h4>Multi-select enhanced</h4>
+							<div class="btn-group" data-toggle="buttons-checkboxes">
+								<button type="button" class="btn btn-default-dark-toggle-enhanced" style="margin-right:6px;">1</button>
+								<button type="button" class="btn btn-default-dark-toggle-enhanced active" style="margin-right:6px;">2</button>
+								<button type="button" class="btn btn-default-dark-toggle-enhanced active" style="margin-right:6px;">3</button>
+								<button type="button" class="btn btn-default-dark-toggle-enhanced active" style="margin-right:6px;">4</button>
 							</div>
 						</div>
 						
 						<!--Dropdowns light background-->
-						<h3 id="ui-buttons-black">Dropdown light background</h3>
+						<h3 id="ui-buttons">Dropdown light background</h3>
 						<div class="well" style="background: #f9f9f9;">
 							<h4>Dropdown button</h4>
 							<div class="btn-group btn-input clearfix">
@@ -1197,8 +1219,8 @@
 						</div>
 						
 						<!--Dropdowns blue background-->
-						<h3 id="ui-buttons-black">Dropdown blue background</h3>
-						<div class="well" style="background: #1f6296;">
+						<h3 id="ui-buttons">Dropdown blue background</h3>
+						<div class="well" style="background: #206397;">
 							<h4 style="color:#ffffff;">Dropdown button</h4>
 							<div class="btn-group btn-input clearfix">
 								<button type="button" class="btn btn-default-blue dropdown-toggle" data-toggle="dropdown">
@@ -1244,12 +1266,12 @@
 							</div>
 						</div>
 						
-						<!--Dropdowns black background-->
-						<h3 id="ui-buttons-black">Dropdown black background</h3>
-						<div class="well" style="background: #232323;">
+						<!--Dropdowns dark background-->
+						<h3 id="ui-buttons">Dropdown dark background</h3>
+						<div class="well" style="background: #282828;">
 							<h4 style="color:#ffffff;">Dropdown button</h4>
 							<div class="btn-group btn-input clearfix">
-								<button type="button" class="btn btn-default-black dropdown-toggle" data-toggle="dropdown">
+								<button type="button" class="btn btn-default-dark dropdown-toggle" data-toggle="dropdown">
 									<span data-bind="label">Select One</span>&nbsp;<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu" role="menu">
@@ -1260,7 +1282,7 @@
 							</div>
 							<h4 style="color:#ffffff;">Dropdown button disabled</h4>
 							<div class="btn-group btn-input clearfix">
-								<button type="button" class="btn btn-default-black dropdown-toggle" data-toggle="dropdown" disabled>
+								<button type="button" class="btn btn-default-dark dropdown-toggle" data-toggle="dropdown" disabled>
 									<span data-bind="label">Select One</span>&nbsp;<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu" role="menu">
@@ -1271,7 +1293,7 @@
 							</div>
 							<h4 style="color:#ffffff;">Dropdown button inverted</h4>
 							<div class="btn-group btn-input clearfix dropup">
-								<button type="button" class="btn btn-default-black dropdown-toggle" data-toggle="dropdown">
+								<button type="button" class="btn btn-default-dark dropdown-toggle" data-toggle="dropdown">
 									<span data-bind="label">Select One</span>&nbsp;<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu" role="menu">
@@ -1282,7 +1304,7 @@
 							</div>
 							<h4 style="color:#ffffff;">Select</h4>
 							<div class="row-fluid">
-								<select class="form-control-black">
+								<select class="form-control-dark">
 									<option>1</option>
 									<option>2</option>
 									<option>3</option>
@@ -1617,7 +1639,7 @@
 								<div class="form-group has-feedback has-feedback-left">
 									<label class="control-label">Username</label>
 									<input type="text" class="form-control" placeholder="Username" />
-									<i class="form-control-feedback glyphicon glyphicon-user"></i>
+									<i class="form-control-feedback abb-ux-user"></i>
 								</div>
 							</form>
 						</div>
@@ -1712,7 +1734,7 @@
 						<!--Form example blue-->
 						<h3 id="ui-forms-notes">Form with notes blue background</h3>
 						<p>Empty forms look like this</p>
-						<div class="well well-transparent" style="background: #1f6296;">
+						<div class="well well-transparent" style="background: #206397;">
 							<form data-toggle="validator" role="form">
 								<div class="form-group">
 									<label for="inputName" class="control-label-blue">Name</label>
@@ -1774,43 +1796,43 @@
 						</div>
 						<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The error and success messages in this form are using <a style="font-weight: bold;" href="http://1000hz.github.io/bootstrap-validator/"target="_blank">Bootstrap validator</a> library</span>
 						
-						<!--Form example black-->
-						<h3 id="ui-forms-notes">Form with notes black background</h3>
+						<!--Form example dark-->
+						<h3 id="ui-forms-notes">Form with notes dark background</h3>
 						<p>Empty forms look like this</p>
-						<div class="well well-transparent" style="background: #232323;">
+						<div class="well well-transparent" style="background: #282828;">
 							<form data-toggle="validator" role="form">
 								<div class="form-group">
-									<label for="inputName" class="control-label-black">Name</label>
-									<input type="text" class="form-control-black" id="inputName" placeholder="Type name here" required>
+									<label for="inputName" class="control-label-dark">Name</label>
+									<input type="text" class="form-control-dark" id="inputName" placeholder="Type name here" required>
 								</div>
 								<div class="form-group has-feedback">
-									<label for="inputTwitter" class="control-label-black">Twitter</label>
+									<label for="inputTwitter" class="control-label-dark">Twitter</label>
 									<div class="input-group">
-										<span class="input-group-addon input-group-addon-black">@</span>
-										<input type="text" pattern="^[_A-z0-9]{1,}$" maxlength="15" class="form-control-black" id="inputTwitter" placeholder="twitter account"
+										<span class="input-group-addon input-group-addon-dark">@</span>
+										<input type="text" pattern="^[_A-z0-9]{1,}$" maxlength="15" class="form-control-dark" id="inputTwitter" placeholder="twitter account"
 										required>
 									</div>
 									<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-									<span class="help-block-black with-errors">Hey look, this one has feedback icons!</span>
+									<span class="help-block-dark with-errors">Hey look, this one has feedback icons!</span>
 								</div>
 								<div class="form-group">
-									<label for="inputEmail" class="control-label-black">Email</label>
-									<input type="email" class="form-control-black" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid"
+									<label for="inputEmail" class="control-label-dark">Email</label>
+									<input type="email" class="form-control-dark" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid"
 									required>
-									<div class="help-block-black with-errors"></div>
+									<div class="help-block-dark with-errors"></div>
 								</div>
 								<div class="form-group">
-									<label for="inputPassword" class="control-label-black">Password</label>
-									<input type="password" data-minlength="6" class="form-control-black" id="inputPassword" placeholder="Password" required>
-									<span class="help-block-black">Minimum of 6 characters</span>
+									<label for="inputPassword" class="control-label-dark">Password</label>
+									<input type="password" data-minlength="6" class="form-control-dark" id="inputPassword" placeholder="Password" required>
+									<span class="help-block-dark">Minimum of 6 characters</span>
 								</div>
 								<div class="form-group">
-									<label for="inlineCheckbox30" class="control-label-black">Terms and conditions</label>
+									<label for="inlineCheckbox30" class="control-label-dark">Terms and conditions</label>
 									<input type="checkbox" checked="checked" id="inlineCheckbox30" value="option1">
 									<label style="margin-left:-20px; margin-right:30px; color:#9f9f9f;" class="checkbox-inline" for="inlineCheckbox30">I agree to everything</label>
 								</div>
 								<div class="form-group">
-									<label for="inlineRadio30" class="control-label-black">Please select category</label>
+									<label for="inlineRadio30" class="control-label-dark">Please select category</label>
                                     <div class="radio" style="margin-left:25px">
                                         <input type="radio" name="category" id="inlineRadio30" checked="checked" value="1">
                                         <label style="margin-left:-20px; margin-right:30px; color:#9f9f9f;" class="radio-inline" for="inlineRadio30">Human</label>
@@ -1825,15 +1847,15 @@
 									</div>
 								</div>       
 								<div class="form-group">
-									<label style="margin-top:12px;" for="inputType" class="control-label-black">State robot type (disabled)</label>
-									<input type="text" class="form-control-black" id="inputType" placeholder="MEC200" disabled>
+									<label style="margin-top:12px;" for="inputType" class="control-label-dark">State robot type (disabled)</label>
+									<input type="text" class="form-control-dark" id="inputType" placeholder="MEC200" disabled>
 								</div>
 								<div class="form-group">
-									<label for="inputType" class="control-label-black">Description (readonly)</label>
-									<input type="text" class="form-control-black" id="inputType" placeholder="Mechanical electro control 200" readonly>
+									<label for="inputType" class="control-label-dark">Description (readonly)</label>
+									<input type="text" class="form-control-dark" id="inputType" placeholder="Mechanical electro control 200" readonly>
 								</div>
 								<div class="form-group">
-									<button type="submit" class="btn btn-primary-black">Submit</button>
+									<button type="submit" class="btn btn-primary-dark">Submit</button>
 								</div>
 							</form>
 						</div>
@@ -1924,7 +1946,7 @@
 							<nav class="navbar navbar-inverse navbar-static-bottom">
 								<div class="container-fluid">
 									<div class="navbar-header">
-										<span class="btn badge-nav alert-warning-discrete"> <i class="fa fa-exclamation-triangle fa-lg"></i> Warning </span>
+										<span class="btn badge-nav alert-warning-discrete"> <i class="abb-ux-warning size-12"></i> Warning </span>
 										<span class="btn badge-nav alert-danger-discrete"> <i class="fa fa-exclamation-triangle fa-lg"></i> Critical error System 24 </span>
 										<span class="btn badge-nav alert-info-discrete"> <i class="fa fa-info-circle fa-lg"></i> Idle </span>
 										<span class="btn badge-nav alert-success-discrete"> <i class="fa fa-check-circle fa-lg"></i> All changes successfully cleared </span>
@@ -2512,7 +2534,7 @@
 							<button type="button" class="btn btn-default">Cancel</button>
 							<div class="btn-group dropup">
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									<i class="fa fa-clone"></i>
+									<i class="abb-ux-copy size-12"></i>
 								</button>
 								<ul class="dropdown-menu">
 									<li><a href="#">Copy from</a></li>
@@ -2521,7 +2543,7 @@
 							</div>
 							<div class="btn-group dropup">
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									<i class="fa fa-plus"></i>
+									<i class="abb-ux-add size-12"></i>
 								</button>
 								<ul class="dropdown-menu">
 									<li><a href="#myModalnew" data-toggle="modal">Add new alarm</a></li>
@@ -2563,7 +2585,7 @@
 							<div class="btn-group">
 								<button type="button" class="btn btn-primary">Search</button>
 								<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									<i class="fa fa-cog"></i>
+									<i class="abb-ux-settings"></i>
 								</button>
 								<ul class="dropdown-menu">
 									<li><a href="#">Build custom search</a></li>
@@ -2732,7 +2754,7 @@
 										<a class="navbar-brand" style="margin-left:5px;" href="#">Alarm Rationalization Tool</a>
 									</div>
 									<div class="navbar-collapse collapse">
-										<ul class="nav navbar-nav" style="margin-left:-60px;">
+										<ul class="nav navbar-nav" style="margin-left:-40px;">
 											<li><a href="#">Import</a>
 											</li>
 											<li><a href="#about">Export</a>
@@ -2741,13 +2763,12 @@
 											</li>
 											<li><a href="#contact">Audit trail</a>
 											</li>
-											<li><a href="#contact"><i class="fa fa-user fa-lg" style="margin-left:50px;"></i></a>
+											<li><a href="#contact"><i class="abb-ux-user size-16" style="margin-left:50px;"></i></a>
 											</li>
-											<li><a href="#contact"><i class="fa fa-pie-chart fa-lg" style="margin-left:-12px;"></i></a>
+											<li><a href="#contact"><i class="abb-ux-piechart size-16" style="margin-left:-12px;"></i></a>
 											</li>
-											<li><a href="#contact"><i class="fa fa-database fa-lg" style="margin-left:-12px;"></i></a>
-											</li>
-											
+											<li><a href="#contact"><i class="abb-ux-database size-16" style="margin-left:-12px;"></i></a>
+											</li>		
 										</ul>
 									</div>
 								</div>
@@ -2778,28 +2799,27 @@
 										<a class="navbar-brand" style="margin-left:5px;" href="#">Alarm Rationalization Tool</a>
 									</div>
 									<div class="navbar-collapse collapse">
-										<ul class="nav navbar-nav" style="margin-left:-60px;">
+										<ul class="nav navbar-nav" style="margin-left:-40px;">
 											<li><a href="#">Import</a>
 											</li>
 											<li><a href="#about">Export</a>
 											</li>
-											<li><a href="#contact">Review</a>
+											<li class="active"><a href="#contact">Review</a>
 											</li>
-											<li class="active"><a href="#contact">Audit trail</a>
+											<li><a href="#contact">Audit trail</a>
 											</li>
-											<li><a href="#contact"><i class="fa fa-user fa-lg" style="margin-left:50px;"></i></a>
+											<li><a href="#contact"><i class="abb-ux-user size-16" style="margin-left:50px;"></i></a>
 											</li>
-											<li><a href="#contact"><i class="fa fa-pie-chart fa-lg" style="margin-left:-12px;"></i></a>
+											<li><a href="#contact"><i class="abb-ux-piechart size-16" style="margin-left:-12px;"></i></a>
 											</li>
-											<li><a href="#contact"><i class="fa fa-database fa-lg" style="margin-left:-12px;"></i></a>
-											</li>
-											
+											<li><a href="#contact"><i class="abb-ux-database size-16" style="margin-left:-12px;"></i></a>
+											</li>		
 										</ul>
 									</div>
 								</div>
 							</div>
 							<div class="row">
-								<ul class="nav nav-gray nav-tabs" style="margin-top:-23px; margin-left:15px; width:96.5%;">
+								<ul class="nav nav-gray nav-tabs" style="margin-top:-25px; margin-left:15px; width:96.5%;">
 									<li><a href="#">All changes</a></li>
 									<li class="active"><a href="#">File imports</a></li>
 									<li><a href="#">Copy operations</a></li>
@@ -2830,13 +2850,14 @@
 											</li>
 											<li><a href="#about">Template library</a>
 											</li>
-											<li><a href="#contact"><i class="fa fa-user fa-lg" style="margin-left:50px;"> </i> NODAROM </a>
+											<li><a href="#contact"><i class="abb-ux-user size-16" style="margin-left:20px;"> </i></a>
+											</li>
+                                            <li style="margin-left:-25px;"><a href="#contact">NODAROM </a>
 											</li>
 											<li><a href="#contact"> EN </a>
 											</li>
-											<li><a href="#contact"><i class="fa fa-cog fa-lg" style="margin-left:-12px;"></i></a>
-											</li>
-											
+											<li><a href="#contact"><i class="abb-ux-settings size-16" style="margin-left:-12px;"></i></a>
+											</li>				
 										</ul>
 									</div>
 								</div>
@@ -2861,7 +2882,7 @@
                                                             <span class="input-group-addon"><i class="fa fa-search"></i></span>
                                                             <input type="text" class="form-control" placeholder="Search for SIFs" style="width:180px;">
 														</div>  
-                                                        <button type="button" class="btn btn-default-gray"><i class="fa fa-plus"></i></button>
+                                                        <button type="button" class="btn btn-default"><i class="fa fa-plus"></i></button>
 													</form>
                                                     
                                                     <h4 style="margin-top: 20px;">Filter by location</h4>
@@ -2946,13 +2967,14 @@
 											</li>
 											<li><a href="#about">Template library</a>
 											</li>
-											<li><a href="#contact"><i class="fa fa-user fa-lg" style="margin-left:50px;"> </i> NODAROM </a>
+											<li><a href="#contact"><i class="abb-ux-user size-16" style="margin-left:20px;"> </i></a>
+											</li>
+                                            <li style="margin-left:-25px;"><a href="#contact">NODAROM </a>
 											</li>
 											<li><a href="#contact"> EN </a>
 											</li>
-											<li><a href="#contact"><i class="fa fa-cog fa-lg" style="margin-left:-12px;"></i></a>
-											</li>
-											
+											<li><a href="#contact"><i class="abb-ux-settings size-16" style="margin-left:-12px;"></i></a>
+											</li>				
 										</ul>
 									</div>
 								</div>
@@ -2981,15 +3003,16 @@
 											</li>
 											<li class="active"><a href="#about">Instrument library</a>
 											</li>
-                                            <li><a href="#about">Template library</a>
+											<li><a href="#about">Template library</a>
 											</li>
-											<li><a href="#contact"><i class="fa fa-user fa-lg" style="margin-left:50px;"> </i> NODAROM </a>
+											<li><a href="#contact"><i class="abb-ux-user size-16" style="margin-left:20px;"> </i></a>
 											</li>
-                                            <li><a href="#contact"> EN </a>
+                                            <li style="margin-left:-25px;"><a href="#contact">NODAROM </a>
 											</li>
-											<li><a href="#contact"><i class="fa fa-cog fa-lg" style="margin-left:-12px;"></i></a>
+											<li><a href="#contact"> EN </a>
 											</li>
-											
+											<li><a href="#contact"><i class="abb-ux-settings size-16" style="margin-left:-12px;"></i></a>
+											</li>				
 										</ul>
 									</div>
 								</div>
@@ -3232,23 +3255,24 @@
 												</button>
 												<a class="navbar-brand" style="margin-left:5px;" href="#">Safety Manager</a>
 											</div>
-											<div class="navbar-collapse collapse">
-												<ul class="nav navbar-nav" style="margin-left:-60px;">
-													<li><a href="#">SIF Designer</a>
-													</li>
-													<li><a href="#about">Instrument library</a>
-													</li>
-													<li class="active"><a href="#about">Template library</a>
-													</li>
-													<li><a href="#contact"><i class="fa fa-user fa-lg" style="margin-left:50px;"> </i> NODAROM </a>
-													</li>
-													<li><a href="#contact"> EN </a>
-													</li>
-													<li><a href="#contact"><i class="fa fa-cog fa-lg" style="margin-left:-12px;"></i></a>
-													</li>
-													
-												</ul>
-											</div>
+                                            <div class="navbar-collapse collapse">
+                                                <ul class="nav navbar-nav" style="margin-left:-60px;">
+                                                    <li><a href="#">SIF Designer</a>
+                                                    </li>
+                                                    <li><a href="#about">Instrument library</a>
+                                                    </li>
+                                                    <li class="active"><a href="#about">Template library</a>
+                                                    </li>
+                                                    <li><a href="#contact"><i class="abb-ux-user size-16" style="margin-left:20px;"> </i></a>
+                                                    </li>
+                                                    <li style="margin-left:-25px;"><a href="#contact">NODAROM </a>
+                                                    </li>
+                                                    <li><a href="#contact"> EN </a>
+                                                    </li>
+                                                    <li><a href="#contact"><i class="abb-ux-settings size-16" style="margin-left:-12px;"></i></a>
+                                                    </li>				
+                                                </ul>
+                                            </div>
 										</div>
 									</div>
 									<div class="row">
@@ -3516,6 +3540,7 @@
 										<script type='text/javascript' src="js/bootstrap-treefy.js"></script>
 										<script type='text/javascript' src="js/jquery.typeahead.min.js"></script>
 										<script type='text/javascript' src="js/lazeemenu-jquery.js"></script>
+										<script type='text/javascript' src="js/lazeemenu-jquery.js"></script>
 										
 										<!-- D3 Visualizations -->
 										<script type='text/javascript' src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
@@ -3724,6 +3749,16 @@
 											})
 										</script>
 										
+										<!-- Buttons radio/checkbox toggle behaviours -->
+										<script>
+											$('#option1').on('click', function () {
+												$(this).button('complete') // button text will be "finished!"
+											})
+											$('#option2').on('click', function () {
+												$(this).button('complete') // button text will be "finished!"
+											})
+										</script>
+										
 										<!-- Form load spinner -->
 										<script>
 											// Remember set you events before call bootstrapSwitch or they will fire after bootstrapSwitch's events
@@ -3738,8 +3773,7 @@
 												upClass: 'success',
 												downClass: 'danger'
 											});
-										</script>
-										
+										</script>									
 										<!--For roundslider-->
 										<script>
 											$("#slider").roundSlider({
