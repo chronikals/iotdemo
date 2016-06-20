@@ -264,14 +264,14 @@ table th[class*="col-"] {
 .table > thead > tr.success > th,
 .table > tbody > tr.success > th,
 .table > tfoot > tr.success > th {
-	background-color: #dff0d8;
+	background-color: transparent;
 }
 .table-hover > tbody > tr > td.success:hover,
 .table-hover > tbody > tr > th.success:hover,
 .table-hover > tbody > tr.success:hover > td,
 .table-hover > tbody > tr:hover > .success,
 .table-hover > tbody > tr.success:hover > th {
-	background-color: #d0e9c6;
+	background-color: transparent;
 }
 .table > thead > tr > td.info,
 .table > tbody > tr > td.info,
@@ -285,7 +285,7 @@ table th[class*="col-"] {
 .table > thead > tr.info > th,
 .table > tbody > tr.info > th,
 .table > tfoot > tr.info > th {
-	background-color: $abb-blue-13;
+	background-color: transparent;
 }
 .table-hover > tbody > tr > td.info:hover,
 .table-hover > tbody > tr > th.info:hover,
@@ -306,7 +306,7 @@ table th[class*="col-"] {
 .table > thead > tr.warning > th,
 .table > tbody > tr.warning > th,
 .table > tfoot > tr.warning > th {
-	background-color: #ffe0b2;
+	background-color: transparent;
 }
 .table-hover > tbody > tr > td.warning:hover,
 .table-hover > tbody > tr > th.warning:hover,
@@ -337,6 +337,7 @@ table th[class*="col-"] {
 	background-color: #f7a6a4;
 }
 
+.tr:hover td {border: 1px solid #47c2ff}
 
 // FORM CONTROLS CommonUX
 
@@ -403,10 +404,9 @@ textarea.form-control {
 	font-size: 12px;
     font-weight: 400;
 	line-height: 1.42857143;
-	color:#f9f9f9;
-	background-color: #184d75;
-	background-image: none;
-	border: 1px solid #184d75 !important;
+	color: $abb-grey-240;
+  	background-color: rgba(0,0,0,0.3) !important;
+  	border: 1px solid rgba(200,200,200,0.3) !important;
 	border-radius: 0px;
 	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
 	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -463,8 +463,8 @@ textarea.form-control-blue {
     font-weight: 400;
 	line-height: 1.42857143;
 	color: $abb-grey-200;
-	background-color: $abb-grey-20;
-	border: 1px solid $abb-grey-60 !important;
+	background-color: rgba(0,0,0,0.5);
+	border: 1px solid rgba(110,110,110,0.5) !important;
 	border-radius: 0px;
 	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
 	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -481,19 +481,24 @@ textarea.form-control-blue {
 	outline: 0;
 }
 .form-control-dark::-moz-placeholder {
-	color: rgba(189, 189, 189, 0.3);
+	color: rgba(200, 200, 200, 0.32);
 }
 .form-contro-dark:-ms-input-placeholder {
-	color: rgba(189, 189, 189, 0.3);
+	color: rgba(200, 200, 200, 0.32);
 }
 .form-control-dark::-webkit-input-placeholder {
-	color: rgba(189, 189, 189, 0.3);
+	color: rgba(200, 200, 200, 0.32);
 }
 .form-control-dark[disabled],
-.form-control-dark[readonly],
 fieldset[disabled] .form-control-dark {
-	background-color: #363636;
-	border: 1px solid #2c2c2c;
+	background-color: rgba(0,0,0,0);
+	border: 1px solid rgba(110,110,110,0.3);
+	outline: none; 
+}
+.form-control-dark[readonly],
+fieldset[readonly] .form-control-dark {
+	background-color: rgba(110,110,110,0.2);
+	border: 1px solid rgba(110,110,110,0.4);
 	outline: none; 
 }
 .form-control-dark[disabled],
@@ -703,7 +708,7 @@ select[multiple].input-lg {
 	display: block;
 	width: 37px;
 	height: 37px;
-	line-height: 37px;
+	line-height: 32px;
 	text-align: center;
 	pointer-events: none;
 }
@@ -1901,7 +1906,7 @@ fieldset[disabled] .btn-danger.active {
 }
 .input-group-addon {
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
   line-height: 1;
   color: $abb-grey-70;
@@ -1910,48 +1915,26 @@ fieldset[disabled] .btn-danger.active {
   border: 1px solid $abb-grey-220 !important;
   border-radius: 0px;
 }
-.input-group-addon-gray {
-  padding: 6px 12px;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1;
-  color: $abb-grey-70;
-  text-align: center;
-  background-color: #f9f9f9 !important;
-  border: 1px solid #d6d6d6 !important;
-  border-radius: 0px;
-}
 .input-group-addon-blue {
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
   line-height: 1;
   color: #f9f9f9;
   text-align: center;
-  background-color: #1b5684  !important;
-  border: 1px solid #184d75  !important;
+  background-color: rgba(0,0,0,0.3) !important;
+  border: 1px solid rgba(200,200,200,0.3) !important;
   border-radius: 0px;
 }
 .input-group-addon-dark {
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
   line-height: 1;
-  color: #c7c7c7;
   text-align: center;
-  background-color: #272727  !important;
-  border: 1px solid #1d1d1d  !important;
-  border-radius: 0px;
-}
-.input-group-addon-dark {
-  padding: 6px 12px;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1;
-  color: #bdbdbd;
-  text-align: center;
-  background-color: #181818  !important;
-  border: 1px solid #0e0e0e  !important;
+  color: $abb-grey-200;
+  background-color: rgba(0,0,0,0.5) !important;
+  border: 1px solid rgba(110,110,110,0.5) !important;
   border-radius: 0px;
 }
 
@@ -1997,13 +1980,13 @@ fieldset[disabled] .btn-danger.active {
 .nav .open > a:hover,
 .nav .open > a:focus {
 	background-color: #eeeeee;
-	border-color: #2196f3;
+	border-color: $abb-blue-12;
 }
 .nav .nav-divider {
 	height: 1px;
 	margin: 10.5px 0;
 	overflow: hidden;
-	background-color: #e5e5e5;
+	background-color: transparent;
 }
 .nav > li > a > img {
 	max-width: none;
@@ -2880,7 +2863,7 @@ a.label:focus {
 	display: inline-block;
 	min-width: 10px;
 	padding: 3px 7px;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: normal;
 	color: $abb-grey-255;
 	line-height: 1;
@@ -2966,7 +2949,7 @@ a.badge-nav:focus {
 	border-radius: 0px;
 	color: $abb-grey-255;
 	text-align: center;
-	font-size: 14px;
+	font-size: 12px;
 	-webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.35);
 	-moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.35);
 	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.35);
@@ -4408,9 +4391,15 @@ input[type="checkbox"][data-indeterminate] + label:after
 .progress-bar {
 	-webkit-box-shadow: none;
 	box-shadow: none;
+	background: $abb-data-blue-4;
+}
+.progress-bar-success {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: $abb-data-green-4;
 }
 .progress-bar:last-child {
-	border-radius: 0 3px 3px 0;
+	border-radius: 0 0 0 0;
 }
 .progress-bar:last-child:before {
 	display: block;
@@ -4421,21 +4410,20 @@ input[type="checkbox"][data-indeterminate] + label:after
 	left: 0;
 	right: 0;
 	z-index: -1;
-	background-color: #cae6fc;
+	background-color: $abb-data-blue-1;
 }
 .progress-bar-success:last-child.progress-bar:before {
-	background-color: #c7e7c8;
+	background-color: $abb-data-green-1;
 }
 .progress-bar-info:last-child.progress-bar:before {
-	background-color: #edc9f3;
+	background-color: $abb-data-purple-1;
 }
 .progress-bar-warning:last-child.progress-bar:before {
-	background-color: #ffe0b3;
+	background-color: $abb-data-peach-1;
 }
 .progress-bar-danger:last-child.progress-bar:before {
-	background-color: #f28e92;
+	background-color: $abb-data-pink-1;
 }
-
 .close {
 	font-size: 34px;
 	font-weight: 300;
