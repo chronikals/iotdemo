@@ -2385,7 +2385,7 @@ fieldset[disabled] .btn-danger.active {
 .navbar-brand {
 	background: url("Logo-white.png") no-repeat left center;
 	float: left;
-	padding: 10px 90px;
+	padding: 10px 100px;
 	font-size: 16px;
 	line-height: 26px;
 	height: 50px;
@@ -2452,6 +2452,9 @@ fieldset[disabled] .btn-danger.active {
     font-weight: 500;
 }
 
+.navbar-right {
+	margin-right:0;}
+
 .navbar-default {
 	color: #212121;
 	background-color: $abb-grey-230;
@@ -2516,7 +2519,7 @@ fieldset[disabled] .btn-danger.active {
 .navbar-default .navbar-nav > .open > a:focus {
 	background-color: $abb-grey-220;
 	color: $abb-grey-70;
-	height: 50px;
+	height: 46px;
 }
 @media (max-width: 767px) {
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -2606,6 +2609,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-toggle {
 	border-color: transparent;
+	color:$abb-grey-250;
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
@@ -3801,6 +3805,7 @@ input[type="radio"],
 	-webkit-appearance: none;
     -ms-appearance: none;
     -o-appearance: none;
+	-moz-appearance: none;
 	cursor: pointer;
 }
 input[type="radio"]:focus,
@@ -3896,9 +3901,6 @@ input[type="checkbox"],
 	position: relative;
 	border: none;
 	margin-bottom: -4px;
-	-webkit-appearance: none;
-    -ms-appearance: none;
-    -o-appearance: none;
 	cursor: pointer;
 }
 input[type="checkbox"]:focus,
@@ -4156,6 +4158,7 @@ input[type="radio"],
 	-webkit-appearance: none;
     -ms-appearance: none;
     -o-appearance: none;
+	-moz-appearance: none;
 	cursor: pointer;
 }
 input[type="radio"]:focus,
@@ -4425,7 +4428,6 @@ input[type="checkbox"][data-indeterminate] + label:after
 	background-color: $abb-data-pink-1;
 }
 .close {
-	font-size: 34px;
 	font-weight: 300;
 	line-height: 24px;
 	opacity: 0.6;
@@ -4473,6 +4475,9 @@ input[type="checkbox"][data-indeterminate] + label:after
 	color: inherit;
 }
 
+.panel {
+	border-radius: 0;
+}
 .panel.with-nav-tabs .panel-heading{
 	padding: 5px 5px 0 5px;
 }
@@ -5105,6 +5110,39 @@ a:hover, a:focus {
    position: absolute;
    right: 10px;
    top: 50%;
+}
+
+.row{
+margin-left:0;
+margin-right:0;
+}
+
+.form-group.required .control-label:after {
+    color: $abb-critical-red;
+    content: ' *';
+	font-weight: bold;
+    display:inline;
+}
+
+/*
+
+.navbar-nav li{
+    position: relative
+}
+.navbar-nav li:not(:last-child):after{
+    content: '';
+    position: absolute;
+    right: -2px;
+    width:2px;
+    height: 80%;
+    top: 10%;
+    background: $abb-grey-10;
+}
+
+*/
+
+.btn:hover, btn:focus, .focus.btn{
+color: inherit;
 }
 
 /*Margin dropdown arrow*/

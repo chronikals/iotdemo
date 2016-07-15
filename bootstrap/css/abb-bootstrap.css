@@ -24,174 +24,6 @@
   /* IE9 Compat Modes */
   src: local("Γÿ║"), url("../fonts/abb-font/HelveticaNeueETPro-75Bd.eot?#iefix") format("embedded-opentype"), url("../fonts/abb-font/HelveticaNeueETPro-75Bd.woff2") format("woff2"), url("../fonts/abb-font/HelveticaNeueETPro-75Bd.woff") format("woff"), url("../fonts/abb-font/HelveticaNeueETPro-75Bd.ttf") format("truetype"), url("../fonts/abb-font/HelveticaNeueETPro-75Bd.svg#HelveticaNeueeTextPro") format("svg");
   /* Legacy iOS */ }
-@font-face {
-  font-family: 'abb-ux';
-  src: url("../fonts/abb-icons/abb-ux-icons.eot?gs5tf4");
-  /* IE9 Compat Modes */
-  src: url("../fonts/abb-icons/abb-ux-icons.eot?gs5tf4#iefix") format("embedded-opentype"), url("../fonts/abb-icons/abb-ux-icons.ttf?gs5tf4") format("truetype"), url("../fonts/abb-icons/abb-ux-icons.woff?gs5tf4") format("woff"), url("../fonts/abb-icons/abb-ux-icons.svg?gs5tf4#abb-ux") format("svg");
-  /* Legacy iOS */
-  font-weight: normal;
-  font-style: normal; }
-[class^="abb-ux-"], [class*=" abb-ux-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'abb-ux' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-/* ABB UX Web icons */
-/* aux class for 12 pt size in icons */
-.size-12 {
-  font-size: 12pt; }
-
-.size-16 {
-  font-size: 16pt; }
-
-/* aux class for 18 pt size in icons */
-.size-18 {
-  font-size: 18pt; }
-
-/* aux class for 24 pt size in icons */
-.size-24 {
-  font-size: 24pt; }
-
-/* aux class for 36 pt size in icons */
-.size-36 {
-  font-size: 36pt; }
-
-/* aux class for 48 pt size in icons */
-.size-48 {
-  font-size: 48pt; }
-
-.abb-ux-alarm:before {
-  content: "\e904"; }
-
-.abb-ux-check:before {
-  content: "\e905"; }
-
-.abb-ux-audit:before {
-  content: "\e906"; }
-
-.abb-ux-background:before {
-  content: "\e907"; }
-
-.abb-ux-barchart:before {
-  content: "\e908"; }
-
-.abb-ux-calendar:before {
-  content: "\e909"; }
-
-.abb-ux-numerical:before {
-  content: "\e90a"; }
-
-.abb-ux-dashboard:before {
-  content: "\e90b"; }
-
-.abb-ux-edit:before {
-  content: "\e90c"; }
-
-.abb-ux-event:before {
-  content: "\e90d"; }
-
-.abb-ux-export:before {
-  content: "\e90e"; }
-
-.abb-ux-filter:before {
-  content: "\e90f"; }
-
-.abb-ux-hide:before {
-  content: "\e910"; }
-
-.abb-ux-import:before {
-  content: "\e911"; }
-
-.abb-ux-link:before {
-  content: "\e912"; }
-
-.abb-ux-list:before {
-  content: "\e913"; }
-
-.abb-ux-lock:before {
-  content: "\e914"; }
-
-.abb-ux-menu:before {
-  content: "\e915"; }
-
-.abb-ux-work:before {
-  content: "\e916"; }
-
-.abb-ux-piechart:before {
-  content: "\e917"; }
-
-.abb-ux-reports:before {
-  content: "\e918"; }
-
-.abb-ux-search:before {
-  content: "\e919"; }
-
-.abb-ux-settings:before {
-  content: "\e91a"; }
-
-.abb-ux-share:before {
-  content: "\e91b"; }
-
-.abb-ux-singleline:before {
-  content: "\e91c"; }
-
-.abb-ux-table:before {
-  content: "\e91d"; }
-
-.abb-ux-time:before {
-  content: "\e91e"; }
-
-.abb-ux-trend:before {
-  content: "\e91f"; }
-
-.abb-ux-user:before {
-  content: "\e920"; }
-
-.abb-ux-variable:before {
-  content: "\e921"; }
-
-.abb-ux-view:before {
-  content: "\e922"; }
-
-.abb-ux-database:before {
-  content: "\e923"; }
-
-.abb-ux-back:before {
-  content: "\e924"; }
-
-.abb-ux-download:before {
-  content: "\e925"; }
-
-.abb-ux-warning:before {
-  content: "\e926"; }
-
-.abb-ux-controls:before {
-  content: "\e927"; }
-
-.abb-ux-add:before {
-  content: "\e928"; }
-
-.abb-ux-location:before {
-  content: "\e929"; }
-
-.abb-ux-copy:before {
-  content: "\e92a"; }
-
-.abb-ux-favourite:before {
-  content: "\e92b"; }
-
-.abb-ux-locationpin:before {
-  content: "\e92c"; }
-
 /*!
 	* CommonUX bootstrap template
 	* Copyright 2016 David Romero
@@ -448,14 +280,14 @@ table th[class*="col-"] {
 .table > thead > tr.success > th,
 .table > tbody > tr.success > th,
 .table > tfoot > tr.success > th {
-  background-color: #dff0d8; }
+  background-color: transparent; }
 
 .table-hover > tbody > tr > td.success:hover,
 .table-hover > tbody > tr > th.success:hover,
 .table-hover > tbody > tr.success:hover > td,
 .table-hover > tbody > tr:hover > .success,
 .table-hover > tbody > tr.success:hover > th {
-  background-color: #d0e9c6; }
+  background-color: transparent; }
 
 .table > thead > tr > td.info,
 .table > tbody > tr > td.info,
@@ -469,7 +301,7 @@ table th[class*="col-"] {
 .table > thead > tr.info > th,
 .table > tbody > tr.info > th,
 .table > tfoot > tr.info > th {
-  background-color: #0AAEFF; }
+  background-color: transparent; }
 
 .table-hover > tbody > tr > td.info:hover,
 .table-hover > tbody > tr > th.info:hover,
@@ -490,7 +322,7 @@ table th[class*="col-"] {
 .table > thead > tr.warning > th,
 .table > tbody > tr.warning > th,
 .table > tfoot > tr.warning > th {
-  background-color: #ffe0b2; }
+  background-color: transparent; }
 
 .table-hover > tbody > tr > td.warning:hover,
 .table-hover > tbody > tr > th.warning:hover,
@@ -519,6 +351,9 @@ table th[class*="col-"] {
 .table-hover > tbody > tr:hover > .danger,
 .table-hover > tbody > tr.danger:hover > th {
   background-color: #f7a6a4; }
+
+.tr:hover td {
+  border: 1px solid #47c2ff; }
 
 /*From control light*/
 .form-control {
@@ -2032,7 +1867,7 @@ fieldset[disabled] .btn-danger.active {
 
 .input-group-addon {
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
   line-height: 1;
   color: #464646;
@@ -2043,7 +1878,7 @@ fieldset[disabled] .btn-danger.active {
 
 .input-group-addon-blue {
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
   line-height: 1;
   color: #f9f9f9;
@@ -2054,7 +1889,7 @@ fieldset[disabled] .btn-danger.active {
 
 .input-group-addon-dark {
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
   line-height: 1;
   text-align: center;
@@ -2470,7 +2305,7 @@ fieldset[disabled] .btn-danger.active {
 .navbar-brand {
   background: url("Logo-white.png") no-repeat left center;
   float: left;
-  padding: 10px 90px;
+  padding: 10px 100px;
   font-size: 16px;
   line-height: 26px;
   height: 50px;
@@ -2521,6 +2356,9 @@ fieldset[disabled] .btn-danger.active {
   padding-top: 11px;
   padding-bottom: 12px;
   font-weight: 500; }
+
+.navbar-right {
+  margin-right: 0; }
 
 .navbar-default {
   color: #212121;
@@ -2585,7 +2423,7 @@ fieldset[disabled] .btn-danger.active {
 .navbar-default .navbar-nav > .open > a:focus {
   background-color: #DCDCDC;
   color: #464646;
-  height: 50px; }
+  height: 46px; }
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -2672,7 +2510,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: transparent; }
 
 .navbar-inverse .navbar-toggle {
-  border-color: transparent; }
+  border-color: transparent;
+  color: #FAFAFA; }
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
@@ -2925,7 +2764,7 @@ a.label:focus {
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
   color: #FFFFFF;
   line-height: 1;
@@ -3008,7 +2847,7 @@ a.badge-nav:focus {
   border-radius: 0px;
   color: #FFFFFF;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35);
   box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.35); }
@@ -3846,6 +3685,7 @@ input[type="radio"],
   -webkit-appearance: none;
   -ms-appearance: none;
   -o-appearance: none;
+  -moz-appearance: none;
   cursor: pointer; }
 
 input[type="radio"]:focus,
@@ -3941,9 +3781,6 @@ input[type="checkbox"],
   position: relative;
   border: none;
   margin-bottom: -4px;
-  -webkit-appearance: none;
-  -ms-appearance: none;
-  -o-appearance: none;
   cursor: pointer; }
 
 input[type="checkbox"]:focus,
@@ -4182,6 +4019,7 @@ input[type="radio"],
   -webkit-appearance: none;
   -ms-appearance: none;
   -o-appearance: none;
+  -moz-appearance: none;
   cursor: pointer; }
 
 input[type="radio"]:focus,
@@ -4448,7 +4286,6 @@ input[type="checkbox"][data-indeterminate] + label:after {
   background-color: #DAA5CE; }
 
 .close {
-  font-size: 34px;
   font-weight: 300;
   line-height: 24px;
   opacity: 0.6;
@@ -4494,6 +4331,9 @@ input[type="checkbox"][data-indeterminate] + label:after {
 .carousel-caption h5,
 .carousel-caption h6 {
   color: inherit; }
+
+.panel {
+  border-radius: 0; }
 
 .panel.with-nav-tabs .panel-heading {
   padding: 5px 5px 0 5px; }
@@ -5056,6 +4896,35 @@ a:hover, a:focus {
   position: absolute;
   right: 10px;
   top: 50%; }
+
+.row {
+  margin-left: 0;
+  margin-right: 0; }
+
+.form-group.required .control-label:after {
+  color: #F03040;
+  content: ' *';
+  font-weight: bold;
+  display: inline; }
+
+/*
+
+.navbar-nav li{
+    position: relative
+}
+.navbar-nav li:not(:last-child):after{
+    content: '';
+    position: absolute;
+    right: -2px;
+    width:2px;
+    height: 80%;
+    top: 10%;
+    background: $abb-grey-10;
+}
+
+*/
+.btn:hover, btn:focus, .focus.btn {
+  color: inherit; }
 
 /*Margin dropdown arrow*/
 span.caret {
