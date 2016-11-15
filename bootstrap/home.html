@@ -32,9 +32,10 @@
 		<link href="css/flat-toggle.css" rel="stylesheet">
 		<link href="css/bootstrap-treefy.css" rel="stylesheet">
         <link href="css/jquery.typeahead.css" rel="stylesheet">
-        <link href="css/lazeemenu.css" rel="stylesheet">
         <link href="css/d3viz.css" rel="stylesheet">
 		<link href="css/datatables.min.css" rel="stylesheet">
+
+		<link href="css/fa2png.css" rel="stylesheet">
         
 		<!-- Custom Fonts -->
 		<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -146,7 +147,7 @@
 							</nav>
 						</div>
 						
-						<h3 id="ui-view-windows">Horizontal navbar alternative color</h3>
+						<h3>Horizontal navbar alternative color</h3>
 						<div class="well well-transparent" style="background: #f9f9f9;">
 							
 							<nav class="navbar navbar-default" role="navigation">
@@ -192,7 +193,7 @@
 						</div>
 						
 						<!-- Sidebar -->
-						<h3 id="ui-view-windows">Vertical navbar alternative color</h3>
+						<h3>Vertical navbar alternative color</h3>
 						<div class="well well-transparent" style="background: #f9f9f9;">
 							<div class="row">
 								<div class="col-lg-3">
@@ -237,7 +238,7 @@
 							</div>
 						</div>
 						
-						<h3 id="ui-view-windows">Horizontal navbar</h3>
+						<h3>Horizontal navbar</h3>
 						<p>Examples for diffetent types of navigation based on text-only, icon-only and text + icon</p>
 						<div class="well well-transparent" style="background: #f9f9f9;">
 							
@@ -365,7 +366,7 @@
 							</div>
 						</div>
 						
-						<h3 id="ui-view-windows">Submenus</h3>
+						<h3>Submenus</h3>
 						<p>Examples for several levels in the top-level navigation (Alarm Insight > Alarm Analysis > Frequent Alarms)</p>
 						<div class="well well-transparent" style="background: #f9f9f9;">
 							<!-- Text + alarms and notifications -->
@@ -454,7 +455,7 @@
 						</div>
 						
 						<!-- Combined Sidebar -->
-						<h3 id="ui-view-windows">Combined navbar</h3>
+						<h3>Combined navbar</h3>
 						<p>Example application where black top navigation and gray side navigation are used</p>
 						<div class="well well-transparent" style="background: #f9f9f9;">
 							
@@ -531,7 +532,7 @@
 						<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The graphs in this example use the <a style="font-weight: bold;" href="http://nvd3.org/index.html"target="_blank">NVD3.js</a> library</span>
 						
 						<!-- Touch example -->
-						<h3 id="ui-view-windows">Touch example PCS100</h3>
+						<h3>Touch example PCS100</h3>
 						<div class="well well-transparent">
 							<div class="panel" style="width:100%; height:650px; background:#efefef; padding:15px;">
 								<div class="row">
@@ -754,7 +755,7 @@
 						</div>
 						
 						<!-- UI-menus-subtabs -->
-						<h3 id="ui-view">Subtabs</h3>
+						<h3>Subtabs</h3>
 						<div class="well well-transparent">
 							<section>
 								<ul class="nav nav-tabs">
@@ -783,36 +784,10 @@
 									</div>
 								</div>
 							</section>
-						</div>
-                        
-                        <!-- UI-Tree -->
-						<h3 id="ui-menus-tree">Tree</h3>							
-						<div class="well well-transparent">
-                            <div>
-                                <ul id="menu-demo">
-									<li>
-										<h3><a href="#">jQuery Script</a></h3>
-										<ul>
-											<li class="active"><a href="#">Home</a></li>
-											<li><a href="#,">Contact</a></li>
-											<li><a href="#,">About</a></li>
-										</ul>
-									</li>
-									<li>
-										<h3><a href="#,">Site Links</a></h3>
-										<ul>
-											<li><a href="#,">Blog</a></li>
-											<li><a href="#,">Sitemap</a></li>
-											<li><a href="#,">RSS Feed</a></li>
-										</ul>
-									</li>
-								</ul>
-							</div>
-						</div> 
-                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This table uses the <a style="font-weight: bold;" href="http://www.jqueryscript.net/menu/Multi-level-Vertical-Accordion-Menu-Plugin-lazeemenu.html"target="_blank">Lazee menu</a> library</span>                      
+						</div>                   
                         
                         <!-- UI-TreeTable -->
-						<h3 id="ui-menus-tree">Tree table</h3>
+						<h3>Tree table</h3>
 						<p>Tree trable</p>
 						<div class="well well-transparent">
                             <table class="table" id="treefy">
@@ -938,29 +913,7 @@
 						<h3 id="ui-selections-tags">Tags</h3>
 						<div class="well well-transparent">
 							<input type="text" value="Amsterdam,Washington" data-role="tagsinput" />
-							<script>
-								var citynames = new Bloodhound({
-									datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
-									queryTokenizer: Bloodhound.tokenizers.whitespace,
-									prefetch: {
-										url: '/assets/citynames.json',
-										filter: function(list) {
-											return $.map(list, function(cityname) {
-											return { name: cityname }; });
-										}
-									}
-								});
-								citynames.initialize();
-								
-								$('input').tagsinput({
-									typeaheadjs: {
-										name: 'citynames',
-										displayKey: 'name',
-										valueKey: 'name',
-										source: citynames.ttAdapter()
-									}
-								});
-							</script>
+							
 						</div>
 						<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a style="font-weight: bold;" href="http://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/"target="_blank">Bootstrap tags-input</a> library</span>
 						
@@ -1060,7 +1013,7 @@
 						</div>
 						
 						<!--Toggle buttons light background-->
-						<h3 id="ui-buttons">Toggle buttons</h3>
+						<h3>Toggle buttons</h3>
 						<div class="well" style="background: #f9f9f9;">
 							<h4>Toggle buttons</h4>
 							<div class="btn-group" data-toggle="buttons">
@@ -1097,7 +1050,7 @@
 						</div>
 						
 						<!--Toggle buttons blue background-->
-						<h3 id="ui-buttons">Toggle buttons</h3>
+						<h3>Toggle buttons</h3>
 						<div class="well" style="background: #206397;">
 							<h4 style="color:#f0f0f0;">Toggle buttons</h4>
 							<div class="btn-group" data-toggle="buttons">
@@ -1134,7 +1087,7 @@
 						</div>
 						
 						<!--Toggle buttons dark background-->
-						<h3 id="ui-buttons">Toggle buttons</h3>
+						<h3>Toggle buttons</h3>
 						<div class="well" style="background: #282828;">
 							<h4 style="color:#c8c8c8;">Toggle buttons</h4>
 							<div class="btn-group" data-toggle="buttons">
@@ -1171,7 +1124,7 @@
 						</div>
 						
 						<!--Dropdowns light background-->
-						<h3 id="ui-buttons">Dropdown light background</h3>
+						<h3>Dropdown light background</h3>
 						<div class="well" style="background: #f9f9f9;">
 							<h4>Dropdown button</h4>
 							<div class="btn-group btn-input clearfix">
@@ -1219,7 +1172,7 @@
 						</div>
 						
 						<!--Dropdowns blue background-->
-						<h3 id="ui-buttons">Dropdown blue background</h3>
+						<h3>Dropdown blue background</h3>
 						<div class="well" style="background: #206397;">
 							<h4 style="color:#f0f0f0;">Dropdown button</h4>
 							<div class="btn-group btn-input clearfix">
@@ -1267,7 +1220,7 @@
 						</div>
 						
 						<!--Dropdowns dark background-->
-						<h3 id="ui-buttons">Dropdown dark background</h3>
+						<h3>Dropdown dark background</h3>
 						<div class="well" style="background: #282828;">
 							<h4 style="color:#c8c8c8;">Dropdown button</h4>
 							<div class="btn-group btn-input clearfix">
@@ -1322,7 +1275,7 @@
 						<p style="height:100px;" />
 						<h2 id="ui-icons">Icon pack April</h2>
 						
-						<div class="well well-transparent" style="height: 570px;">
+						<div class="well well-transparent" style="height: 500px;">
 							<div class="glyph fs1">
 								<div class="clearfix bshadow0 pbs">
 									<span class="abb-ux-alarm">				
@@ -1613,47 +1566,232 @@
 						</div>
 						
 
-						<!--UI-Icon test-->
+						<!--UI-Icon Libraries-->
 						<p style="height:100px;" />
-						<h2>Icon pack June (test)</h2>
-						<div class="row" style="margin-top:40px;">
-							<i class="abb-18-settings" style="font-size: 18px; color:#323232;"></i>
-							<i class="abb-18-settings" style="font-size: 36px; color:#323232;"></i>
-							<i class="abb-18-settings" style="font-size: 54px; color:#323232;"></i>
-							<i class="abb-18-settings" style="font-size: 60px; color:#ff7300;"></i>
+						<h2 id="ui-icons">Icon pack October (WIP)</h2>
+						
+						<div class="well well-transparent" style="height: 200px;">
+							<div class="glyph fs1">
+								<div class="clearfix bshadow0 pbs">
+									<span class="cux abb-cux-add-user">				
+									</span>
+									<span class="mls"> abb-cux-add-user</span>
+								</div>
+							</div>
+							<div class="glyph fs1">
+								<div class="clearfix bshadow0 pbs">
+									<span class="cux abb-cux-alarm-bell">									
+									</span>
+									<span class="mls"> abb-cux-alarm-bell</span>
+								</div>
+							</div>
+							<div class="glyph fs1">
+								<div class="clearfix bshadow0 pbs">
+									<span class="cux abb-cux-align-top">										
+									</span>
+									<span class="mls"> abb-cux-align-top</span>
+								</div>
+							</div>
+							<div class="glyph fs1">
+								<div class="clearfix bshadow0 pbs">
+									<span class="cux abb-cux-align-center">									
+									</span>
+									<span class="mls"> abb-cux-align-center</span>
+								</div>
+							</div>
+							<div class="glyph fs1">
+								<div class="clearfix bshadow0 pbs">
+									<span class="cux abb-cux-align-down">
+									</span>
+									<span class="mls"> abb-cux-align-down</span>
+								</div>
+							</div>
+							<div class="glyph fs1">
+								<div class="clearfix bshadow0 pbs">
+									<span class="cux abb-cux-align-horizontal-left">	
+									</span>
+									<span class="mls"> abb-cux-align-horizontal-left</span>
+								</div>
+							</div>
+							<div class="glyph fs1">
+								<div class="clearfix bshadow0 pbs">
+									<span class="cux abb-cux-align-horizontal-right">				
+									</span>
+									<span class="mls"> abb-cux-align-horizontal-right</span>
+								</div>
+							</div>
+							<div class="glyph fs1">
+								<div class="clearfix bshadow0 pbs">
+									<span class="cux abb-cux-align-horizontal-center">									
+									</span>
+									<span class="mls"> abb-cux-align-horizontal-center</span>
+								</div>
+							</div>
+							<div class="glyph fs1">
+								<div class="clearfix bshadow0 pbs">
+									<span class="cux abb-cux-analyze-document">										
+									</span>
+									<span class="mls"> abb-cux-analyze-document</span>
+								</div>
+							</div>
+							<div class="glyph fs1">
+								<div class="clearfix bshadow0 pbs">
+									<span class="cux abb-cux-audio-off">									
+									</span>
+									<span class="mls"> abb-cux-audio-off</span>
+								</div>
+							</div>
+							<div class="glyph fs1">
+								<div class="clearfix bshadow0 pbs">
+									<span class="cux abb-cux-audio-on">
+									</span>
+									<span class="mls"> abb-cux-audio-on</span>
+								</div>
+							</div>
+							<div class="glyph fs1">
+								<div class="clearfix bshadow0 pbs">
+									<span class="cux abb-cux-bar-chart">	
+									</span>
+									<span class="mls"> abb-cux-bar-chart</span>
+								</div>
+							</div>					
 						</div>
-						<div class="row" style="margin-top:20px;">				
-							<img src="fonts/svg/settings-18.svg" style="width:18px; height:18px;">
-							<img src="fonts/svg/settings-18.svg" style="width:36px; height:36px;">
-							<img src="fonts/svg/settings-18.svg" style="width:54px; height:54px;">
-							<img src="fonts/svg/settings-18.svg" style="width:60px; height:60px;">
+
+						<!--UI-Icon Libraries-->
+						<p style="height:100px;" />
+						<h2 id="ui-icons">Icon generator</h2>
+
+						<div id="the-basics">
+							<input class="typeahead" type="text" placeholder="Icons">
 						</div>
-						<div class="row" style="margin-top:40px;">		
-							<p style="height:100px;" />
-							<i class="abb-20-calendar" style="font-size:20px; color:#323232;"></i>
-							<i class="abb-20-calendar" style="font-size:40px; color:#323232;"></i>
-							<i class="abb-20-calendar" style="font-size:60px; color:#323232;"></i>
-							<i class="abb-20-calendar" style="font-size:72px; color:#ff7300;"></i>
+
+						<h2 id="ui-icons">Icon generator 2</h2>
+
+						<form id="form-country_v1" name="form-country_v1">
+							<div class="typeahead__container">
+								<div class="typeahead__field">
+						
+									<span class="typeahead__query">
+										<input class="js-typeahead-country_v1" name="country_v1[query]" type="search" placeholder="Search" autocomplete="off">
+									</span>
+									<span class="typeahead__button">
+										<button type="submit">
+											<i class="typeahead__search-icon"></i>
+										</button>
+									</span>
+									
+								</div>
+							</div>
+						</form>
+
+						<form id="form-french_v1" name="form-french_v1">
+							<div class="typeahead__container">
+								<div class="typeahead__field">
+						
+									<span class="typeahead__query">
+										<input class="js-typeahead-french_v1" name="french_v1[query]" type="search" placeholder="Search" autocomplete="off">
+									</span>
+									<span class="typeahead__button">
+										<button type="submit">
+											<i class="typeahead__search-icon"></i>
+										</button>
+									</span>
+						
+								</div>
+							</div>
+						</form>
+
+						<p style="height:100px;" />
+						<h2 id="ui-icons">Icon generator</h2>
+
+						<div class="panel panel-default box-shadow-z-2">
+							<div class="panel-body">
+								<form class="form-horizontal" id="js-icon-form" action="/api/generate-image/" method="post"><input type='hidden' name='csrfmiddlewaretoken' value='7Bnctike4pA4dHptKK6tKRkW5AfkRQit' />
+									
+										<div class="form-group">
+											<div class="col-xs-12">
+												<label class="sr-only" for="icon-name-input">Icon name</label>
+												<select class="form-control" id="icon-name-input" name="icon" data-placeholder="Name e.g. rocket" style="width: 100%">
+													<option></option>
+												</select>
+											</div>
+										</div>
+									
+									<div class="form-group">
+										<div class="col-xs-12" data-toggle="popover" data-placement="bottom" title="Color of the icon" data-content="Click on the color area on the right to trigger the colorpicker.">
+											<label class="sr-only" for="icon-color-input">Icon color</label>
+											<div class="input-group" id="js-icon-color-colorpicker">
+												<input type="text" class="form-control text-right" id="icon-color-input" name="color" placeholder="Color e.g. #0064ff">
+												<div class="input-group-addon icon-color-display" id="js-icon-color-display"><i></i></div>
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-xs-12" data-toggle="popover" data-placement="bottom" title="Background of the icon (optional)" data-content="Leave this field blank for a transparent background. You can remove the background by clicking the trash bin.">
+											<label class="sr-only" for="icon-background-input">Icon background</label>
+											<div class="input-group" id="js-icon-background-colorpicker">
+												<div class="input-group-addon" id="js-icon-background-clear"><span class="fa fa-trash"></span></div>
+												<input type="text" class="form-control text-right" id="icon-background-input" name="background" placeholder="Background e.g. #eeeeee">
+												<div class="input-group-addon icon-background-display" id="js-icon-background-display"><i></i></div>
+											</div>
+										</div>
+									</div>
+									<div class="checkbox hidden" data-toggle="popover" data-placement="bottom" title="Remove background" data-content="Check this box if you don't want to use any background on the final image." style="padding-top:0;margin-bottom:10px;">
+										<label>
+											<input type="checkbox" id="icon-disable-background-input" name="disablebg"> Remove background on final image
+										</label>
+									</div>
+									<div class="form-group">
+										<div class="col-xs-12" data-toggle="popover" data-placement="bottom" title="Size of the icon" data-content="This is also the size of the (square) image if the margin (below) is set to 0.">
+											<label class="sr-only" for="icon-size-input">Icon size</label>
+											<div class="input-group input-group-with-slider">
+												<input type="text" class="form-control text-right" id="icon-size-input" name="size" placeholder="Size e.g. 256px">
+												<div class="input-group-addon">px</div>
+											</div>
+											<div id="js-icon-size-slider"></div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-xs-12" data-toggle="popover" data-placement="bottom" title="Margin of the icon" data-content="This is the space between the largest side of the icon and the image.">
+											<label class="sr-only" for="icon-margin-input">Icon margin</label>
+											<div class="input-group input-group-with-slider">
+												<input type="text" class="form-control text-right" id="icon-margin-input" name="margin" placeholder="Margin e.g. 0px">
+												<div class="input-group-addon">px</div>
+											</div>
+											<div id="js-icon-margin-slider"></div>
+										</div>
+									</div>
+									<button type="submit" class="btn btn-primary btn-block"><span class="fa fa-bolt"></span> Generate <span class="fa fa-bolt"></span></button>
+									<div class="modal fade" id="js-icon-generation-modal" data-backdrop="static" data-keyboard="false">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h4 class="modal-title">Generating icon image</h4>
+												</div>
+												<div class="modal-body">
+													<p>This may take a moment for large image sizes. The modal will close itself when it's done.</p>
+													<div class="progress progress-striped active" style="margin-bottom:0;">
+														<div class="progress-bar" style="width: 100%"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</form>
+								<a class="btn btn-success btn-block icon-download-btn hidden" id="js-icon-download-btn"><span class="fa fa-cloud-download"></span> Download (<span id="js-icon-download-size"></span>) <span class="fa fa-cloud-download"></span></a>
+								<div class="input-group icon-base64 hidden" id="js-icon-base64" data-toggle="popover" data-placement="bottom" title="base64 encoded image" data-content="Need the base64 data string for some inline images? Simply click the copy button and paste it to your image src!">
+									<input type="text" class="form-control">
+									<div class="input-group-addon" id="js-icon-base64-btn"><span class="fa fa-copy"></span></div>
+								</div>
+								<div class="input-group icon-permalink hidden" id="js-icon-permalink" data-toggle="popover" data-placement="bottom" title="Permalink of this configuration" data-content="Want to share this configuration? Simply copy the link by clicking the icon on the right.">
+									<input type="text" class="form-control">
+									<div class="input-group-addon" id="js-icon-permalink-btn"><span class="fa fa-copy"></span></div>
+								</div>
+							</div>
 						</div>
-						<div class="row" style="margin-top:20px;">	
-							<img src="fonts/svg/calendar-20.svg" style="width:20px; height:20px;">
-							<img src="fonts/svg/calendar-20.svg" style="width:40px; height:40px;">
-							<img src="fonts/svg/calendar-20.svg" style="width:60px; height:60px;">
-							<img src="fonts/svg/calendar-20.svg" style="width:72px; height:72px;">
-						</div>
-						<div class="row" style="margin-top:40px;">	
-							<p style="height:100px;" />
-							<i class="abb-24-trash" style="font-size:24px; color:#323232;"></i>
-							<i class="abb-24-trash" style="font-size:48px; color:#323232;"></i>
-							<i class="abb-24-trash" style="font-size:72px; color:#323232;"></i>
-							<i class="abb-24-trash" style="font-size:78px; color:#ff7300;"></i>
-						</div>
-						<div class="row" style="margin-top:20px;">	
-							<img src="fonts/svg/trash-24.svg" style="width:24px; height:24px;">
-							<img src="fonts/svg/trash-24.svg" style="width:48px; height:48px;">
-							<img src="fonts/svg/trash-24.svg" style="width:72px; height:72px;">
-							<img src="fonts/svg/trash-24.svg" style="width:78px; height:78px;">
-						</div>
+
+
+
 						<!--UI-Forms-->
 						<p style="height:100px;" />
 						<h2 id="ui-forms">Forms</h2>
@@ -1758,7 +1896,7 @@
 									</div> 
 								</div>
 								<div class="form-group">
-									<label style="margin-top:12px;" for="inputType" class="control-label">State robot type (disabled)</label>
+									<label style="margin-top:13px;" for="inputType" class="control-label">State robot type (disabled)</label>
 									<input type="text" class="form-control" id="inputType" placeholder="MEC200" disabled>
 								</div>
 								<div class="form-group">
@@ -1823,7 +1961,7 @@
 									</div>
 								</div>                 
 								<div class="form-group">
-									<label style="margin-top:12px;" for="inputType" class="control-label-blue">State robot type (disabled)</label>
+									<label style="margin-top:13px;" for="inputType" class="control-label-blue">State robot type (disabled)</label>
 									<input type="text" class="form-control-blue" id="inputType" placeholder="MEC200" disabled>
 								</div>
 								<div class="form-group">
@@ -1888,7 +2026,7 @@
 									</div>
 								</div>       
 								<div class="form-group">
-									<label style="margin-top:12px;" for="inputType" class="control-label-dark">State robot type (disabled)</label>
+									<label style="margin-top:13px;" for="inputType" class="control-label-dark">State robot type (disabled)</label>
 									<input type="text" class="form-control-dark" id="inputType" placeholder="MEC200" disabled>
 								</div>
 								<div class="form-group">
@@ -2845,9 +2983,9 @@
 											</li>
 											<li><a href="#contact"><i class="abb-ux-user size-16" style="margin-left:50px;"></i></a>
 											</li>
-											<li><a href="#contact"><i class="abb-ux-piechart size-16" style="margin-left:-12px;"></i></a>
+											<li><a href="#contact"><i class="abb-ux-piechart size-16" style="margin-left:-13px;"></i></a>
 											</li>
-											<li><a href="#contact"><i class="abb-ux-database size-16" style="margin-left:-12px;"></i></a>
+											<li><a href="#contact"><i class="abb-ux-database size-16" style="margin-left:-13px;"></i></a>
 											</li>		
 										</ul>
 									</div>
@@ -2890,9 +3028,9 @@
 											</li>
 											<li><a href="#contact"><i class="abb-ux-user size-16" style="margin-left:50px;"></i></a>
 											</li>
-											<li><a href="#contact"><i class="abb-ux-piechart size-16" style="margin-left:-12px;"></i></a>
+											<li><a href="#contact"><i class="abb-ux-piechart size-16" style="margin-left:-13px;"></i></a>
 											</li>
-											<li><a href="#contact"><i class="abb-ux-database size-16" style="margin-left:-12px;"></i></a>
+											<li><a href="#contact"><i class="abb-ux-database size-16" style="margin-left:-13px;"></i></a>
 											</li>		
 										</ul>
 									</div>
@@ -2936,7 +3074,7 @@
 											</li>
 											<li><a href="#contact"> EN </a>
 											</li>
-											<li><a href="#contact"><i class="abb-ux-settings size-16" style="margin-left:-12px;"></i></a>
+											<li><a href="#contact"><i class="abb-ux-settings size-16" style="margin-left:-13px;"></i></a>
 											</li>				
 										</ul>
 									</div>
@@ -3053,7 +3191,7 @@
 											</li>
 											<li><a href="#contact"> EN </a>
 											</li>
-											<li><a href="#contact"><i class="abb-ux-settings size-16" style="margin-left:-12px;"></i></a>
+											<li><a href="#contact"><i class="abb-ux-settings size-16" style="margin-left:-13px;"></i></a>
 											</li>				
 										</ul>
 									</div>
@@ -3091,7 +3229,7 @@
 											</li>
 											<li><a href="#contact"> EN </a>
 											</li>
-											<li><a href="#contact"><i class="abb-ux-settings size-16" style="margin-left:-12px;"></i></a>
+											<li><a href="#contact"><i class="abb-ux-settings size-16" style="margin-left:-13px;"></i></a>
 											</li>				
 										</ul>
 									</div>
@@ -3152,16 +3290,16 @@
 																
                                                                 <div class="form-group">
                                                                     <label for="inputName" class="control-label">Instrument type</label>
-                                                                    <input type="text" class="form-control" id="inputName" required>
+                                                                    <input type="text" class="form-control" id="inputName1" required>
 																</div>
                                                                 <div class="form-group">
                                                                     <label for="inputName" class="control-label">Manufacturer</label>
-                                                                    <input type="text" class="form-control" id="inputName" required>
+                                                                    <input type="text" class="form-control" id="inputName2" required>
 																</div>
                                                                 <div class="form-inline" role="form">
                                                                     <div class="form-group">
                                                                         <label for="inputName" class="control-label">Model</label>
-                                                                        <input type="text" class="form-control" id="inputName" style="width: 634px;" required>
+                                                                        <input type="text" class="form-control" id="inputName3" style="width: 634px;" required>
 																	</div>
                                                                     <div class="form-group">
                                                                         <label for="inputName"  class="control-label">Version</label>
@@ -3187,11 +3325,11 @@
 																<h4>References</h4>
 																<div class="form-group">
 																	<label for="inputName" class="control-label">Link</label>
-																	<input type="text" class="form-control" id="inputName">
+																	<input type="text" class="form-control" id="inputName4">
 																</div>
 																<div class="form-group">
 																	<label for="inputName" class="control-label">Proven in use?</label>
-																	<input type="text" class="form-control" id="inputName">
+																	<input type="text" class="form-control" id="inputName5">
 																</div>
 															</div>
 															
@@ -3213,7 +3351,7 @@
 																	</div>
 																	<div class="form-group">
 																		<label for="inputName" class="control-label" style="width:300px; margin-left:50px;">Information source</label>
-																		<input type="text" class="form-control" id="inputName" style="width:940px; margin-left:50px;">
+																		<input type="text" class="form-control" id="inputName6" style="width:940px; margin-left:50px;">
 																	</div>
 																</div>
 																<div style="padding-top:20px;">
@@ -3267,20 +3405,20 @@
 																	<div class="form-group">
 																		<label for="inputName" class="control-label">Diagnostic coverage</label>
 																		<div class="input-group">
-																			<input type="text" class="form-control" id="inputName" style="width:100px;">
+																			<input type="text" class="form-control" id="inputName7" style="width:100px;">
 																			<span class="input-group-addon">%</span>
 																		</div>
 																	</div>
 																	<div class="form-group">
 																		<label for="inputName" class="control-label">Safe failure fraction (SFF)</label>
 																		<div class="input-group">
-																			<input type="text" class="form-control" id="inputName" style="width:100px;">
+																			<input type="text" class="form-control" id="inputName8" style="width:100px;">
 																			<span class="input-group-addon">%</span>
 																		</div>
 																	</div>
 																	<div class="form-group">
 																		<label for="inputName" class="control-label" style="margin-left:70px;">Safe failure fraction band</label>
-																		<input type="text" class="form-control" id="inputName" style="margin-left:70px;" readonly>
+																		<input type="text" class="form-control" id="inputName9" style="margin-left:70px;" readonly>
 																	</div>
 																</div>
 																<div class="form-inline" style="margin-top:15px;">
@@ -3294,15 +3432,15 @@
 																	</div>
 																	<div class="form-group">
 																		<label for="inputName" class="control-label">HW fault tolerance</label>
-																		<input type="text" class="form-control" id="inputName">
+																		<input type="text" class="form-control" id="inputName10">
 																	</div>
 																	<div class="form-group">
 																		<label for="inputName" class="control-label" style="margin-left:130px;">Max HW SIL (IEC 61508)</label>
-																		<input type="text" class="form-control" id="inputName" style="margin-left:130px;" readonly>
+																		<input type="text" class="form-control" id="inputName11" style="margin-left:130px;" readonly>
 																	</div>
 																	<div class="form-group">
 																		<label for="inputName" class="control-label">Systematic capability</label>
-																		<input type="text" class="form-control" id="inputName">
+																		<input type="text" class="form-control" id="inputName12">
 																	</div>
 																</div>
 															</div>
@@ -3349,7 +3487,7 @@
                                                     </li>
                                                     <li><a href="#contact"> EN </a>
                                                     </li>
-                                                    <li><a href="#contact"><i class="abb-ux-settings size-16" style="margin-left:-12px;"></i></a>
+                                                    <li><a href="#contact"><i class="abb-ux-settings size-16" style="margin-left:-13px;"></i></a>
                                                     </li>				
                                                 </ul>
                                             </div>
@@ -3419,7 +3557,7 @@
 													<div class="modal-content">
 														<div class="modal-header">
 															<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-															<h3 class="modal-title" id="myModalLabel">Loop template details</h3>
+															<h3 class="modal-title" id="myModalLabel2">Loop template details</h3>
 														</div>
 														<div class="modal-body">
 															
@@ -3427,7 +3565,7 @@
 																<div class="col-lg-12">																																		
 																	<div class="form-group">
 																		<label for="inputName" class="control-label">Loop template name</label>
-																		<input type="text" class="form-control" id="inputName" required>
+																		<input type="text" class="form-control" id="inputName13" required>
 																	</div>
 																</div>						
 															</div>
@@ -3515,7 +3653,7 @@
 																					<td>IN</td>
 																					<td>PT 231</td>
 																				</tr>
-                                                                                <tr>       																				<tr>
+                                                                                <tr>																	
 																					<td>Pressure transmitter downstream generator</td>
 																					<td>PT 467a Input</td>
 																					<td>Simple</td>
@@ -3544,7 +3682,7 @@
 											<p style="height:100px;" />
 											<h2 id="ui-graphs">Graphs</h2>
 											
-											<h3 id="ui-forms-text">Sparklines</h3>
+											<h3>Sparklines</h3>
 											<p>Tufte would be proud of you if you use them</p>
 											<div class="well well-transparent">
 												<p>
@@ -3559,7 +3697,7 @@
 											</div>
 											<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The graphs in this example use the <a style="font-weight: bold;" href="http://nvd3.org/index.html"target="_blank">NVD3.js</a> library</span>
 											
-											<h3 id="ui-forms-text">Scatterplots</h3>
+											<h3>Scatterplots</h3>
 											<p>Scatterplots as used by Mr. Hans "Gapminder" Rosling </p>
 											<div class="well well-transparent">
 												<div id="test1" class="chartWrap" style="height:400px;">
@@ -3568,27 +3706,181 @@
 											</div>
 											<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The graphs in this example use the <a style="font-weight: bold;" href="http://nvd3.org/index.html"target="_blank">NVD3.js</a> library</span>
 											
-                                            <h3 id="ui-forms-text">Sankey</h3>
+                                            <h3>Sankey</h3>
 											<p>Connectivity using visual data mining </p>
 											<div class="well well-transparent">
 												<div id="sankey"></div>
 											</div>
 											<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The graphs in this example use the <a style="font-weight: bold;" href="http://nvd3.org/index.html"target="_blank">NVD3.js</a> library</span>
                                             
-											<UI-Gauges>
-												<h3 id="ui-widgets-gauges">Gauges</h3>							
-												<div class="well well-transparent" style="height:300px; background:#f6f6f6;">	
-													<form class="form-inline">
-														<div class="form-group">
-															<div id="slider1" class="col-xs-4 rslider" style="margin-right:100px;"></div>
-															<div id="slider2" class="col-xs-4 rslider" style="margin-right:100px;"></div>	
-															<div id="slider3" class="col-xs-4 rslider"></div>		
-														</div>
-													</form>
-												</div>
-												<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The graphs in this example use the <a style="font-weight: bold;" href="https://github.com/soundar24/roundSlider" target="_blank">roundSlider</a> library</span>
-												
+											<!--UI-Gauges-->
+											<h3 id="ui-widgets-gauges">Gauges</h3>							
+											<div class="well well-transparent" style="height:300px; background:#f6f6f6;">	
+												<form class="form-inline">
+													<div class="form-group">
+														<div id="slider1" class="col-xs-4 rslider" style="margin-right:100px;"></div>
+														<div id="slider2" class="col-xs-4 rslider" style="margin-right:100px;"></div>	
+														<div id="slider3" class="col-xs-4 rslider"></div>		
+													</div>
+												</form>
 											</div>
+											<span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">The graphs in this example use the <a style="font-weight: bold;" href="https://github.com/soundar24/roundSlider" target="_blank">roundSlider</a> library</span>
+
+											<h3>Animated gauge</h3>
+											<img src="assets/generator.gif" alt="Example generator increasing output power" />	
+
+											<div>
+												<h3>Animation Example</h3>
+												<table class="table">
+													<!-- test-->
+													<tr>
+														<td id="uno" class="imgCell"></td>
+														<td>hover and active are shown &nbsp;
+
+														</td>
+														<td><button class="btn-primary" onclick="changeDimension()">Toggle Dimension</button></td>
+													</tr>
+												</table>
+											</div>
+
+											<div>
+												<h3>Generator</h3>
+												<table class="table">
+													<tr>
+														<td width="120">
+															<object data="./assets/fixed/abb-pps-generator-unknown.svg" type="image/svg+xml"></object>
+															<!--<img src="./assets/fixed/abb-pps-generator-unknown.svg" alt="Generator unknown">-->
+														</td>
+														<td>unknown</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-generator-stopped.svg" alt="Generator stopped"></td>
+														<td>stopped</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-generator-running.svg" alt="Generator running"></td>
+														<td>running</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-generator-online.svg" alt="Generator online"></td>
+														<td>online (option)</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-generator-error.svg" alt="Generator error"></td>
+														<td>error</td>
+													</tr>
+												</table>
+											</div>
+											<div>
+												<h3>Transformer</h3>
+												<table class="table">
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-trafo-unknown.svg" alt="unknown"></td>
+														<td>unknown</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-trafo-disconnected.svg" alt="disconnected"></td>
+														<td>disconnected</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-trafo-connected.svg" alt="connected"></td>
+														<td>connected</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-trafo-error.svg" alt="error"></td>
+														<td>error</td>
+													</tr>
+												</table>
+											</div>
+											<div>
+												<h3>Motor</h3>
+												<table class="table">
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-motor-unknown.svg" alt="unknown"></td>
+														<td>unknown</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-motor-disconnected.svg" alt="unknown"></td>
+														<td>disconnected</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-motor-connected.svg" alt="unknown"></td>
+														<td>connected</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-motor-active.svg" alt="unknown"></td>
+														<td>active (option)</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-motor-error.svg" alt="unknown"></td>
+														<td>error</td>
+													</tr>
+													<!--<tr><td width="120"><img src="./fixed/abb-pps-motor-error-icon.svg" alt="unknown"></td><td>error with icon</td></tr>-->
+												</table>
+											</div>
+											<div>
+												<h3>Circuit Breaker</h3>
+												<table class="table">
+													<!-- Unknown-->
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-cb-unknown.svg" alt="unknown"></td>
+														<td>unknown</td>
+													</tr>
+													<!-- Racked in-->
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-cb-racked_in-open.svg" alt="racked-in and open"></td>
+														<td>racked-in and open</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-cb-racked_in-closed.svg" alt="racked-in and closed"></td>
+														<td>racked-in and closed</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-cb-racked_in-trip.svg" alt="racked-in and trip"></td>
+														<td>racked-in and trip</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-cb-racked_in-error.svg" alt="racked-in and error"></td>
+														<td>racked-in and error</td>
+													</tr>
+													<!-- Racked out-->
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-cb-racked_out-open.svg" alt="racked-out and open"></td>
+														<td>racked-ou and open</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-cb-racked_out-closed.svg" alt="racked-out and closed"></td>
+														<td>racked-out and closed</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-cb-racked_out-trip.svg" alt="racked-out and trip"></td>
+														<td>racked-out and trip</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-cb-racked_out-error.svg" alt="racked-out and error"></td>
+														<td>racked-out and error</td>
+													</tr>
+													<!-- Racked error -->
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-cb-racked_error-open.svg" alt="rack-error and open"></td>
+														<td>rack-error and open</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-cb-racked_error-closed.svg" alt="rack-error and closed"></td>
+														<td>rack-error and closed</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-cb-racked_error-trip.svg" alt="rack-error and trip"></td>
+														<td>rack-error and trip</td>
+													</tr>
+													<tr>
+														<td width="120"><img src="./assets/fixed/abb-pps-cb-racked_error-error.svg" alt="rack-error and error"></td>
+														<td>rack-error and error</td>
+													</tr>
+												</table>
+											</div>
+
+
 										</section>
 										
 										<!-- jQuery -->
@@ -3618,10 +3910,12 @@
 										<script type='text/javascript' src="js/flat-toggle.js"></script>
 										<script type='text/javascript' src="js/bootstrap-datagrid.js"></script>
 										<script type='text/javascript' src="js/bootstrap-treefy.js"></script>
-										<script type='text/javascript' src="js/jquery.typeahead.min.js"></script>
-										<script type='text/javascript' src="js/lazeemenu-jquery.js"></script>
-										<script type='text/javascript' src="js/lazeemenu-jquery.js"></script>
+										<script type='text/javascript' src="js/jquery.typeahead.js"></script>
 										
+										<!-- Icon generator -->
+										<script type='text/javascript' src="js/fa2png.js" charset="utf-8"></script>
+										<!--script type='text/javascript' src="js/common.js" charset="utf-8"></script>	
+
 										<!-- D3 Visualizations -->
 										<script type='text/javascript' src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 										<script type='text/javascript' src="assets/bihisankey.js"></script>
@@ -3663,20 +3957,40 @@
 											// l.setProgress( 0-1 );
 										</script>
 										
-										<!--Typeahead code-->
+										<!--ICONS DEMO Typeahead code-->
 										<script>
-											$('#search').typeahead({
-												name: 'search',
-												remote: {
-													url: 'http://suggestqueries.google.com/complete/search?client=chrome&q=%QUERY',
-													dataType: 'jsonp',
-													cache: false,
-													filter: function(parsedResponse){
-														return (parsedResponse.length > 1) ? parsedResponse[1] : [] ;
-													}
+											var substringMatcher = function(strs) {
+											return function findMatches(q, cb) {
+												var matches, substringRegex;
+
+												// an array that will be populated with substring matches
+												matches = [];
+
+												// regex used to determine if a string contains the substring `q`
+												substrRegex = new RegExp(q, 'i');
+
+												// iterate through the pool of strings and for any string that
+												// contains the substring `q`, add it to the `matches` array
+												$.each(strs, function(i, str) {
+												if (substrRegex.test(str)) {
+													matches.push(str);
 												}
-												}).on('typeahead:selected', function(e){
-												e.target.form.submit();
+												});
+
+												cb(matches);
+											};
+											};
+
+											$.getJSON('/assets/icons.json', function(icon-list) {});
+
+											$('#the-basics.typeahead').typeahead({
+											hint: true,
+											highlight: true,
+											minLength: 1
+											},
+											{
+											name: 'icon-list',
+											source: substringMatcher(icon-list)
 											});
 										</script>
 										
@@ -3945,20 +4259,7 @@
 												swal({   title: "Are you sure to delete this tag?",   text: "The tag 200TT201X together with all its configured alarms: Low, LowLow, High will be deleted",   type: "warning",   showCancelButton: true,  confirmButtonText: "Continue", confirmButtonClass: 'btn-primary',   closeOnConfirm: false }, function(){   swal("Deleted!", "The tag and its alarms have been deleted.", "success"); });
 											};
 										</script>
-										
-										<!-- Tree collapse-->
-										<script>
-											$('#menu-demo').lazeemenu({
-												
-												//  CSS class for active items
-												activeClass: 'active',
-												
-												// or 'expanded', 'collapsed'
-												initialState: 'default'
-												
-											});
-										</script>
-										
+																			
 										<!-- Treefy example for parent rows in tables-->
 										<script>
 											$(function() {
@@ -4239,9 +4540,734 @@
 												
 											});
 										</script>
+
+										<!-- Luca's code for animated electrical symbols' -->
+										<script type="text/javascript">
+										var s = Snap("#uno");
+										Snap.load("./assets/fixed/abb-pps-generator-unknown.svg", onSVGLoaded);
+
+										function onSVGLoaded(data) {
+											s.append(data);
+											var svg = s.select("svg");
+											svg.attr({id: "element"});
+											console.log('loaded');
+										}
+
+										function changeDimension() {
+											console.log('changing dimension');
+											var element = Snap.select("#element");
+											//element.clear();
+											var dim = element.attr("width") == 64 ? "48" : "64";
+											element.attr({
+												width: dim,
+												height: dim
+											});
+											console.log(s);
+										}
+										</script>
+										
+										<!-- Script for Pnotify using fontawesome icons -->
 										<script>
 											PNotify.prototype.options.styling = "fontawesome";
 										</script>
+
+
+										<!--script>
+											$.typeahead({
+											input: '.js-typeahead-country_v1',
+											order: "desc",
+											source: {
+												data: [
+														{
+															"id": 1,
+															"label": "abb-cux-add-user",
+															"css": "<span class=\"cux abb-cux-add-user\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 2,
+															"label": "abb-cux-alarm-bell",
+															"css": "<span class=\"cux abb-cux-alarm-bell\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 3,
+															"label": "abb-cux-align-center",
+															"css": "<span class=\"cux abb-cux-align-center\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 4,
+															"label": "abb-cux-align-down",
+															"css": "<span class=\"cux abb-cux-align-down\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 5,
+															"label": "abb-cux-align-horizontal-center",
+															"css": "<span class=\"cux abb-cux-align-horizontal-center\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 6,
+															"label": "abb-cux-align-horizontal-left",
+															"css": "<span class=\"cux abb-cux-align-horizontal-left\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 7,
+															"label": "abb-cux-align-horizontal-right",
+															"css": "<span class=\"cux abb-cux-align-horizontal-right\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 8,
+															"label": "abb-cux-align-top",
+															"css": "<span class=\"cux abb-cux-align-top\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 9,
+															"label": "abb-cux-analyze-doument",
+															"css": "<span class=\"cux abb-cux-analyze-doument\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 10,
+															"label": "abb-cux-arrow-down",
+															"css": "<span class=\"cux abb-cux-arrow-down\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 11,
+															"label": "abb-cux-arrow-left",
+															"css": "<span class=\"cux abb-cux-arrow-left\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 12,
+															"label": "abb-cux-arrow-right",
+															"css": "<span class=\"cux abb-cux-arrow-right\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 13,
+															"label": "abb-cux-arrow-up",
+															"css": "<span class=\"cux abb-cux-arrow-up\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 14,
+															"label": "abb-cux-audio-off",
+															"css": "<span class=\"cux abb-cux-audio-off\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 15,
+															"label": "abb-cux-audio-on",
+															"css": "<span class=\"cux abb-cux-audio-on\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 16,
+															"label": "abb-cux-bar-chart",
+															"css": "<span class=\"cux abb-cux-bar-chart\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 17,
+															"label": "abb-cux-briefcase",
+															"css": "<span class=\"cux abb-cux-briefcase\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 18,
+															"label": "abb-cux-calendar",
+															"css": "<span class=\"cux abb-cux-calendar\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 19,
+															"label": "abb-cux-call",
+															"css": "<span class=\"cux abb-cux-call\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 20,
+															"label": "abb-cux-camera",
+															"css": "<span class=\"cux abb-cux-camera\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 21,
+															"label": "abb-cux-chat",
+															"css": "<span class=\"cux abb-cux-chat\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 22,
+															"label": "abb-cux-check",
+															"css": "<span class=\"cux abb-cux-check\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 23,
+															"label": "abb-cux-close",
+															"css": "<span class=\"cux abb-cux-close\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 24,
+															"label": "abb-cux-computer",
+															"css": "<span class=\"cux abb-cux-computer\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 25,
+															"label": "abb-cux-controls",
+															"css": "<span class=\"cux abb-cux-controls\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 26,
+															"label": "abb-cux-copy",
+															"css": "<span class=\"cux abb-cux-copy\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 27,
+															"label": "abb-cux-cut",
+															"css": "<span class=\"cux abb-cux-cut\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 28,
+															"label": "abb-cux-document",
+															"css": "<span class=\"cux abb-cux-document\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 29,
+															"label": "abb-cux-down",
+															"css": "<span class=\"cux abb-cux-down\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 30,
+															"label": "abb-cux-download",
+															"css": "<span class=\"cux abb-cux-download\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 31,
+															"label": "abb-cux-edit",
+															"css": "<span class=\"cux abb-cux-edit\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 32,
+															"label": "abb-cux-end-call",
+															"css": "<span class=\"cux abb-cux-end-call\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 33,
+															"label": "abb-cux-envelope",
+															"css": "<span class=\"cux abb-cux-envelope\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 34,
+															"label": "abb-cux-error-circle",
+															"css": "<span class=\"cux abb-cux-error-circle\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 35,
+															"label": "abb-cux-error-circle-full",
+															"css": "<span class=\"cux abb-cux-error-circle-full\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 36,
+															"label": "abb-cux-event",
+															"css": "<span class=\"cux abb-cux-event\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 37,
+															"label": "abb-cux-export",
+															"css": "<span class=\"cux abb-cux-export\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 38,
+															"label": "abb-cux-filter",
+															"css": "<span class=\"cux abb-cux-filter\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 39,
+															"label": "abb-cux-forward",
+															"css": "<span class=\"cux abb-cux-forward\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 40,
+															"label": "abb-cux-full-screen",
+															"css": "<span class=\"cux abb-cux-full-screen\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 41,
+															"label": "abb-cux-globe",
+															"css": "<span class=\"cux abb-cux-globe\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 42,
+															"label": "abb-cux-group",
+															"css": "<span class=\"cux abb-cux-group\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 43,
+															"label": "abb-cux-help-circle",
+															"css": "<span class=\"cux abb-cux-help-circle\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 44,
+															"label": "abb-cux-help-circle-full",
+															"css": "<span class=\"cux abb-cux-help-circle-full\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 45,
+															"label": "abb-cux-hide",
+															"css": "<span class=\"cux abb-cux-hide\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 46,
+															"label": "abb-cux-history",
+															"css": "<span class=\"cux abb-cux-history\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 47,
+															"label": "abb-cux-import",
+															"css": "<span class=\"cux abb-cux-import\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 48,
+															"label": "abb-cux-information-circle",
+															"css": "<span class=\"cux abb-cux-information-circle\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 49,
+															"label": "abb-cux-information-circle-full",
+															"css": "<span class=\"cux abb-cux-information-circle-full\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 50,
+															"label": "abb-cux-label",
+															"css": "<span class=\"cux abb-cux-label\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 51,
+															"label": "abb-cux-left",
+															"css": "<span class=\"cux abb-cux-left\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 52,
+															"label": "abb-cux-link",
+															"css": "<span class=\"cux abb-cux-link\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 53,
+															"label": "abb-cux-list",
+															"css": "<span class=\"cux abb-cux-list\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 54,
+															"label": "abb-cux-location",
+															"css": "<span class=\"cux abb-cux-location\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 55,
+															"label": "abb-cux-lock-close",
+															"css": "<span class=\"cux abb-cux-lock-close\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 56,
+															"label": "abb-cux-lock-open",
+															"css": "<span class=\"cux abb-cux-lock-open\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 57,
+															"label": "abb-cux-menu",
+															"css": "<span class=\"cux abb-cux-menu\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 58,
+															"label": "abb-cux-menu-horizontal",
+															"css": "<span class=\"cux abb-cux-menu-horizontal\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 59,
+															"label": "abb-cux-menu-vertical",
+															"css": "<span class=\"cux abb-cux-menu-vertical\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 60,
+															"label": "abb-cux-minus",
+															"css": "<span class=\"cux abb-cux-minus\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 61,
+															"label": "abb-cux-motor",
+															"css": "<span class=\"cux abb-cux-motor\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 62,
+															"label": "abb-cux-new-document",
+															"css": "<span class=\"cux abb-cux-new-document\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 63,
+															"label": "abb-cux-numbers",
+															"css": "<span class=\"cux abb-cux-numbers\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 64,
+															"label": "abb-cux-open-window",
+															"css": "<span class=\"cux abb-cux-open-window\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 65,
+															"label": "abb-cux-panel",
+															"css": "<span class=\"cux abb-cux-panel\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 66,
+															"label": "abb-cux-paste",
+															"css": "<span class=\"cux abb-cux-paste\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 67,
+															"label": "abb-cux-pause",
+															"css": "<span class=\"cux abb-cux-pause\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 68,
+															"label": "abb-cux-pie",
+															"css": "<span class=\"cux abb-cux-pie\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 69,
+															"label": "abb-cux-pin",
+															"css": "<span class=\"cux abb-cux-pin\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 70,
+															"label": "abb-cux-pin",
+															"css": "<span class=\"cux abb-cux-pin\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 71,
+															"label": "abb-cux-plant",
+															"css": "<span class=\"cux abb-cux-plant\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 72,
+															"label": "abb-cux-play",
+															"css": "<span class=\"cux abb-cux-play\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 73,
+															"label": "abb-cux-plus",
+															"css": "<span class=\"cux abb-cux-plus\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 74,
+															"label": "abb-cux-plus-circle-full",
+															"css": "<span class=\"cux abb-cux-plus-circle-full\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 75,
+															"label": "abb-cux-print",
+															"css": "<span class=\"cux abb-cux-print\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 76,
+															"label": "abb-cux-redo",
+															"css": "<span class=\"cux abb-cux-redo\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 77,
+															"label": "abb-cux-refresh",
+															"css": "<span class=\"cux abb-cux-refresh\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 78,
+															"label": "abb-cux-repirts",
+															"css": "<span class=\"cux abb-cux-repirts\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 79,
+															"label": "abb-cux-rewind",
+															"css": "<span class=\"cux abb-cux-rewind\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 80,
+															"label": "abb-cux-right",
+															"css": "<span class=\"cux abb-cux-right\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 81,
+															"label": "abb-cux-save",
+															"css": "<span class=\"cux abb-cux-save\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 82,
+															"label": "abb-cux-save-as",
+															"css": "<span class=\"cux abb-cux-save-as\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 83,
+															"label": "abb-cux-screen",
+															"css": "<span class=\"cux abb-cux-screen\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 84,
+															"label": "abb-cux-search",
+															"css": "<span class=\"cux abb-cux-search\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 85,
+															"label": "abb-cux-settings",
+															"css": "<span class=\"cux abb-cux-settings\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 86,
+															"label": "abb-cux-share",
+															"css": "<span class=\"cux abb-cux-share\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 87,
+															"label": "abb-cux-skip-to-end",
+															"css": "<span class=\"cux abb-cux-skip-to-end\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 88,
+															"label": "abb-cux-skip-to-start",
+															"css": "<span class=\"cux abb-cux-skip-to-start\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 89,
+															"label": "abb-cux-smartphone",
+															"css": "<span class=\"cux abb-cux-smartphone\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 90,
+															"label": "abb-cux-star",
+															"css": "<span class=\"cux abb-cux-star\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 91,
+															"label": "abb-cux-stop",
+															"css": "<span class=\"cux abb-cux-stop\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 92,
+															"label": "abb-cux-system",
+															"css": "<span class=\"cux abb-cux-system\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 93,
+															"label": "abb-cux-table",
+															"css": "<span class=\"cux abb-cux-table\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 94,
+															"label": "abb-cux-time",
+															"css": "<span class=\"cux abb-cux-time\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 95,
+															"label": "abb-cux-trash",
+															"css": "<span class=\"cux abb-cux-trash\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 96,
+															"label": "abb-cux-trend",
+															"css": "<span class=\"cux abb-cux-trend\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 97,
+															"label": "abb-cux-undo",
+															"css": "<span class=\"cux abb-cux-undo\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 98,
+															"label": "abb-cux-unpin",
+															"css": "<span class=\"cux abb-cux-unpin\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 99,
+															"label": "abb-cux-up",
+															"css": "<span class=\"cux abb-cux-up\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 100,
+															"label": "abb-cux-upload",
+															"css": "<span class=\"cux abb-cux-upload\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 101,
+															"label": "abb-cux-user",
+															"css": "<span class=\"cux abb-cux-user\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 102,
+															"label": "abb-cux-user-circle",
+															"css": "<span class=\"cux abb-cux-user-circle\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 103,
+															"label": "abb-cux-view",
+															"css": "<span class=\"cux abb-cux-view\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 104,
+															"label": "abb-cux-warning-triangle",
+															"css": "<span class=\"cux abb-cux-warning-triangle\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 105,
+															"label": "abb-cux-wrench",
+															"css": "<span class=\"cux abb-cux-wrench\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 106,
+															"label": "abb-cux-zoom-in",
+															"css": "<span class=\"cux abb-cux-zoom-in\" ></span>",
+															"font": "commonux-icons"
+														},
+														{
+															"id": 107,
+															"label": "abb-cux-zoom-out",
+															"css": "<span class=\"cux abb-cux-zoom-out\" ></span>",
+															"font": "commonux-icons"
+														}
+														]
+											},
+											callback: {
+												onInit: function (node) {
+													console.log('Typeahead Initiated on ' + node.selector);
+												}
+											}
+										});
+										</script-->	
+
+																				<script>
+											$.typeahead({
+											input: '.js-typeahead-country_v1',
+											order: "desc",
+											source: {
+												url : "assets/icons.json"
+											},
+											callback: {
+												onInit: function (node) {
+													console.log('Typeahead Initiated on ' + node.selector);
+												}
+											}
+										});
+										</script>	
+
+										<script>
+										$.typeahead({
+											input: '.js-typeahead-french_v1',
+											minLength: 0,
+											maxItem: 15,
+											order: "asc",
+											hint: true,
+											accent: true,
+											searchOnFocus: true,
+											backdrop: {
+												"background-color": "#3879d9",
+												"opacity": "0.1",
+												"filter": "alpha(opacity=10)"
+											},
+											source: {
+												ajax: {
+													url: "assets/citynames.json"
+												}
+											},
+											debug: true
+										});
+										</script>
+
 									</body>
 									
 								</html>																																																

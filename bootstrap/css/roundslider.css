@@ -152,13 +152,13 @@ div.rs-block { -webkit-border-radius: 100%; border-radius: 100%; }
 .half.top .rs-tooltip, .half.bottom .rs-tooltip { left: 50%; }
 .half.left .rs-tooltip, .half.right .rs-tooltip { top: 50%; }
 .rs-tooltip .rs-input { outline: 0 none; border: none; }
-.rs-tooltip-text { font-family: verdana; font-size: 35px; color:#3799e9; }
+.rs-tooltip-text { font-family: verdana; font-size: 35px; color:#0aaeff; }
 .rs-tooltip.edit, .rs-tooltip .rs-input { padding: 5px 8px; }
 .rs-tooltip.hover, .rs-tooltip.edit:hover { border: 1px solid #AAAAAA; cursor: pointer; }
 .rs-readonly .rs-tooltip.edit:hover { border-color: transparent; cursor: default; }
 
 /*** handle types ***/
-.rs-handle { border-radius: 1000px; outline: 0 none; float: left; }
+.rs-handle { border-radius: 1000px; outline: 0 none; float: left; width: 20px;}
 .rs-handle.rs-handle-square { border-radius: 0px; }
 .rs-handle-dot { border: 1px solid #AAAAAA; padding: 6px; }
 .rs-handle-dot:after {
@@ -174,11 +174,11 @@ div.rs-block { -webkit-border-radius: 100%; border-radius: 100%; }
 .rs-seperator { border: 1px solidh #AAAAAA; }
 .rs-border { border-color: transparent; }
 .rs-path-color { background-color: #dedede; }
-.rs-range-color { background-color: #3799e9; }
+.rs-range-color { background-color: #70cfff; }
 .rs-bg-color { background-color: #FFFFFF; }
-.rs-handle { background-color: #000000; }
+.rs-handle { background-color: #ffffff; border: 2px solid #236ea8; }
 .rs-handle-dot { background-color: #FFFFFF; }
-.rs-handle-dot:after { background-color: #838383; }
+.rs-handle-dot:after { background-color: #d7d7d7; }
 
 /*** style CUX Dark ***/
 #dark .rs-control{
@@ -188,16 +188,16 @@ div.rs-block { -webkit-border-radius: 100%; border-radius: 100%; }
 	background-color: #242424;
 }
 #dark .rs-range-color  {
-    background-color: #66C0F2;
+    background-color: #0aaeff;
 }
 #dark .rs-path-color  {
     background-color: #dedede;
 }
 #dark.rs-handle-dot  {
-    background-color: #3799e9;
+    background-color: #0aaeff;
 }
 #dark .rs-border  {
-    border-color: #1F5680;
+    border-color: #0aaeff;
 }
 #dark .bg-color {
 	background: #242424;
