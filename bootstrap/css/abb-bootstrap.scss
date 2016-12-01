@@ -1,5 +1,6 @@
 @import "abb-colors.scss";
 @import "abb-fonts.scss";
+@import "abb-mixins.scss";
 
 /*!
 	* CommonUX bootstrap template
@@ -12,9 +13,8 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 body {
-	font-family: "ABBvoice", "Sans-Serif", Arial;
+	font-family: "Helvetica Neue eText Pro", "Sans-Serif", Arial;
 	font-size: 12px;
-	line-height: 1.846;
 }
 a {
 	color: $abb-blue-13;
@@ -66,7 +66,7 @@ h6,
 }
 a.text-primary:hover,
 a.text-primary:focus {
-	color: $abb-blue-15;
+	color: $abb-blue-13;
 }
 .text-success {
 	color: $abb-data-green-3;
@@ -76,11 +76,11 @@ a.text-success:focus {
 	color: $abb-data-green-1;
 }
 .text-info {
-	color: $abb-blue-13;
+	color: $abb-blue-12;
 }
 a.text-info:hover,
 a.text-info:focus {
-	color: #771e86;
+	color: $abb-blue-13;
 }
 .text-warning {
 	color: $abb-critical-orange;
@@ -217,9 +217,10 @@ th {
 .table-striped > tbody > tr:nth-of-type(odd) {
 	background-color: $abb-grey-240;
 }
-.table-hover > tbody > tr:hover {
-	background-color: $abb-blue-18;
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+	background-color: $abb-grey-220;
 }
+
 table col[class*="col-"] {
 	position: static;
 	float: none;
@@ -243,14 +244,25 @@ table th[class*="col-"] {
 .table > thead > tr.active > th,
 .table > tbody > tr.active > th,
 .table > tfoot > tr.active > th {
-	border-bottom: 2px solid $abb-blue-2;
+	background: rgba(214, 241, 255, 0.5);
 }
+
+.table > thead > tr.active,
+.table > tbody > tr.active,
+.table > tfoot > tr.active,
+.table > thead > tr.active,
+.table > tbody > tr.active,
+.table > tfoot > tr.active {
+	border: 2px solid $abb-blue-14;
+}
+
 .table-hover > tbody > tr > td.active:hover,
 .table-hover > tbody > tr > th.active:hover,
 .table-hover > tbody > tr.active:hover > td,
 .table-hover > tbody > tr:hover > .active,
 .table-hover > tbody > tr.active:hover > th {
-	background-color: #e8e8e8;
+	background: rgba(214, 241, 255, 0.5);
+
 }
 .table > thead > tr > td.success,
 .table > tbody > tr > td.success,
@@ -292,7 +304,6 @@ table th[class*="col-"] {
 .table-hover > tbody > tr.info:hover > td,
 .table-hover > tbody > tr:hover > .info,
 .table-hover > tbody > tr.info:hover > th {
-	background-color: #d8abe0;
 }
 .table > thead > tr > td.warning,
 .table > tbody > tr > td.warning,
@@ -337,8 +348,6 @@ table th[class*="col-"] {
 	background-color: #f7a6a4;
 }
 
-.tr:hover td {border: 1px solid #47c2ff}
-
 // FORM CONTROLS CommonUX
 
 /*From control light*/
@@ -346,7 +355,10 @@ table th[class*="col-"] {
 	display: block;
 	width: 100%;
 	height: 28px;
-	padding: 12px 8px;
+	padding: 0px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 1px;
 	font-size: 12px;
     font-weight: 400;
 	color: #414141;
@@ -356,7 +368,7 @@ table th[class*="col-"] {
 	border-radius: 0px;
 }
 .form-control:focus {
-	border: 2px solid $abb-blue-13 !important;
+	border: 1px solid $abb-blue-13 !important;
 	outline: 0;
 }
 .form-control:hover {
@@ -395,26 +407,25 @@ textarea.form-control {
 .form-control-blue {
 	display: block;
 	width: 100%;
-	height: 36px;
-	padding: 12px 8px;
+	height: 28px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 3px;
 	font-size: 12px;
     font-weight: 400;
-	line-height: 1.42857143;
 	color: $abb-grey-240;
   	background-color: rgba(0,0,0,0.3) !important;
   	border: 1px solid rgba(200,200,200,0.3) !important;
 	border-radius: 0px;
-	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+
 }
 .form-control-blue:focus {
-	border: 2px solid $abb-blue-15 !important;
+	border: 1px solid $abb-blue-14 !important;
 	outline: 0;
 	background-color: $abb-blue-5;
 }
 .form-control-blue:hover {
-	border: 1px solid $abb-blue-13;
+	border: 1px solid $abb-grey-245;
 	background-color: $abb-blue-5;
 	outline: 0;
 }
@@ -452,22 +463,19 @@ textarea.form-control-blue {
 .form-control-dark {
 	display: block;
 	width: 100%;
-	height: 36px;
-	padding: 8px 12px;
+	height: 28px;
+	padding-left: 12px;
 	padding-right: 12px;
+	padding-bottom: 3px;
 	font-size: 12px;
     font-weight: 400;
-	line-height: 1.42857143;
 	color: $abb-grey-200;
 	background-color: rgba(0,0,0,0.5);
 	border: 1px solid rgba(110,110,110,0.5) !important;
 	border-radius: 0px;
-	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 .form-control-dark:focus {
-	border: 2px solid $abb-blue-12 !important;
+	border: 1px solid $abb-blue-12 !important;
 	outline: 0;
 	background-color: #1d1d1d;
 }
@@ -702,9 +710,7 @@ select[multiple].input-lg {
 	right: 0;
 	z-index: 2;
 	display: block;
-	width: 37px;
-	height: 37px;
-	line-height: 32px;
+	padding-top: 2px;
 	text-align: center;
 	pointer-events: none;
 }
@@ -790,7 +796,7 @@ select[multiple].input-lg {
 	border: 1px solid $abb-grey-220;
 }
 .has-feedback label ~ .form-control-feedback {
-	top: 28px;
+	top: 23px;
 }
 .has-feedback label.sr-only ~ .form-control-feedback {
 	top: 0;
@@ -809,11 +815,10 @@ select[multiple].input-lg {
 	background-image: none;
 	border: 1px solid transparent;
 	white-space: nowrap;
-	padding: 6px 12px;
+	padding: 4px 12px;
 	font-size: 12px;
 	border-radius: 0px;
 	height: 28px;
-	width: variable;
 }
 .btn.active,.btn[active] {
     box-shadow: none;
@@ -832,27 +837,28 @@ fieldset[disabled] a.btn {
 
 /* Button default*/
 .btn-default {
-	background: $abb-grey-220;
-	border: 1px solid $abb-grey-190;
+	@include alpha-attribute('background',rgba($abb-grey-220, 0.6), white);
 	border-bottom: 1px solid $abb-grey-160;
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-grey-190, 0.6), white);
 	color: $abb-grey-70;
 }
 .btn-default:focus,
 .btn-default.focus {
-	background: $abb-grey-220;
-	border: 2px solid $abb-blue-13 !important;
-	border-bottom: 1px solid $abb-grey-160;
+	@include alpha-attribute('background',rgba($abb-grey-0, 0.13), white);
+	color: $abb-grey-70;
+	border: 1px solid $abb-blue-13 !important;
 	outline: 0;
 }
 .btn-default:hover {
-	background: $abb-grey-250;
-	border: 1px solid $abb-grey-140;
-	border-bottom: 1px solid $abb-grey-140;
+	@include alpha-attribute('background',rgba($abb-grey-250, 0.6), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-grey-140, 0.6), white);
 }
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-	background: $abb-grey-250;
+	@include alpha-attribute('background',rgba($abb-grey-0, 0.13), white);
 	border: 1px solid $abb-blue-13;
 }
 .btn-default:active:hover,
@@ -864,23 +870,25 @@ fieldset[disabled] a.btn {
 .btn-default:active.focus,
 .btn-default.active.focus,
 .open > .dropdown-toggle.btn-default.focus {
-	background: $abb-grey-220;
-	border: 1px solid $abb-grey-190;
-	border-bottom: 1px solid $abb-grey-160;
-	color: $abb-grey-70;
+	@include alpha-attribute('background',rgba($abb-grey-250, 0.6), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-grey-140, 0.6), white);
 }
 
 //Additional class for toggle
 .btn-default-toggle {
-	background: $abb-grey-220;
-	border: 1px solid $abb-grey-190;
+	@include alpha-attribute('background',rgba($abb-grey-220, 0.6), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-grey-190, 0.6), white);
 	border-bottom: 1px solid $abb-grey-160;
 	color: $abb-grey-70;
 }
 .btn-default-toggle:active,
-.btn-default-toggle.active, {
-	background: $abb-grey-205;
-	border-top: 2px solid $abb-grey-110;
+.btn-default-toggle.active {
+	@include alpha-attribute('background',rgba($abb-grey-205, 0.6), white);
+	@include alpha-attribute('border-color',rgba($abb-grey-150, 0.6), white);
+	border-top: 2px solid;
+	@include alpha-attribute('border-top-color',rgba($abb-grey-0, 0.4), white);
 }
 
 //Additional class for toggle	
@@ -891,11 +899,10 @@ fieldset[disabled] a.btn {
 	color: $abb-grey-70;
 }
 .btn-default-toggle-enhanced:active,
-.btn-default-toggle-enhanced.active, {
+.btn-default-toggle-enhanced.active {
 	background: $abb-blue-18;
-	border: 1px solid $abb-blue-14;
-	border-top: 2px solid $abb-blue-11;
-	color: $abb-blue-10;
+	border: 1px solid $abb-blue-13;
+	color: $abb-blue-8;
 }
 	
 .btn-default.disabled,
@@ -916,9 +923,10 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-	background: $abb-grey-220;
-	border: 1px solid #bebebe;
-	color: rgba(70,70,70,0.5);
+	@include alpha-attribute('background',rgba($abb-grey-220, 0.4), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-grey-190, 0.4), white);
+	@include alpha-attribute('color',rgba($abb-grey-70, 0.5), white);
 }
 .btn-default .badge {
 	background: #e5e5e5;
@@ -935,7 +943,7 @@ fieldset[disabled] .btn-default.active {
 .btn-default-blue:focus,
 .btn-default-blue.focus {
 	background: $abb-blue-13;
-	border: 2px solid $abb-blue-16 !important;
+	border: 1px solid $abb-blue-16 !important;
 	color: $abb-blue-18;
 	outline: 0;
 }
@@ -1144,15 +1152,15 @@ fieldset[disabled] .btn-default-dark.active {
 /* Button primary (white or gray background) */
 .btn-primary {
 	color: $abb-grey-255;
-	background-color: $abb-blue-13;
-	border: 1px solid $abb-blue-13;
-	border-bottom: 1px solid $abb-blue-12;
+	background-color: $abb-blue-12;
+	border: 1px solid $abb-blue-11;
+	border-bottom: 1px solid $abb-blue-10;
 }
 .btn-primary:focus,
 .btn-primary.focus {
 	background: $abb-blue-14;
 	color: $abb-grey-255;
-	border: 2px solid $abb-blue-9 !important;
+	border: 1px solid $abb-blue-9 !important;
 	outline: 0;
 }
 .btn-primary:hover {
@@ -1222,7 +1230,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary-blue.focus {
 	color: $abb-grey-255;
 	background-color: $abb-blue-14;
-	border: 2px solid $abb-blue-18 !important;	
+	border: 1px solid $abb-blue-18 !important;
 	outline: 0;
 }
 .btn-primary-blue:hover {
@@ -1291,7 +1299,7 @@ fieldset[disabled] .btn-primary-blue.active {
 .btn-primary-dark.focus {
 	color: $abb-grey-255;
 	background-color: $abb-blue-13;
-	border: 2px solid $abb-blue-18 !important;	
+	border: 1px solid $abb-blue-18 !important;
 	outline: 0;
 }
 .btn-primary-dark:hover {
@@ -1345,7 +1353,7 @@ fieldset[disabled] .btn-primary-dark.active {
 .btn-link:focus ,
 .btn-link.focus {
 	background: $abb-grey-220;
-	border: 2px solid $abb-blue-13 !important;
+	border: 1px solid $abb-blue-13 !important;
 	border-bottom: 1px solid $abb-grey-160;
 	outline: 0;
 	text-decoration: none;
@@ -1400,7 +1408,7 @@ fieldset[disabled] .btn-link:active{
 .btn-link-blue:focus ,
 .btn-link-blue.focus {
 	background: $abb-blue-13;
-	border: 2px solid $abb-blue-16 !important;
+	border: 1px solid $abb-blue-16 !important;
 	color: $abb-blue-18;
 	outline: 0;
 	text-decoration: none;
@@ -1451,7 +1459,7 @@ fieldset[disabled] .btn-link-blue:active{
 .btn-link-dark:focus ,
 .btn-link-dark.focus {
 	background: $abb-grey-100;
-	border: 2px solid $abb-blue-13 !important;
+	border: 1px solid $abb-blue-13 !important;
 	color: $abb-grey-200;
 	outline: 0;
 }
@@ -2003,6 +2011,7 @@ fieldset[disabled] .btn-danger.active {
 	line-height: 1.846;
 	border-right: 1px solid #a0a0a0;
 	border-radius: 0px;
+	border-top: 2px solid #dcdcdc;
 }
 .nav-tabs > li > a:hover {
 	border-color: #eeeeee #eeeeee transparent;
@@ -2049,6 +2058,7 @@ fieldset[disabled] .btn-danger.active {
 	.nav-tabs.nav-justified > .active > a:hover,
 	.nav-tabs.nav-justified > .active > a:focus {
 		border-bottom-color: $abb-grey-255;
+		border-top: 2px solid $abb-blue-13;
 	}
 }
 .nav-tabs > li > a,
@@ -2064,8 +2074,17 @@ fieldset[disabled] .btn-danger.active {
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:focus {
-	background-color: #fafafa;
-    color: #242424;
+	background-color: $abb-grey-250;
+    color: $abb-grey-70;
+	border-top: 2px solid $abb-blue-13;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+	background-color: $abb-grey-250;
+	color: $abb-grey-70;
+	border-top: 2px solid $abb-blue-13;
 }
 
 .nav-tabs.nav-justified > li > a,
@@ -2074,7 +2093,7 @@ fieldset[disabled] .btn-danger.active {
 .nav-tabs.nav-justified > .active > a,
 .nav-tabs.nav-justified > .active > a:hover,
 .nav-tabs.nav-justified > .active > a:focus {
-	border: none;
+	border-top: 2px solid $abb-blue-13;
 }
 .nav-tabs .dropdown-menu {
 	margin-top: 0;
@@ -2670,7 +2689,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 	color: #444444;
 }
 .navbar-form {
-    margin-top: 7px;
+    margin-top: 10px;
     margin-bottom: 0px;
 }
 .breadcrumb {
@@ -2689,7 +2708,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 	color: #cccccc;
 }
 .breadcrumb > .active {
-	color: $abb-grey-235;
+	color: $abb-grey-70;
 }
 .pagination {
 	display: inline-block;
@@ -2792,8 +2811,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
  
 .label {
 	display: inline;
-	padding: .6em .6em .6em;
+	padding: .3em .3em .3em;
 	font-size: 100%;
+	font-weight: inherit;
 	line-height: 1;
 	color: #000000;
 	text-align: center;
@@ -2836,7 +2856,8 @@ a.label:focus {
 	background-color: $abb-data-green-1;
 }
 .label-info {
-	background-color: $abb-blue-18;
+	background-color: $abb-blue-17;
+	border: 1px solid $abb-blue-16;
 	color: $abb-blue-10;
 }
 .label-info[href]:hover,
@@ -2868,7 +2889,7 @@ a.label:focus {
 	vertical-align: middle;
 	white-space: nowrap;
 	text-align: center;
-	background-color: $abb-grey-235;
+	background-color: $abb-grey-70;
 	border-radius: 8px;
 }
 .badge:empty {
@@ -3747,8 +3768,8 @@ select::-ms-expand,
 select.form-control::-ms-expand {
 	background: inherit;
     border: transparent;
-    padding-right:6px;
-    padding-left:6px;
+    padding: 4px 12px;
+
 }
 select.input-sm,
 select.form-control.input-sm {
@@ -5133,11 +5154,80 @@ margin-right:0;
     background: $abb-grey-10;
 }
 
-*/
+
 
 .btn:hover, btn:focus, .focus.btn{
 color: inherit;
 }
 
+*/
+
 /*Margin dropdown arrow*/
 span.caret { margin-left: 10px; }
+
+
+/*Alternative required fields*/
+
+.required-field-block {
+	position: relative;
+	border-bottom: 1px solid $abb-critical-orange;
+}
+
+.required-field-block .required-icon {
+	display: inline-block;
+	vertical-align: middle;
+	margin: -0.25em 0.25em 0em;
+	background-color: $abb-critical-orange;
+	border-color: $abb-critical-orange;
+	padding: 0.5em 0.8em;
+	text-transform: uppercase;
+	font-weight: normal;
+	border-radius: 0.325em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: background 0.1s linear;
+	-moz-transition: background 0.1s linear;
+	transition: background 0.1s linear;
+	font-size: 75%;
+}
+.required-field-block .required-icon {
+	background-color: transparent;
+	position: absolute;
+	top: 0em;
+	right: 0em;
+	z-index: 10;
+	margin: 0em;
+	width: 12px;
+	height: 12px;
+	padding: 0em;
+	text-align: center;
+	-webkit-transition: color 0.2s ease;
+	-moz-transition: color 0.2s ease;
+	transition: color 0.2s ease;
+}
+
+.required-field-block .required-icon:after {
+	position: absolute;
+	content: "";
+	right: 1px;
+	top: 1px;
+	z-index: -1;
+	width: 0em;
+	height: 0em;
+	border-top: 0em solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 12px solid transparent;
+	border-left: 0em solid transparent;
+	border-right-color: inherit;
+	-webkit-transition: border-color 0.2s ease;
+	-moz-transition: border-color 0.2s ease;
+	transition: border-color 0.2s ease;
+}
+
+.required-field-block .required-icon .text {
+	color: $abb-grey-255;
+	font-size: 14px;
+	margin: -3px 0 0 2px;
+}
