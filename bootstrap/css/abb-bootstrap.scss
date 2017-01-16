@@ -105,28 +105,28 @@ a.bg-primary:focus {
 	background-color: $abb-blue-15;
 }
 .bg-success {
-	background-color: #dff0d8;
+	background-color: $abb-data-green-2;
 }
 a.bg-success:hover,
 a.bg-success:focus {
-	background-color: #c1e2b3;
+	background-color: $abb-data-green-1;
 }
 .bg-info {
-	background-color: $abb-blue-13;
+	background-color: $abb-data-purple-2;
 }
 a.bg-info:hover,
 a.bg-info:focus {
-	background-color: #d099d9;
+	background-color: $abb-data-purple-1;
 }
 .bg-warning {
-	background-color: #ffe0b2;
+	background-color: $abb-data-peach-2;
 }
 a.bg-warning:hover,
 a.bg-warning:focus {
-	background-color: #ffcb7f;
+	background-color: $abb-data-peach-1;
 }
 .bg-danger {
-	background-color: #f9bdbb;
+	background-color: $abb-critical-red;
 }
 a.bg-danger:hover,
 a.bg-danger:focus {
@@ -244,16 +244,16 @@ table th[class*="col-"] {
 .table > thead > tr.active > th,
 .table > tbody > tr.active > th,
 .table > tfoot > tr.active > th {
-	background: rgba(214, 241, 255, 0.5);
+	@include alpha-attribute('background', rgba($abb-blue-18, 0.5), white);
 }
 
 .table > thead > tr.active,
 .table > tbody > tr.active,
 .table > tfoot > tr.active,
-.table > thead > tr.active,
-.table > tbody > tr.active,
-.table > tfoot > tr.active {
-	border: 2px solid $abb-blue-14;
+.table > thead > tr:active,
+.table > tbody > tr:active,
+.table > tfoot > tr:active {
+	outline: 1px solid $abb-blue-14;
 }
 
 .table-hover > tbody > tr > td.active:hover,
@@ -354,49 +354,48 @@ table th[class*="col-"] {
 .form-control {
 	display: block;
 	width: 100%;
-	height: 28px;
-	padding: 0px;
+	height: 30px;
+	padding: 0;
 	padding-left: 12px;
 	padding-right: 12px;
 	padding-bottom: 1px;
 	font-size: 12px;
     font-weight: 400;
-	color: #414141;
-	background-color: $abb-grey-255;
-	background-image: none;
-	border: 1px solid $abb-grey-220 !important;
-	border-radius: 0px;
+	color: $abb-grey-70;
+	@include alpha-attribute('background', rgba($abb-grey-255, 0.8), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color', rgba($abb-grey-150, 0.4), white);
+	border-radius: 0;
 }
 .form-control:focus {
-	border: 1px solid $abb-blue-13 !important;
-	outline: 0;
+	border: 2px solid $abb-blue-13 !important;
+	@include alpha-attribute('background', rgba($abb-grey-255, 1), white);
 }
 .form-control:hover {
-	border: 1px solid #b3b3b3;
+	@include alpha-attribute('background', rgba($abb-grey-255, 0.8), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color', rgba($abb-grey-150, 0.8), white);
 	outline: 0;
 }
-.form-control::-moz-placeholder {
-	color: rgba(69,69,69, 0.5);
-}
-.form-control:-ms-input-placeholder {
-	color: rgba(69,69,69, 0.5);
-}
+.form-control::-moz-placeholder,
+.form-control:-ms-input-placeholder,
 .form-control::-webkit-input-placeholder {
-	color: rgba(69,69,69, 0.5);
+	@include alpha-attribute('color', rgba($abb-grey-70, 0.5), white);
 }
+.form-control :read-only,
 .form-control[readonly],
 fieldset[readonly] .form-control{
+	@include alpha-attribute('background', rgba($abb-grey-255, 0), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color', rgba($abb-grey-150, 0.3), white);
 	color: $abb-grey-70;
-	background-color: #e5e5e5;
-	border: 1px solid $abb-grey-220;
 }
 .form-control[disabled],
 fieldset[disabled] .form-control {
-	background-color: transparent;
-	opacity: 1;
-}
-.form-control[disabled],
-fieldset[disabled] .form-control {
+	@include alpha-attribute('background', rgba($abb-grey-255, 0), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color', rgba($abb-grey-150, 0.3), white);
+	@include alpha-attribute('color', rgba($abb-grey-70, 0.5), white);
 	cursor: not-allowed;
 }
 textarea.form-control {
@@ -407,54 +406,50 @@ textarea.form-control {
 .form-control-blue {
 	display: block;
 	width: 100%;
-	height: 28px;
+	height: 30px;
 	padding-left: 12px;
 	padding-right: 12px;
 	padding-bottom: 3px;
 	font-size: 12px;
     font-weight: 400;
-	color: $abb-grey-240;
-  	background-color: rgba(0,0,0,0.3) !important;
-  	border: 1px solid rgba(200,200,200,0.3) !important;
-	border-radius: 0px;
+	color: $abb-grey-245;
+	@include alpha-attribute('background', rgba($abb-grey-0, 0.35), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color', rgba($abb-grey-200, 0.3), white);
+	border-radius: 0;
 
 }
 .form-control-blue:focus {
-	border: 1px solid $abb-blue-14 !important;
-	outline: 0;
-	background-color: $abb-blue-5;
+	border: 2px solid $abb-blue-14 !important;
+	@include alpha-attribute('background', rgba($abb-grey-0, 0.5), white);
 }
 .form-control-blue:hover {
-	border: 1px solid $abb-grey-245;
-	background-color: $abb-blue-5;
+	@include alpha-attribute('background', rgba($abb-grey-0, 0.5), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color', rgba($abb-grey-245, 0.35), white);
 	outline: 0;
 }
-.form-control-blue::-moz-placeholder {
-	color: rgba(189,221,245, 0.4);
-}
-.form-contro-blue:-ms-input-placeholder {
-	color: rgba(189,221,245, 0.4);
-}
+.form-control-blue::-moz-placeholder,
+.form-control-blue:-ms-input-placeholder,
 .form-control-blue::-webkit-input-placeholder {
-	color: rgba(189,221,245, 0.4);
+	@include alpha-attribute('color', rgba($abb-grey-245, 0.5), white);
 }
 .form-control-blue[readonly]{
-	background-color: $abb-blue-9;
-	border: 1px solid $abb-blue-5;
-	color: #a0d3ff;
+	@include alpha-attribute('background', rgba($abb-grey-0, 0), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color', rgba($abb-grey-200, 0.3), white);
 	outline: 0; 
 }
 .form-control-blue[disabled],
 fieldset[disabled] .form-control-blue {
-	background-color: $abb-blue-9;
-	border: 1px solid $abb-blue-5;
-	color: rgba(189,221,245,0.3);
-	outline: 0; 
-}
-.form-control-blue[disabled],
-fieldset[disabled] .form-control-blue {
+	@include alpha-attribute('background', rgba($abb-grey-0, 0), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color', rgba($abb-grey-200, 0.3), white);
+	@include alpha-attribute('color', rgba($abb-grey-245, 0.5), white);
+	outline: 0;
 	cursor: not-allowed;
 }
+
 textarea.form-control-blue {
 	height: auto;
 }
@@ -463,51 +458,48 @@ textarea.form-control-blue {
 .form-control-dark {
 	display: block;
 	width: 100%;
-	height: 28px;
+	height: 30px;
 	padding-left: 12px;
 	padding-right: 12px;
 	padding-bottom: 3px;
 	font-size: 12px;
     font-weight: 400;
-	color: $abb-grey-200;
-	background-color: rgba(0,0,0,0.5);
-	border: 1px solid rgba(110,110,110,0.5) !important;
-	border-radius: 0px;
+	color: $abb-grey-210;
+	@include alpha-attribute('background', rgba($abb-grey-0, 0.6), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color', rgba($abb-grey-110, 0.5), white);
+	border-radius: 0;
 }
 .form-control-dark:focus {
-	border: 1px solid $abb-blue-12 !important;
+	border: 2px solid $abb-blue-12 !important;
 	outline: 0;
-	background-color: #1d1d1d;
+	background-color: $abb-grey-0;
 }
 .form-control-dark:hover {
 	border: 1px solid $abb-grey-120;
 	background-color: $abb-grey-20;
 	outline: 0;
 }
-.form-control-dark::-moz-placeholder {
-	color: rgba(200, 200, 200, 0.32);
-}
-.form-contro-dark:-ms-input-placeholder {
-	color: rgba(200, 200, 200, 0.32);
-}
+.form-control-dark::-moz-placeholder,
+.form-control-dark:-ms-input-placeholder,
 .form-control-dark::-webkit-input-placeholder {
-	color: rgba(200, 200, 200, 0.32);
+	@include alpha-attribute('color', rgba($abb-grey-210, 0.32), white);
 }
 .form-control-dark[disabled],
 fieldset[disabled] .form-control-dark {
-	background-color: rgba(0,0,0,0);
-	border: 1px solid rgba(110,110,110,0.3);
-	outline: none; 
+	@include alpha-attribute('background', rgba($abb-grey-0, 0), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color', rgba($abb-grey-110, 0.4), white);
+	@include alpha-attribute('color', rgba($abb-grey-210, 0.2), white);
+	outline: 0;
+	cursor: not-allowed;
 }
 .form-control-dark[readonly],
 fieldset[readonly] .form-control-dark {
-	background-color: rgba(110,110,110,0.2);
-	border: 1px solid rgba(110,110,110,0.4);
-	outline: none; 
-}
-.form-control-dark[disabled],
-fieldset[disabled] .form-control-dark {
-	cursor: not-allowed;
+	@include alpha-attribute('background', rgba($abb-grey-0, 0), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color', rgba($abb-grey-110, 0.4), white);
+	outline: none;
 }
 textarea.form-control-dark {
 	height: auto;
@@ -629,7 +621,7 @@ fieldset[disabled] .checkbox label {
 	padding: 5px 10px;
 	font-size: 12px;
 	line-height: 1.5;
-	border-radius: 0px;
+	border-radius: 0;
 }
 select.input-sm {
 	height: 30px;
@@ -644,7 +636,7 @@ select[multiple].input-sm {
 	padding: 5px 10px;
 	font-size: 12px;
 	line-height: 1.5;
-	border-radius: 0px;
+	border-radius: 0;
 }
 .form-group-sm select.form-control {
 	height: 30px;
@@ -666,7 +658,7 @@ select[multiple].input-sm {
 	padding: 10px 16px;
 	font-size: 17px;
 	line-height: 1.3333333;
-	border-radius: 0px;
+	border-radius: 0;
 }
 select.input-lg {
 	height: 45px;
@@ -681,7 +673,7 @@ select[multiple].input-lg {
 	padding: 10px 16px;
 	font-size: 17px;
 	line-height: 1.3333333;
-	border-radius: 0px;
+	border-radius: 0;
 }
 .form-group-lg select.form-control {
 	height: 45px;
@@ -817,8 +809,8 @@ select[multiple].input-lg {
 	white-space: nowrap;
 	padding: 4px 12px;
 	font-size: 12px;
-	border-radius: 0px;
-	height: 28px;
+	border-radius: 0;
+	height: 30px;
 }
 .btn.active,.btn[active] {
     box-shadow: none;
@@ -835,25 +827,28 @@ fieldset[disabled] a.btn {
 	pointer-events: none;
 }
 
+.btn-group.open .dropdown-toggle {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
 /* Button default*/
 .btn-default {
-	@include alpha-attribute('background',rgba($abb-grey-220, 0.6), white);
-	border-bottom: 1px solid $abb-grey-160;
+	background: rgba($abb-grey-220, 0.6);
 	border: 1px solid;
 	@include alpha-attribute('border-color',rgba($abb-grey-190, 0.6), white);
+	border-bottom: 1px solid $abb-grey-160;
 	color: $abb-grey-70;
 }
 .btn-default:focus,
 .btn-default.focus {
-	@include alpha-attribute('background',rgba($abb-grey-0, 0.13), white);
-	color: $abb-grey-70;
-	border: 1px solid $abb-blue-13 !important;
-	outline: 0;
+	@extend .btn-default;
 }
 .btn-default:hover {
 	@include alpha-attribute('background',rgba($abb-grey-250, 0.6), white);
 	border: 1px solid;
 	@include alpha-attribute('border-color',rgba($abb-grey-140, 0.6), white);
+	color: $abb-grey-70;
 }
 .btn-default:active,
 .btn-default.active,
@@ -861,42 +856,42 @@ fieldset[disabled] a.btn {
 	@include alpha-attribute('background',rgba($abb-grey-0, 0.13), white);
 	border: 1px solid $abb-blue-13;
 }
+
 .btn-default:active:hover,
 .btn-default.active:hover,
-.open > .dropdown-toggle.btn-default:hover,
+.open > .dropdown-toggle.btn-default:hover{
+	@extend .btn-default:hover;
+}
+
 .btn-default:active:focus,
 .btn-default.active:focus,
 .open > .dropdown-toggle.btn-default:focus,
 .btn-default:active.focus,
-.btn-default.active.focus,
-.open > .dropdown-toggle.btn-default.focus {
-	@include alpha-attribute('background',rgba($abb-grey-250, 0.6), white);
-	border: 1px solid;
-	@include alpha-attribute('border-color',rgba($abb-grey-140, 0.6), white);
+.btn-default.active.focus, .open >
+.dropdown-toggle.btn-default.focus {
+	@extend .btn-default:active;
 }
 
 //Additional class for toggle
 .btn-default-toggle {
-	@include alpha-attribute('background',rgba($abb-grey-220, 0.6), white);
-	border: 1px solid;
-	@include alpha-attribute('border-color',rgba($abb-grey-190, 0.6), white);
-	border-bottom: 1px solid $abb-grey-160;
-	color: $abb-grey-70;
+	@extend .btn-default;
+}
+.btn-default-toggle:hover {
+	@extend .btn-default:hover;
 }
 .btn-default-toggle:active,
 .btn-default-toggle.active {
 	@include alpha-attribute('background',rgba($abb-grey-205, 0.6), white);
 	@include alpha-attribute('border-color',rgba($abb-grey-150, 0.6), white);
-	border-top: 2px solid;
-	@include alpha-attribute('border-top-color',rgba($abb-grey-0, 0.4), white);
+	border-top: 2px solid $abb-blue-13;
 }
 
 //Additional class for toggle	
 .btn-default-toggle-enhanced {
-	background: $abb-grey-220;
-	border: 1px solid $abb-grey-190;
-	border-bottom: 1px solid $abb-grey-160;
-	color: $abb-grey-70;
+	@extend .btn-default;
+}
+.btn-default-toggle-enhanced:hover {
+	@extend .btn-default:hover;
 }
 .btn-default-toggle-enhanced:active,
 .btn-default-toggle-enhanced.active {
@@ -929,100 +924,71 @@ fieldset[disabled] .btn-default.active {
 	@include alpha-attribute('color',rgba($abb-grey-70, 0.5), white);
 }
 .btn-default .badge {
-	background: #e5e5e5;
+	background: $abb-grey-230;
 	color: $abb-grey-70;
 }
 
 /* Button default blue*/
 .btn-default-blue {
-	background: $abb-blue-12;
-	border: 1px solid $abb-blue-13;
+	@include alpha-attribute('background',rgba($abb-blue-12, 0.55), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-blue-13, 0.8), white);
 	border-bottom: 1px solid $abb-blue-1;
-	color: $abb-blue-18;
+	color: $abb-grey-255;
 }
 .btn-default-blue:focus,
 .btn-default-blue.focus {
-	background: $abb-blue-13;
-	border: 1px solid $abb-blue-16 !important;
-	color: $abb-blue-18;
-	outline: 0;
+	@extend .btn-default-blue;
 }
 .btn-default-blue:hover {
-	background: $abb-blue-13;
-	border: 1px solid $abb-blue-16;
-	color: $abb-blue-18;
-	border-bottom: 1px solid $abb-blue-1;
+	@include alpha-attribute('background',rgba($abb-blue-14, 0.55), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-blue-16, 0.8), white);
+	color: $abb-grey-255;
 }
 .btn-default-blue:active,
 .btn-default-blue.active,
 .open > .dropdown-toggle.btn-default-blue {
-	background: $abb-blue-13;
-	border: 1px solid $abb-blue-16;
-	color: $abb-blue-18;
+	@include alpha-attribute('background',rgba($abb-grey-0, 0.22), white);
+	border: 1px solid $abb-blue-13;
+	color: $abb-grey-255;
 }
 .btn-default-blue:active:hover,
 .btn-default-blue.active:hover,
-.open > .dropdown-toggle.btn-default-blue:hover,
-.btn-default-blue:active:focus,
-.btn-default-blue.active:focus,
-.open > .dropdown-toggle.btn-default-blue:focus,
-.btn-default-blue:active.focus,
-.btn-default-blue.active.focus,
-.open > .dropdown-toggle.btn-default-blue.focus {  
-	background: $abb-blue-12;
-	border: 1px solid $abb-blue-13;
-	border-bottom: 1px solid $abb-blue-1;
-	color: $abb-blue-18;
+.open > .dropdown-toggle.btn-default-blue:hover{
+	@extend .btn-default-blue:hover;
 }
 
 //Additional class for toggle
 .btn-default-blue-toggle {
-	background: $abb-blue-12;
-	border: 1px solid $abb-blue-13;
-	border-bottom: 1px solid $abb-blue-1;
-	color: $abb-blue-18;
+	@extend .btn-default-blue;
 }
 .btn-default-blue-toggle:hover,
 .btn-default-blue-toggle.hover {
-	background: $abb-blue-12;
-	border: 1px solid $abb-blue-13;
-	border-bottom: 1px solid $abb-blue-1;
-	color: $abb-blue-18;
+	@extend .btn-default-blue:hover;
 }
 .btn-default-blue-toggle:active,
-.btn-default-blue-toggle.active, {
+.btn-default-blue-toggle.active {
 	background: $abb-blue-3;
 	border: 1px solid $abb-blue-1;
-	border-top: 2px solid $abb-blue-1;
-	color: $abb-blue-18;
+	border-top: 2px solid $abb-blue-13;
+	color: $abb-grey-255;
 }
 
 //Additional class for toggle	
 .btn-default-blue-toggle-enhanced {
-	background: $abb-blue-12;
-	border: 1px solid $abb-blue-13;
-	border-bottom: 1px solid $abb-blue-1;
-	color: $abb-blue-18;
+	@extend .btn-default-blue;
 }
 .btn-default-blue-toggle-enhanced:hover,
-.btn-default-blue-toggle-enhanced.hover,
+.btn-default-blue-toggle-enhanced.hover
  {
-	background: $abb-blue-12;
-	border: 1px solid $abb-blue-13;
-	border-bottom: 1px solid $abb-blue-1;
-	color: $abb-blue-18;
+	@extend .btn-default-blue:hover;
 }
 .btn-default-blue-toggle-enhanced:active,
-.btn-default-blue-toggle-enhanced.active, {
-	background: $abb-blue-11;
-	border: 1px solid $abb-blue-15;
-	color: $abb-blue-18;
-}
-.btn-default-blue-toggle-enhanced:active:hover,
-.btn-default-blue-toggle-enhanced.active.hover, {
-	background: $abb-blue-11;
-	border: 1px solid $abb-blue-15;
-	color: $abb-blue-18;
+.btn-default-blue-toggle-enhanced.active {
+	background: $abb-blue-16;
+	border: 1px solid $abb-blue-17;
+	color: $abb-blue-3;
 }
 
 .btn-default-blue.disabled,
@@ -1043,9 +1009,10 @@ fieldset[disabled] .btn-default-blue:active,
 .btn-default-blue.disabled.active,
 .btn-default-blue[disabled].active,
 fieldset[disabled] .btn-default-blue.active {
-	background: $abb-blue-12;
-	border: 1px solid $abb-blue-13;
-	color: rgba(189,221,245,0.35);
+	@include alpha-attribute('background',rgba($abb-blue-13, 0.15), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-blue-13, 0.3), white);
+	@include alpha-attribute('color',rgba($abb-grey-255, 0.35), white);
 }
 .btn-default-blue .badge {
 	background: $abb-blue-12;
@@ -1054,69 +1021,61 @@ fieldset[disabled] .btn-default-blue.active {
 
 /* Button default dark*/
 .btn-default-dark {
-	background: $abb-grey-80;
-	border: 1px solid $abb-grey-120;
-	border-bottom: 1px $abb-grey-20;
-	color: $abb-grey-200;
+	@include alpha-attribute('background',rgba($abb-grey-80, 0.55), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-grey-120, 0.55), white);
+	border-bottom: 1px solid $abb-grey-20;
+	color: $abb-grey-210;
 }
 .btn-default-dark:focus,
 .btn-default-dark.focus {
-	background: $abb-grey-100;
-	border: 2px solid $abb-blue-13 !important;
-	color: $abb-grey-200;
-	outline: 0;
+	@extend .btn-default-dark;
 }
-.btn-default-dark:hover {  
-	background: $abb-grey-100;
-	border: 1px solid $abb-grey-170;
-	color: $abb-grey-200;
-	border-bottom: 1px solid $abb-grey-0;
+.btn-default-dark:hover {
+	@include alpha-attribute('background',rgba($abb-grey-110, 0.55), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-grey-195, 0.55), white);
+	color: $abb-grey-210;
 }
 .btn-default-dark:active,
 .btn-default-dark.active,
 .open > .dropdown-toggle.btn-default-dark {
-	background: $abb-grey-90;
-	border: 1px solid $abb-blue-13;
-    color: $abb-grey-200;
+	@include alpha-attribute('background',rgba($abb-grey-0, 0.35), white);
+	border: 1px solid $abb-blue-12;
+    color: $abb-grey-210;
 }
 .btn-default-dark:active:hover,
 .btn-default-dark.active:hover,
-.open > .dropdown-toggle.btn-default-dark:hover,
-.btn-default-dark:active:focus,
-.btn-default-dark.active:focus,
-.open > .dropdown-toggle.btn-default-dark:focus,
-.btn-default-dark:active.focus,
-.btn-default-dark.active.focus,
-.open > .dropdown-toggle.btn-default-dark.focus {
-	background: $abb-grey-80;
-	border: 1px solid $abb-grey-120;
-	border-bottom: 1px $abb-grey-20;
-	color: $abb-grey-200;
+.open > .dropdown-toggle.btn-default-dark:hover
+{
+	@extend .btn-default-dark:hover;
 }
 
 //Additional class for toggle
 .btn-default-dark-toggle {
-	background: $abb-grey-80;
-	border: 1px solid $abb-grey-120;
-	border-bottom: 1px $abb-grey-20;
-	color: $abb-grey-200;
+	@extend .btn-default-dark;
+}
+.btn-default-dark-toggle:hover {
+	@extend .btn-default-dark:hover;
 }
 .btn-default-dark-toggle:active,
-.btn-default-dark-toggle.active, {
-	background: $abb-grey-15;
-	border: 1px solid $abb-grey-0;
-	border-top: 2px solid $abb-grey-0;
+.btn-default-dark-toggle.active {
+	@include alpha-attribute('background',rgba($abb-grey-15, 0.6), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-grey-0, 0.8), white);
+	color: $abb-grey-245;
+	border-top: 2px solid $abb-blue-12;
 }
 
 //Additional class for toggle	
 .btn-default-dark-toggle-enhanced {
-	background: $abb-grey-80;
-	border: 1px solid $abb-grey-120;
-	border-bottom: 1px $abb-grey-20;
-	color: $abb-grey-200;
+	@extend .btn-default-dark;
+}
+.btn-default-dark-toggle-enhanced:hover {
+	@extend .btn-default-dark:hover;
 }
 .btn-default-dark-toggle-enhanced:active,
-.btn-default-dark-toggle-enhanced.active, {
+.btn-default-dark-toggle-enhanced.active {
 	background: $abb-blue-5;
 	border: 1px solid $abb-blue-11;
 	color: $abb-blue-18;
@@ -1140,9 +1099,10 @@ fieldset[disabled] .btn-default-dark:active,
 .btn-default-dark.disabled.active,
 .btn-default-dark[disabled].active,
 fieldset[disabled] .btn-default-dark.active {
-	background-color: #3b3b3b;
-	border: 1px solid $abb-grey-70;
-	color: rgba(199,199,199,0.35);
+	@include alpha-attribute('background',rgba($abb-grey-80, 0.2), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-grey-120, 0.2), white);
+	@include alpha-attribute('color',rgba($abb-grey-210, 0.5), white);
 }
 .btn-default-dark .badge {
 	color: $abb-grey-200;
@@ -1154,14 +1114,11 @@ fieldset[disabled] .btn-default-dark.active {
 	color: $abb-grey-255;
 	background-color: $abb-blue-12;
 	border: 1px solid $abb-blue-11;
-	border-bottom: 1px solid $abb-blue-10;
+	border-bottom: 1px solid $abb-blue-9;
 }
 .btn-primary:focus,
 .btn-primary.focus {
-	background: $abb-blue-14;
-	color: $abb-grey-255;
-	border: 1px solid $abb-blue-9 !important;
-	outline: 0;
+	@extend .btn-primary;
 }
 .btn-primary:hover {
 	background: $abb-blue-14;
@@ -1176,20 +1133,9 @@ fieldset[disabled] .btn-default-dark.active {
 	border: 1px solid $abb-blue-9;
 	color: $abb-grey-250;
 }
-.btn-primary:active:focus,
-.btn-primary.active:focus,
-.open > .dropdown-toggle.btn-primary {
-	background: $abb-blue-11;
-	border: 2px solid $abb-blue-9 !important;
-	color: $abb-grey-250;
-	outline: 0;
-}
 .btn-primary:active:hover,
-.btn-primary.active:hover,
-.open > .dropdown-toggle.btn-primary {
-	background: $abb-blue-11;
-	border: 1px solid $abb-blue-9;
-	color: $abb-grey-250;
+.btn-primary.active:hover{
+	@extend .btn-primary:hover;
 }
 .btn-primary.disabled,
 .btn-primary[disabled],
@@ -1209,57 +1155,43 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-	background: rgba(0,169,255,0.15);
-	border: 1px solid rgba(0,155,237,0.15);
-	color: rgba(0,136,204,0.5);
+	@include alpha-attribute('background',rgba($abb-blue-12, 0.15), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-blue-12, 0.15), white);
+	@include alpha-attribute('color',rgba($abb-blue-11, 0.5), white);
 }
 .btn-primary .badge { 
 	background-color: $abb-grey-255;
 	color: $abb-blue-13;
 }
 
-
 /* Button primary (blue background)*/
 .btn-primary-blue {
 	color: $abb-grey-255;
 	background-color: $abb-blue-13;
-	border: 1px solid $abb-blue-13;
+	border: 1px solid $abb-blue-14;
 	border-bottom: 1px solid $abb-blue-2;
 }
 .btn-primary-blue:focus,
 .btn-primary-blue.focus {
-	color: $abb-grey-255;
-	background-color: $abb-blue-14;
-	border: 1px solid $abb-blue-18 !important;
-	outline: 0;
+	@extend .btn-primary-blue;
 }
 .btn-primary-blue:hover {
 	color: $abb-grey-255;
-	background-color: $abb-blue-14;
-	border: 1px solid $abb-blue-17;	
-	border-bottom: 1px solid $abb-blue-1;
+	background-color: $abb-blue-15;
+	border: 1px solid $abb-blue-16;
 }
 .btn-primary-blue:active,
 .btn-primary-blue.active,
 .open > .dropdown-toggle.btn-primary-blue {
-	color: $abb-blue-18;
-	background-color: $abb-blue-11;
-	border: 1px solid $abb-blue-18;
-}
-.btn-primary-blue:active:focus,
-.btn-primary-blue.active:focus,
-.open > .dropdown-toggle.btn-primary-blue {
 	color: $abb-grey-255;
-	background-color: $abb-blue-14;
-	border: 2px solid $abb-blue-18 !important;	
-	outline: 0;
+	background-color: $abb-blue-10;
+	border: 1px solid $abb-blue-13;
 }
+
 .btn-primary-blue:active:hover,
-.btn-primary-blue.active:hover,
-.open > .dropdown-toggle.btn-primary-blue {
-	background: $abb-blue-11;
-	border: 1px solid $abb-blue-9;
-	color: $abb-grey-250;
+.btn-primary-blue.active:hover{
+	@extend .btn-primary-blue:hover;
 }
 .btn-primary-blue.disabled,
 .btn-primary-blue[disabled],
@@ -1279,9 +1211,10 @@ fieldset[disabled] .btn-primary-blue:active,
 .btn-primary-blue.disabled.active,
 .btn-primary-blue[disabled].active,
 fieldset[disabled] .btn-primary-blue.active {
-	background: rgba(55,153,233,0.15);
-	border: 1px solid rgba(61,167,255,0.15);
-	color: rgba(255,255,255,0.35);
+	@include alpha-attribute('background',rgba($abb-blue-13, 0.15), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-blue-13, 0.3), white);
+	@include alpha-attribute('color',rgba($abb-grey-255, 0.35), white);
 }
 .btn-primary-blue .badge {
 	color: $abb-blue-13;
@@ -1291,29 +1224,29 @@ fieldset[disabled] .btn-primary-blue.active {
 /* Button primary dark (dark background) */
 .btn-primary-dark {
 	color: $abb-grey-255;
-	background-color: $abb-blue-12;
-	border: 1px solid $abb-blue-13;
-	border-bottom: 1px solid $abb-grey-0;
+	background-color: $abb-blue-11;
+	border: 1px solid $abb-blue-12;
+	border-bottom: 1px solid $abb-blue-6;
 }
 .btn-primary-dark:focus,
 .btn-primary-dark.focus {
-	color: $abb-grey-255;
-	background-color: $abb-blue-13;
-	border: 1px solid $abb-blue-18 !important;
-	outline: 0;
+	@extend .btn-primary-dark;
 }
 .btn-primary-dark:hover {
 	color: $abb-grey-255;
-	background-color: $abb-blue-13;
-	border: 1px solid $abb-blue-17;	
-	border-bottom: 1px solid $abb-grey-0;
+	background-color: $abb-blue-14;
+	border: 1px solid $abb-blue-15;
 }
 .btn-primary-dark:active,
 .btn-primary-dark.active,
 .open > .dropdown-toggle.btn-primary-dark {
 	color: $abb-grey-255;
-	background-color: $abb-blue-10;
-	border: 1px solid $abb-blue-18;
+	background-color: $abb-blue-8;
+	border: 1px solid $abb-blue-11;
+}
+.btn-primary-dark:active:hover,
+.btn-primary-dark.active:hover{
+	@extend .btn-primary-dark:hover;
 }
 .btn-primary-dark.disabled,
 .btn-primary-dark[disabled],
@@ -1333,9 +1266,10 @@ fieldset[disabled] .btn-primary-dark:active,
 .btn-primary-dark.disabled.active,
 .btn-primary-dark[disabled].active,
 fieldset[disabled] .btn-primary-dark.active {
-	background-color: rgba(37,122,188,0.15);
-	border: 1px solid rgba(55,153,233,0.15);
-	color: rgba(255,255,255,0.35);
+	@include alpha-attribute('background',rgba($abb-blue-5, 0.25), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-blue-7, 0.25), white);
+	@include alpha-attribute('color',rgba($abb-blue-14, 0.60), white);
 }
 .btn-primary-dark .badge {
 	color: $abb-blue-13;
@@ -1352,35 +1286,28 @@ fieldset[disabled] .btn-primary-dark.active {
 }
 .btn-link:focus ,
 .btn-link.focus {
-	background: $abb-grey-220;
+	background: transparent;
 	border: 1px solid $abb-blue-13 !important;
-	border-bottom: 1px solid $abb-grey-160;
-	outline: 0;
 	text-decoration: none;
+	color: $abb-grey-70;
 }
 .btn-link:hover,
 .btn-link.hover {
-	background: $abb-grey-250;
-	border: 1px solid $abb-grey-140;
-	border-bottom: 1px solid $abb-grey-160;
+	@extend .btn-default:hover;
 	text-decoration: none;
-	color: $abb-grey-70;
 }
 .btn-link:active,
 .btn-link.active {
-	background: $abb-grey-250;
-	border: 1px solid $abb-blue-13;
-	text-decoration: none;
-	color: $abb-grey-70;
+	@extend .btn-default:active;
 }
 .btn-link:active:hover,
-.btn-link.active:hover,
+.btn-link.active.hover {
+	@extend .btn-link:hover;
+}
+.btn-link:active:hover,
+.btn-link.active.hover
  {
-	background: $abb-grey-220;
-	border: 1px solid $abb-grey-190;
-	border-bottom: 1px solid $abb-grey-160;
-	color: $abb-grey-70;
-	text-decoration: none;
+	@extend .btn-link:hover;
 }
 .btn-link.disabled,
 .btn-link[disabled],
@@ -1394,7 +1321,7 @@ fieldset[disabled] .btn-link:focus,
 .btn-link.disabled:active,
 .btn-link[disabled]:active,
 fieldset[disabled] .btn-link:active{
-	color: rgba(70,70,70,0.5);
+	@include alpha-attribute('color',rgba($abb-grey-70, 0.5), white);
 	background: transparent;
 	border: transparent;
 }
@@ -1403,35 +1330,23 @@ fieldset[disabled] .btn-link:active{
 .btn-link-blue{
 	background: transparent;
 	border: 1px solid transparent;
-	color: $abb-blue-18;
+	color: $abb-grey-255;
 }
 .btn-link-blue:focus ,
 .btn-link-blue.focus {
-	background: $abb-blue-13;
-	border: 1px solid $abb-blue-16 !important;
-	color: $abb-blue-18;
-	outline: 0;
-	text-decoration: none;
+	@extend .btn-link-blue;
 }
 .btn-link-blue:hover,
 .btn-link-blue.hover {
-	background: $abb-blue-13;
-	border: 1px solid $abb-blue-16;
-	color: $abb-blue-18;
-	border-bottom: 1px solid $abb-blue-1;
+	@extend .btn-default-blue:hover;
 }
 .btn-link-blue:active,
 .btn-link-blue.active {
-	background: $abb-blue-13;
-	border: 1px solid $abb-blue-16;
-	color: $abb-blue-18;
+	@extend .btn-default-blue:active;
 }
 .btn-link-blue:active:hover,
 .btn-link-blue.active:hover{
-	background: $abb-blue-12;
-	border: 1px solid $abb-blue-13;
-	border-bottom: 1px solid $abb-blue-1;
-	color: $abb-blue-18;
+	@extend .btn-default-blue:hover;
 }
 .btn-link-blue.disabled,
 .btn-link-blue[disabled],
@@ -1445,7 +1360,7 @@ fieldset[disabled] .btn-link-blue:focus,
 .btn-link-blue.disabled:active,
 .btn-link-blue[disabled]:active,
 fieldset[disabled] .btn-link-blue:active{
-	color: rgba(189,221,245,0.35);
+	@include alpha-attribute('color',rgba($abb-grey-255, 0.4), white);
 	background: transparent;
 	border: transparent;
 }
@@ -1454,34 +1369,23 @@ fieldset[disabled] .btn-link-blue:active{
 .btn-link-dark {
 	background: transparent;
 	border: 1px solid transparent;
-	color: $abb-grey-200;
+	color: $abb-grey-240;
 }
 .btn-link-dark:focus ,
 .btn-link-dark.focus {
-	background: $abb-grey-100;
-	border: 1px solid $abb-blue-13 !important;
-	color: $abb-grey-200;
-	outline: 0;
+	@extend .btn-link-dark;
 }
 .btn-link-dark:hover,
 .btn-link-dark.hover {
-	background: $abb-grey-100;
-	border: 1px solid $abb-grey-170;
-	color: $abb-grey-200;
-	border-bottom: 1px solid $abb-grey-0;
+	@extend .btn-default-dark:hover;
 }
 .btn-link-dark:active,
 .btn-link-dark.active {
-	background: $abb-grey-90;
-	border: 1px solid $abb-blue-13;
-    color: $abb-grey-200;
+	@extend .btn-default-dark:active;
 }
 .btn-link-dark:active:hover,
 .btn-link-dark.active:hover{
-	background: $abb-grey-80;
-	border: 1px solid $abb-grey-120;
-	border-bottom: 1px $abb-grey-20;
-	color: $abb-grey-200;
+	@extend .btn-default-dark:hover;
 }
 .btn-link-dark.disabled,
 .btn-link-dark[disabled],
@@ -1495,7 +1399,7 @@ fieldset[disabled] .btn-link-dark:focus,
 .btn-link-dark.disabled:active,
 .btn-link-dark[disabled]:active,
 fieldset[disabled] .btn-link-dark:active{
-	color: rgba(199,199,199,0.35);
+	@include alpha-attribute('color',rgba($abb-grey-210, 0.5), white);
 	background: transparent;
 	border: transparent;
 }
@@ -1503,29 +1407,26 @@ fieldset[disabled] .btn-link-dark:active{
 /* Button success*/
 .btn-success {
 	color: $abb-grey-255;
-	background-color: #66e1b5;
-	border: 1px solid #66e1b5;
-	border-bottom: 1px solid $abb-data-green-1;
+	@include alpha-attribute('background',rgba($abb-data-green-3, 0.9), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-data-green-3, 1), white);
 }
 .btn-success:focus,
 .btn-success.focus {
 	color: $abb-grey-255;
 	background-color: $abb-data-green-3;
 	border-color: rgba(0, 0, 0, 0);
-	border-bottom: 1px solid $abb-data-green-1;
 }
 .btn-success:hover {
 	color: $abb-grey-255;
 	background-color: $abb-data-green-3;
 	border: 1px solid $abb-data-green-1;
-	border-bottom: 1px solid $abb-data-green-1;
 }
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
 	color: $abb-grey-255;
 	background-color: $abb-data-green-3;
-	border-top: 1px solid $abb-data-green-1;
 }
 .btn-success:active:hover,
 .btn-success.active:hover,
@@ -1577,27 +1478,23 @@ fieldset[disabled] .btn-success.active {
 	color: $abb-grey-255;
 	background-color: #f18862;
 	border: 1px solid #f18862;
-	border-bottom: 1px solid #ab4c2a;
 }
 .btn-warning:focus,
 .btn-warning.focus {
 	color: $abb-grey-255;
 	background-color: $abb-critical-orange;
 	border: 1px solid #BE552F;
-	border-bottom: 1px solid #ab4c2a;
 }
 .btn-warning:hover {
 	color: $abb-grey-255;
 	background-color: $abb-critical-orange;
 	border: 1px solid #BE552F;
-	border-bottom: 1px solid #ab4c2a;
 }
 .btn-warning:active,
 .btn-warning.active,
 .open > .dropdown-toggle.btn-warning {
 	color: $abb-grey-255;
 	background-color: #cc7a00;
-	border-top: 1px solid #ab4c2a;
 }
 .btn-warning:active:hover,
 .btn-warning.active:hover,
@@ -1645,9 +1542,9 @@ fieldset[disabled] .btn-warning.active {
 /* Button danger*/
 .btn-danger {
 	color: $abb-grey-255;
-	background-color: $abb-critical-red;
-	border: 1px solid $abb-critical-red;
-	border-bottom: 1px solid #ac212c;
+	@include alpha-attribute('background',rgba($abb-critical-red, 0.9), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-critical-red, 1), white);
 }
 .btn-danger:focus,
 .btn-danger.focus {
@@ -1717,22 +1614,24 @@ fieldset[disabled] .btn-danger.active {
 
 .btn-lg,
 .btn-group-lg > .btn {
-	padding: 10px 16px;
-	font-size: 17px;
-	height: 35px;
+	padding: 8px 16px;
+	font-size: 14px;
+	height: 36px;
+	border-radius: 0;
 }
 .btn-xl,
 .btn-group-xl > .btn {
 	padding: 5px 30px;
 	font-size: 22px;
-	height: 50px;
+	height: 48px;
+	border-radius: 0;
 }
 .btn-xxl,
 .btn-group-xxl > .btn {
 	padding: 30px 30px;
 	font-size: 30px;
-	height: 160px;
-	width: 160px;
+	height: 144px;
+	width: 144px;
 }
 .btn-xxl:hover,
 .btn-xxl:focus,
@@ -1749,17 +1648,18 @@ fieldset[disabled] .btn-danger.active {
 }
 .btn-sm,
 .btn-group-sm > .btn {
-	padding: 5px 10px;
+	padding: 2px 8px;
 	font-size: 12px;
-    min-width: 35px;
-	line-height: 1.5;
+	height: 24px;
+	border-radius: 0;
 }
 .btn-xs,
 .btn-group-xs > .btn {
-	padding: 1px 6px;
+	padding: 1px 8px;
 	font-size: 10px;
 	line-height: 1;
 	height: 22px;
+	border-radius: 0;
 }
 
 /*General settings for dropdown*/
@@ -1778,15 +1678,13 @@ fieldset[disabled] .btn-danger.active {
 	font-weight: 300;
 	text-align: left;
 	background-color: $abb-grey-255;
-	border: 1px solid #cccccc;
 	border: 1px solid rgba(0, 0, 0, 0.15);
-	border-radius: 0px;
+	border-radius: 0;
 	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	color: $abb-grey-70;
-	margin-right: 16px;
 }
 
 .dropdown-menu.pull-right {
@@ -1915,7 +1813,7 @@ fieldset[disabled] .btn-danger.active {
   text-align: center;
   background-color: $abb-grey-255 !important;
   border: 1px solid $abb-grey-220 !important;
-  border-radius: 0px;
+  border-radius: 0;
 }
 .input-group-addon-blue {
   padding: 4px 12px;
@@ -1926,7 +1824,7 @@ fieldset[disabled] .btn-danger.active {
   text-align: center;
   background-color: rgba(0,0,0,0.3) !important;
   border: 1px solid rgba(200,200,200,0.3) !important;
-  border-radius: 0px;
+  border-radius: 0;
 }
 .input-group-addon-dark {
   padding: 4px 12px;
@@ -1937,7 +1835,7 @@ fieldset[disabled] .btn-danger.active {
   color: $abb-grey-200;
   background-color: rgba(0,0,0,0.5) !important;
   border: 1px solid rgba(110,110,110,0.5) !important;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 // Navigation CommonUX
@@ -1993,12 +1891,12 @@ fieldset[disabled] .btn-danger.active {
 .nav > li > a > img {
 	max-width: none;
 }
-.nav.nav-gray {
-	background: #e6e6e6;
+.nav.nav-grey {
+	background: $abb-grey-230;
 }
 .nav-tabs {
 	border-bottom: 1px solid #d2d2d2;
-	color: $abb-grey-70;
+	color: $abb-grey-100;
 }
 .nav-tabs > li {
 	float: left;
@@ -2010,7 +1908,7 @@ fieldset[disabled] .btn-danger.active {
 	margin-right: 2px;
 	line-height: 1.846;
 	border-right: 1px solid #a0a0a0;
-	border-radius: 0px;
+	border-radius: 0;
 	border-top: 2px solid #dcdcdc;
 }
 .nav-tabs > li > a:hover {
@@ -2042,7 +1940,7 @@ fieldset[disabled] .btn-danger.active {
 }
 .nav-tabs.nav-justified > li > a {
 	margin-right: 0;
-	border-radius: 0px;
+	border-radius: 0;
 }
 .nav-tabs.nav-justified > .active > a,
 .nav-tabs.nav-justified > .active > a:hover,
@@ -2052,7 +1950,7 @@ fieldset[disabled] .btn-danger.active {
 @media (min-width: 768px) {
 	.nav-tabs.nav-justified > li > a {
 		border-bottom: 1px solid transparent;
-		border-radius: 0px 0px 0 0;
+		border-radius: 0;
 	}
 	.nav-tabs.nav-justified > .active > a,
 	.nav-tabs.nav-justified > .active > a:hover,
@@ -2061,16 +1959,18 @@ fieldset[disabled] .btn-danger.active {
 		border-top: 2px solid $abb-blue-13;
 	}
 }
-.nav-tabs > li > a,
-.nav-tabs > li > a:focus {
+.nav-tabs > li > a {
 	margin-right: 0;
 	background-color: transparent;
 	border: 1px solid transparent;
-	color: $abb-grey-70;
+	color: $abb-grey-100;
 	-webkit-transition: all 0.2s;
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
-    color: #6e6e6e;
+	border-top: 2px solid transparent;
+}
+.nav-tabs > li > a:hover{
+	background: $abb-grey-240;
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:focus {
@@ -2101,9 +2001,9 @@ fieldset[disabled] .btn-danger.active {
 
 /*Tabs level 3 = subtabs*/
 .nav-subtabs {
-	border-top: 1px solid #d2d2d2;
-	color: #1c1c1c;
-	background: transparent;
+	border-top: 1px solid;
+	@include alpha-attribute('border-top-color',rgba($abb-grey-0, 0.1), white);
+	color: $abb-grey-100;
 }
 .nav-subtabs > li {
 	float: left;
@@ -2112,15 +2012,19 @@ fieldset[disabled] .btn-danger.active {
 .nav-subtabs > li > a {
 	margin-right: 2px;
 	line-height: 1.846;
-	border-radius: 0px 0px 0 0;
+	border-radius: 0;
     border-top: 4px solid transparent;
     color: #828282;
 }
+.nav-subtabs > li > a:hover {
+	border-top: 4px solid;
+	@include alpha-attribute('border-top-color',rgba($abb-blue-13, 0.2), white);
+}
 .nav-subtabs > li.active > a {
 	background-color: transparent;
-	border-top: 4px solid $abb-blue-14;
+	border-top: 4px solid $abb-blue-13;
 	cursor: default;
-    color: #242424;
+    color: $abb-grey-70;
 }
 .nav-subtabs.nav-justified {
 	width: 100%;
@@ -2148,7 +2052,7 @@ fieldset[disabled] .btn-danger.active {
 }
 .nav-subtabs.nav-justified > li > a {
 	margin-right: 0;
-	border-radius: 0px;
+	border-radius: 0;
 }
 .nav-subtabs.nav-justified > .active > a,
 .nav-subtabs.nav-justified > .active > a:hover,
@@ -2158,7 +2062,7 @@ fieldset[disabled] .btn-danger.active {
 @media (min-width: 768px) {
 	.nav-subtabs.nav-justified > li > a {
 		border-bottom: 1px solid transparent;
-		border-radius: 0px 0px 0 0;
+		border-radius: 0;
 	}
 	.nav-subtabs.nav-justified > .active > a,
 	.nav-subtabs.nav-justified > .active > a:hover,
@@ -2205,7 +2109,7 @@ fieldset[disabled] .btn-danger.active {
 	float: left;
 }
 .nav-pills > li > a {
-	border-radius: 0px;
+	border-radius: 0;
 }
 .nav-pills > li + li {
 	margin-left: 2px;
@@ -2254,7 +2158,7 @@ fieldset[disabled] .btn-danger.active {
 }
 .nav-tabs-justified > li > a {
 	margin-right: 0;
-	border-radius: 0px;
+	border-radius: 0;
 }
 .nav-tabs-justified > .active > a,
 .nav-tabs-justified > .active > a:hover,
@@ -2264,7 +2168,7 @@ fieldset[disabled] .btn-danger.active {
 @media (min-width: 768px) {
 	.nav-tabs-justified > li > a {
 		border-bottom: 1px solid transparent;
-		border-radius: 0px 0px 0 0;
+		border-radius: 0;
 	}
 	.nav-tabs-justified > .active > a,
 	.nav-tabs-justified > .active > a:hover,
@@ -2291,7 +2195,7 @@ fieldset[disabled] .btn-danger.active {
 }
 @media (min-width: 768px) {
 	.navbar {
-		border-radius: 0px;
+		border-radius: 0;
 	}
 }
 @media (min-width: 768px) {
@@ -2400,7 +2304,7 @@ fieldset[disabled] .btn-danger.active {
 	float: left;
 	padding: 10px 100px;
 	font-size: 16px;
-	line-height: 26px;
+	line-height: 30px;
 	height: 50px;
     font-weight: 300;
 }
@@ -2422,9 +2326,9 @@ fieldset[disabled] .btn-danger.active {
 .navbar-brand-red {
 	background: url("Logo-red.png") no-repeat left center;
 	float: left;
-	padding: 10px 90px;
+	padding: 10px 100px;
 	font-size: 16px;
-	line-height: 26px;
+	line-height: 30px;
 	height: 50px;
     font-weight: 300;
 }
@@ -2447,26 +2351,31 @@ fieldset[disabled] .btn-danger.active {
 
 .navbar-nav {
 }
-.navbar-nav :hover {
+.navbar-nav .hover {
+
 }
 .navbar-nav .active {
-	border-top: 4px solid $abb-blue-13;
-	}
+
+}
+
 /* Padding top nav texts */
 
-.navbar-nav > li { 
-    border-top: 4px solid transparent;
+.navbar-nav > li {
     height: 50px;
 }
 
+.navbar-nav > li a:hover{
+
+}
+
 .navbar-nav > li > a {
-	padding-top: 11px;
-	padding-bottom: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
     font-weight: 500;
 }
 
 .navbar-right {
-	margin-right:0;}
+	margin-right:0px;}
 
 .navbar-default {
 	color: #212121;
@@ -2492,12 +2401,18 @@ fieldset[disabled] .btn-danger.active {
 	color: $abb-grey-235;
 }
 .navbar-default .navbar-nav > li > a {
-	color: #666666;
+	color: $abb-grey-110;
+	border-top: 4px solid transparent;
+}
+.navbar-default .navbar-nav > .active > a {
+	color: $abb-grey-70;
+	border-top: 4px solid #d9000f;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: #212121;
-	background-color: transparent;
+	color: $abb-grey-70;
+	border-top: 4px solid;
+	@include alpha-attribute('border-top-color',rgba(#d9000f, 0.30), white);
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -2532,7 +2447,7 @@ fieldset[disabled] .btn-danger.active {
 .navbar-default .navbar-nav > .open > a:focus {
 	background-color: $abb-grey-220;
 	color: $abb-grey-70;
-	height: 46px;
+	height: 50px;
 }
 @media (max-width: 767px) {
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -2601,12 +2516,18 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 	color: $abb-grey-255;
 }
 .navbar-inverse .navbar-nav > li > a {
-	color: #dcdcdc;
+	color: $abb-grey-180;
+	border-top: 4px solid transparent;
+}
+.navbar-inverse .navbar-nav > .active > a {
+	color: $abb-grey-180;
+	border-top: 4px solid $abb-blue-13;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
 	color: $abb-grey-255;
-	background-color: transparent;
+	border-top: 4px solid;
+	@include alpha-attribute('border-top-color',rgba($abb-blue-12, 0.40), white);
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
@@ -2690,14 +2611,14 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .navbar-form {
     margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .breadcrumb {
 	padding: 8px 15px;
 	margin-bottom: 23px;
 	list-style: none;
 	background-color: #f5f5f5;
-	border-radius: 0px;
+	border-radius: 0;
 }
 .breadcrumb > li {
 	display: inline-block;
@@ -2714,7 +2635,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 	display: inline-block;
 	padding-left: 0;
 	margin: 23px 0;
-	border-radius: 0px;
+	border-radius: 0;
 }
 .pagination > li {
 	display: inline;
@@ -2759,7 +2680,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > .active > span:focus {
 	z-index: 2;
 	color: $abb-grey-255;
-	background-color: $abb-blue-12;
+	@include alpha-attribute('background',rgba($abb-blue-12,0.6), white);
 	border-color: $abb-blue-12;
 	cursor: default;
 }
@@ -2819,7 +2740,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 	text-align: center;
 	white-space: nowrap;
 	vertical-align: baseline;
-	border-radius: 0em;
+	border-radius: 0;
 }
 a.label:hover,
 a.label:focus {
@@ -2924,7 +2845,7 @@ a.badge:focus {
 	white-space: nowrap;
 	text-align: center;
 	background-color: $abb-grey-235;
-	border-radius: 0px;
+	border-radius: 0;
 }
 .badge-nav:empty {
 	display: none;
@@ -2965,13 +2886,13 @@ a.badge-nav:focus {
 	padding: 10px 10px 10px 10px;
 	margin-bottom: 23px;
 	border: 1px solid transparent;
-	border-radius: 0px;
+	border-radius: 0;
 	color: $abb-grey-255;
 	text-align: center;
 	font-size: 12px;
-	-webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.35);
-	-moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.35);
-	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 4px 4px 5px 0 rgba(0,0,0,0.35);
+	-moz-box-shadow: 4px 4px 5px 0 rgba(0,0,0,0.35);
+	box-shadow: 4px 4px 5px 0 rgba(0,0,0,0.35);
 }
 .alert h4 {
 	margin-top: 0;
@@ -3160,7 +3081,7 @@ a.badge-nav:focus {
 	margin-bottom: 23px;
 	background-color: transparent;
 	border: 1px solid transparent;
-	border-radius: 0px;
+	border-radius: 0;
 	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
@@ -3304,10 +3225,8 @@ a.badge-nav:focus {
 	display: none;
 	overflow: hidden;
 	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
+	text-align: center;
+	padding: 0!important;
 	z-index: 1050;
 	-webkit-overflow-scrolling: touch;
 	outline: 0;
@@ -3332,16 +3251,15 @@ a.badge-nav:focus {
 	overflow-y: auto;
 }
 .modal-dialog {
-	position: relative;
-	width: auto;
-	margin: 10px;
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
 }
 .modal-content {
 	position: relative;
 	background-color: $abb-grey-255;
 	border: 1px solid #999999;
-	border: 1px solid transparent;
-	border-radius: 3px;
+	border-radius: 0;
 	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
 	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
 	-webkit-background-clip: padding-box;
@@ -3606,7 +3524,6 @@ a.badge-nav:focus {
 	left: 50%;
 	margin-left: -11px;
 	border-bottom-width: 0;
-	border-top-color: rgba(0, 0, 0, 0);
 	border-top-color: rgba(0, 0, 0, 0.075);
 	bottom: -11px;
 }
@@ -3622,7 +3539,6 @@ a.badge-nav:focus {
 	left: -11px;
 	margin-top: -11px;
 	border-left-width: 0;
-	border-right-color: rgba(0, 0, 0, 0);
 	border-right-color: rgba(0, 0, 0, 0.075);
 }
 .popover.right > .arrow:after {
@@ -3636,7 +3552,6 @@ a.badge-nav:focus {
 	left: 50%;
 	margin-left: -11px;
 	border-top-width: 0;
-	border-bottom-color: rgba(0, 0, 0, 0);
 	border-bottom-color: rgba(0, 0, 0, 0.075);
 	top: -11px;
 }
@@ -3652,7 +3567,6 @@ a.badge-nav:focus {
 	right: -11px;
 	margin-top: -11px;
 	border-right-width: 0;
-	border-left-color: rgba(0, 0, 0, 0);
 	border-left-color: rgba(0, 0, 0, 0.075);
 }
 .popover.left > .arrow:after {
@@ -3700,7 +3614,7 @@ input[type=number],
 [type=tel].form-control,
 [contenteditable].form-control {
 	border-radius: 0;
-	height: 28px;
+	height: 30px;
     padding-left: 12px;
 }
 textarea[disabled],
@@ -3948,7 +3862,7 @@ input[type="checkbox"]:after,
 	margin-top: -2px;
 	margin-right: 5px;
 	border: 1px solid #bdbdbd;
-	border-radius: 0px;
+	border-radius: 0;
 	-webkit-transition: 240ms;
 	-o-transition: 240ms;
 	transition: 240ms;
@@ -4038,7 +3952,7 @@ input[type=number],
 [type=tel].form-control,
 [contenteditable].form-control {
 	border-radius: 0;
-	height: 28px;
+	height: 30px;
     padding-left: 12px;
 }
 textarea:focus,
@@ -4304,7 +4218,7 @@ input[type="checkbox"]:after,
 	margin-top: -2px;
 	margin-right: 5px;
 	border: 1px solid #bdbdbd;
-	border-radius: 0px;
+	border-radius: 0;
 	-webkit-transition: 240ms;
 	-o-transition: 240ms;
 	transition: 240ms;
@@ -5016,7 +4930,7 @@ label {
 }
 
 label:first-child {
-    font-weight:light;
+    font-weight:600;
 }
 
 label:nth-child(n+2) {
@@ -5033,7 +4947,7 @@ label:nth-child(n+2) {
     left: 100%;
     margin-top: -3px;
     margin-left: -3px;
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 .dropdown-submenu:hover>.dropdown-menu {
@@ -5069,7 +4983,7 @@ label:nth-child(n+2) {
 .dropdown-submenu.pull-left>.dropdown-menu {
     left: -100%;
     margin-left: 10px;
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 /* Override default text selection color*/
@@ -5082,18 +4996,21 @@ label:nth-child(n+2) {
 
 /* Control color in control-labels*/
 .control-label {
-	color:#828282;
-    font-weight: lighter;
+	color:$abb-grey-120;
+	text-transform: uppercase;
+    font-size: 10px;
 }
 
 .control-label-blue {
-	color:$abb-blue-18;
-    font-weight: lighter;
+	color:$abb-grey-230;
+	text-transform: uppercase;
+	font-size: 10px;
 }
 
 .control-label-dark {
-	color:#bdbdbd;
-    font-weight: lighter;
+	color:$abb-grey-180;
+	text-transform: uppercase;
+	font-size: 10px;
 }
 
 .well {
@@ -5162,6 +5079,34 @@ color: inherit;
 
 */
 
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+@media (min-width: 768px) {
+	.container {
+		width: 100%;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 100%;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		width: 100%;
+	}
+}
+.container-fluid {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 /*Margin dropdown arrow*/
 span.caret { margin-left: 10px; }
 
@@ -5185,7 +5130,6 @@ span.caret { margin-left: 10px; }
 	border-radius: 0.325em;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
 	box-sizing: border-box;
 	-webkit-transition: background 0.1s linear;
 	-moz-transition: background 0.1s linear;
@@ -5195,13 +5139,13 @@ span.caret { margin-left: 10px; }
 .required-field-block .required-icon {
 	background-color: transparent;
 	position: absolute;
-	top: 0em;
-	right: 0em;
+	top: 0;
+	right: 0;
 	z-index: 10;
-	margin: 0em;
+	margin: 0;
 	width: 12px;
 	height: 12px;
-	padding: 0em;
+	padding: 0;
 	text-align: center;
 	-webkit-transition: color 0.2s ease;
 	-moz-transition: color 0.2s ease;
@@ -5214,12 +5158,12 @@ span.caret { margin-left: 10px; }
 	right: 1px;
 	top: 1px;
 	z-index: -1;
-	width: 0em;
-	height: 0em;
-	border-top: 0em solid transparent;
+	width: 0;
+	height: 0;
+	border-top: 0 solid transparent;
 	border-right: 12px solid transparent;
 	border-bottom: 12px solid transparent;
-	border-left: 0em solid transparent;
+	border-left: 0 solid transparent;
 	border-right-color: inherit;
 	-webkit-transition: border-color 0.2s ease;
 	-moz-transition: border-color 0.2s ease;
@@ -5230,4 +5174,11 @@ span.caret { margin-left: 10px; }
 	color: $abb-grey-255;
 	font-size: 14px;
 	margin: -3px 0 0 2px;
+}
+
+@font-face {
+	font-family: 'Glyphicons Halflings';
+
+	src: url('/fonts/glyphicons/glyphicons-halflings-regular.eot');
+	src: url('/fonts/glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
