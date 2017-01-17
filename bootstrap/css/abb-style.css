@@ -2441,7 +2441,6 @@ fieldset[disabled] .btn-danger.active {
 
 .btn-xs,
 .btn-group-xs > .btn {
-  padding: 1px 8px;
   font-size: 10px;
   line-height: 1;
   height: 22px;
@@ -5059,12 +5058,6 @@ input[type="checkbox"][data-indeterminate] + label:after {
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3); }
 
-.panel-heading {
-  border-bottom: none; }
-
-.panel-footer {
-  border-top: none; }
-
 .popover {
   border: none;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
@@ -5623,6 +5616,9 @@ label:nth-child(n+2) {
 
 .well {
   background: #f9f9f9; }
+
+.well-dark {
+  background: #282828; }
 
 a:hover, a:focus {
   text-decoration: none; }
