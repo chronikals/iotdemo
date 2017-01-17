@@ -1,4 +1,3 @@
-<script>
 nv.addGraph(function () {
     var chart = nv.models.lineWithFocusChart();
     chart.brushExtent([50, 70]);
