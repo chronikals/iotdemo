@@ -29,6 +29,18 @@
     margin-left: 2px;
 }
 
+.cux-16 {
+    font-size: 16px;
+}
+
+.cux-20 {
+    font-size: 20px;
+}
+
+.cux-24 {
+    font-size: 24px;
+}
+
 .abb-cux-add-user:before {
     content: "\e900";
 }

@@ -1487,8 +1487,7 @@
                                             <button name="color" type="button" class="btn btn-primary"
                                                     value="btn-primary">Primary
                                             </button>
-                                            <button name="color" type="button" class="btn btn-link" value="btn-link">
-                                                Link
+                                            <button name="color" type="button" class="btn btn-link" value="btn-link">Link
                                             </button>
                                         </div>
                                     </div>
@@ -1559,9 +1558,9 @@
                     <div class="panel-heading">Create your topbar</div>
                     <div class="panel-body">
                         <div class="row">
-                            <div class="navbar navbar-inverse">
+                            <div id="topBar" class="navbar navbar-inverse">
                                 <div class="container">
-                                    <div class="navbar-header">
+                                    <div id="productName" class="navbar-header">
                                         <button type="button" class="navbar-toggle" data-toggle="collapse"
                                                 data-target=".navbar-collapse">
                                             <span class="sr-only">Toggle navigation</span>
@@ -1573,14 +1572,13 @@
                                     </div>
                                     <div class="navbar-collapse collapse">
                                         <ul class="nav navbar-nav">
-                                            <li class="active"><a href="#pie"><i
-                                                    class="abb-ux-piechart size-18"></i></a>
+                                            <li><a href="#" id="bar-choice1-text"><i id="bar-choice1-icon" class="html"></i></a>
                                             </li>
-                                            <li><a href="#singleline"><i class="abb-ux-singleline size-18"></i></a>
+                                            <li><a href="#" id="bar-choice2-text"><i id="bar-choice2-icon" class="html"></i></a>
                                             </li>
-                                            <li><a href="#dashboard"><i class="abb-ux-dashboard size-18"></i></a>
+                                            <li><a href="#" id="bar-choice3-text"><i id="bar-choice3-icon" class="html"></i></a>
                                             </li>
-                                            <li><a href="#bar"><i class="abb-ux-barchart size-18"></i></a>
+                                            <li><a href="#" id="bar-choice4-text"><i id="bar-choice4-icon" class="html"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -1590,35 +1588,46 @@
                         <div class="row">
                             <form class="form-horizontal" role="form">
                                 <div class="form-group">
-                                    <label for="btn-text" class="col-sm-2 control-label">Product name: </label>
+                                    <label for="bar-name" class="col-sm-2 control-label">Product name: </label>
                                     <div class="col-sm-10">
-                                        <input type="text" class="form-control" id="bar-name" placeholder="Prodcut name"
+                                        <input type="text" class="form-control" id="bar-name" placeholder="Product name"
                                                value="Product name">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label">Color: </label>
-                                    <div class="col-sm-10">
-                                        <div id="bar-menus" class="btn-group">
-                                            <button name="color" type="button" class="btn btn-default"
-                                                    value="btn-default">Default
-                                            </button>
-                                            <button name="color" type="button" class="btn btn-primary"
-                                                    value="btn-primary">Primary
-                                            </button>
-                                            <button name="color" type="button" class="btn btn-link" value="btn-link">
-                                                Link
-                                            </button>
-                                        </div>
+                                    <label class="col-sm-2 control-label">Icon choice 1: </label>
+                                    <div class="col-sm-10 form-inline">
+                                        <button class="btn btn-default" data-iconset="commonux" data-icon="cux-abb-home" role="iconpicker" id="choice1-icon"></button>
+                                        <input type="text" class="form-control" id="choice1-text" placeholder="Empty">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label">Icon: </label>
-                                    <div class="col-sm-10">
-                                        <div id="bar-icons" data-iconset="commonux" data-icon="cux-abb-search"></div>
+                                    <label class="col-sm-2 control-label">Icon choice 2: </label>
+                                    <div class="col-sm-10 form-inline">
+                                        <button class="btn btn-default" data-iconset="commonux" data-icon="cux-abb-home" role="iconpicker" id="choice2-icon"></button>
+                                        <input type="text" class="form-control" id="choice2-text" placeholder="Empty">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Icon choice 3: </label>
+                                    <div class="col-sm-10 form-inline">
+                                        <button class="btn btn-default" data-iconset="commonux" data-icon="cux-abb-home" role="iconpicker" id="choice3-icon"></button>
+                                        <input type="text" class="form-control" id="choice3-text" placeholder="Empty">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Icon choice 4: </label>
+                                    <div class="col-sm-10 form-inline">
+                                        <button class="btn btn-default" data-iconset="commonux" data-icon="cux-abb-home" role="iconpicker" id="choice4-icon"></button>
+                                        <input type="text" class="form-control" id="choice4-text" placeholder="Empty">
                                     </div>
                                 </div>
                             </form>
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="row">
+                            <p>Your code:</p><code id="resultBar" class="html"></code>
                         </div>
                     </div>
                 </div>
@@ -2164,10 +2173,10 @@
                     <button class="btn btn-default source" onclick="pnotifyInfoDiscrete()" >Info discrete</button>
 
                     <h4>Discrete with buttons</h4>
-                    <button class="btn btn-default source" onclick="pnotifyWarningButtonDiscrete()" >Warning discrete</button>
-                    <button class="btn btn-default source" onclick="pnotifySuccessButtonDiscrete()" >Success discrete</button>
-                    <button class="btn btn-default source" onclick="pnotifyErrorButtonDiscrete()" >Error discrete</button>
-                    <button class="btn btn-default source" onclick="pnotifyInfoButtonDiscrete()" >Info discrete</button>
+                    <button class="btn btn-default source" onclick="pnotifyWarningButtonDiscrete()" >Warning discrete with buttons</button>
+                    <button class="btn btn-default source" onclick="pnotifySuccessButtonDiscrete()" >Success discrete with buttons</button>
+                    <button class="btn btn-default source" onclick="pnotifyErrorButtonDiscrete()" >Error discrete with buttons</button>
+                    <button class="btn btn-default source" onclick="pnotifyInfoButtonDiscrete()" >Info discrete with buttons</button>
 
                 </div>
                 <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">These components use the <a
@@ -3664,6 +3673,7 @@
 <script type='text/javascript' src="scripts/cux_checkbox_indeterminate.js"></script>
 <script type='text/javascript' src="scripts/cux_roundslider.js"></script>
 <script type='text/javascript' src="scripts/cux_button_generator.js"></script>
+<script type='text/javascript' src="scripts/cux_topbar_generator.js"></script>
 <script type='text/javascript' src="scripts/cux_pnotify.js"></script>
 <script type='text/javascript' src="scripts/misc_functions.js"></script>
 
