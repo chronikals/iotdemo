@@ -35,7 +35,7 @@
         });
 
         $('#btn-icon').on('change', function (e) {
-            $('#buttonIconLight a > i').attr('class', '').addClass('cux ' + e.icon + ' ' + 'cux-fw');
+            $('#buttonIconLight a > i').attr('class', '').addClass('cux ' + e.icon);
             show_result();
         });
 
@@ -89,7 +89,7 @@ $(function () {
     });
 
     $('#btn-icon').on('change', function (e) {
-        $('#buttonIconDark a > i').attr('class', '').addClass('cux ' + e.icon + ' ' + 'cux-fw');
+        $('#buttonIconDark a > i').attr('class', '').addClass('cux ' + e.icon);
         show_result();
     });
 

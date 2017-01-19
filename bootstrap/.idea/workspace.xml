@@ -5,338 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44be2325-3875-48b1-b1fc-803c9b94a93d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/abb-icons-october/commonux-icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/abb-icons-october/commonux-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/abb-icons-october/commonux-icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/abb-icons-october/commonux-icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16_Asset 1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16_Asset 1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16_Asset 2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16_Asset 2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16_Asset 3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16_Asset 3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_AddUser.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_AlarmBell.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_AlignBottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_AlignHorizontalCenter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_AlignLeft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_AlignRight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_AlignTop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_AnalyzeDocument.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_AudioOff.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_AudioOn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_BarChart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Briefcase.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Calendar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Call.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Camera.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Chat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_CheckMark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_CheckMarkCircle1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_CheckMarkCircle2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Computer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_ControlsAndSettings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Copy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Cut.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Document.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_DownArrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_EndCall.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Envelope.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_ErrorCircle1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_ErrorCircle2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Event.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Export.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Filter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Forward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Fullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_GeographicLocation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Globe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_HelpCircle1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_HelpCircle2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Hide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_History.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Import.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_InformationCircle1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_InformationCircle2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Label.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_LeftArrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_List.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Location.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_LockClosed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_LockOpen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Menu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_MenuNarrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_MinusInCircle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_More.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Motor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_NewDocument.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Numericals.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_OpenInNewWindow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Panel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Paste.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_PieChart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Pin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Plant.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_PlusInCircle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Print.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Redo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Reports.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Rewind.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_RightArrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Save.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_SaveAs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Settings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Share.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_SkipToEnd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_SkipToStart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Smartphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Star.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Stop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_System.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Table.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Time.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Trash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Trend.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Undo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Unpin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_UpArrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Upload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_User.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_UserInCircle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_VerticalAlignCenter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_View.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_WarningTriangle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_Wrench.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_ZoomIn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 PNG/16_ZoomOut.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_AddUser.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_AlarmBell.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_AlignBottom.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_AlignHorizontalCenter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_AlignLeft.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_AlignRight.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_AlignTop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_AnalyzeDocument.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_AudioOff.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_AudioOn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_BarChart.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Briefcase.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Calendar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Call.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Camera.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Chat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_CheckMark.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_CheckMarkCircle1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_CheckMarkCircle2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Close.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Computer.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_ControlsAndSettings.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Copy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Cut.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Document.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_DownArrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Download.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Edit.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_EndCall.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Envelope.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_ErrorCircle1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_ErrorCircle2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Event.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Export.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Filter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Forward.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Fullscreen.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_GeographicLocation.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Globe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Group.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_HelpCircle1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_HelpCircle2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Hide.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_History.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Import.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_InformationCircle1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_InformationCircle2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Label.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_LeftArrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Link.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_List.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Location.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_LockClosed.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_LockOpen.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Menu.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_MenuNarrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Minus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_MinusInCircle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_More.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Motor.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_NewDocument.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Numericals.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_OpenInNewWindow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Panel.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Paste.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Pause.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_PieChart.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Pin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Plant.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Play.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_PlusInCircle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Print.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Redo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Refresh.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Reports.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Rewind.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_RightArrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Save.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_SaveAs.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Screen.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Search.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Settings.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Share.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_SkipToEnd.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_SkipToStart.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Smartphone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Star.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Stop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_System.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Table.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Time.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Trash.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Trend.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Undo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Unpin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_UpArrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Upload.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_User.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_UserInCircle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_VerticalAlignCenter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_View.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_WarningTriangle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_Wrench.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_ZoomIn.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg october/ABB icons 16x16/16x16 SVG/16_ZoomOut.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/arrowdown-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/arrowdown-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/arrowdown-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/arrowup-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/arrowup-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/arrowup-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/back-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/back-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/back-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/backarrow-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/backarrow-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/backarrow-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/calendar-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/calendar-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/calendar-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/computer-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/computer-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/computer-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/delete-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/delete-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/delete-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/down-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/down-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/down-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/download-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/download-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/download-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/edit-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/edit-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/edit-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/envelope-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/envelope-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/envelope-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/export-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/export-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/export-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/forward-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/forward-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/forward-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/forwardarrow-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/forwardarrow-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/forwardarrow-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/globe-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/globe-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/globe-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/import-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/import-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/import-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/location-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/location-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/location-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/menu-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/menu-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/menu-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/pause-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/pause-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/pause-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/play-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/play-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/play-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/save-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/save-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/save-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/search-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/search-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/search-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/settings-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/settings-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/settings-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/skiptoend-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/skiptoend-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/skiptoend-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/skiptostart-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/skiptostart-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/skiptostart-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/smartphone-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/smartphone-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/smartphone-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/stop-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/stop-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/stop-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/system-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/system-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/system-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/trash-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/trash-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/trash-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/up-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/up-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/up-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/upload-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/upload-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/upload-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/user-18.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/user-20.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/svg/user-24.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../testUxStyle" afterPath="$PROJECT_DIR$/../testUxStyle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css" afterPath="$PROJECT_DIR$/fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-bootstrap.scss" afterPath="$PROJECT_DIR$/css/abb-bootstrap.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/iconset/iconset-commonux-2.0.0.js" afterPath="$PROJECT_DIR$/js/iconset/iconset-commonux-2.0.0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/cux_button_generator.js" afterPath="$PROJECT_DIR$/scripts/cux_button_generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/cux_topbar_generator.js" afterPath="$PROJECT_DIR$/scripts/cux_topbar_generator.js" />
     </list>
     <ignored path="bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -362,11 +37,16 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="1580" column="81" lean-forward="false" selection-start-line="1580" selection-start-column="81" selection-end-line="1580" selection-end-column="81" />
+            <state relative-caret-position="255">
+              <caret line="113" column="41" lean-forward="true" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#4;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#span#1;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#6;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#13;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -478,30 +158,31 @@
                 <element signature="n#style#0;n#button#2;n#div#4;n#div#26;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#3;n#div#4;n#div#26;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#27;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#80495#80501#1" expanded="true" />
-                <element signature="e#81216#81222#1" expanded="true" />
-                <element signature="e#81935#81941#1" expanded="true" />
+                <element signature="e#80511#80517#1" expanded="true" />
+                <element signature="e#81232#81238#1" expanded="true" />
+                <element signature="e#81951#81957#1" expanded="true" />
                 <element signature="n#style#0;n#div#28;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#div#28;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#83283#83289#1" expanded="true" />
+                <element signature="e#83299#83305#1" expanded="true" />
                 <element signature="n#style#0;n#h4#1;n#div#28;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#84064#84070#1" expanded="true" />
+                <element signature="e#84080#84086#1" expanded="true" />
                 <element signature="n#style#0;n#h4#2;n#div#28;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#84811#84817#1" expanded="true" />
+                <element signature="e#84827#84833#1" expanded="true" />
                 <element signature="n#style#0;n#h4#3;n#div#28;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#29;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#div#29;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#86187#86193#1" expanded="true" />
+                <element signature="e#86203#86209#1" expanded="true" />
                 <element signature="n#style#0;n#h4#1;n#div#29;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#86968#86974#1" expanded="true" />
+                <element signature="e#86984#86990#1" expanded="true" />
                 <element signature="n#style#0;n#h4#2;n#div#29;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#87715#87721#1" expanded="true" />
+                <element signature="e#87731#87737#1" expanded="true" />
                 <element signature="n#style#0;n#h4#3;n#div#29;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#13;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#30;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#30;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#14;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#31;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#31;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#15;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#4;n#form#0;n#div#37;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#label#0;n#div#0;n#div#4;n#form#0;n#div#37;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -542,7 +223,7 @@
                 <element signature="n#style#0;n#a#0;n#span#10;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#41;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#41;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#124142#124148#0" expanded="true" />
+                <element signature="e#125159#125165#0" expanded="true" />
                 <element signature="n#style#0;n#span#11;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#span#11;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#27;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -559,21 +240,21 @@
                 <element signature="n#style#0;n#span#13;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#span#13;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#48;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#131628#131635#0" expanded="true" />
+                <element signature="e#132645#132652#0" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#1;n#div#48;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#132277#132284#0" expanded="true" />
+                <element signature="e#133294#133301#0" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#2;n#div#48;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#132940#132947#0" expanded="true" />
+                <element signature="e#133957#133964#0" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#3;n#div#48;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#133596#133603#0" expanded="true" />
+                <element signature="e#134613#134620#0" expanded="true" />
                 <element signature="n#style#0;n#span#14;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#span#14;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#137481#137488#0" expanded="true" />
+                <element signature="e#138498#138505#0" expanded="true" />
                 <element signature="n#style#0;n#h4#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#50;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#50;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#37;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#button#0;n#div#0;n#div#53;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#146305#146312#0" expanded="true" />
+                <element signature="e#147322#147329#0" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#53;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#button#15;n#div#53;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#button#16;n#div#53;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -600,7 +281,7 @@
                 <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#54;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#2;n#div#54;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#3;n#div#54;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#179205#179212#0" expanded="true" />
+                <element signature="e#180185#180192#0" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#54;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#54;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#54;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -623,7 +304,7 @@
                 <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#55;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#button#0;n#form#0;n#div#0;n#div#1;n#div#55;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#55;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#202185#202192#0" expanded="true" />
+                <element signature="e#203165#203172#0" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#55;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#55;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#button#0;n#form#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#55;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -649,11 +330,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cux_topbar_generator.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="navbar.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/navbar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flat-toggle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/flat-toggle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-153">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="document.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/document.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cux_topbar_generator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/cux_topbar_generator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+            <state relative-caret-position="306">
+              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -662,38 +373,8 @@
       <file leaf-file-name="cux_button_generator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/cux_button_generator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="53" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stream_layers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/stream_layers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navbar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/navbar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cux_d3_sankey.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/cux_d3_sankey.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="449">
+              <caret line="91" column="77" lean-forward="false" selection-start-line="91" selection-start-column="77" selection-end-line="91" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -702,8 +383,8 @@
       <file leaf-file-name="abb-bootstrap.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/abb-bootstrap.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85238">
-              <caret line="5014" column="23" lean-forward="false" selection-start-line="5014" selection-start-column="23" selection-end-line="5014" selection-end-column="23" />
+            <state relative-caret-position="541">
+              <caret line="2543" column="17" lean-forward="false" selection-start-line="2543" selection-start-column="17" selection-end-line="2543" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -712,7 +393,7 @@
       <file leaf-file-name="commonux-2.0.0.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
+            <state relative-caret-position="680">
               <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
               <folding />
             </state>
@@ -722,8 +403,8 @@
       <file leaf-file-name="iconset-commonux-2.0.0.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/iconset/iconset-commonux-2.0.0.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2023">
-              <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -754,26 +435,14 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>font-weight: 400</find>
-      <find>btn-de</find>
-      <find>checkbox</find>
-      <find>.row</find>
-      <find>slider</find>
-      <find>icon ger</find>
-      <find>icon gen</find>
-      <find>elusive</find>
-      <find>warning</find>
-      <find>selectedclass</find>
       <find>icon pack</find>
       <find>btn-xs</find>
       <find>highli</find>
       <find>highlight</find>
       <find>panel</find>
       <find>panel-footer</find>
-      <find>well</find>
       <find>icon genera</find>
       <find>mymodallabel</find>
-      <find>topbar</find>
       <find>pnotify(</find>
       <find>ui-forms</find>
       <find>scrip</find>
@@ -784,6 +453,18 @@
       <find>button ge</find>
       <find>buttonIconLight</find>
       <find>btn</find>
+      <find>topbar ge</find>
+      <find>navbar na</find>
+      <find>button gene</find>
+      <find>frequent al</find>
+      <find>audit trail tabs</find>
+      <find>well</find>
+      <find>slider</find>
+      <find>flat-toggle</find>
+      <find>navbar li a</find>
+      <find>navbar li</find>
+      <find>navbar-inverse</find>
+      <find>topbar</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Data\Git\CommonUX\bootstrap</dir>
@@ -829,16 +510,18 @@
         <option value="$PROJECT_DIR$/fonts/icon-fonts/common-ux-2.0.0/css/common-ux-2.0.0.css" />
         <option value="$PROJECT_DIR$/js/bootstrap-iconpicker.js" />
         <option value="$PROJECT_DIR$/css/abb-cux-icons.scss" />
-        <option value="$PROJECT_DIR$/css/abb-bootstrap.scss" />
-        <option value="$PROJECT_DIR$/scripts/cux_button_generator.js" />
         <option value="$PROJECT_DIR$/scripts/misc functions.js" />
-        <option value="$PROJECT_DIR$/js/iconset/iconset-commonux-2.0.0.js" />
         <option value="$PROJECT_DIR$/scripts/cux_pnotify.js" />
         <option value="$PROJECT_DIR$/scripts/cux_d3_sankey.js" />
         <option value="$PROJECT_DIR$/js/stream_layers.js" />
         <option value="$PROJECT_DIR$/fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css" />
-        <option value="$PROJECT_DIR$/home.html" />
+        <option value="$PROJECT_DIR$/js/iconset/iconset-commonux-2.0.0.js" />
+        <option value="$PROJECT_DIR$/scripts/cux_button_generator.js" />
+        <option value="$PROJECT_DIR$/css/document.scss" />
         <option value="$PROJECT_DIR$/scripts/cux_topbar_generator.js" />
+        <option value="$PROJECT_DIR$/css/abb-bootstrap.scss" />
+        <option value="$PROJECT_DIR$/home.html" />
+        <option value="$PROJECT_DIR$/js/navbar.js" />
       </list>
     </option>
   </component>
@@ -852,10 +535,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="x" value="1672" />
+    <option name="y" value="-158" />
+    <option name="width" value="1936" />
+    <option name="height" value="1216" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -873,6 +556,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -910,79 +594,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icon-fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icon-fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commonux-2.0.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icon-fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commonux-2.0.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1169,7 +786,8 @@
       <workItem from="1484232014884" duration="870000" />
       <workItem from="1484314192930" duration="13807000" />
       <workItem from="1484658594062" duration="4160000" />
-      <workItem from="1484731043515" duration="4829000" />
+      <workItem from="1484731043515" duration="9768000" />
+      <workItem from="1484817121480" duration="6361000" />
     </task>
     <task id="LOCAL-00001" summary="Restructuring colors +yaml +node +edits towards v2.0">
       <created>1480619500901</created>
@@ -1182,7 +800,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155384000" />
+    <option name="totallyTimeSpent" value="166684000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1194,10 +812,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="1672" y="-158" width="1936" height="1216" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24004824" sideWeight="0.4423963" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20969442" sideWeight="0.4423963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3248848" sideWeight="0.48840886" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32516703" sideWeight="0.51159114" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26837417" sideWeight="0.48946258" order="7" side_tool="false" content_ui="tabs" />
@@ -1205,7 +823,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32516703" sideWeight="0.46838778" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24004824" sideWeight="0.55760366" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38709676" sideWeight="0.48946258" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31758034" sideWeight="0.48946258" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1281,20 +899,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/document.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/abb-mixins.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.typeahead.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183513">
@@ -1517,34 +1121,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/cux_d3_sankey.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/abb-bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85238">
-          <caret line="5014" column="23" lean-forward="false" selection-start-line="5014" selection-start-column="23" selection-end-line="5014" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/iconset/iconset-commonux-2.0.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2023">
-          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1560,29 +1140,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/cux_button_generator.js">
+    <entry file="file://$PROJECT_DIR$/fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="53" selection-end-column="11" />
+        <state relative-caret-position="680">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css">
+    <entry file="file://$PROJECT_DIR$/js/iconset/iconset-commonux-2.0.0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="136">
+          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/cux_button_generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="91" column="77" lean-forward="false" selection-start-line="91" selection-start-column="77" selection-end-line="91" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/document.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/flat-toggle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/cux_topbar_generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/abb-bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="2543" column="17" lean-forward="false" selection-start-line="2543" selection-start-column="17" selection-end-line="2543" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="1580" column="81" lean-forward="false" selection-start-line="1580" selection-start-column="81" selection-end-line="1580" selection-end-column="81" />
+        <state relative-caret-position="255">
+          <caret line="113" column="41" lean-forward="true" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#4;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#span#1;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#6;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#13;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1694,30 +1319,31 @@
             <element signature="n#style#0;n#button#2;n#div#4;n#div#26;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#3;n#div#4;n#div#26;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#27;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#80495#80501#1" expanded="true" />
-            <element signature="e#81216#81222#1" expanded="true" />
-            <element signature="e#81935#81941#1" expanded="true" />
+            <element signature="e#80511#80517#1" expanded="true" />
+            <element signature="e#81232#81238#1" expanded="true" />
+            <element signature="e#81951#81957#1" expanded="true" />
             <element signature="n#style#0;n#div#28;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#28;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#83283#83289#1" expanded="true" />
+            <element signature="e#83299#83305#1" expanded="true" />
             <element signature="n#style#0;n#h4#1;n#div#28;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#84064#84070#1" expanded="true" />
+            <element signature="e#84080#84086#1" expanded="true" />
             <element signature="n#style#0;n#h4#2;n#div#28;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#84811#84817#1" expanded="true" />
+            <element signature="e#84827#84833#1" expanded="true" />
             <element signature="n#style#0;n#h4#3;n#div#28;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#29;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#29;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#86187#86193#1" expanded="true" />
+            <element signature="e#86203#86209#1" expanded="true" />
             <element signature="n#style#0;n#h4#1;n#div#29;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#86968#86974#1" expanded="true" />
+            <element signature="e#86984#86990#1" expanded="true" />
             <element signature="n#style#0;n#h4#2;n#div#29;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#87715#87721#1" expanded="true" />
+            <element signature="e#87731#87737#1" expanded="true" />
             <element signature="n#style#0;n#h4#3;n#div#29;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#13;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#30;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#30;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#14;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#31;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#31;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#15;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#4;n#form#0;n#div#37;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#0;n#div#0;n#div#4;n#form#0;n#div#37;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1758,7 +1384,7 @@
             <element signature="n#style#0;n#a#0;n#span#10;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#41;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#41;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#124142#124148#0" expanded="true" />
+            <element signature="e#125159#125165#0" expanded="true" />
             <element signature="n#style#0;n#span#11;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#span#11;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#27;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1775,21 +1401,21 @@
             <element signature="n#style#0;n#span#13;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#span#13;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#48;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#131628#131635#0" expanded="true" />
+            <element signature="e#132645#132652#0" expanded="true" />
             <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#1;n#div#48;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#132277#132284#0" expanded="true" />
+            <element signature="e#133294#133301#0" expanded="true" />
             <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#2;n#div#48;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#132940#132947#0" expanded="true" />
+            <element signature="e#133957#133964#0" expanded="true" />
             <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#3;n#div#48;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#133596#133603#0" expanded="true" />
+            <element signature="e#134613#134620#0" expanded="true" />
             <element signature="n#style#0;n#span#14;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#span#14;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#137481#137488#0" expanded="true" />
+            <element signature="e#138498#138505#0" expanded="true" />
             <element signature="n#style#0;n#h4#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#50;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#50;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#37;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#button#0;n#div#0;n#div#53;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#146305#146312#0" expanded="true" />
+            <element signature="e#147322#147329#0" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#53;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#button#15;n#div#53;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#button#16;n#div#53;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1816,7 +1442,7 @@
             <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#54;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#2;n#div#54;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#3;n#div#54;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#179205#179212#0" expanded="true" />
+            <element signature="e#180185#180192#0" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#54;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#54;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#54;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1839,7 +1465,7 @@
             <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#55;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#button#0;n#form#0;n#div#0;n#div#1;n#div#55;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#55;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#202185#202192#0" expanded="true" />
+            <element signature="e#203165#203172#0" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#55;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#55;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#button#0;n#form#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#55;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1864,10 +1490,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/cux_topbar_generator.js">
+    <entry file="file://$PROJECT_DIR$/js/navbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+        <state relative-caret-position="85">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding />
         </state>
       </provider>

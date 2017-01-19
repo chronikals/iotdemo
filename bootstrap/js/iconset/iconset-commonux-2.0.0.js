@@ -26,6 +26,7 @@
         iconClass: 'cux',
         iconClassFix: 'abb-cux-',
         icons: [
+            ' ',
             'add-user',
             'alarm-bell',
             'align-down',
