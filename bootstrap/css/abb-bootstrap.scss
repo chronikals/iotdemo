@@ -1612,19 +1612,143 @@ fieldset[disabled] .btn-danger.active {
 	background-color: $abb-grey-255;
 }
 
+/* Button red branding*/
+.btn-red {
+	color: $abb-grey-255;
+	@include alpha-attribute('background',rgba($abb-brand-red-1, 1), white);
+	border: none;
+	border-radius: 34px;
+	text-transform: uppercase;
+}
+
+.btn-red.hover,
+.btn-red:hover {
+	color: $abb-grey-255;
+	@include alpha-attribute('background',rgba($abb-brand-red-1, 1), white);
+	box-shadow: 2px 1px #c8c8c8;
+	border: none;
+}
+
+.btn-red.active,
+.btn-red:active {
+	color: $abb-grey-255;
+	@include alpha-attribute('background',rgba($abb-brand-red-2, 1), white);
+	border: none;
+}
+
+.btn-red .disabled,
+.btn-red :disabled {
+	@include alpha-attribute('color',rgba($abb-grey-0, 0.05), white);
+	@include alpha-attribute('background',rgba($abb-brand-red-2, 0.4), white);
+	border: none;
+}
+
+/* Button white branding*/
+.btn-white {
+	color: $abb-grey-25;
+	background: transparent;
+	border: none;
+	border-radius: 34px;
+	text-transform: uppercase;
+}
+
+.btn-white.hover,
+.btn-white:hover {
+	color: $abb-grey-255;
+	@include alpha-attribute('background',rgba($abb-brand-red-1, 1), white);
+	box-shadow: 2px 1px #c8c8c8;
+	border: none;
+}
+
+.btn-white.active,
+.btn-white:active {
+	color: $abb-grey-25;
+	@include alpha-attribute('background',rgba($abb-brand-red-2, 1), white);
+	border: none;
+}
+
+.btn-white .disabled,
+.btn-white :disabled {
+	@include alpha-attribute('color',rgba($abb-grey-0, 0.05), white);
+	@include alpha-attribute('background',rgba($abb-brand-red-2, 0.4), white);
+	border: none;
+}
+
+/* Button ghost branding*/
+.btn-ghost-inverted {
+	color: $abb-grey-255;
+	@include alpha-attribute('background',rgba($abb-grey-0, 0.2), white);
+	border-radius: 34px;
+	border: 2px solid $abb-grey-255;
+	text-transform: uppercase;
+}
+
+.btn-ghost-inverted.hover,
+.btn-ghost-inverted:hover {
+	color: $abb-grey-255;
+	background: $abb-brand-grey-5;
+	box-shadow: 2px 1px #c8c8c8;
+	border: none;
+}
+
+.btn-ghost-inverted.active,
+.btn-ghost-inverted:active {
+	color: $abb-grey-255;
+	background: $abb-brand-grey-5;
+	box-shadow: 2px 1px #c8c8c8;
+	border: none;
+}
+
+.btn-ghost-inverted .disabled,
+.btn-ghost-inverted :disabled {
+	@include alpha-attribute('color',rgba($abb-grey-0, 0.05), white);
+	@include alpha-attribute('background',rgba($abb-brand-grey-5, 0.4), white);
+	border: none;
+}
+
+/* Button ghost branding*/
+.btn-ghost {
+	color: $abb-brand-grey-5;
+	background: transparent;
+	border: 2px solid $abb-brand-grey-5;
+	border-radius: 34px;
+	text-transform: uppercase;
+}
+
+.btn-ghost.hover,
+.btn-ghost:hover {
+	color: $abb-grey-255;
+	background: $abb-brand-grey-5;
+	box-shadow: 2px 1px #c8c8c8;
+	border: none;
+}
+
+.btn-ghost.active,
+.btn-ghost:active {
+	color: $abb-grey-255;
+	background: $abb-brand-grey-5;
+	box-shadow: 2px 1px #c8c8c8;
+	border: none;
+}
+
+.btn-ghost .disabled,
+.btn-ghost :disabled {
+	@include alpha-attribute('color',rgba($abb-grey-0, 0.05), white);
+	@include alpha-attribute('background',rgba($abb-brand-grey-5, 0.4), white);
+	border: none;
+}
+
 .btn-lg,
 .btn-group-lg > .btn {
-	padding: 8px 16px;
+	padding: 12px 20px;
 	font-size: 14px;
-	height: 36px;
-	border-radius: 0;
+	height: 40px;
 }
 .btn-xl,
 .btn-group-xl > .btn {
 	padding: 5px 30px;
 	font-size: 22px;
 	height: 48px;
-	border-radius: 0;
 }
 .btn-xxl,
 .btn-group-xxl > .btn {
@@ -1648,14 +1772,14 @@ fieldset[disabled] .btn-danger.active {
 }
 .btn-sm,
 .btn-group-sm > .btn {
-	padding: 2px 8px;
+	padding: 2px 12px;
 	font-size: 12px;
 	height: 24px;
 	border-radius: 0;
 }
 .btn-xs,
 .btn-group-xs > .btn {
-	font-size: 10px;
+	font-size: 12px;
 	line-height: 1;
 	height: 22px;
 	border-radius: 0;

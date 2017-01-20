@@ -63,7 +63,7 @@
 
 </head>
 
-<body style="background:#ffffff;" data-spy="scroll" data-target=".scrollspy" data-offset="20">
+<body style="background:#ffffff;" data-spy="scroll" data-target="scrollspy" data-offset="20">
 
 <div class="container-fluid">
     <!-- Top Navbar -->
@@ -87,7 +87,7 @@
 
     <!--Nav Bar -->
     <nav class="col-lg-2 scrollspy" style="padding-top:-100px;">
-        <ul id="sidebar" class="nav hidden-xs hidden-sm affix-top" style="margin-top: -120px; margin-left:-10px;" data-spy="affix">
+        <ul id="sidebar" class="nav hidden-xs hidden-sm" style="margin-top: -120px; margin-left:-10px;" data-spy="affix">
             <li>
                 <a href="#ui">UI Components</a>
                 <ul class="nav nav-stacked">
@@ -228,11 +228,11 @@
                             </div>
                             <div class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#">Menu 1</a>
+                                    <li data-toggle="tab" class="active"><a href="#menu1">Menu 1</a>
                                     </li>
-                                    <li><a href="#about">Menu 2</a>
+                                    <li data-toggle="tab"><a href="#menu2">Menu 2</a>
                                     </li>
-                                    <li><a href="#contact">Menu 3</a>
+                                    <li data-toggle="tab"><a href="#menu3">Menu 3</a>
                                     </li>
                                     <li class="dropdown">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b
@@ -288,13 +288,13 @@
                             </div>
                             <div class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#pie"><i class="abb-ux-piechart size-18"></i></a>
+                                    <li data-toggle="tab" class="active"><a href="#pie"><i class="abb-ux-piechart size-18"></i></a>
                                     </li>
-                                    <li><a href="#singleline"><i class="abb-ux-singleline size-18"></i></a>
+                                    <li data-toggle="tab"><a href="#singleline"><i class="abb-ux-singleline size-18"></i></a>
                                     </li>
-                                    <li><a href="#dashboard"><i class="abb-ux-dashboard size-18"></i></a>
+                                    <li data-toggle="tab"><a href="#dashboard"><i class="abb-ux-dashboard size-18"></i></a>
                                     </li>
-                                    <li><a href="#bar"><i class="abb-ux-barchart size-18"></i></a>
+                                    <li data-toggle="tab"><a href="#bar"><i class="abb-ux-barchart size-18"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -316,11 +316,11 @@
                             </div>
                             <div class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#"><i class="abb-ux-dashboard"></i> Dashboard</a>
+                                    <li data-toggle="tab" class="active"><a href="#dash"><i class="abb-ux-dashboard"></i> Dashboard</a>
                                     </li>
-                                    <li><a href="#about"><i class="abb-ux-singleline"></i> Single line</a>
+                                    <li data-toggle="tab"><a href="#sld"><i class="abb-ux-singleline"></i> Single line</a>
                                     </li>
-                                    <li><a href="#contact"><i class="abb-ux-alarm"></i> Alarms</a>
+                                    <li data-toggle="tab"><a href="#al"><i class="abb-ux-alarm"></i> Alarms</a>
                                     </li>
                                     <li class="dropdown">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
@@ -458,11 +458,11 @@
                             </div>
                             <div class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav" style="margin-left:-30px;">
-                                    <li class="active"><a href="#">Alarm Analysis</a>
+                                    <li data-toggle="tab" class="active"><a href="#">Alarm Analysis</a>
                                     </li>
-                                    <li><a href="#about">Event Log</a>
+                                    <li data-toggle="tab"><a href="#about">Event Log</a>
                                     </li>
-                                    <li><a href="#contact">Alarm Rationalization Tool</a>
+                                    <li data-toggle="tab"><a href="#contact">Alarm Rationalization Tool</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1104,6 +1104,23 @@
                     <button type="button" class="btn btn-link-dark disabled">Link default</button>
                 </div>
 
+                <!--Buttons dark-->
+                <h3 id="ui-buttons-brand">Buttons branding</h3>
+                <div class="well" style="background: #fafafa;">
+                    <h4>Normal</h4>
+                    <button style="margin-right:30px;" type="button" class="btn btn-red btn-lg">Default</button>
+                    <button style="margin-right:30px;" type="button" class="btn btn-ghost-inverted">Default</button>
+                    <button style="margin-right:30px;" type="button" class="btn btn-ghost">Default</button>
+                    <h4 style="margin-top:40px;">Active</h4>
+                    <button style="margin-right:30px;" type="button" class="btn btn-red btn-lg active">Default</button>
+                    <button style="margin-right:30px;" type="button" class="btn btn-ghost-inverted active">Default</button>
+                    <button style="margin-right:30px;" type="button" class="btn btn-ghost active">Default</button>
+                    <h4 style="margin-top:40px;">Disabled</h4>
+                    <button style="margin-right:30px;" type="button" class="btn btn-red btn-lg disabled">Default</button>
+                    <button style="margin-right:30px;" type="button" class="btn btn-ghost-inverted disabled">Default</button>
+                    <button style="margin-right:30px;" type="button" class="btn btn-ghost disabled">Default</button>
+                </div>
+
                 <!--Toggle buttons light background-->
                 <h3>Toggle buttons</h3>
                 <div class="well" style="background: #f9f9f9;">
@@ -1571,15 +1588,15 @@
                                     </div>
                                     <div class="navbar-collapse collapse">
                                         <ul class="nav navbar-nav">
-                                            <li><a href="#" id="bar-choice1-text"><i id="bar-choice1-icon" class="html"></i></a>
+                                            <li data-toggle="tab"><a href="#" id="bar-choice1-text"><i id="bar-choice1-icon" class="html"></i></a>
                                             </li>
-                                            <li><a href="#" id="bar-choice2-text"><i id="bar-choice2-icon" class="html"></i></a>
+                                            <li data-toggle="tab"><a href="#" id="bar-choice2-text"><i id="bar-choice2-icon" class="html"></i></a>
                                             </li>
-                                            <li><a href="#" id="bar-choice3-text"><i id="bar-choice3-icon" class="html"></i></a>
+                                            <li data-toggle="tab"><a href="#" id="bar-choice3-text"><i id="bar-choice3-icon" class="html"></i></a>
                                             </li>
-                                            <li><a href="#" id="bar-choice4-text"><i id="bar-choice4-icon" class="html"></i></a>
+                                            <li data-toggle="tab"><a href="#" id="bar-choice4-text"><i id="bar-choice4-icon" class="html"></i></a>
                                             </li>
-                                            <li><a href="#" id="bar-choice5-text"><i id="bar-choice5-icon" class="html"></i></a>
+                                            <li data-toggle="tab"><a href="#" id="bar-choice5-text"><i id="bar-choice5-icon" class="html"></i></a>
                                             </li>
                                         </ul>
                                         <ul class="nav navbar-nav navbar-right" style="margin-right: -30px">
@@ -2614,20 +2631,22 @@
                             </div>
                             <div class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav" style="margin-left:-40px;">
-                                    <li><a href="#">Import</a>
+                                    <li data-toggle="tab"><a href="#">Import</a>
                                     </li>
-                                    <li><a href="#about">Export</a>
+                                    <li data-toggle="tab"><a href="#about">Export</a>
                                     </li>
-                                    <li class="active"><a href="#contact">Review</a>
+                                    <li data-toggle="tab" class="active"><a href="#contact">Review</a>
                                     </li>
-                                    <li><a href="#contact">Audit trail</a>
+                                    <li data-toggle="tab"><a href="#contact">Audit trail</a>
                                     </li>
-                                    <li><a href="#contact"><i class="abb-ux-user size-16" style="margin-left:50px;"></i></a>
+                                </ul>
+                                <ul class="nav navbar-nav navbar-right" style="margin-right:-30px;">
+                                    <li><a href="#contact"><i class="cux abb-cux-user-circle cux-20""></i></a>
                                     </li>
-                                    <li><a href="#contact"><i class="abb-ux-piechart size-16"
+                                    <li><a href="#contact"><i class="cux abb-cux-pie-chart cux-20"
                                                               style="margin-left:-13px;"></i></a>
                                     </li>
-                                    <li><a href="#contact"><i class="abb-ux-database size-16"
+                                    <li><a href="#contact"><i class="cux abb-cux-camera cux-20 size-16"
                                                               style="margin-left:-13px;"></i></a>
                                     </li>
                                 </ul>
@@ -2663,21 +2682,23 @@
                             </div>
                             <div class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav" style="margin-left:-40px;">
-                                    <li><a href="#">Import</a>
+                                    <li data-toggle="tab"><a href="#">Import</a>
                                     </li>
-                                    <li><a href="#about">Export</a>
+                                    <li data-toggle="tab"><a href="#about">Export</a>
                                     </li>
-                                    <li class="active"><a href="#contact">Review</a>
+                                    <li data-toggle="tab" class="active"><a href="#contact">Review</a>
                                     </li>
-                                    <li><a href="#contact">Audit trail</a>
+                                    <li data-toggle="tab"><a href="#contact">Audit trail</a>
                                     </li>
-                                    <li><a href="#contact"><i class="abb-ux-user size-16" style="margin-left:50px;"></i></a>
+                                </ul>
+                                <ul class="nav navbar-nav navbar-right" style="margin-right:-30px;">
+                                    <li><a href="#contact"><i class="cux abb-cux-user-circle cux-20""></i></a>
                                     </li>
-                                    <li><a href="#contact"><i class="abb-ux-piechart size-16"
-                                                              style="margin-left:-13px;"></i></a>
+                                    <li><a href="#contact"><i class="cux abb-cux-pie-chart cux-20"
+                                                                                style="margin-left:-13px;"></i></a>
                                     </li>
-                                    <li><a href="#contact"><i class="abb-ux-database size-16"
-                                                              style="margin-left:-13px;"></i></a>
+                                    <li><a href="#contact"><i class="cux abb-cux-camera cux-20 size-16"
+                                                                                style="margin-left:-13px;"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -3631,9 +3652,6 @@
         </section>
     </div>
 </div>
-
-<!-- jQuery -->
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script type='text/javascript' src="js/bootstrap.js"></script>
