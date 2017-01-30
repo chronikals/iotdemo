@@ -1,25 +1,52 @@
-<!-- Button Builder Example -->
+<!-- Style generator script -->
 
-    //Script for light button
-    $(function () {
-        var show_result = function () {
-            $('#resultLight').text($('#buttonIconLight').html().trim());
-        };
+$(function () {
 
-        var show_color = function () {
+    // A click on a button defined with class "btn" will activate the routine for parsing style and print as pseudocode
+    $(".btn").on('click', function (e) {
+        pseudo_button();
+    });
 
-            var classy = document.getElementById('buttonIconLight').firstElementChild.getAttribute("class");
-            var style = getComputedStyle(document.getElementById('buttonIconLight').firstElementChild, "");
+    // A click on a navigation defined with class "nav" will activate the routine for parsing style and print as pseudocode
+    $(".nav").on('click', function (e) {
+        pseudo_navigation();
+    });
+
+    var pseudo_button = function () {
+
+        var btnClass = document.activeElement.className;
+        if (btnClass == "btn btn-default"){
+            classToPrint = "Normal - light background";
+        }
+        else if (btnClass == "btn btn-primary"){
+            classToPrint = "Primary - light background";
+        }
+        else if (btnClass == "btn btn-link"){
+            classToPrint = "Discrete - light background";
+        }
+        else {
+            classToPrint = btnClass;
+        }
+
+        var activeElement = document.activeElement;
+        var style = getComputedStyle(activeElement, "");
+
+        if (activeElement.className != "btn btn-branding")
+        {
 
             backgroundColor = style.getPropertyValue("background-color");
 
-            borderTopColor = style.getPropertyValue("border-top-color");
-            borderTopStyle = style.getPropertyValue("border-top-style");
-            borderTopWidth = style.getPropertyValue("border-top-width");
+            borderLeftColor = style.getPropertyValue("border-left-color");
+            borderLeftStyle = style.getPropertyValue("border-left-style");
+            borderLeftWidth = style.getPropertyValue("border-left-width");
 
             borderBottomColor = style.getPropertyValue("border-bottom-color");
             borderBottomWidth = style.getPropertyValue("border-bottom-width");
             borderBottomStyle = style.getPropertyValue("border-bottom-style");
+
+            borderTopColor = style.getPropertyValue("border-top-color");
+            borderTopWidth = style.getPropertyValue("border-top-width");
+            borderTopStyle = style.getPropertyValue("border-top-style");
 
             borderRadius = style.getPropertyValue("border-radius");
 
@@ -31,133 +58,66 @@
             height = style.getPropertyValue("height");
             padding = style.getPropertyValue("padding");
 
-
+            $('#printType').text('Button type:  ' + classToPrint);
             $('#printBackground').text('Background color:  ' + backgroundColor);
-            $('#printBorder').text('Border:  ' + borderTopWidth + ' ' + borderTopStyle + ' ' + borderTopColor);
+            $('#printBorder').text('Border:  ' + borderLeftWidth + ' ' + borderLeftStyle + ' ' + borderLeftColor);
             $('#printBorderRadius').text('Border radius:  ' + borderRadius);
             $('#printBorderBottom').text('Border bottom:  ' + borderBottomWidth + ' ' + borderBottomStyle + ' ' + borderBottomColor);
             $('#printText').text('Text color:  ' + color);
             $('#printFontSize').text('Font:  ' + fontSize + ' ' + fontFamily);
             $('#printHeight').text('Height:  ' + height);
             $('#printPadding').text('Padding:  ' + padding);
-        };
 
-        $('#btn-text').on('focusout', function (e) {
-            $('#btn-icon-positions button[value="' + $('#buttonIconLight').data('position') + '"]').trigger('click')
-            show_result();
-            show_color();
+            //$('#preview').append(activeElement.html().trim());
 
-        });
+            $('#result').text($(activeElement).html().trim());
 
-        $('#btn-colors button').on('click', function (e) {
-            $('#buttonIconLight a').removeClass('btn-default btn-primary btn-link').addClass($(this).val());
-            show_result();
-            show_color();
-
-        });
-
-        $('#btn-sizes button').on('click', function (e) {
-            $('#buttonIconLight a').removeClass('btn-xs btn-sm btn-lg btn-xl').addClass($(this).val());
-            show_result();
-            show_color();
-
-        });
-
-        $('#btn-sizes a').on('click', function (e) {
-            $('#buttonIconLight a').toggleClass('btn-block');
-            show_result();
-            show_color();
-
-        });
-
-        $('#btn-icon').iconpicker({
-            rows: 5,
-            cols: 10,
-            align: 'left'
-        });
-
-        $('#btn-icon').on('change', function (e) {
-            $('#buttonIconLight a > i').attr('class', '').addClass('cux ' + e.icon);
-            show_result();
-            show_color();
-
-        });
-
-        $('#btn-icon-positions button').on('click', function (e) {
-            var icon = $('#buttonIconLight a > i');
-            var text = $('#btn-text').val();
-            $('#buttonIconLight a').empty();
-            if ($(this).val() == 'left') {
-                $('#buttonIconLight a').append(icon).append(' ' + text);
-            }
-            else {
-                $('#buttonIconLight a').append(text + ' ').append(icon);
-            }
-            $('#buttonIconLight').data('position', $(this).val());
-            show_result();
-            show_color();
-
-        });
-    });
-
-//Script for dark button
-$(function () {
-    var show_result = function () {
-        $('#resultDark').text($('#buttonIconDark').html().trim());
+        }
     };
 
-    show_result();
+    var pseudo_navigation = function () {
 
-    $('#btn-text').on('focusout', function (e) {
-        $('#btn-icon-positions button[value="' + $('#buttonIconDark').data('position') + '"]').trigger('click')
-        show_result();
-    });
-
-    $('#btn-colors button').on('click', function (e) {
-        $('#buttonIconDark a').removeClass('btn-default-dark btn-primary-dark btn-link-dark').addClass($(this).val() + '-dark');
-        show_result();
-    });
-
-    $('#btn-sizes button').on('click', function (e) {
-        $('#buttonIconDark a').removeClass('btn-xs btn-sm btn-lg btn-xl').addClass($(this).val());
-        show_result();
-    });
-
-    $('#btn-sizes a').on('click', function (e) {
-        $('#buttonIconDark a').toggleClass('btn-block');
-        show_result();
-    });
-
-    $('#btn-icon').iconpicker({
-        rows: 5,
-        cols: 10,
-        align: 'left'
-    });
-
-    $('#btn-icon').on('change', function (e) {
-        $('#buttonIconDark a > i').attr('class', '').addClass('cux ' + e.icon);
-        show_result();
-    });
-
-    $('#btn-icon-positions button').on('click', function (e) {
-        var icon = $('#buttonIconDark a > i');
-        var text = $('#btn-text').val();
-        $('#buttonIconDark a').empty();
-        if ($(this).val() == 'left') {
-            $('#buttonIconDark a').append(icon).append(' ' + text);
+        var navClass = document.activeElement.parentNode.parentNode.className;
+        if (navClass == "nav navbar-nav"){
+            var navToPrint = "ABB Blackbar";
         }
         else {
-            $('#buttonIconDark a').append(text + ' ').append(icon);
+            var navToPrint = navClass;
         }
-        $('#buttonIconDark').data('position', $(this).val());
-        show_result();
-    });
-});
 
 
-//Script for reading CSS and printing it in pseudocode
-$(function () {
+        var style = getComputedStyle(document.activeElement, "");
 
+        backgroundColor = style.getPropertyValue("background-color");
+
+        borderTopColor = style.getPropertyValue("border-top-color");
+        borderTopStyle = style.getPropertyValue("border-top-style");
+        borderTopWidth = style.getPropertyValue("border-top-width");
+
+        borderBottomColor = style.getPropertyValue("border-bottom-color");
+        borderBottomWidth = style.getPropertyValue("border-bottom-width");
+        borderBottomStyle = style.getPropertyValue("border-bottom-style");
+
+        borderRadius = style.getPropertyValue("border-radius");
+
+        color = style.getPropertyValue("color");
+
+        fontSize = style.getPropertyValue("font-size");
+        fontFamily = style.getPropertyValue("font-family");
+
+        height = style.getPropertyValue("height");
+        padding = style.getPropertyValue("padding");
+
+        $('#printType').text('Navigation type:  ' + navToPrint);
+        $('#printBackground').text('Background color:  ' + backgroundColor);
+        $('#printBorder').text('Border top:  ' + borderTopWidth + ' ' + borderTopStyle + ' ' + borderTopColor);
+        $('#printBorderRadius').text('Border radius:  ' + borderRadius);
+        $('#printBorderBottom').text('Border bottom:  ' + borderBottomWidth + ' ' + borderBottomStyle + ' ' + borderBottomColor);
+        $('#printText').text('Text color:  ' + color);
+        $('#printFontSize').text('Font:  ' + fontSize + ' ' + fontFamily);
+        $('#printHeight').text('Height:  ' + height);
+        $('#printPadding').text('Padding:  ' + padding);
+    };
 
 
 });

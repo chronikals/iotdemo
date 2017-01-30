@@ -6,26 +6,69 @@
             $('#resultLight').text($('#buttonIconLight').html().trim());
         };
 
-        show_result();
+        var show_color = function () {
+            /*
+            var classy = document.getElementById('buttonIconLight').firstElementChild.getAttribute("class");
+            var style = getComputedStyle(document.getElementById('buttonIconLight').firstElementChild, "");
+
+            backgroundColor = style.getPropertyValue("background-color");
+
+            borderTopColor = style.getPropertyValue("border-top-color");
+            borderTopStyle = style.getPropertyValue("border-top-style");
+            borderTopWidth = style.getPropertyValue("border-top-width");
+
+            borderBottomColor = style.getPropertyValue("border-bottom-color");
+            borderBottomWidth = style.getPropertyValue("border-bottom-width");
+            borderBottomStyle = style.getPropertyValue("border-bottom-style");
+
+            borderRadius = style.getPropertyValue("border-radius");
+
+            color = style.getPropertyValue("color");
+
+            fontSize = style.getPropertyValue("font-size");
+            fontFamily = style.getPropertyValue("font-family");
+
+            height = style.getPropertyValue("height");
+            padding = style.getPropertyValue("padding");
+
+
+            $('#printBackground2').text('Background color:  ' + backgroundColor);
+            $('#printBorder2').text('Border:  ' + borderTopWidth + ' ' + borderTopStyle + ' ' + borderTopColor);
+            $('#printBorderRadius2').text('Border radius:  ' + borderRadius);
+            $('#printBorderBottom2').text('Border bottom:  ' + borderBottomWidth + ' ' + borderBottomStyle + ' ' + borderBottomColor);
+            $('#printText2').text('Text color:  ' + color);
+            $('#printFontSize2').text('Font:  ' + fontSize + ' ' + fontFamily);
+            $('#printHeight2').text('Height:  ' + height);
+            $('#printPadding2').text('Padding:  ' + padding);
+             */
+        };
 
         $('#btn-text').on('focusout', function (e) {
             $('#btn-icon-positions button[value="' + $('#buttonIconLight').data('position') + '"]').trigger('click')
             show_result();
+            show_color();
+
         });
 
         $('#btn-colors button').on('click', function (e) {
             $('#buttonIconLight a').removeClass('btn-default btn-primary btn-link').addClass($(this).val());
             show_result();
+            show_color();
+
         });
 
         $('#btn-sizes button').on('click', function (e) {
             $('#buttonIconLight a').removeClass('btn-xs btn-sm btn-lg btn-xl').addClass($(this).val());
             show_result();
+            show_color();
+
         });
 
         $('#btn-sizes a').on('click', function (e) {
             $('#buttonIconLight a').toggleClass('btn-block');
             show_result();
+            show_color();
+
         });
 
         $('#btn-icon').iconpicker({
@@ -37,6 +80,8 @@
         $('#btn-icon').on('change', function (e) {
             $('#buttonIconLight a > i').attr('class', '').addClass('cux ' + e.icon);
             show_result();
+            show_color();
+
         });
 
         $('#btn-icon-positions button').on('click', function (e) {
@@ -51,6 +96,8 @@
             }
             $('#buttonIconLight').data('position', $(this).val());
             show_result();
+            show_color();
+
         });
     });
 
@@ -106,4 +153,12 @@ $(function () {
         $('#buttonIconDark').data('position', $(this).val());
         show_result();
     });
+});
+
+
+//Script for reading CSS and printing it in pseudocode
+$(function () {
+
+
+
 });

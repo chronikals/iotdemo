@@ -57,3 +57,6 @@ $(function () {
         treeColumn: 0
     });
 });
+
+//Copy to clipboard
+new Clipboard('.btn');

@@ -844,7 +844,8 @@ fieldset[disabled] a.btn {
 .btn-default.focus {
 	@extend .btn-default;
 }
-.btn-default:hover {
+.btn-default:hover,
+.btn-default.hover{
 	@include alpha-attribute('background',rgba($abb-grey-250, 0.6), white);
 	border: 1px solid;
 	@include alpha-attribute('border-color',rgba($abb-grey-140, 0.6), white);
@@ -858,13 +859,13 @@ fieldset[disabled] a.btn {
 }
 
 .btn-default:active:hover,
-.btn-default.active:hover,
+.btn-default.active.hover,
 .open > .dropdown-toggle.btn-default:hover{
 	@extend .btn-default:hover;
 }
 
 .btn-default:active:focus,
-.btn-default.active:focus,
+.btn-default.active.focus,
 .open > .dropdown-toggle.btn-default:focus,
 .btn-default:active.focus,
 .btn-default.active.focus, .open >
@@ -876,7 +877,8 @@ fieldset[disabled] a.btn {
 .btn-default-toggle {
 	@extend .btn-default;
 }
-.btn-default-toggle:hover {
+.btn-default-toggle:hover,
+.btn-default-toggle.hover{
 	@extend .btn-default:hover;
 }
 .btn-default-toggle:active,
@@ -1120,7 +1122,8 @@ fieldset[disabled] .btn-default-dark.active {
 .btn-primary.focus {
 	@extend .btn-primary;
 }
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary.hover{
 	background: $abb-blue-14;
 	color: $abb-grey-255;
 	border: 1px solid $abb-blue-13;
@@ -1292,7 +1295,7 @@ fieldset[disabled] .btn-primary-dark.active {
 	color: $abb-grey-70;
 }
 .btn-link:hover,
-.btn-link.hover {
+.btn-link.hover{
 	@extend .btn-default:hover;
 	text-decoration: none;
 }
@@ -1612,13 +1615,20 @@ fieldset[disabled] .btn-danger.active {
 	background-color: $abb-grey-255;
 }
 
+// Classes for branding buttons
+
+/* Button red branding*/
+.btn-branding {
+	font-size: 12px;
+	border-radius: 34px;
+	text-transform: uppercase;
+}
+
 /* Button red branding*/
 .btn-red {
 	color: $abb-grey-255;
 	@include alpha-attribute('background',rgba($abb-brand-red-1, 1), white);
 	border: none;
-	border-radius: 34px;
-	text-transform: uppercase;
 }
 
 .btn-red.hover,
@@ -1648,8 +1658,6 @@ fieldset[disabled] .btn-danger.active {
 	color: $abb-grey-25;
 	background: transparent;
 	border: none;
-	border-radius: 34px;
-	text-transform: uppercase;
 }
 
 .btn-white.hover,
@@ -1678,9 +1686,7 @@ fieldset[disabled] .btn-danger.active {
 .btn-ghost-inverted {
 	color: $abb-grey-255;
 	@include alpha-attribute('background',rgba($abb-grey-0, 0.2), white);
-	border-radius: 34px;
 	border: 2px solid $abb-grey-255;
-	text-transform: uppercase;
 }
 
 .btn-ghost-inverted.hover,
@@ -1711,8 +1717,6 @@ fieldset[disabled] .btn-danger.active {
 	color: $abb-brand-grey-5;
 	background: transparent;
 	border: 2px solid $abb-brand-grey-5;
-	border-radius: 34px;
-	text-transform: uppercase;
 }
 
 .btn-ghost.hover,
@@ -1740,9 +1744,10 @@ fieldset[disabled] .btn-danger.active {
 
 .btn-lg,
 .btn-group-lg > .btn {
-	padding: 12px 20px;
+	padding: 8px 20px;
 	font-size: 14px;
 	height: 40px;
+	border-radius: 0;
 }
 .btn-xl,
 .btn-group-xl > .btn {

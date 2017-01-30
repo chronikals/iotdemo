@@ -1,6 +1,7 @@
-var ase = require('ase-util');
-var fs = require("fs");
-var result = ase.read(fs.readFileSync("cux.ase"));
-ase.formatAsLess(result);
-console.log(ase.formatAsLess(result));
+var scssToJson = require('scss-to-json');
+var path = require('path');
+
+var filePath = path.resolve(__dirname, 'abb-colors.scss');
+var colors = scssToJson(filePath);
+
 
