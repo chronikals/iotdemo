@@ -892,7 +892,8 @@ fieldset[disabled] a.btn {
 .btn-default-toggle-enhanced {
 	@extend .btn-default;
 }
-.btn-default-toggle-enhanced:hover {
+.btn-default-toggle-enhanced:hover,
+.btn-default-toggle-enhanced.hover {
 	@extend .btn-default:hover;
 }
 .btn-default-toggle-enhanced:active,
@@ -942,7 +943,8 @@ fieldset[disabled] .btn-default.active {
 .btn-default-blue.focus {
 	@extend .btn-default-blue;
 }
-.btn-default-blue:hover {
+.btn-default-blue:hover,
+.btn-default-blue.hover {
 	@include alpha-attribute('background',rgba($abb-blue-14, 0.55), white);
 	border: 1px solid;
 	@include alpha-attribute('border-color',rgba($abb-blue-16, 0.8), white);
@@ -956,7 +958,7 @@ fieldset[disabled] .btn-default.active {
 	color: $abb-grey-255;
 }
 .btn-default-blue:active:hover,
-.btn-default-blue.active:hover,
+.btn-default-blue.active.hover,
 .open > .dropdown-toggle.btn-default-blue:hover{
 	@extend .btn-default-blue:hover;
 }
@@ -1033,7 +1035,8 @@ fieldset[disabled] .btn-default-blue.active {
 .btn-default-dark.focus {
 	@extend .btn-default-dark;
 }
-.btn-default-dark:hover {
+.btn-default-dark:hover,
+.btn-default-dark.hover {
 	@include alpha-attribute('background',rgba($abb-grey-110, 0.55), white);
 	border: 1px solid;
 	@include alpha-attribute('border-color',rgba($abb-grey-195, 0.55), white);
@@ -1047,7 +1050,7 @@ fieldset[disabled] .btn-default-blue.active {
     color: $abb-grey-210;
 }
 .btn-default-dark:active:hover,
-.btn-default-dark.active:hover,
+.btn-default-dark.active.hover,
 .open > .dropdown-toggle.btn-default-dark:hover
 {
 	@extend .btn-default-dark:hover;
@@ -1057,7 +1060,8 @@ fieldset[disabled] .btn-default-blue.active {
 .btn-default-dark-toggle {
 	@extend .btn-default-dark;
 }
-.btn-default-dark-toggle:hover {
+.btn-default-dark-toggle:hover
+.btn-default-dark-toggle.hover {
 	@extend .btn-default-dark:hover;
 }
 .btn-default-dark-toggle:active,
@@ -1073,7 +1077,8 @@ fieldset[disabled] .btn-default-blue.active {
 .btn-default-dark-toggle-enhanced {
 	@extend .btn-default-dark;
 }
-.btn-default-dark-toggle-enhanced:hover {
+.btn-default-dark-toggle-enhanced:hover,
+.btn-default-dark-toggle-enhanced.hover {
 	@extend .btn-default-dark:hover;
 }
 .btn-default-dark-toggle-enhanced:active,
@@ -1179,7 +1184,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary-blue.focus {
 	@extend .btn-primary-blue;
 }
-.btn-primary-blue:hover {
+.btn-primary-blue:hover,
+.btn-primary-blue.hover {
 	color: $abb-grey-255;
 	background-color: $abb-blue-15;
 	border: 1px solid $abb-blue-16;
@@ -1193,7 +1199,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-primary-blue:active:hover,
-.btn-primary-blue.active:hover{
+.btn-primary-blue.active.hover{
 	@extend .btn-primary-blue:hover;
 }
 .btn-primary-blue.disabled,
@@ -1235,7 +1241,8 @@ fieldset[disabled] .btn-primary-blue.active {
 .btn-primary-dark.focus {
 	@extend .btn-primary-dark;
 }
-.btn-primary-dark:hover {
+.btn-primary-dark:hover,
+.btn-primary-dark.hover {
 	color: $abb-grey-255;
 	background-color: $abb-blue-14;
 	border: 1px solid $abb-blue-15;
@@ -1248,7 +1255,7 @@ fieldset[disabled] .btn-primary-blue.active {
 	border: 1px solid $abb-blue-11;
 }
 .btn-primary-dark:active:hover,
-.btn-primary-dark.active:hover{
+.btn-primary-dark.active.hover{
 	@extend .btn-primary-dark:hover;
 }
 .btn-primary-dark.disabled,
