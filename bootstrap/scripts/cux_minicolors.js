@@ -36,4 +36,9 @@ $(document).ready(function () {
         document.getElementById("fillColor").style.background = selectedColor.value;
 
     });
+
+    $("#fillColor2").bind("change", function () {
+        document.getElementById("fillColor2").style.background = selectedColor2.value;
+
+    });
 });

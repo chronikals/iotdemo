@@ -29,6 +29,11 @@
     margin-left: 2px;
 }
 
+.cux-spinner {
+    animation: 2s infinite linear;
+    color: #0aaeff !important;
+}
+
 .cux-16 {
     font-size: 16px;
 }

@@ -51,7 +51,7 @@
         });
 
         $('#btn-colors button').on('click', function (e) {
-            $('#buttonIconLight a').removeClass('btn-default btn-primary btn-link').addClass($(this).val());
+            $('#buttonIconLight a').removeClass('btn-default btn-primary btn-link btn-branding btn-red').addClass($(this).val());
             show_result();
             show_color();
 
@@ -115,7 +115,7 @@ $(function () {
     });
 
     $('#btn-colors button').on('click', function (e) {
-        $('#buttonIconDark a').removeClass('btn-default-dark btn-primary-dark btn-link-dark').addClass($(this).val() + '-dark');
+        $('#buttonIconDark a').removeClass('btn-default-dark btn-primary-dark btn-link-dark  btn-branding btn-red-dark').addClass($(this).val() + '-dark');
         show_result();
     });
 

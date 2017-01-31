@@ -68,9 +68,9 @@ $(function () {
             $('#printHeight').text('Height:  ' + height);
             $('#printPadding').text('Padding:  ' + padding);
 
-            //$('#preview').append(activeElement.html().trim());
+            $('#preview').html($(activeElement.parentNode).html());
 
-            $('#result').text($(activeElement).html().trim());
+            $('#result').html($(activeElement).html());
 
         }
     };

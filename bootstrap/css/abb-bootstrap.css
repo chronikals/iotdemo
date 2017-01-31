@@ -590,6 +590,21 @@ input[type="search"] {
 .form-group {
   margin-bottom: 15px; }
 
+.form-group-dark {
+  margin-bottom: 15px; }
+
+.form-group-dark > label {
+  color: #cbcbcb; }
+
+.well-dark > h1,
+.well-dark > h2,
+.well-dark > h3,
+.well-dark > h4,
+.well-dark > p,
+.well-dark > text,
+.well-dark > .help-block-dark {
+  color: #cbcbcb !important; }
+
 .radio,
 .checkbox {
   position: relative;
@@ -1836,89 +1851,200 @@ fieldset[disabled] .btn-danger.active {
 
 /* Button red branding*/
 .btn-branding {
-  font-size: 12px;
-  border-radius: 34px;
-  text-transform: uppercase; }
+  font-size: 11px;
+  border-radius: 34px !important;
+  text-transform: uppercase;
+  padding: 6px 20px;
+  font-weight: 600; }
 
 /* Button red branding*/
-.btn-red {
+.btn-red, .btn-red .focus,
+.btn-red :focus,
+.btn-red-dark .focus,
+.btn-red-dark :focus,
+.btn-red-dark {
   color: #FFFFFF;
   background: #ff000f;
   background: #ff000f;
   border: none; }
 
-.btn-red.hover,
-.btn-red:hover {
+.btn-red .focus,
+.btn-red-dark .focus .focus,
+.btn-red-dark :focus .focus,
+.btn-red :focus,
+.btn-red-dark .focus :focus,
+.btn-red-dark :focus :focus,
+.btn-red-dark .focus,
+.btn-red-dark :focus {
+  outline: none; }
+
+.btn-red.hover, .btn-red .hover.focus,
+.btn-red .hover:focus,
+.btn-red-dark .hover.focus,
+.btn-red-dark .hover:focus,
+.btn-red:hover,
+.btn-red .focus:hover,
+.btn-red :hover:focus,
+.btn-red-dark .focus:hover,
+.btn-red-dark :hover:focus,
+.btn-red-dark.hover,
+.btn-red-dark:hover {
   color: #FFFFFF;
   background: #ff000f;
   background: #ff000f;
-  box-shadow: 2px 1px #c8c8c8;
+  box-shadow: 2px 1px rgba(0, 0, 0, 0.15);
   border: none; }
 
-.btn-red.active,
-.btn-red:active {
+.btn-red.active, .btn-red .active.focus,
+.btn-red .active:focus,
+.btn-red-dark .active.focus,
+.btn-red-dark .active:focus,
+.btn-red:active,
+.btn-red .focus:active,
+.btn-red :active:focus,
+.btn-red-dark .focus:active,
+.btn-red-dark :active:focus,
+.btn-red-dark.active,
+.btn-red-dark:active {
   color: #FFFFFF;
   background: #e6000d;
   background: #e6000d;
   border: none; }
 
-.btn-red .disabled,
-.btn-red :disabled {
-  color: #f2f2f2;
-  color: rgba(0, 0, 0, 0.05);
-  background: #f5999e;
-  background: rgba(230, 0, 13, 0.4);
+.btn-red.disabled, .btn-red .disabled.focus,
+.btn-red .disabled:focus,
+.btn-red-dark .disabled.focus,
+.btn-red-dark .disabled:focus,
+.btn-red[disabled],
+.btn-red [disabled].focus,
+.btn-red [disabled]:focus,
+.btn-red-dark [disabled].focus,
+.btn-red-dark [disabled]:focus,
+fieldset[disabled] .btn-red,
+fieldset[disabled] .btn-red .focus,
+.btn-red fieldset[disabled] .focus,
+fieldset[disabled] .btn-red :focus,
+.btn-red fieldset[disabled] :focus,
+fieldset[disabled] .btn-red-dark .focus,
+.btn-red-dark fieldset[disabled] .focus,
+fieldset[disabled] .btn-red-dark :focus,
+.btn-red-dark fieldset[disabled] :focus,
+.btn-red-dark.disabled,
+.btn-red-dark[disabled],
+fieldset[disabled] .btn-red-dark {
+  color: #7f7f7f;
+  color: rgba(0, 0, 0, 0.5);
+  background: #f27f86;
+  background: rgba(230, 0, 13, 0.5);
   border: none; }
 
 /* Button white branding*/
-.btn-white {
+.btn-white, .btn-white .focus,
+.btn-white :focus, .btn-ghost-inverted.hover,
+.btn-ghost-inverted:hover, .btn-ghost-inverted.active,
+.btn-ghost-inverted:active {
+  color: #191919;
+  background: #FFFFFF;
+  border: none; }
+
+.btn-white .focus, .btn-ghost-inverted.hover .focus,
+.btn-ghost-inverted:hover .focus, .btn-ghost-inverted.active .focus,
+.btn-ghost-inverted:active .focus,
+.btn-white :focus,
+.btn-ghost-inverted.hover :focus,
+.btn-ghost-inverted:hover :focus,
+.btn-ghost-inverted.active :focus,
+.btn-ghost-inverted:active :focus {
+  outline: none; }
+
+.btn-white.hover, .btn-white .hover.focus,
+.btn-white .hover:focus, .hover.btn-ghost-inverted,
+.btn-white:hover,
+.btn-white .focus:hover,
+.btn-white :hover:focus,
+.btn-ghost-inverted:hover {
+  color: #191919;
+  background: white;
+  background: white;
+  box-shadow: 2px 1px rgba(0, 0, 0, 0.15);
+  border: none; }
+
+.btn-white.active, .btn-white .active.focus,
+.btn-white .active:focus, .active.btn-ghost-inverted,
+.btn-white:active,
+.btn-white .focus:active,
+.btn-white :active:focus,
+.btn-ghost-inverted:active {
+  color: #191919;
+  background: #d2d2d2;
+  background: #d2d2d2;
+  border: none; }
+
+.btn-white.disabled, .btn-white .disabled.focus,
+.btn-white .disabled:focus, .disabled.btn-ghost-inverted.hover,
+.disabled.btn-ghost-inverted:hover, .disabled.btn-ghost-inverted.active,
+.disabled.btn-ghost-inverted:active,
+.btn-white[disabled],
+.btn-white [disabled].focus,
+.btn-white [disabled]:focus,
+[disabled].btn-ghost-inverted.hover,
+[disabled].btn-ghost-inverted:hover,
+[disabled].btn-ghost-inverted.active,
+[disabled].btn-ghost-inverted:active,
+fieldset[disabled] .btn-white,
+fieldset[disabled] .btn-white .focus,
+.btn-white fieldset[disabled] .focus,
+fieldset[disabled] .btn-white :focus,
+.btn-white fieldset[disabled] :focus,
+fieldset[disabled] .btn-ghost-inverted.hover,
+fieldset[disabled] .btn-ghost-inverted:hover,
+fieldset[disabled] .btn-ghost-inverted.active,
+fieldset[disabled] .btn-ghost-inverted:active {
+  color: #999999;
+  color: rgba(0, 0, 0, 0.4);
+  background: white;
+  background: rgba(255, 255, 255, 0.6);
+  border: none; }
+
+/* Button secondary branding*/
+.btn-secondary {
+  color: #6e6e6e;
+  background: transparent;
+  border: none; }
+
+.btn-secondary.hover,
+.btn-secondary:hover {
   color: #191919;
   background: transparent;
   border: none; }
 
-.btn-white.hover,
-.btn-white:hover {
-  color: #FFFFFF;
-  background: #ff000f;
-  background: #ff000f;
-  box-shadow: 2px 1px #c8c8c8;
-  border: none; }
-
-.btn-white.active,
-.btn-white:active {
+.btn-secondary.active,
+.btn-secondary:active {
   color: #191919;
-  background: #e6000d;
-  background: #e6000d;
+  background: transparent;
   border: none; }
 
-.btn-white .disabled,
-.btn-white :disabled {
-  color: #f2f2f2;
-  color: rgba(0, 0, 0, 0.05);
-  background: #f5999e;
-  background: rgba(230, 0, 13, 0.4);
+.btn-secondary.disabled,
+.btn-secondary[disabled],
+fieldset[disabled] .btn-red,
+fieldset[disabled] .btn-red .focus,
+.btn-red fieldset[disabled] .focus,
+fieldset[disabled] .btn-red :focus,
+.btn-red fieldset[disabled] :focus,
+fieldset[disabled] .btn-red-dark .focus,
+.btn-red-dark fieldset[disabled] .focus,
+fieldset[disabled] .btn-red-dark :focus,
+.btn-red-dark fieldset[disabled] :focus {
+  color: #c5c5c5;
+  color: rgba(110, 110, 110, 0.4);
+  background: transparent;
   border: none; }
 
 /* Button ghost branding*/
 .btn-ghost-inverted {
   color: #FFFFFF;
-  background: #cccccc;
-  background: rgba(0, 0, 0, 0.2);
+  background: transparent;
   border: 2px solid #FFFFFF; }
-
-.btn-ghost-inverted.hover,
-.btn-ghost-inverted:hover {
-  color: #FFFFFF;
-  background: #f0f0f0;
-  box-shadow: 2px 1px #c8c8c8;
-  border: none; }
-
-.btn-ghost-inverted.active,
-.btn-ghost-inverted:active {
-  color: #FFFFFF;
-  background: #f0f0f0;
-  box-shadow: 2px 1px #c8c8c8;
-  border: none; }
 
 .btn-ghost-inverted .disabled,
 .btn-ghost-inverted :disabled {
@@ -1930,23 +2056,22 @@ fieldset[disabled] .btn-danger.active {
 
 /* Button ghost branding*/
 .btn-ghost {
-  color: #f0f0f0;
+  color: #a9a9a9;
   background: transparent;
-  border: 2px solid #f0f0f0; }
+  border: 2px solid #a9a9a9; }
 
 .btn-ghost.hover,
 .btn-ghost:hover {
   color: #FFFFFF;
-  background: #f0f0f0;
-  box-shadow: 2px 1px #c8c8c8;
-  border: none; }
+  background: #a9a9a9;
+  box-shadow: 2px 1px rgba(0, 0, 0, 0.15);
+  border: 2px solid #a9a9a9; }
 
 .btn-ghost.active,
 .btn-ghost:active {
   color: #FFFFFF;
-  background: #f0f0f0;
-  box-shadow: 2px 1px #c8c8c8;
-  border: none; }
+  background: #6e6e6e;
+  border: 2px solid #6e6e6e; }
 
 .btn-ghost .disabled,
 .btn-ghost :disabled {
@@ -3481,6 +3606,16 @@ a.badge-nav:focus {
   margin-bottom: 20px;
   background-color: #f9f9f9;
   border: 1px solid #f0f0f0;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); }
+
+.well-dark {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #282828;
+  border: 1px solid #282828;
   border-radius: 3px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); }
@@ -5173,12 +5308,6 @@ label:nth-child(n+2) {
   color: #B4B4B4;
   text-transform: uppercase;
   font-size: 10px; }
-
-.well {
-  background: #f9f9f9; }
-
-.well-dark {
-  background: #282828; }
 
 a:hover, a:focus {
   text-decoration: none; }
