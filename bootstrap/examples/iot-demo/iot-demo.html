@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+
+
+  <head>
+    <link rel="stylesheet" href="iot-styling.css"/>
+    <link rel="stylesheet" href="../../src/css/abb-style.css"/>
+
+    <script src="crossfilter.v1.min.js"></script>
+    <script src="d3.v3.min.js"></script>
+    <script src="iot-scripts.js"></script>
+
+    <title>Crossfilter</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="container-fluid">
+
+        <div class="col-lg-7 col-md-7">
+          <h2>Asset insight IOT Demo</h2>
+          <div id="charts">
+            <div id="hour-chart" class="chart">
+              <div class="title"><h3>Overcurrent (A)</h3></div>
+            </div>
+            <div id="delay-chart" class="chart">
+              <div class="title"><h3>Vibration period (min)</h3></div>
+            </div>
+            <div id="distance-chart" class="chart">
+              <div class="title"><h3>Vibration (mHz)</h3></div>
+            </div>
+            <div id="date-chart" class="chart">
+              <div class="title"><h3>Date</h3></div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-5">
+            <aside id="totals"><span id="active">-</span> of <span id="total">-</span> flights selected.</aside>
+            <div id="lists">
+              <div id="flight-list" class="list"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

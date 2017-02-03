@@ -1,0 +1,161 @@
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+@import "css/abb-colors.scss";
+@import "css/abb-fonts.scss";
+
+body {
+    font-family: "Helvetica Neue eText Pro";
+    margin: 40px auto;
+    margin-top: 80px;
+}
+
+#body {
+    position: relative;
+}
+
+footer {
+    padding: 2em 0 1em 0;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 96px;
+    margin-top: .3em;
+    margin-bottom: 0;
+}
+
+h1 + h2 {
+    margin-top: 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+h1, h2 {
+    font-family: "Helvetica Neue eText Pro";
+    text-rendering: optimizeLegibility;
+}
+
+#body > p {
+    line-height: 1.5em;
+    width: 640px;
+    text-rendering: optimizeLegibility;
+}
+
+#charts {
+    padding: 10px 0;
+}
+
+.chart {
+    display: inline-block;
+    height: 151px;
+    margin-bottom: 20px;
+}
+
+.reset {
+    padding-left: 1em;
+    font-size: smaller;
+    color: #ccc;
+}
+
+.background.bar {
+    fill: #ccc;
+}
+
+.foreground.bar {
+    fill: $abb-blue-13;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-size: 10px;
+    color: $abb-gray-110;
+}
+
+.brush rect.extent {
+    fill: $abb-blue-13;
+    fill-opacity: .125;
+}
+
+.brush .resize path {
+    fill: #eee;
+    stroke: #666;
+}
+
+#hour-chart {
+    width: 260px;
+}
+
+#hour-chart .foreground.bar {
+    fill: $abb-data-peach-3;
+}
+
+#delay-chart .foreground.bar {
+    fill: $abb-data-pink-3;
+}
+
+
+#delay-chart {
+    width: 230px;
+}
+
+#distance-chart .foreground.bar {
+    fill: $abb-data-purple-3;
+}
+
+#distance-chart {
+    width: 420px;
+}
+
+#date-chart {
+    height: 200px;
+}
+
+#flight-list {
+    max-height: 100%;
+}
+
+#flight-list .date,
+#flight-list .day {
+    margin-bottom: .4em;
+}
+
+#flight-list .flight {
+    line-height: 1.5em;
+    background: #eee;
+    width: 100%;
+    margin-bottom: 1px;
+}
+
+#flight-list .time {
+    color: #999;
+}
+
+#flight-list .flight div {
+    display: inline-block;
+    width: 100px;
+}
+
+#flight-list div.distance,
+#flight-list div.delay {
+    width: 160px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+#flight-list .early {
+    color: green;
+}
+
+aside {
+    position: absolute;
+    left: 740px;
+    font-size: smaller;
+    width: 220px;
+}

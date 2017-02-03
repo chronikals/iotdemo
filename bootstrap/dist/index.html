@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="CommonUX Guidelines">
+	<meta name="author" content="David Romero">
+
+	<title>CommonUX Template</title>
+
+	<!-- Bootstrap CUX CSS -->
+	<link href="css/abb-style.css" rel="stylesheet">
+
+	<!-- Auxiliar CSS for NVD3 components (Custom D3 styling) -->
+	<link href="css/nv.d3.css" rel="stylesheet">
+
+	<!-- Auxiliar CSS for NVD3 components (Custom D3 styling) -->
+	<link href="css/document.css" rel="stylesheet">
+
+	<!-- jQuery -->
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script type='text/javascript' src="js/bootstrap.js"></script>
+
+	<!-- NVD3 JavaScript -->
+	<script type='text/javascript' src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script type='text/javascript' src="js/nv.d3.js"></script>
+	<script type='text/javascript' src="js/stream_layers.js"></script>
+	<script type='text/javascript' src="scripts/cux_d3_multichart.js"></script>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body style="background:#ffffff;" data-spy="scroll" data-target=".scrollspy">
+<div class="container-fluid">
+	<!-- Top Navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav0">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" style="margin-left:14.85px;" href="#" id="nav0">
+				CommonUX Template
+			</a>
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+
+	<h3>Linechart with finder</h3>
+	<p>Connectivity using visual data mining </p>
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="well well-transparent">
+				<div id="multiBar" style="height: 500px">
+					<svg></svg>
+				</div>
+			</div>
+			<span style="display:block; width: 100%; margin-top:-20px; text-align:right;"
+				  class="label label-info">The graphs in this example use the <a style="font-weight: bold;"
+																				 href="http://nvd3.org/index.html"
+																				 target="_blank">NVD3.js</a> library</span>
+		</div>
+		<div class="col-lg-6">
+			<div class="well-dark">
+				<div id="multiBarDark" style="height: 500px">
+					<svg></svg>
+				</div>
+			</div>
+			<span style="display:block; width: 100%; margin-top:-20px; text-align:right;"
+				  class="label label-info">The graphs in this example use the <a style="font-weight: bold;"
+																				 href="http://nvd3.org/index.html"
+																				 target="_blank">NVD3.js</a> library</span>
+		</div>
+	</div>
+
+</div>
+
+</body>
+
+</html>

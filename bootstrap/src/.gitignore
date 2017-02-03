@@ -1,0 +1,14 @@
+$ git status
+    [...]
+    # Untracked files:
+    $ cat yaml
+    $ cat node_modules
+    $ cat assets
+    # ignore objects and archives, anywhere in the tree.
+    *.[oa]
+    $ git status
+    [...]
+    # Untracked files:
+    [...]
+    #       Documentation/foo.html
+    [...]
