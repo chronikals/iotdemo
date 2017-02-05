@@ -1,7 +1,7 @@
 /* Global Styles */
 body {
-  padding-top: 0px;
-  background-color: #222; }
+  padding-top: 10px;
+ }
 
 @media (min-width: 768px) {
   body {

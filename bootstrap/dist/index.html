@@ -13,6 +13,7 @@
 
 	<!-- Bootstrap CUX CSS -->
 	<link href="css/abb-style.css" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css"/>
 
 	<!-- Auxiliar CSS for NVD3 components (Custom D3 styling) -->
 	<link href="css/nv.d3.css" rel="stylesheet">
@@ -41,51 +42,248 @@
 
 </head>
 
-<body style="background:#ffffff;" data-spy="scroll" data-target=".scrollspy">
-<div class="container-fluid">
-	<!-- Top Navbar -->
-	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<body>
 
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav0">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" style="margin-left:14.85px;" href="#" id="nav0">
-				CommonUX Template
-			</a>
-		</div>
+<!-- Top Navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav0">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" style="margin-left:14.85px;" href="#" id="nav0">
+			CommonUX Template
+		</a>
 	</div>
+
+	<div class="navbar-collapse collapse">
+		<ul class="nav navbar-nav" style="margin-left: -50px;">
+			<li class="active"><a  href="#menu1">Light palette</a>
+			</li>
+			<li><a href="#menu2">Dark palette</a>
+			</li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#contact"><i class="cux abb-cux-user-circle cux-20" style="line-height:0.8;"> </i>NODAROM</a>
+			</li>
+			<li> <a href="#contact"><i class="cux abb-cux-menu cux-20" style="line-height:0.8;" style="margin-left:-12px;"></i></a>
+			</li>
+		</ul>
+	</div>
+
 </div>
+
+
 <div class="container-fluid">
 
-	<h3>Linechart with finder</h3>
-	<p>Connectivity using visual data mining </p>
-	<div class="row">
-		<div class="col-lg-6">
-			<div class="well well-transparent">
-				<div id="multiBar" style="height: 500px">
-					<svg></svg>
+
+	<div id="menu1">
+		<div class="row">
+			<div class="col-lg-6">
+				<h3>Table</h3>
+				<div class="well"  style="height: 436px;">
+					<form class="form-inline" style="margin-bottom: 30px;">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="cux abb-cux-search cux-16"></i></span>
+							<input type="text" class="form-control" placeholder="Search the instrument database" style="width:600px;">
+						</div>
+						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal2"><i class="cux abb-cux-plus cux-16"></i> Add new</button>
+					</form>
+
+					<table class="table table-hover">
+						<thead>
+						<tr>
+							<th>Instrument type</th>
+							<th>Manufacturer</th>
+							<th>Model</th>
+							<th>Version</th>
+							<th>Dataset</th>
+							<th>Max HW SIL</th>
+							<th>Sys capability</th>
+							<th>&#955 D</th>
+							<th>&#955 S</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr style="cursor: pointer" data-toggle="modal" data-target="#myModal2">
+							<td>Flow transmitter</td>
+							<td>ABB</td>
+							<td>FlowTrans200</td>
+							<td>1</td>
+							<td>ABB SEC</td>
+							<td>SIL 2</td>
+							<td>SIL 2</td>
+							<td>0.1</td>
+							<td>0.00321</td>
+						</tr>
+						<tr>
+							<td>Flow transmitter</td>
+							<td>ABB</td>
+							<td>FlowTrans200</td>
+							<td>1</td>
+							<td>ABB SEC</td>
+							<td>SIL 2</td>
+							<td>SIL 2</td>
+							<td>0.1</td>
+							<td>0.00321</td>
+						</tr>
+						<tr>
+							<td>Flow transmitter</td>
+							<td>ABB</td>
+							<td>FlowTrans200</td>
+							<td>1</td>
+							<td>ABB SEC</td>
+							<td>SIL 2</td>
+							<td>SIL 2</td>
+							<td>0.1</td>
+							<td>0.00321</td>
+						</tr>
+						<tr>
+							<td>Flow transmitter</td>
+							<td>ABB</td>
+							<td>FlowTrans200</td>
+							<td>1</td>
+							<td>ABB SEC</td>
+							<td>SIL 2</td>
+							<td>SIL 2</td>
+							<td>0.1</td>
+							<td>0.00321</td>
+						</tr>
+						<tr>
+							<td>Flow transmitter</td>
+							<td>ABB</td>
+							<td>FlowTrans200</td>
+							<td>1</td>
+							<td>ABB SEC</td>
+							<td>SIL 2</td>
+							<td>SIL 2</td>
+							<td>0.1</td>
+							<td>0.00321</td>
+						</tr>
+						<tr>
+							<td>Flow transmitter</td>
+							<td>ABB</td>
+							<td>FlowTrans200</td>
+							<td>1</td>
+							<td>ABB SEC</td>
+							<td>SIL 2</td>
+							<td>SIL 2</td>
+							<td>0.1</td>
+							<td>0.00321</td>
+						</tr>
+						<tr>
+							<td>Flow transmitter</td>
+							<td>ABB</td>
+							<td>FlowTrans200</td>
+							<td>1</td>
+							<td>ABB SEC</td>
+							<td>SIL 2</td>
+							<td>SIL 2</td>
+							<td>0.1</td>
+							<td>0.00321</td>
+						</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
-			<span style="display:block; width: 100%; margin-top:-20px; text-align:right;"
-				  class="label label-info">The graphs in this example use the <a style="font-weight: bold;"
-																				 href="http://nvd3.org/index.html"
-																				 target="_blank">NVD3.js</a> library</span>
-		</div>
-		<div class="col-lg-6">
-			<div class="well-dark">
-				<div id="multiBarDark" style="height: 500px">
-					<svg></svg>
+			<div class="col-lg-3">
+				<h3>Buttons</h3>
+				<div class="well" style="height: 436px;">
+					<h4>Normal</h4>
+					<button type="button" class="btn btn-default">Default</button>
+					<button type="button" class="btn btn-default padding-sm" style="margin-right:20px;"><i class="cux abb-cux-settings cux-16"></i></button>
+					<button type="button" class="btn btn-primary" style="margin-right:20px;"><i class="cux abb-cux-search cux-16 cux-fw"></i>Primary</button>
+					<button type="button" class="btn btn-link">Link default</button>
+					<button type="button" class="btn btn-link padding-sm"><i class="cux abb-cux-edit cux-16"></i></button>
+					<h4 style="margin-top:40px;">Hover</h4>
+					<button type="button" class="btn btn-default hover">Default</button>
+					<button type="button" class="btn btn-default padding-sm hover" style="margin-right:20px;"><i class="cux abb-cux-settings cux-16"></i></button>
+					<button type="button" class="btn btn-primary hover" style="margin-right:20px;"><i class="cux abb-cux-search cux-16 cux-fw"></i>Primary</button>
+					<button type="button" class="btn btn-link hover">Link default</button>
+					<button type="button" class="btn btn-link padding-sm hover"><i class="cux abb-cux-edit cux-16"></i></button>
+					<h4 style="margin-top:40px;">Active</h4>
+					<button type="button" class="btn btn-default active">Default</button>
+					<button type="button" class="btn btn-default padding-sm active" style="margin-right:20px;"><i class="cux abb-cux-settings cux-16"></i></button>
+					<button type="button" class="btn btn-primary active" style="margin-right:20px;"><i class="cux abb-cux-search cux-16 cux-fw"></i>Primary</button>
+					<button type="button" class="btn btn-link active">Link default</button>
+					<button type="button" class="btn btn-link padding-sm active"><i class="cux abb-cux-edit cux-16"></i></button>
+					<h4 style="margin-top:40px;">Disabled</h4>
+					<button type="button" class="btn btn-default disabled">Default</button>
+					<button type="button" class="btn btn-default padding-sm disabled" style="margin-right:20px;"><i class="cux abb-cux-settings cux-16"></i></button>
+					<button type="button" class="btn btn-primary disabled" style="margin-right:20px;"><i class="cux abb-cux-search cux-16 cux-fw"></i>Primary</button>
+					<button type="button" class="btn btn-link disabled">Link default</button>
+					<button type="button" class="btn btn-link padding-sm disabled"><i class="cux abb-cux-edit cux-16"></i></button>
 				</div>
 			</div>
-			<span style="display:block; width: 100%; margin-top:-20px; text-align:right;"
-				  class="label label-info">The graphs in this example use the <a style="font-weight: bold;"
-																				 href="http://nvd3.org/index.html"
-																				 target="_blank">NVD3.js</a> library</span>
+
+			<div class="col-lg-3">
+				<h3>Buttons</h3>
+				<div class="well">
+
+
+
+					<!-- UI-Tabs -->
+					<h4>Tabs</h4>
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+							<li><a href="#profile" data-toggle="tab">Profile</a></li>
+							<li><a href="#messages" data-toggle="tab">Messages</a></li>
+						</ul>
+
+					<!-- UI-Breadcumbs -->
+					<h4>Breadcumbs</h4>
+						<ol class="breadcrumb">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Library</a></li>
+							<li class="active">Data</li>
+						</ol>
+
+					<!-- UI-menus-subtabs -->
+					<h4>Subtabs</h4>
+							<ul class="nav nav-subtabs">
+								<li class="active"><a href="#module1-step1" data-toggle="tab">Feature 1</a></li>
+								<li><a href="#module1-step2" data-toggle="tab">Feature 2</a></li>
+							</ul>
+
+					<h4>Paneltabs</h4>
+					<div class="panel panel-default" style="box-shadow: none; -webkit-box-shadow: none;">
+						<div class="panel-heading" style="background: transparent;">
+							<!-- Nav tabs -->
+							<ul class="nav nav-paneltabs" style="border-top-color: transparent;" >
+								<li><a href="#home"  data-toggle="tab">Home</a></li>
+								<li><a href="#profile" data-toggle="tab">Profile</a></li>
+								<li class="active"><a href="#messages" data-toggle="tab">Messages</a></li>
+								<li><a href="#settings" data-toggle="tab">Settings</a></li>
+							</ul>
+
+						</div>
+
+						<!-- Tab panes + Panel body -->
+						<div class="panel-body tab-content" style="background: #ffffff;">
+							<div class="tab-pane" id="home">HOME</div>
+							<div class="tab-pane" id="profile">PROFILE</div>
+							<div class="tab-pane active" id="messages">MESSAGES</div>
+							<div class="tab-pane" id="settings">SET</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
 		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="well well-transparent">
+					<div id="multiBar" style="height: 320px">
+						<svg></svg>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</div>
 
 </div>
