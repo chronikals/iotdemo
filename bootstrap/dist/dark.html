@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CommonUX Guidelines">
+    <meta name="author" content="David Romero">
+
+    <title>CommonUX Template</title>
+
+    <!-- Bootstrap CUX CSS -->
+    <link href="css/abb-style.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css"/>
+
+    <!-- Auxiliar CSS for NVD3 components (Custom D3 styling) -->
+    <link href="css/nv.d3.css" rel="stylesheet">
+
+    <!-- Auxiliar CSS for NVD3 components (Custom D3 styling) -->
+    <link href="css/document.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script type='text/javascript' src="js/bootstrap.js"></script>
+
+    <!-- NVD3 JavaScript -->
+    <script type='text/javascript' src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script type='text/javascript' src="js/nv.d3.js"></script>
+    <script type='text/javascript' src="js/stream_layers.js"></script>
+    <script type='text/javascript' src="scripts/cux_d3_multichart.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body style="background: #131313;">
+
+<!-- Top Navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav0">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" style="margin-left:15px;" href="#" id="nav0">
+            CommonUX Template
+        </a>
+    </div>
+
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav" style="margin-left: -50px;">
+            <li><a  href="light.html">Light palette</a>
+            </li>
+            <li class="active"><a href="dark.html">Dark palette</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#contact"><i class="cux abb-cux-user-circle cux-20" style="line-height:0.8;"> </i>NODAROM</a>
+            </li>
+            <li> <a href="#contact"><i class="cux abb-cux-menu cux-20" style="line-height:0.8;" style="margin-left:-12px;"></i></a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="container-fluid">
+
+    <div id="menu1">
+        <div class="row">
+            <div class="col-lg-6">
+                <h3 style="color: #d1d1d1;">Table</h3>
+                <div class="well-dark"  style="height: 410px;">
+                    <form class="form-inline" style="margin-bottom: 30px;">
+                        <div class="input-group">
+                            <span class="input-group-addon input-group-addon-dark"><i class="cux abb-cux-search cux-16"></i></span>
+                            <input type="text" class="form-control-dark" placeholder="Search the instrument database" style="width:300px;">
+                        </div>
+                        <button type="button" class="btn btn-default-dark" data-toggle="modal" data-target="#myModal2"><i class="cux abb-cux-plus cux-16"></i> Add new</button>
+                    </form>
+
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>Instrument type</th>
+                            <th>Manufacturer</th>
+                            <th>Model</th>
+                            <th>Dataset</th>
+                            <th>Max HW SIL</th>
+                            <th>Sys capability</th>
+                            <th>&#955 D</th>
+                            <th>&#955 S</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr style="cursor: pointer" data-toggle="modal" data-target="#myModal2">
+                            <td>Flow transmitter</td>
+                            <td>ABB</td>
+                            <td>FlowTrans200</td>
+                            <td>ABB SEC</td>
+                            <td>SIL 2</td>
+                            <td>SIL 2</td>
+                            <td>0.1</td>
+                            <td>0.00321</td>
+                        </tr>
+                        <tr  class="active">
+                            <td>Flow transmitter</td>
+                            <td>ABB</td>
+                            <td>FlowTrans200</td>
+                            <td>ABB SEC</td>
+                            <td>SIL 2</td>
+                            <td>SIL 2</td>
+                            <td>0.1</td>
+                            <td>0.00321</td>
+                        </tr>
+                        <tr>
+                            <td>Flow transmitter</td>
+                            <td>ABB</td>
+                            <td>FlowTrans200</td>
+                            <td>ABB SEC</td>
+                            <td>SIL 2</td>
+                            <td>SIL 2</td>
+                            <td>0.1</td>
+                            <td>0.00321</td>
+                        </tr>
+                        <tr>
+                            <td>Flow transmitter</td>
+                            <td>ABB</td>
+                            <td>FlowTrans200</td>
+                            <td>ABB SEC</td>
+                            <td>SIL 2</td>
+                            <td>SIL 2</td>
+                            <td>0.1</td>
+                            <td>0.00321</td>
+                        </tr>
+                        <tr>
+                            <td>Flow transmitter</td>
+                            <td>ABB</td>
+                            <td>FlowTrans200</td>
+                            <td>ABB SEC</td>
+                            <td>SIL 2</td>
+                            <td>SIL 2</td>
+                            <td>0.1</td>
+                            <td>0.00321</td>
+                        </tr>
+                        <tr>
+                            <td>Flow transmitter</td>
+                            <td>ABB</td>
+                            <td>FlowTrans200</td>
+                            <td>ABB SEC</td>
+                            <td>SIL 2</td>
+                            <td>SIL 2</td>
+                            <td>0.1</td>
+                            <td>0.00321</td>
+                        </tr>
+                        <tr>
+                            <td>Flow transmitter</td>
+                            <td>ABB</td>
+                            <td>FlowTrans200</td>
+                            <td>ABB SEC</td>
+                            <td>SIL 2</td>
+                            <td>SIL 2</td>
+                            <td>0.1</td>
+                            <td>0.00321</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <h3 style="color: #d1d1d1;">Buttons</h3>
+                <div class="well-dark" style="height: 410px;">
+                    <h4>Normal</h4>
+                    <button type="button" class="btn btn-default-dark" style="margin-right:10px;">Default</button>
+                    <button type="button" class="btn btn-primary-dark" style="margin-right:10px;"><i class="cux abb-cux-search cux-16 cux-fw"></i>Primary</button>
+                    <button type="button" class="btn btn-link-dark">Link default</button>
+                    <button type="button" class="btn btn-link-dark padding-sm"><i class="cux abb-cux-edit cux-16"></i></button>
+                    <h4 style="margin-top:40px;">Hover</h4>
+                    <button type="button" class="btn btn-default-dark hover" style="margin-right:10px;">Default</button>
+                    <button type="button" class="btn btn-primary-dark hover" style="margin-right:10px;"><i class="cux abb-cux-search cux-16 cux-fw"></i>Primary</button>
+                    <button type="button" class="btn btn-link-dark hover">Link default</button>
+                    <button type="button" class="btn btn-link-dark padding-sm hover"><i class="cux abb-cux-edit cux-16"></i></button>
+                    <h4 style="margin-top:40px;">Active</h4>
+                    <button type="button" class="btn btn-default-dark active" style="margin-right:10px;">Default</button>
+                    <button type="button" class="btn btn-primary-dark active" style="margin-right:10px;"><i class="cux abb-cux-search cux-16 cux-fw"></i>Primary</button>
+                    <button type="button" class="btn btn-link-dark active">Link default</button>
+                    <button type="button" class="btn btn-link-dark padding-sm active"><i class="cux abb-cux-edit cux-16"></i></button>
+                    <h4 style="margin-top:40px;">Disabled</h4>
+                    <button type="button" class="btn btn-default-dark disabled" style="margin-right:10px;">Default</button>
+                    <button type="button" class="btn btn-primary-dark disabled" style="margin-right:10px;"><i class="cux abb-cux-search cux-16 cux-fw"></i>Primary</button>
+                    <button type="button" class="btn btn-link-dark disabled">Link default</button>
+                    <button type="button" class="btn btn-link-dark padding-sm disabled"><i class="cux abb-cux-edit cux-16"></i></button>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <h3 style="color: #d1d1d1;">Tabs</h3>
+                <div class="well-dark" style="height: 410px;">
+
+
+
+                    <!-- UI-Tabs -->
+                    <h4>Tabs</h4>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+                        <li><a href="#profile" data-toggle="tab">Profile</a></li>
+                        <li><a href="#messages" data-toggle="tab">Messages</a></li>
+                    </ul>
+
+                    <!-- UI-Breadcumbs -->
+                    <h4>Breadcumbs</h4>
+                    <ol class="breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li class="active">Data</li>
+                    </ol>
+
+                    <!-- UI-menus-subtabs -->
+                    <h4>Subtabs</h4>
+                    <ul class="nav nav-subtabs">
+                        <li class="active"><a href="#module1-step1" data-toggle="tab">Feature 1</a></li>
+                        <li><a href="#module1-step2" data-toggle="tab">Feature 2</a></li>
+                    </ul>
+
+                    <h4>Paneltabs</h4>
+                    <div class="panel panel-default" style="box-shadow: none; -webkit-box-shadow: none;">
+                        <div class="panel-heading" style="background: transparent;">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-paneltabs" style="border-top-color: transparent;" >
+                                <li><a href="#home"  data-toggle="tab">Home</a></li>
+                                <li><a href="#profile" data-toggle="tab">Profile</a></li>
+                                <li class="active"><a href="#messages" data-toggle="tab">Messages</a></li>
+                                <li><a href="#settings" data-toggle="tab">Settings</a></li>
+                            </ul>
+
+                        </div>
+
+                        <!-- Tab panes + Panel body -->
+                        <div class="panel-body tab-content" style="background: rgba(0,0,0, 0.6);">
+                            <div class="tab-pane" id="home">HOME</div>
+                            <div class="tab-pane" id="profile">PROFILE</div>
+                            <div class="tab-pane active" id="messages">MESSAGES</div>
+                            <div class="tab-pane" id="settings">SET</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="well-dark">
+                    <div id="multiBar" style="height: 320px">
+                        <svg></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

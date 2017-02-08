@@ -58,5 +58,16 @@ $(function () {
     });
 });
 
+$(function () {
+    $("#treefydark").treeFy({
+        treeColumn: 1
+    });
+});
+$(function () {
+    $("#treefy2dark").treeFy({
+        treeColumn: 0
+    });
+});
+
 //Copy to clipboard
 new Clipboard('.btn');
