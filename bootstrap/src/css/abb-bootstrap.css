@@ -1,54 +1,37 @@
 @charset "UTF-8";
 /* ABB font Helvetica Neue eText Pro */
 @font-face {
-  font-family: 'Helvetica Neue eText Pro';
+  font-family: 'ABBvoice';
   font-style: normal;
   font-weight: 300;
-  src: url("../fonts/HelveticaNeueETPro-45Lt.eot");
+  src: url("../fonts/ABBvoice/ABBvoice_W_Lt.eot");
   /* IE9 Compat Modes */
-  src: local("Γÿ║"), url("../fonts/HelveticaNeueETPro-45Lt.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueETPro-45Lt.woff2") format("woff2"), url("../fonts/HelveticaNeueETPro-45Lt.woff") format("woff"), url("../fonts/HelveticaNeueETPro-45Lt.ttf") format("truetype"), url("../fonts/HelveticaNeueETPro-45Lt.svg#HelveticaNeueeTextPro") format("svg");
-  /* Legacy iOS */ }
+  src: local("Γÿ║"), url("../fonts/ABBvoice/ABBvoice_W_Lt.eot?#iefix") format("embedded-opentype"), url("../fonts/ABBvoice/ABBvoice_W_Lt.woff2") format("woff2"), url("../fonts/ABBvoice/ABBvoice_W_Lt.woff") format("woff"), url("../fonts/ABBvoice/ABBvoice_W_Lt.ttf") format("truetype");
+  /* Safari, Android, iOS */ }
 @font-face {
-  font-family: 'Helvetica Neue eText Pro';
+  font-family: 'ABBvoice';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ABBvoice/ABBvoice_W_Rg.eot");
+  /* IE9 Compat Modes */
+  src: local("Γÿ║"), url("../fonts/ABBvoice/ABBvoice_W_Rg.eot?#iefix") format("embedded-opentype"), url("../fonts/ABBvoice/ABBvoice_W_Rg.woff2") format("woff2"), url("../fonts/ABBvoice/ABBvoice_W_Rg.woff") format("woff"), url("../fonts/ABBvoice/ABBvoice_W_Rg.ttf") format("truetype");
+  /* Safari, Android, iOS */ }
+@font-face {
+  font-family: 'ABBvoice';
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/HelveticaNeueETPro-65Md.eot");
+  src: url("../fonts/ABBvoice/ABBvoice_W_Md.eot");
   /* IE9 Compat Modes */
-  src: local("Γÿ║"), url("../fonts/HelveticaNeueETPro-65Md.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueETPro-65Md.woff2") format("woff2"), url("../fonts/HelveticaNeueETPro-65Md.woff") format("woff"), url("../fonts/HelveticaNeueETPro-65Md.ttf") format("truetype"), url("../fonts/HelveticaNeueETPro-65Md.svg#HelveticaNeueeTextPro") format("svg");
-  /* Legacy iOS */ }
+  src: local("Γÿ║"), url("../fonts/ABBvoice/ABBvoice_W_Md.eot?#iefix") format("embedded-opentype"), url("../fonts/ABBvoice/ABBvoice_W_Md.woff2") format("woff2"), url("../fonts/ABBvoice/ABBvoice_W_Md.woff") format("woff"), url("../fonts/ABBvoice/ABBvoice_W_Md.ttf") format("truetype");
+  /* Safari, Android, iOS */ }
 @font-face {
-  font-family: 'Helvetica Neue eText Pro';
+  font-family: 'ABBvoice';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/HelveticaNeueETPro-75Bd.eot");
+  src: url("../fonts/ABBvoice/ABBvoice_W_Bd.eot");
   /* IE9 Compat Modes */
-  src: local("Γÿ║"), url("../fonts/HelveticaNeueETPro-75Bd.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueETPro-75Bd.woff2") format("woff2"), url("../fonts/HelveticaNeueETPro-75Bd.woff") format("woff"), url("../fonts/HelveticaNeueETPro-75Bd.ttf") format("truetype"), url("../fonts/HelveticaNeueETPro-75Bd.svg#HelveticaNeueeTextPro") format("svg");
-  /* Legacy iOS */ }
-/* ABB font Helvetica Neue eText Pro */
-@font-face {
-  font-family: 'Helvetica Neue eText Pro';
-  font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/HelveticaNeueETPro-45Lt.eot");
-  /* IE9 Compat Modes */
-  src: local("Γÿ║"), url("../fonts/HelveticaNeueETPro-45Lt.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueETPro-45Lt.woff2") format("woff2"), url("../fonts/HelveticaNeueETPro-45Lt.woff") format("woff"), url("../fonts/HelveticaNeueETPro-45Lt.ttf") format("truetype"), url("../fonts/HelveticaNeueETPro-45Lt.svg#HelveticaNeueeTextPro") format("svg");
-  /* Legacy iOS */ }
-@font-face {
-  font-family: 'Helvetica Neue eText Pro';
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/HelveticaNeueETPro-65Md.eot");
-  /* IE9 Compat Modes */
-  src: local("Γÿ║"), url("../fonts/HelveticaNeueETPro-65Md.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueETPro-65Md.woff2") format("woff2"), url("../fonts/HelveticaNeueETPro-65Md.woff") format("woff"), url("../fonts/HelveticaNeueETPro-65Md.ttf") format("truetype"), url("../fonts/HelveticaNeueETPro-65Md.svg#HelveticaNeueeTextPro") format("svg");
-  /* Legacy iOS */ }
-@font-face {
-  font-family: 'Helvetica Neue eText Pro';
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/HelveticaNeueETPro-75Bd.eot");
-  /* IE9 Compat Modes */
-  src: local("Γÿ║"), url("../fonts/HelveticaNeueETPro-75Bd.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueETPro-75Bd.woff2") format("woff2"), url("../fonts/HelveticaNeueETPro-75Bd.woff") format("woff"), url("../fonts/HelveticaNeueETPro-75Bd.ttf") format("truetype"), url("../fonts/HelveticaNeueETPro-75Bd.svg#HelveticaNeueeTextPro") format("svg");
-  /* Legacy iOS */ }
+  src: local("Γÿ║"), url("../fonts/ABBvoice/ABBvoice_W_Bd.eot?#iefix") format("embedded-opentype"), url("../fonts/ABBvoice/ABBvoice_W_Bd.woff2") format("woff2"), url("../fonts/ABBvoice/ABBvoice_W_Bd.woff") format("woff"), url("../fonts/ABBvoice/ABBvoice_W_Bd.ttf") format("truetype");
+  /* Safari, Android, iOS */ }
 /*!
 	* CommonUX bootstrap template
 	* Copyright 2016 David Romero
@@ -59,8 +42,8 @@
 */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 body {
-  font-family: "Helvetica Neue eText Pro", "Sans-Serif", Arial;
-  font-size: 12px; }
+  font-family: "ABBvoice", "Sans-Serif", Arial;
+  font-size: 13px; }
 
 a {
   color: #0AAEFF;
@@ -3359,6 +3342,15 @@ a.label:focus {
 .label-info[href]:focus {
   background-color: #771e86; }
 
+.label-tag {
+  background-color: #C2EBFF;
+  border: 1px solid #99DDFF;
+  color: #267BBD; }
+
+.label-tag[href]:hover,
+.label-tag[href]:focus {
+  background-color: #771e86; }
+
 .label-warning {
   background-color: #FF7300; }
 
@@ -4440,8 +4432,8 @@ input[type="checkbox"]:after,
 .checkbox-inline input[type="checkbox"]:after {
   content: "";
   display: block;
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   margin-top: -2px;
   margin-right: 5px;
   border: 1px solid #bdbdbd;
@@ -4449,24 +4441,6 @@ input[type="checkbox"]:after,
   -webkit-transition: 240ms;
   -o-transition: 240ms;
   transition: 240ms; }
-
-input[type="checkbox"]:checked:before,
-.checkbox input[type="checkbox"]:checked:before,
-.checkbox-inline input[type="checkbox"]:checked:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 6px;
-  display: table;
-  width: 6px;
-  height: 12px;
-  border: 3px solid #0AAEFF;
-  border-top-width: 0;
-  border-left-width: 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg); }
 
 input[type="checkbox"]:checked:after,
 .checkbox input[type="checkbox"]:checked:after,
@@ -4777,8 +4751,8 @@ input[type="checkbox"]:after,
 .checkbox-inline input[type="checkbox"]:after {
   content: "";
   display: block;
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   margin-top: -2px;
   margin-right: 5px;
   border: 1px solid #bdbdbd;
@@ -4795,9 +4769,9 @@ input[type="checkbox"]:checked:before,
   top: 0;
   left: 6px;
   display: table;
-  width: 6px;
-  height: 12px;
-  border: 3px solid #0AAEFF;
+  width: 5px;
+  height: 10px;
+  border: 2px solid #0AAEFF;
   border-top-width: 0;
   border-left-width: 0;
   -webkit-transform: rotate(45deg);
@@ -4884,7 +4858,7 @@ input[type="checkbox"][data-indeterminate] + label:after {
 .progress-bar {
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #0088CC; }
+  background: #0AAEFF; }
 
 .progress-bar-success {
   -webkit-box-shadow: none;
@@ -4903,19 +4877,7 @@ input[type="checkbox"][data-indeterminate] + label:after {
   left: 0;
   right: 0;
   z-index: -1;
-  background-color: #99DDFF; }
-
-.progress-bar-success:last-child.progress-bar:before {
-  background-color: #96E8C6; }
-
-.progress-bar-info:last-child.progress-bar:before {
-  background-color: #BAACDD; }
-
-.progress-bar-warning:last-child.progress-bar:before {
-  background-color: #EBCAB9; }
-
-.progress-bar-danger:last-child.progress-bar:before {
-  background-color: #DAA5CE; }
+  background-color: rgba(0, 0, 0, 0.1); }
 
 .close {
   font-weight: 300;

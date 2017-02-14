@@ -1,5 +1,4 @@
 @import "abb-colors";
-@import "abb-fonts";
 
 /* Global Styles */
 
@@ -148,14 +147,6 @@ p {
     font-size: 16px;
 }
 
-.well-dark .nvd3 text{
-    fill: #c8c8c8;
-}
-
-.well-dark .nv-brushBackground rect {
-    fill: rgba($abb-blue-12, 0.5) !important;
-}
-
 @media (max-width: 976px) {
     .pseudo {
         display: none;
@@ -199,7 +190,7 @@ p {
 
 /* General */
 
-.well-dark a {
+.well-dark .breadcrumb a {
     color: #09adff;
 }
 
@@ -277,4 +268,70 @@ p {
     border: none;
     border-top: 2px solid #9f9f9f;
     color: #d1d1d1;
+}
+
+.well-dark .label-tag {
+    background: $abb-blue-5;
+    border: $abb-blue-7;
+    color: #ffffFF;
+}
+
+.well-dark .bootstrap-tagsinput {
+    background-color: rgba($abb-gray-0, 0.5);
+    border: 1px solid rgba($abb-gray-110, 0.6);
+    display: inline-block;
+    padding: 1px 6px;
+    margin-bottom: 3px;
+    color: #555;
+    vertical-align: middle;
+    border-radius: 0px;
+    width: 100%;
+    line-height: 30px;
+    cursor: text;
+}
+
+well-dark .slider-track {
+    background: #0095DF;
+}
+
+well-dark .slider-selection {
+    background: #000000;
+}
+
+.well-dark .progress-bar:last-child:before {
+    background-color: #454545;
+}
+
+.well-dark .dropdown-menu > li > a {
+    background: #454545;
+    color: #d1d1d1;
+}
+
+.well-dark .dropdown-menu > li > a:hover {
+    background: #0087CB;
+    color: #ffffff;
+}
+
+.well-dark .daterangepicker {
+    position: absolute;
+    background: #363636;
+    top: 100px;
+    left: 20px;
+    padding: 4px;
+    margin-top: 1px;
+    border-radius: 0px;
+    width:278px;
+}
+
+.well-dark .row {
+    color: #d1d1d1;
+}
+
+.well-dark .slider .tooltip-inner {
+     background: rgba($abb-gray-70, 1);
+     color: #ffffff;
+ }
+
+.well-dark .slider-track {
+    background: rgba(9,9,9, 0.6);
 }

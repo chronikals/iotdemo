@@ -29,11 +29,46 @@ $(function () {
 })
 
 //Script for the sliders
-    $("#ex4").slider({
-        reversed: true
-    });
-$("#ex5").slider({
-    reversed: true
+$("#ex-light-1").slider({});
+$("#ex-light-2").slider({});
+$("#ex-light-3").slider({});
+$("#ex-light-4").slider({});
+$("#ex-light-5").slider({
+    tooltip: 'always'
+});
+
+$("#ex-light-2-labels").css("opacity", "0.5");
+
+$("#ex-light-2-enabled").click(function() {
+    if(this.checked) {
+        $("#ex-light-2").slider("enable");
+        $("#ex-light-2-labels").css("opacity", "1");
+    }
+    else {
+        $("#ex-light-2").slider("disable");
+        $("#ex-light-2-labels").css("opacity", "0.5");
+    }
+});
+
+$("#ex-dark-1").slider({});
+$("#ex-dark-2").slider({});
+$("#ex-dark-3").slider({});
+$("#ex-dark-4").slider({});
+$("#ex-dark-5").slider({
+    tooltip: 'always'
+});
+
+$("#ex-dark-2-labels").css("opacity", "0.5");
+
+$("#ex-dark-2-enabled").click(function() {
+    if(this.checked) {
+        $("#ex-dark-2").slider("enable");
+        $("#ex-dark-2-labels").css("opacity", "1");
+    }
+    else {
+        $("#ex-dark-2").slider("disable");
+        $("#ex-dark-2-labels").css("opacity", "0.5");
+    }
 });
 
 

@@ -19,7 +19,6 @@
 
     <!-- Extra CUX customized CSS -->
     <link href="css/bootstrap-slider.css" rel="stylesheet">
-    <link href="css/bootstrap-toggle.css" rel="stylesheet">
     <link href="css/bootstrap-step.css" rel="stylesheet">
     <link href="css/ladda-themeless.min.css" rel="stylesheet">
     <link href="css/daterangepicker.css" rel="stylesheet">
@@ -980,7 +979,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="well well-transparent">
-                            <table class="table" id="treefy">
+                            <table class="table table-hover" id="treefy">
                                 <thead>
                                 <tr>
                                     <th></th>
@@ -990,7 +989,7 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr data-node="treetable-1" class="active">
+                                <tr class="active" data-node="treetable-1" >
                                     <td><input type="checkbox" checked="checked" name="row.id"/></td>
                                     <td>Node</td>
                                     <td>1</td>
@@ -1032,7 +1031,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="well-dark">
-                            <table class="table" id="treefydark">
+                            <table class="table table-hover" id="treefydark">
                                 <thead>
                                 <tr>
                                     <th></th>
@@ -1043,33 +1042,41 @@
                                 </thead>
                                 <tbody>
                                 <tr data-node="treetable-1" class="active">
-                                    <td><input type="checkbox" checked="checked" name="row.id"/></td>
+                                    <td>
+                                        <div class="checbox checkbox-blue"><input type="checkbox" checked="checked" name="row.id"/></div>
+                                    </td>
                                     <td>Node</td>
                                     <td>1</td>
                                     <td>info</td>
                                 </tr>
                                 <tr data-node="treetable-2" class="active" data-pnode="treetable-parent-1">
-                                    <td><input type="checkbox" checked="checked" name="row.id"/></td>
+                                    <td>
+                                        <div class="checbox checkbox-blue"><input type="checkbox" checked="checked" name="row.id"/></div>
+                                    </td>
                                     <td>Node</td>
                                     <td>1-1</td>
                                     <td>info</td>
                                 </tr>
                                 <tr data-node="treetable-3" data-pnode="treetable-parent-1">
                                     <td>
-                                        <div class="checbox"><input type="checkbox" name="row.id"/></div>
+                                        <div class="checbox checkbox-blue"><input type="checkbox" name="row.id"/></div>
                                     </td>
                                     <td>Node</td>
                                     <td>1-2</td>
                                     <td>info</td>
                                 </tr>
                                 <tr data-node="treetable-4" data-pnode="treetable-parent-3">
-                                    <td><input type="checkbox" name="row.id"/></td>
+                                    <td>
+                                        <div class="checbox checkbox-blue"><input type="checkbox" name="row.id"/></div>
+                                    </td>
                                     <td>Node</td>
                                     <td>1-2-1</td>
                                     <td>info</td>
                                 </tr>
                                 <tr data-node="treetable-5">
-                                    <td><input type="checkbox" name="row.id"/></td>
+                                    <td>
+                                        <div class="checbox checkbox-blue"><input type="checkbox" name="row.id"/></div>
+                                    </td>
                                     <td>Node</td>
                                     <td>2</td>
                                     <td>info</td>
@@ -1287,52 +1294,162 @@
             <!-- UI-Sliders -->
             <h3 id="ui-selections-sliders">Sliders</h3>
             <p>Sliders allow you to select/visualize values within ranges</p>
-            <div class="well well-transparent">
-                <input id="ex4" type="text" data-slider-min="-5" data-slider-max="20" data-slider-step="1"
-                       data-slider-value="-3" data-slider-orientation="vertical"
-                />
-                <input id="ex5" type="text" data-slider-min="-5" data-slider-max="20" data-slider-step="1"
-                       data-slider-value="-3" data-slider-orientation="horizontal"
-                />
+            <div class="row">
+                <div class="col-lg-6">
+                   <div class="well well-transparent">
+                       <div class="row">
+                           Disabled
+                           <div class="row">
+                               <input id="ex-light-2" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1"
+                                  data-slider-value="20" data-slider-orientation="horizontal" data-slider-enabled="false"/>
+                               <input id="ex-light-2-enabled" type="checkbox" style="margin-left: 50px;"/> Slider is enabled
+                           </div>
+                           <div id="ex-light-2-labels" class="row" style="margin-top: -10px; margin-bottom:20px;">
+                               <p style="font-size: 11px;">0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 100</p>
+                           </div>
+                           Normal
+                           <div class="row">
+                               <input id="ex-light-3" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1"
+                                  data-slider-value="60" data-slider-orientation="horizontal"/>
+                           </div>
+                           <div class="row" style="margin-top: -10px;">
+                               <p style="font-size: 11px;">0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 100</p>
+                           </div>
+                           <div class="row" style="margin-top:20px;">
+                               Double slider: <b style="padding-left: 20px;">€ 10</b> <input id="ex-light-4" type="text" class="span2" value="" data-slider-min="10"
+                                                          data-slider-max="1000" data-slider-step="5" data-slider-value="[500,900]"/> <b>€ 1000</b>
+                           </div>
+                           <div class="row" style="margin-top:60px;">
+                               Tooltip always on: <b style="padding-left: 20px;">€ 10</b> <input id="ex-light-5" type="text" class="span2" value="" data-slider-min="10"
+                                                          data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> <b>€ 1000</b>
+                           </div>
+                       </div>
+                    </div>
+                    <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a
+                            style="font-weight: bold;" href="http://seiyria.com/bootstrap-slider/" target="_blank">Bootstrap-slider</a> library</span>
+                </div>
+                <div class="col-lg-6">
+                    <div class="well-dark">
+                        <div class="row">
+                            Disabled
+                            <div class="row">
+                                <input id="ex-dark-2" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1"
+                                       data-slider-value="20" data-slider-orientation="horizontal" data-slider-enabled="false"/>
+                                <input id="ex-dark-2-enabled" type="checkbox" style="margin-left: 50px;"/> Slider is enabled
+                            </div>
+                            <div class="row" style="margin-top: -10px; margin-bottom:20px;">
+                                <p id="ex-dark-2-labels" style="font-size: 11px;">0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 100</p>
+                            </div>
+                            Normal
+                            <div class="row">
+                                <input id="ex-dark-3" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1"
+                                       data-slider-value="60" data-slider-orientation="horizontal"/>
+                            </div>
+                            <div class="row" style="margin-top: -10px;">
+                                <p style="font-size: 11px;">0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 100</p>
+                            </div>
+                            <div class="row" style="margin-top:20px;">
+                                Double slider: <b style="padding-left: 20px;">€ 10</b> <input id="ex-dark-4" type="text" class="span2" value="" data-slider-min="10"
+                                                                                              data-slider-max="1000" data-slider-step="5" data-slider-value="[500,900]"/> <b>€ 1000</b>
+                            </div>
+                            <div class="row" style="margin-top:60px;">
+                                Tooltip always on: <b style="padding-left: 20px;">€ 10</b> <input id="ex-dark-5" type="text" class="span2" value="" data-slider-min="10"
+                                                                                                  data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> <b>€ 1000</b>
+                            </div>
+                        </div>
+                    </div>
+                    <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a
+                            style="font-weight: bold;" href="http://seiyria.com/bootstrap-slider/" target="_blank">Bootstrap-slider</a> library</span>
+                </div>
             </div>
-            <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a
-                    style="font-weight: bold;" href="http://seiyria.com/bootstrap-slider/" target="_blank">Bootstrap-slider</a> library</span>
-
             <!-- UI-Toggles -->
             <h3 id="ui-selections-toggles">Toggles</h3>
             <p>Toggles are checkbox-like components that are used to select between two states</p>
-            <div class="well well-transparent">
-                <input type="checkbox" checked data-toggle="toggle">
-            </div>
-            <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a
-                    style="font-weight: bold;" href="http://www.bootstraptoggle.com/"
-                    target="_blank">Bootstrap-toggle</a> library</span>
-
-            <div class="well well-transparent">
-                <div class="flat-toggle">
-                    <span>Label</span>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="well well-transparent">
+                        <div class="flat-toggle" id="flat-example-1">
+                            <span>Interactive</span>
+                        </div>
+                        <div class="flat-toggle">
+                            <span>Normal</span>
+                        </div>
+                        <div class="flat-toggle on">
+                            <span>On</span>
+                        </div>
+                        <div class="flat-toggle disabled">
+                            <span>Disabled</span>
+                        </div>
+                        <div class="flat-toggle on disabled">
+                            <span>On + Disabled</span>
+                        </div>
+                        <script>
+                            $('#flat-example-1').on('click', function () {
+                                $('#flat-example-1').toggleClass('on');
+                            });
+                        </script>
+                    </div>
+                    <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a
+                            style="font-weight: bold;"
+                            href="http://www.jqueryscript.net/form/Create-Flat-Smooth-Toggle-Switches-with-jQuery-CSS3.html"
+                            target="_blank">Flat-toggle</a> library</span>
                 </div>
-                <script>
-                    $('.flat-toggle').on('click', function () {
-                        $(this).toggleClass('on');
-                    });
-                </script>
+                <div class="col-lg-6">
+                    <div class="well-dark">
+                        <div class="flat-toggle-dark" id="flat-example-4">
+                            <span>Interactive</span>
+                        </div>
+                        <div class="flat-toggle-dark">
+                            <span>Normal</span>
+                        </div>
+                        <div class="flat-toggle-dark on">
+                            <span>On</span>
+                        </div>
+                        <div class="flat-toggle-dark disabled">
+                            <span>Disabled</span>
+                        </div>
+                        <div class="flat-toggle-dark on disabled">
+                            <span>On + Disabled</span>
+                        </div>
+                        <script>
+                            $('#flat-example-4').on('click', function () {
+                                $('#flat-example-4').toggleClass('on');
+                            });
+                        </script>
+                    </div>
+                    <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a
+                            style="font-weight: bold;"
+                            href="http://www.jqueryscript.net/form/Create-Flat-Smooth-Toggle-Switches-with-jQuery-CSS3.html"
+                            target="_blank">Flat-toggle</a> library</span>
+                </div>
             </div>
-            <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a
-                    style="font-weight: bold;"
-                    href="http://www.jqueryscript.net/form/Create-Flat-Smooth-Toggle-Switches-with-jQuery-CSS3.html"
-                    target="_blank">Flat-toggle</a> library</span>
 
             <!-- UI-Tags -->
             <h3 id="ui-selections-tags">Tags</h3>
-            <div class="well well-transparent">
-                <input type="text" value="Amsterdam,Washington" data-role="tagsinput"/>
+               <div class="row">
+                    <div class="col-lg-6">
+                        <div class="well well-transparent">
+                            <input type="text" value="Amsterdam,Washington" data-role="tagsinput"/>
 
-            </div>
-            <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a
-                    style="font-weight: bold;"
-                    href="http://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/" target="_blank">Bootstrap tags-input</a> library</span>
+                        </div>
+                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a
+                                style="font-weight: bold;"
+                                href="http://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/" target="_blank">Bootstrap tags-input</a> library</span>
+                    </div>
+                   <div class="col-lg-6">
+                       <div class="well-dark">
+                           <input type="text" value="Amsterdam,Washington" data-role="tagsinput"/>
 
+                       </div>
+                       <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a
+                               style="font-weight: bold;"
+                               href="http://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/" target="_blank">Bootstrap tags-input</a> library</span>
+                   </div>
+               </div>
             <!--UI-Buttons-->
             <p style="height:100px;"/>
             <h2 id="ui-buttons">Buttons</h2>
@@ -2242,7 +2359,7 @@
                                     <input type="text" class="form-control" placeholder="Search" name="srch-term"
                                            id="srch-term">
                                     <div class="input-group-btn">
-                                        <button class="btn btn-primary" type="submit"><i class="cux abb-cux-search"></i>
+                                        <button class="btn btn-primary" type="submit"><i class="cux abb-cux-search cux-16"></i>
                                         </button>
                                     </div>
                                 </div>
@@ -2256,7 +2373,7 @@
                                     <input type="text" class="form-control-dark" placeholder="Search" name="srch-term2"
                                            id="srch-term2">
                                     <div class="input-group-btn">
-                                        <button class="btn btn-primary" type="submit"><i class="cux abb-cux-search"></i>
+                                        <button class="btn btn-primary" type="submit"><i class="cux abb-cux-search cux-16"></i>
                                         </button>
                                     </div>
                                 </div>
@@ -2344,7 +2461,7 @@
                             </form>
                         </div>
                         <span style="display:block; width: 100%; margin-top:-20px; text-align:right;"
-                              class="label label-info">The error and success messages in this form are using <a
+                              class="label label-info">The error and success messages are using <a
                                 style="font-weight: bold;" href="http://1000hz.github.io/bootstrap-validator/"
                                 target="_blank">Bootstrap validator</a> library</span>
                     </div>
@@ -2450,21 +2567,21 @@
                                                required>
                                     </div>
                                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                                    <span class="help-block-dark with-errors">Hey look, this one has feedback icons!</span>
+                                    <span class="help-block help-block-dark with-errors">Hey look, this one has feedback icons!</span>
                                 </div>
                                 <div class="form-group-dark">
                                     <label for="inputEmail3" class="control-label-dark">Email</label>
                                     <input type="email" class="form-control-dark" id="inputEmail3" placeholder="Email"
                                            data-error="Bruh, that email address is invalid"
                                            required>
-                                    <div class="help-block-dark with-errors"></div>
+                                    <div class="help-block help-block-dark with-errors"></div>
                                 </div>
                                 <div class="form-group-dark">
                                     <label for="inputPassword3" class="control-label-dark">Password</label>
                                     <input type="password" data-minlength="6" class="form-control-dark"
                                            id="inputPassword3"
                                            placeholder="Password" required>
-                                    <span class="help-block-dark">Minimum of 6 characters</span>
+                                    <span class="help-block help-block-dark">Minimum of 6 characters</span>
                                 </div>
                                 <div class="form-group-dark">
                                     <label for="inlineCheckbox30" class="control-label-dark">Terms and
@@ -2514,7 +2631,7 @@
                             </form>
                         </div>
                         <span style="display:block; width: 100%; margin-top:-20px; text-align:right;"
-                              class="label label-info">The error and success messages in this form are using <a
+                              class="label label-info">The error and success messages are using <a
                                 style="font-weight: bold;" href="http://1000hz.github.io/bootstrap-validator/"
                                 target="_blank">Bootstrap validator</a> library</span>
 
@@ -2527,57 +2644,137 @@
 
                 <h3 id="ui-pickers-date">Date pickers</h3>
                 <p>Date pickers are difficult to find</p>
-                <div class="well well-transparent" style="height:400px;">
-                    <form class="form-horizontal">
-                        <fieldset>
-                            <div class="control-group">
-                                <div class="controls">
-                                    <div class="input-prepend input-group">
-                                        <span class="add-on input-group-addon"><i
-                                                class="cux abb-cux-calendar cux-16"></i></span>
-                                        <input type="text" style="width: 200px" name="reservation" id="reservation"
-                                               class="form-control" value="03/18/2013 - 03/23/2013"
-                                        />
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="well well-transparent">
+                            <form class="form-horizontal">
+                                <fieldset>
+                                    <div class="control-group">
+                                        <div class="controls">
+                                            <div class="input-prepend input-group">
+                                                <span class="add-on input-group-addon"><i
+                                                        class="cux abb-cux-calendar cux-16"></i></span>
+                                                <input type="text" style="width: 200px" name="reservation" id="reservation"
+                                                       class="form-control" value="03/18/2013 - 03/23/2013"
+                                                />
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </form>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a
+                                style="font-weight: bold;" href="http://www.daterangepicker.com/" target="_blank">Date range picker</a> library</span>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="well-dark">
+                            <form class="form-horizontal">
+                                <fieldset>
+                                    <div class="control-group">
+                                        <div class="controls">
+                                            <div class="input-prepend input-group">
+                                                <span class="add-on input-group-addon input-group-addon-dark"><i
+                                                        class="cux abb-cux-calendar cux-16"></i></span>
+                                                <input type="text" style="width: 200px" name="reservation" id="reservation2"
+                                                       class="form-control-dark" value="03/18/2013 - 03/23/2013"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a
+                                style="font-weight: bold;" href="http://www.daterangepicker.com/" target="_blank">Date range picker</a> library</span>
+                    </div>
                 </div>
-                <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a
-                        style="font-weight: bold;" href="http://www.daterangepicker.com/" target="_blank">Date range picker</a> library</span>
 
                 <!-- UI-Calendar -->
                 <h3 id="ui-pickers-calendar">Calendar</h3>
                 <p>Date pickers are difficult to find</p>
-                <div class="well well-transparent" style="height:400px;">
-                    <div id="reportrange" class="pull-right"
-                         style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc; width: 310px">
-                        <i class="cux abb-cux-calendar cux-16"></i>&nbsp;
-                        <span></span> <b class="caret"></b>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="well well-transparent" style="height:80px;">
+                            <form class="form-horizontal">
+                                <fieldset>
+                                    <div class="control-group">
+                                        <div class="controls">
+                                            <div class="input-prepend input-group">
+                                                <span class="add-on input-group-addon"><i
+                                                        class="cux abb-cux-calendar cux-16"></i></span>
+                                                <input type="text" style="width: 200px" name="reservation" id="reportrange"
+                                                       class="form-control" value="02/03/2017 - 02/09/2017"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a
+                                style="font-weight: bold;" href="http://www.daterangepicker.com/" target="_blank">Date range picker</a> library</span>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="well-dark" style="height:80px;">
+                            <form class="form-horizontal">
+                                <fieldset>
+                                    <div class="control-group">
+                                        <div class="controls">
+                                            <div class="input-prepend input-group">
+                                                <span class="add-on input-group-addon input-group-addon-dark"><i
+                                                        class="cux abb-cux-calendar cux-16"></i></span>
+                                                <input type="text" style="width: 200px" name="reservation" id="reportrange2"
+                                                       class="form-control-dark" value="02/03/2017 - 02/09/2017"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a
+                                style="font-weight: bold;" href="http://www.daterangepicker.com/" target="_blank">Date range picker</a> library</span>
                     </div>
                 </div>
-                <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">This component uses the <a
-                        style="font-weight: bold;" href="http://www.daterangepicker.com/" target="_blank">Date range picker</a> library</span>
-
                 <!-- UI-Progress indicators -->
                 <p style="height:100px;"/>
                 <h2 id="ui-progess">Progress and activity indicators</h2>
 
                 <h3 id="ui-progress-loading">Progress / Loading</h3>
                 <p>Progress indicators are something nice to have</p>
-                <div class="well well-transparent">
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 60%;">
-                            <span class="sr-only">60% Complete</span>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="well well-transparent">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+                                     aria-valuenow="45" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 45%">
+                                    <span class="sr-only">45% Complete</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
-                             aria-valuenow="45" aria-valuemin="0"
-                             aria-valuemax="100" style="width: 45%">
-                            <span class="sr-only">45% Complete</span>
+                    <div class="col-lg-6">
+                        <div class="well-dark">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+                                     aria-valuenow="45" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 45%">
+                                    <span class="sr-only">45% Complete</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -2585,41 +2782,83 @@
                 <!-- UI-Spinners -->
                 <h3>Spinners</h3>
                 <p>Spinners are not always required</p>
-                <div class="well well-transparent">
-                    <i style="margin-right:50px; color:#0aaeff;" class="fa fa-spinner fa-spin fa-3x"></i>
-                    <i style="margin-right:50px; color:#0aaeff;" class="fa fa-circle-o-notch fa-spin fa-3x"></i>
-                    <i style="margin-right:50px; color:#0aaeff;" class="fa fa-spinner fa-pulse fa-3x"></i>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="well well-transparent">
+                            <i style="margin-right:50px; color:#0aaeff;" class="fa fa-spinner fa-spin fa-3x"></i>
+                            <i style="margin-right:50px; color:#0aaeff;" class="fa fa-circle-o-notch fa-spin fa-3x"></i>
+                            <i style="margin-right:50px; color:#0aaeff;" class="fa fa-spinner fa-pulse fa-3x"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="well-dark">
+                            <i style="margin-right:50px; color:#0aaeff;" class="fa fa-spinner fa-spin fa-3x"></i>
+                            <i style="margin-right:50px; color:#0aaeff;" class="fa fa-circle-o-notch fa-spin fa-3x"></i>
+                            <i style="margin-right:50px; color:#0aaeff;" class="fa fa-spinner fa-pulse fa-3x"></i>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- UI-Animations -->
                 <h3>Animations</h3>
                 <p>Simple animations using FontAwesome and some CSS3.</p>
-                <div class="well well-transparent">
-                    <i style="margin-right:50px;" class="cux abb-cux-wrench fa faa-wrench faa-slow animated fa-3x"></i>
-                    <i style="margin-right:50px;"
-                       class="cux abb-cux-warning-triangle fa faa-flash faa-slow animated fa-3x"></i>
-                    <i style="margin-right:50px;" class="cux abb-cux-copy fa faa-pulse faa-slow animated fa-3x"></i>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="well well-transparent">
+                            <i style="margin-right:50px;" class="cux abb-cux-wrench fa faa-wrench faa-slow animated fa-3x"></i>
+                            <i style="margin-right:50px;"
+                               class="cux abb-cux-warning-triangle fa faa-flash faa-slow animated fa-3x"></i>
+                            <i style="margin-right:50px;" class="cux abb-cux-copy fa faa-pulse faa-slow animated fa-3x"></i>
+                        </div>
+                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">These component use the <a
+                                style="font-weight: bold;" href="http://l-lin.github.io/font-awesome-animation/"
+                                target="_blank">Font Awesome Animation</a> library</span>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="well-dark">
+                            <i style="margin-right:50px; color:#d1d1d1;" class="cux abb-cux-wrench fa faa-wrench faa-slow animated fa-3x"></i>
+                            <i style="margin-right:50px; color:#d1d1d1;" class="cux abb-cux-warning-triangle fa faa-flash faa-slow animated fa-3x"></i>
+                            <i style="margin-right:50px; color:#d1d1d1;" class="cux abb-cux-copy fa faa-pulse faa-slow animated fa-3x"></i>
+                        </div>
+                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">These component use the <a
+                                style="font-weight: bold;" href="http://l-lin.github.io/font-awesome-animation/"
+                                target="_blank">Font Awesome Animation</a> library</span>
+                    </div>
                 </div>
-                <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">These component use the <a
-                        style="font-weight: bold;" href="http://l-lin.github.io/font-awesome-animation/"
-                        target="_blank">Font Awesome Animation</a> library</span>
 
                 <!-- UI-Status info -->
                 <h3>Status info</h3>
                 <p>See how cool button we can have with embedded status info</p>
-                <div class="well well-transparent progress-demo">
-                    <button class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">expand-left</span>
-                    </button>
-                    <button class="btn btn-success ladda-button" data-style="slide-right"><span class="ladda-label">slide-right</span>
-                    </button>
-                    <button class="btn btn-default ladda-button" data-style="zoom-in"><span
-                            class="ladda-label">zoom-in</span></button>
-                    <button class="btn btn-default ladda-button" data-style="zoom-out"><span class="ladda-label">zoom-out</span>
-                    </button>
-                </div>
-                <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">These component use the <a
-                        style="font-weight: bold;" href="http://msurguy.github.io/ladda-bootstrap/" target="_blank">Ladda</a> library</span>
-
+                <duv class="row">
+                    <div class="col-lg-6">
+                        <div class="well well-transparent progress-demo">
+                            <button class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">expand-left</span>
+                            </button>
+                            <button class="btn btn-success ladda-button" data-style="slide-right"><span class="ladda-label">slide-right</span>
+                            </button>
+                            <button class="btn btn-default ladda-button" data-style="zoom-in"><span
+                                    class="ladda-label">zoom-in</span></button>
+                            <button class="btn btn-default ladda-button" data-style="zoom-out"><span class="ladda-label">zoom-out</span>
+                            </button>
+                        </div>
+                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">These component use the <a
+                                style="font-weight: bold;" href="http://msurguy.github.io/ladda-bootstrap/" target="_blank">Ladda</a> library</span>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="well-dark progress-demo">
+                            <button class="btn btn-primary-dark ladda-button" data-style="expand-left"><span class="ladda-label">expand-left</span>
+                            </button>
+                            <button class="btn btn-success ladda-button" data-style="slide-right"><span class="ladda-label">slide-right</span>
+                            </button>
+                            <button class="btn btn-default-dark ladda-button" data-style="zoom-in"><span
+                                    class="ladda-label">zoom-in</span></button>
+                            <button class="btn btn-default-dark ladda-button" data-style="zoom-out"><span class="ladda-label">zoom-out</span>
+                            </button>
+                        </div>
+                        <span style="display:block; width: 100%; margin-top:-20px; text-align:right;" class="label label-info">These component use the <a
+                                style="font-weight: bold;" href="http://msurguy.github.io/ladda-bootstrap/" target="_blank">Ladda</a> library</span>
+                    </div>
+                </duv>
                 <!--UI-Notifications-->
                 <p style="height:100px;"/>
                 <h2>Notifications</h2>
@@ -4300,7 +4539,6 @@
 <script type='text/javascript' src="js/modernizr.custom.js"></script>
 <script type='text/javascript' src="js/validator.js"></script>
 <script type='text/javascript' src="js/bootstrap-slider.js"></script>
-<script type='text/javascript' src="js/bootstrap-toggle.js"></script>
 <script type='text/javascript' src="js/bootstrap-spinner.js"></script>
 <script type='text/javascript' src="js/spin.min.js"></script>
 <script type='text/javascript' src="js/ladda.min.js"></script>

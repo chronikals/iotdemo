@@ -1,5 +1,6 @@
 @font-face {
     font-family: 'commonux-icons';
+    src:  url('/../fonts/commonux-icons.eot?o0kewx');
     src:  url('../fonts/commonux-icons.eot?o0kewx#iefix') format('embedded-opentype'),
     url('../fonts/commonux-icons.ttf?o0kewx') format('truetype'),
     url('../fonts/commonux-icons.woff?o0kewx') format('woff'),
@@ -25,8 +26,8 @@
 }
 
 .cux-fw {
-    margin-right: 6px;
-    margin-left: 0px;
+    margin-right: 3px;
+    margin-left: 2px;
 }
 
 .cux-spinner {

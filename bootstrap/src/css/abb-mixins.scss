@@ -1,5 +1,4 @@
 @import "abb-colors";
-@import "abb-fonts";
 
 @mixin alpha-attribute($attribute, $color, $background) {
   $percent: alpha($color) * 100%;

@@ -1,5 +1,5 @@
 @import "abb-colors";
-@import "abb-fonts";
+@import "abb-font-voice";
 @import "abb-mixins";
 
 /*!
@@ -13,8 +13,8 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 body {
-	font-family: "Helvetica Neue eText Pro", "Sans-Serif", Arial;
-	font-size: 12px;
+	font-family: "ABBvoice", "Sans-Serif", Arial;
+	font-size: 13px;
 }
 a {
 	color: $abb-blue-13;
@@ -3167,6 +3167,15 @@ a.label:focus {
 .label-info[href]:focus {
 	background-color: #771e86;
 }
+.label-tag {
+	background-color: $abb-blue-17;
+	border: 1px solid $abb-blue-16;
+	color: $abb-blue-10;
+}
+.label-tag[href]:hover,
+.label-tag[href]:focus {
+	background-color: #771e86;
+}
 .label-warning {
 	background-color: $abb-critical-orange;
 }
@@ -4269,8 +4278,8 @@ input[type="checkbox"]:after,
 .checkbox-inline input[type="checkbox"]:after {
 	content: "";
 	display: block;
-	width: 18px;
-	height: 18px;
+	width: 16px;
+	height: 16px;
 	margin-top: -2px;
 	margin-right: 5px;
 	border: 1px solid #bdbdbd;
@@ -4278,25 +4287,6 @@ input[type="checkbox"]:after,
 	-webkit-transition: 240ms;
 	-o-transition: 240ms;
 	transition: 240ms;
-	
-}
-input[type="checkbox"]:checked:before,
-.checkbox input[type="checkbox"]:checked:before,
-.checkbox-inline input[type="checkbox"]:checked:before {
-	content: "";	
-	position: absolute;
-	top: 0;
-	left: 6px;
-	display: table;
-	width: 6px;
-	height: 12px;
-	border: 3px solid $abb-blue-13;
-	border-top-width: 0;
-	border-left-width: 0;
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
 	
 }
 input[type="checkbox"]:checked:after,
@@ -4625,8 +4615,8 @@ input[type="checkbox"]:after,
 .checkbox-inline input[type="checkbox"]:after {
 	content: "";
 	display: block;
-	width: 18px;
-	height: 18px;
+	width: 16px;
+	height: 16px;
 	margin-top: -2px;
 	margin-right: 5px;
 	border: 1px solid #bdbdbd;
@@ -4644,9 +4634,9 @@ input[type="checkbox"]:checked:before,
 	top: 0;
 	left: 6px;
 	display: table;
-	width: 6px;
-	height: 12px;
-	border: 3px solid $abb-blue-13;
+	width: 5px;
+	height: 10px;
+	border: 2px solid $abb-blue-13;
 	border-top-width: 0;
 	border-left-width: 0;
 	-webkit-transform: rotate(45deg);
@@ -4735,7 +4725,7 @@ input[type="checkbox"][data-indeterminate] + label:after
 .progress-bar {
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	background: $abb-data-blue-4;
+	background: $abb-blue-13;
 }
 .progress-bar-success {
 	-webkit-box-shadow: none;
@@ -4754,20 +4744,9 @@ input[type="checkbox"][data-indeterminate] + label:after
 	left: 0;
 	right: 0;
 	z-index: -1;
-	background-color: $abb-data-blue-1;
+	background-color: rgba($abb-gray-0, 0.1);
 }
-.progress-bar-success:last-child.progress-bar:before {
-	background-color: $abb-data-green-1;
-}
-.progress-bar-info:last-child.progress-bar:before {
-	background-color: $abb-data-purple-1;
-}
-.progress-bar-warning:last-child.progress-bar:before {
-	background-color: $abb-data-peach-1;
-}
-.progress-bar-danger:last-child.progress-bar:before {
-	background-color: $abb-data-pink-1;
-}
+
 .close {
 	font-weight: 300;
 	line-height: 24px;
