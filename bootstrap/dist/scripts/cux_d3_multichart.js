@@ -1,5 +1,9 @@
 //LIGHT
 
+var color = d3.scale.ordinal()
+    .domain(["Variable 1", "Variable 2", "Variable 3"])
+    .range(["#0aaeff", "#b7519f", "#8664bf"]);
+
 nv.addGraph(function() {
     var chart = nv.models.lineWithFocusChart();
 
@@ -28,12 +32,15 @@ nv.addGraph(function() {
 function testData() {
     return stream_layers(3,128,.1).map(function(data, i) {
         return {
-            key: 'Stream' + i,
+            key: 'Variable ' + (i+1),
             values: data
         };
     });
 }
 
+var color = d3.scale.ordinal()
+    .domain(["Variable 1", "Variable 2", "Variable 3"])
+    .range(["#0aaeff", "#b7519f", "#8664bf"]);
 
 
 // DARK

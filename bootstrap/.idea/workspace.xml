@@ -5,97 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44be2325-3875-48b1-b1fc-803c9b94a93d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/Logo-red.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/ABBvoice_Bd.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/ABBvoice_Lt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/ABBvoice_Md.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/ABBvoice_Rg.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro-45Lt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro-45Lt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro-45Lt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro-45Lt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro-45Lt.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro-65Md.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro-65Md.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro-65Md.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro-65Md.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro-65Md.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro-75Bd.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro-75Bd.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro-75Bd.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro-75Bd.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro-75Bd.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/HelveticaNeueETPro.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/abb-cux-icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/abb-fonts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/abb-fonts.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/abb-fonts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/abb-newfont.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/abb-newfont.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/abb-newfont.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/bootstrap-toggle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/flat-toggle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/ABBvoice_Bd.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/ABBvoice_Lt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/ABBvoice_Md.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/ABBvoice_Rg.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro-45Lt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro-45Lt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro-45Lt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro-45Lt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro-45Lt.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro-65Md.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro-65Md.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro-65Md.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro-65Md.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro-65Md.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro-75Bd.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro-75Bd.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro-75Bd.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro-75Bd.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro-75Bd.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/HelveticaNeueETPro.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/bootstrap-toggle.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/daterangepicker.css" afterPath="$PROJECT_DIR$/src/css/daterangepicker.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/colorsd3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/iot-demo/alerts.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/iot-demo/modal-fix.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/iot-demo/modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/iot-demo/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/iot-demo/umc-data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/abb-colors.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap-table.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/flatcolorpicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/bootstrap-table-locale-all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/bootstrap-table.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/flatcolorpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/jquery.xcolor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/tinycolor.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MaterialDesignInXamlToolkit-master" afterPath="$PROJECT_DIR$/../MaterialDesignInXamlToolkit-master" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../testUxStyle" afterPath="$PROJECT_DIR$/../testUxStyle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/abb-style.css" afterPath="$PROJECT_DIR$/dist/css/abb-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css" afterPath="$PROJECT_DIR$/dist/fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/nv.d3.js" afterPath="$PROJECT_DIR$/dist/js/nv.d3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/light.html" afterPath="$PROJECT_DIR$/dist/light.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/cux_d3_multichart.js" afterPath="$PROJECT_DIR$/dist/scripts/cux_d3_multichart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/iot-demo/iot-styling.css" afterPath="$PROJECT_DIR$/examples/iot-demo/iot-styling.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/iot-demo/iot-styling.scss" afterPath="$PROJECT_DIR$/examples/iot-demo/iot-styling.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/abb-bootstrap.css" afterPath="$PROJECT_DIR$/src/css/abb-bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/abb-bootstrap.css.map" afterPath="$PROJECT_DIR$/src/css/abb-bootstrap.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/abb-bootstrap.scss" afterPath="$PROJECT_DIR$/src/css/abb-bootstrap.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/abb-mixins.css" afterPath="$PROJECT_DIR$/src/css/abb-mixins.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/abb-mixins.css.map" afterPath="$PROJECT_DIR$/src/css/abb-mixins.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/abb-mixins.scss" afterPath="$PROJECT_DIR$/src/css/abb-mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/abb-selectors.css" afterPath="$PROJECT_DIR$/src/css/abb-selectors.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/abb-selectors.css.map" afterPath="$PROJECT_DIR$/src/css/abb-selectors.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/abb-selectors.scss" afterPath="$PROJECT_DIR$/src/css/abb-selectors.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/abb-colors.scss" afterPath="$PROJECT_DIR$/src/css/abb-colors.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/abb-style.css" afterPath="$PROJECT_DIR$/src/css/abb-style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/abb-style.css.map" afterPath="$PROJECT_DIR$/src/css/abb-style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/abb-style.scss" afterPath="$PROJECT_DIR$/src/css/abb-style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/bootstrap-slider.css" afterPath="$PROJECT_DIR$/src/css/bootstrap-slider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/bootstrap-tagsinput.css" afterPath="$PROJECT_DIR$/src/css/bootstrap-tagsinput.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/bootstrap-tagsinput.css.map" afterPath="$PROJECT_DIR$/src/css/bootstrap-tagsinput.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/bootstrap-tagsinput.scss" afterPath="$PROJECT_DIR$/src/css/bootstrap-tagsinput.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/document.css" afterPath="$PROJECT_DIR$/src/css/document.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/document.css.map" afterPath="$PROJECT_DIR$/src/css/document.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/document.scss" afterPath="$PROJECT_DIR$/src/css/document.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/nv.d3.css" afterPath="$PROJECT_DIR$/src/css/nv.d3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/nv.d3.css.map" afterPath="$PROJECT_DIR$/src/css/nv.d3.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/nv.d3.scss" afterPath="$PROJECT_DIR$/src/css/nv.d3.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/daterangepicker.css" afterPath="$PROJECT_DIR$/src/css/daterangepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/daterangepicker.css.map" afterPath="$PROJECT_DIR$/src/css/daterangepicker.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/daterangepicker.scss" afterPath="$PROJECT_DIR$/src/css/daterangepicker.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css" afterPath="$PROJECT_DIR$/src/fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/home.html" afterPath="$PROJECT_DIR$/src/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/bootstrap-tagsinput.js" afterPath="$PROJECT_DIR$/src/js/bootstrap-tagsinput.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/daterangepicker.js" afterPath="$PROJECT_DIR$/src/js/daterangepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/cux_datepickers.js" afterPath="$PROJECT_DIR$/src/scripts/cux_datepickers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/cux_sweetalert.js" afterPath="$PROJECT_DIR$/src/scripts/cux_sweetalert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/cux_topbar_generator.js" afterPath="$PROJECT_DIR$/src/scripts/cux_topbar_generator.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scripts/misc_functions.js" afterPath="$PROJECT_DIR$/src/scripts/misc_functions.js" />
     </list>
     <ignored path="bootstrap.iws" />
@@ -119,11 +65,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="document.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/document.scss">
+      <file leaf-file-name="abb-bootstrap.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/abb-bootstrap.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="335" column="20" lean-forward="false" selection-start-line="335" selection-start-column="20" selection-end-line="335" selection-end-column="20" />
+            <state relative-caret-position="17">
+              <caret line="2696" column="1" lean-forward="false" selection-start-line="2679" selection-start-column="0" selection-end-line="2696" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="abb-bootstrap.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/css/abb-bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="5607" column="40" lean-forward="true" selection-start-line="5607" selection-start-column="40" selection-end-line="5607" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="abb-colors.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/abb-colors.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2601">
+              <caret line="153" column="25" lean-forward="false" selection-start-line="153" selection-start-column="25" selection-end-line="153" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="abb-colors.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/abb-colors.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2567">
+              <caret line="151" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="151" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -132,18 +108,18 @@
       <file leaf-file-name="daterangepicker.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/daterangepicker.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="22" selection-end-column="14" />
+            <state relative-caret-position="187">
+              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="abb-bootstrap.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/abb-bootstrap.scss">
+      <file leaf-file-name="modal.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/iot-demo/modal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="4637" column="14" lean-forward="false" selection-start-line="4637" selection-start-column="14" selection-end-line="4637" selection-end-column="14" />
+            <state relative-caret-position="2159">
+              <caret line="127" column="51" lean-forward="false" selection-start-line="127" selection-start-column="51" selection-end-line="127" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -152,207 +128,73 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="1310" column="33" lean-forward="true" selection-start-line="1310" selection-start-column="33" selection-end-line="1310" selection-end-column="33" />
+            <state relative-caret-position="3111">
+              <caret line="183" column="54" lean-forward="false" selection-start-line="183" selection-start-column="54" selection-end-line="183" selection-end-column="54" />
               <folding>
-                <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#78979#78985#0" expanded="true" />
-                <element signature="e#78986#78992#0" expanded="true" />
-                <element signature="e#78993#78999#0" expanded="true" />
-                <element signature="e#79000#79006#0" expanded="true" />
-                <element signature="e#79007#79013#0" expanded="true" />
-                <element signature="e#79014#79020#0" expanded="true" />
-                <element signature="e#79021#79027#0" expanded="true" />
-                <element signature="e#79028#79034#0" expanded="true" />
-                <element signature="e#79035#79041#0" expanded="true" />
-                <element signature="e#79042#79048#0" expanded="true" />
-                <element signature="e#79049#79055#0" expanded="true" />
-                <element signature="e#79056#79062#0" expanded="true" />
-                <element signature="e#79063#79069#0" expanded="true" />
-                <element signature="e#79070#79076#0" expanded="true" />
-                <element signature="e#79077#79083#0" expanded="true" />
-                <element signature="e#79084#79090#0" expanded="true" />
-                <element signature="e#79126#79132#0" expanded="true" />
-                <element signature="e#79133#79139#0" expanded="true" />
-                <element signature="e#79140#79146#0" expanded="true" />
-                <element signature="e#79147#79153#0" expanded="true" />
-                <element signature="e#79154#79160#0" expanded="true" />
-                <element signature="e#79161#79167#0" expanded="true" />
-                <element signature="e#79168#79174#0" expanded="true" />
-                <element signature="e#79175#79181#0" expanded="true" />
-                <element signature="e#79182#79188#0" expanded="true" />
-                <element signature="e#79189#79195#0" expanded="true" />
-                <element signature="e#79196#79202#0" expanded="true" />
-                <element signature="e#79203#79209#0" expanded="true" />
-                <element signature="e#79210#79216#0" expanded="true" />
-                <element signature="e#79217#79223#0" expanded="true" />
-                <element signature="e#79224#79230#0" expanded="true" />
-                <element signature="e#79231#79237#0" expanded="true" />
-                <element signature="e#79238#79244#0" expanded="true" />
-                <element signature="e#79245#79251#0" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#79765#79771#0" expanded="true" />
-                <element signature="e#79772#79778#0" expanded="true" />
-                <element signature="e#79779#79785#0" expanded="true" />
-                <element signature="e#79786#79792#0" expanded="true" />
-                <element signature="e#79793#79799#0" expanded="true" />
-                <element signature="e#79800#79806#0" expanded="true" />
-                <element signature="e#79807#79813#0" expanded="true" />
-                <element signature="e#79814#79820#0" expanded="true" />
-                <element signature="e#79821#79827#0" expanded="true" />
-                <element signature="e#79828#79834#0" expanded="true" />
-                <element signature="e#79835#79841#0" expanded="true" />
-                <element signature="e#79842#79848#0" expanded="true" />
-                <element signature="e#79849#79855#0" expanded="true" />
-                <element signature="e#79856#79862#0" expanded="true" />
-                <element signature="e#79863#79869#0" expanded="true" />
-                <element signature="e#79870#79876#0" expanded="true" />
-                <element signature="e#79912#79918#0" expanded="true" />
-                <element signature="e#79919#79925#0" expanded="true" />
-                <element signature="e#79926#79932#0" expanded="true" />
-                <element signature="e#79933#79939#0" expanded="true" />
-                <element signature="e#79940#79946#0" expanded="true" />
-                <element signature="e#79947#79953#0" expanded="true" />
-                <element signature="e#79954#79960#0" expanded="true" />
-                <element signature="e#79961#79967#0" expanded="true" />
-                <element signature="e#79968#79974#0" expanded="true" />
-                <element signature="e#79975#79981#0" expanded="true" />
-                <element signature="e#79982#79988#0" expanded="true" />
-                <element signature="e#79989#79995#0" expanded="true" />
-                <element signature="e#79996#80002#0" expanded="true" />
-                <element signature="e#80003#80009#0" expanded="true" />
-                <element signature="e#80010#80016#0" expanded="true" />
-                <element signature="e#80017#80023#0" expanded="true" />
-                <element signature="e#80024#80030#0" expanded="true" />
-                <element signature="e#80031#80037#0" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#82102#82108#0" expanded="true" />
-                <element signature="e#82109#82115#0" expanded="true" />
-                <element signature="e#82116#82122#0" expanded="true" />
-                <element signature="e#82123#82129#0" expanded="true" />
-                <element signature="e#82130#82136#0" expanded="true" />
-                <element signature="e#82137#82143#0" expanded="true" />
-                <element signature="e#82144#82150#0" expanded="true" />
-                <element signature="e#82151#82157#0" expanded="true" />
-                <element signature="e#82158#82164#0" expanded="true" />
-                <element signature="e#82165#82171#0" expanded="true" />
-                <element signature="e#82172#82178#0" expanded="true" />
-                <element signature="e#82179#82185#0" expanded="true" />
-                <element signature="e#82186#82192#0" expanded="true" />
-                <element signature="e#82193#82199#0" expanded="true" />
-                <element signature="e#82200#82206#0" expanded="true" />
-                <element signature="e#82207#82213#0" expanded="true" />
-                <element signature="e#82250#82256#0" expanded="true" />
-                <element signature="e#82257#82263#0" expanded="true" />
-                <element signature="e#82264#82270#0" expanded="true" />
-                <element signature="e#82271#82277#0" expanded="true" />
-                <element signature="e#82278#82284#0" expanded="true" />
-                <element signature="e#82285#82291#0" expanded="true" />
-                <element signature="e#82292#82298#0" expanded="true" />
-                <element signature="e#82299#82305#0" expanded="true" />
-                <element signature="e#82306#82312#0" expanded="true" />
-                <element signature="e#82313#82319#0" expanded="true" />
-                <element signature="e#82320#82326#0" expanded="true" />
-                <element signature="e#82327#82333#0" expanded="true" />
-                <element signature="e#82334#82340#0" expanded="true" />
-                <element signature="e#82341#82347#0" expanded="true" />
-                <element signature="e#82348#82354#0" expanded="true" />
-                <element signature="e#82355#82361#0" expanded="true" />
-                <element signature="e#82362#82368#0" expanded="true" />
-                <element signature="e#82369#82375#0" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#82900#82906#0" expanded="true" />
-                <element signature="e#82907#82913#0" expanded="true" />
-                <element signature="e#82914#82920#0" expanded="true" />
-                <element signature="e#82921#82927#0" expanded="true" />
-                <element signature="e#82928#82934#0" expanded="true" />
-                <element signature="e#82935#82941#0" expanded="true" />
-                <element signature="e#82942#82948#0" expanded="true" />
-                <element signature="e#82949#82955#0" expanded="true" />
-                <element signature="e#82956#82962#0" expanded="true" />
-                <element signature="e#82963#82969#0" expanded="true" />
-                <element signature="e#82970#82976#0" expanded="true" />
-                <element signature="e#82977#82983#0" expanded="true" />
-                <element signature="e#82984#82990#0" expanded="true" />
-                <element signature="e#82991#82997#0" expanded="true" />
-                <element signature="e#82998#83004#0" expanded="true" />
-                <element signature="e#83005#83011#0" expanded="true" />
-                <element signature="e#83048#83054#0" expanded="true" />
-                <element signature="e#83055#83061#0" expanded="true" />
-                <element signature="e#83062#83068#0" expanded="true" />
-                <element signature="e#83069#83075#0" expanded="true" />
-                <element signature="e#83076#83082#0" expanded="true" />
-                <element signature="e#83083#83089#0" expanded="true" />
-                <element signature="e#83090#83096#0" expanded="true" />
-                <element signature="e#83097#83103#0" expanded="true" />
-                <element signature="e#83104#83110#0" expanded="true" />
-                <element signature="e#83111#83117#0" expanded="true" />
-                <element signature="e#83118#83124#0" expanded="true" />
-                <element signature="e#83125#83131#0" expanded="true" />
-                <element signature="e#83132#83138#0" expanded="true" />
-                <element signature="e#83139#83145#0" expanded="true" />
-                <element signature="e#83146#83152#0" expanded="true" />
-                <element signature="e#83153#83159#0" expanded="true" />
-                <element signature="e#83160#83166#0" expanded="true" />
-                <element signature="e#83167#83173#0" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#div#5;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#div#1;n#div#8;n#div#10;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#div#0;n#ul#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#21;n#div#0;n#div#0;n#div#4;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#4;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#3;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#4;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#8;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#9;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#12;n#div#10;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#13;n#div#10;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap-slider.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/bootstrap-slider.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="133" column="14" lean-forward="false" selection-start-line="133" selection-start-column="14" selection-end-line="133" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="abb-mixins.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/abb-mixins.scss">
+      <file leaf-file-name="example-website.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/example-website/example-website.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="abb-selectors.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/abb-selectors.scss">
+      <file leaf-file-name="component-styleguide.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/component-styleguide/component-styleguide.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="1632">
+              <caret line="96" column="38" lean-forward="false" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="misc_functions.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scripts/misc_functions.js">
+      <file leaf-file-name="flatcolorpicker.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/flatcolorpicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="187">
+              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1487769219782" expanded="true" signature="1756:2824" ph="..." />
+                <marker date="1487769219782" expanded="true" signature="1756:2826" ph="..." />
+                <marker date="1487769219782" expanded="true" signature="1756:2999" ph="..." />
+                <marker date="1487769219782" expanded="true" signature="1811:1985" ph="..." />
+                <marker date="1487769219782" expanded="true" signature="2012:2028" ph="..." />
+                <marker date="1487769219782" expanded="true" signature="2012:2029" ph="..." />
+                <marker date="1487769219782" expanded="true" signature="2030:2824" ph="..." />
+                <marker date="1487769219782" expanded="true" signature="2052:2351" ph="..." />
+                <marker date="1487769219782" expanded="true" signature="2102:2343" ph="..." />
+                <marker date="1487769219782" expanded="true" signature="2228:2335" ph="..." />
+                <marker date="1487769219782" expanded="true" signature="2389:2818" ph="..." />
+                <marker date="1487769219782" expanded="true" signature="2465:2810" ph="..." />
+                <marker date="1487769219782" expanded="true" signature="2851:2888" ph="..." />
+                <marker date="1487769219782" expanded="true" signature="2868:2888" ph="..." />
+                <marker date="1487769219782" expanded="true" signature="2889:2999" ph="..." />
+                <marker date="1487769219782" expanded="true" signature="2912:2999" ph="..." />
+                <marker date="1487769219782" expanded="false" signature="2975:2984" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -362,48 +204,56 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="package_json" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.panel</find>
-      <find>nav-panel</find>
-      <find>tree</find>
-      <find>date pi</find>
-      <find>bootstrap-toggle</find>
-      <find>toggle</find>
-      <find>flat</find>
-      <find>indeter</find>
-      <find>close</find>
-      <find>label-info</find>
-      <find>spinners</find>
-      <find>progress-bar:last-child:before</find>
-      <find>tree table</find>
-      <find>status info</find>
-      <find>datepicker</find>
-      <find>date range</find>
-      <find>cale</find>
-      <find>glyphi</find>
-      <find>active</find>
-      <find>date pickers are</find>
-      <find>voice</find>
-      <find>commo</find>
-      <find>3px sol</find>
-      <find>input[type=&quot;checkbox&quot;]:checked:before</find>
-      <find>input</find>
-      <find>border</find>
-      <find>50%</find>
-      <find>flat-toggle</find>
-      <find>disabl</find>
-      <find>slider</find>
+      <find>Suggested Action</find>
+      <find>td</find>
+      <find>border-rad</find>
+      <find>header</find>
+      <find>head</find>
+      <find>checkbox</find>
+      <find>thead</find>
+      <find>glyph</find>
+      <find>radius</find>
+      <find>tidy.js</find>
+      <find>test-5</find>
+      <find>xcolo</find>
+      <find>abbvoice</find>
+      <find>;</find>
+      <find>q</find>
+      <find>font-size: 12px</find>
+      <find>h1</find>
+      <find>color palette</find>
+      <find>brand-red</find>
+      <find>horizontal nav</find>
+      <find>dropdown-sub</find>
+      <find>frequent a</find>
+      <find>navbar-defa</find>
+      <find>btn-primary</find>
+      <find>brand</find>
+      <find>navbar-brand</find>
+      <find>:  &quot;</find>
+      <find>data-blue-6</find>
+      <find>navbar-bra</find>
+      <find>combined</find>
     </findStrings>
+    <replaceStrings>
+      <replace>suggestedAction</replace>
+      <replace>condition</replace>
+      <replace>&quot;,</replace>
+      <replace>font-size: 13px</replace>
+      <replace>: &quot;#</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>C:\Data\Git\CommonUX\bootstrap</dir>
+      <dir>C:\Data\Git\CommonUX\bootstrap\src\scripts</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -412,57 +262,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scripts/cux_button_generator.js" />
-        <option value="$PROJECT_DIR$/scripts/cux_d3_multichart.js" />
-        <option value="$PROJECT_DIR$/scripts/cux_d3_bars.js" />
-        <option value="$PROJECT_DIR$/scripts/cux_style_generator.js" />
-        <option value="$PROJECT_DIR$/fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css" />
-        <option value="$PROJECT_DIR$/css/abb-style.scss" />
-        <option value="$PROJECT_DIR$/css/abb-style.css" />
-        <option value="$PROJECT_DIR$/css/document.scss" />
-        <option value="$PROJECT_DIR$/css/abb-bootstrap.scss" />
-        <option value="$PROJECT_DIR$/css/font-awesome-animation.css" />
-        <option value="$PROJECT_DIR$/home.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/examples/cux-light/scripts.js" />
-        <option value="$PROJECT_DIR$/examples/cux-light/home.html" />
-        <option value="$PROJECT_DIR$/examples/example-website/scrips.js" />
-        <option value="$PROJECT_DIR$/examples/example-website/home.html" />
-        <option value="$PROJECT_DIR$/examples/ui-components-light/home.html" />
-        <option value="$PROJECT_DIR$/examples/component-styleguide/home.html" />
-        <option value="$PROJECT_DIR$/examples/iot-demo/iot-demo.html" />
-        <option value="$PROJECT_DIR$/dist/css/nv.d3.css" />
-        <option value="$PROJECT_DIR$/examples/example-website/example-website.html" />
-        <option value="$PROJECT_DIR$/dist/css/abb-style.css" />
-        <option value="$PROJECT_DIR$/dist/scripts/functions.js" />
         <option value="$PROJECT_DIR$/dist/fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css" />
         <option value="$PROJECT_DIR$/src/css/abb-bootstrap.css" />
         <option value="$PROJECT_DIR$/src/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/src/js/navbar.js" />
         <option value="$PROJECT_DIR$/dist/topbar.html" />
         <option value="$PROJECT_DIR$/dist/index.html" />
-        <option value="$PROJECT_DIR$/dist/light.html" />
         <option value="$PROJECT_DIR$/dist/dark.html" />
         <option value="$PROJECT_DIR$/dist/css/document.css" />
         <option value="$PROJECT_DIR$/src/js/bootstrap-tagsinput.js" />
         <option value="$PROJECT_DIR$/src/css/bootstrap-tagsinput.scss" />
-        <option value="$PROJECT_DIR$/src/js/daterangepicker.js" />
         <option value="$PROJECT_DIR$/src/css/abb-newfont.scss" />
         <option value="$PROJECT_DIR$/src/css/abb-fonts.scss" />
         <option value="$PROJECT_DIR$/src/css/abb-style.scss" />
         <option value="$PROJECT_DIR$/src/css/abb-mixins.scss" />
         <option value="$PROJECT_DIR$/src/css/nv.d3.scss" />
         <option value="$PROJECT_DIR$/src/css/abb-selectors.scss" />
-        <option value="$PROJECT_DIR$/src/css/abb-bootstrap.scss" />
-        <option value="$PROJECT_DIR$/src/css/daterangepicker.scss" />
         <option value="$PROJECT_DIR$/src/scripts/cux_datepickers.js" />
         <option value="$PROJECT_DIR$/src/css/flat-toggle.scss" />
-        <option value="$PROJECT_DIR$/src/css/bootstrap-slider.css" />
         <option value="$PROJECT_DIR$/src/css/document.scss" />
-        <option value="$PROJECT_DIR$/src/home.html" />
+        <option value="$PROJECT_DIR$/src/js/daterangepicker.js" />
+        <option value="$PROJECT_DIR$/src/css/bootstrap-slider.css" />
+        <option value="$PROJECT_DIR$/examples/iot-demo/iot-styling.scss" />
+        <option value="$PROJECT_DIR$/examples/iot-demo/modal-fix.css" />
+        <option value="$PROJECT_DIR$/dist/js/nv.d3.js" />
+        <option value="$PROJECT_DIR$/dist/colorsd3.css" />
+        <option value="$PROJECT_DIR$/dist/light.html" />
+        <option value="$PROJECT_DIR$/dist/scripts/cux_d3_multichart.js" />
+        <option value="$PROJECT_DIR$/src/js/bootstrap-table.js" />
+        <option value="$PROJECT_DIR$/examples/iot-demo/active-alerts.json" />
+        <option value="$PROJECT_DIR$/examples/iot-demo/umc-data2.json" />
+        <option value="$PROJECT_DIR$/examples/iot-demo/umc-data.json" />
+        <option value="$PROJECT_DIR$/examples/iot-demo/alerts.json" />
+        <option value="$PROJECT_DIR$/examples/iot-demo/modal.html" />
+        <option value="$PROJECT_DIR$/src/css/bootstrap-table.css" />
+        <option value="$PROJECT_DIR$/src/js/bootstrap-table.min.js" />
+        <option value="$PROJECT_DIR$/examples/iot-demo/modal.js" />
+        <option value="$PROJECT_DIR$/src/js/tinycolor-min.js" />
+        <option value="$PROJECT_DIR$/src/scripts/cux_topbar_generator.js" />
+        <option value="$PROJECT_DIR$/src/scripts/cux_sweetalert.js" />
         <option value="$PROJECT_DIR$/src/scripts/misc_functions.js" />
+        <option value="$PROJECT_DIR$/src/js/jquery.xcolor.min.js" />
+        <option value="$PROJECT_DIR$/src/js/flatcolorpicker.js" />
+        <option value="$PROJECT_DIR$/src/css/abb-colors.json.js" />
+        <option value="$PROJECT_DIR$/src/css/abb-colors.json" />
+        <option value="$PROJECT_DIR$/src/js/jquery.xcolor.js" />
+        <option value="$PROJECT_DIR$/src/css/flatcolorpicker.css" />
+        <option value="$PROJECT_DIR$/src/css/daterangepicker.scss" />
+        <option value="$PROJECT_DIR$/src/css/abb-colors.scss" />
+        <option value="$PROJECT_DIR$/src/css/abb-bootstrap.scss" />
+        <option value="$PROJECT_DIR$/src/fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css" />
+        <option value="$PROJECT_DIR$/src/home.html" />
       </list>
     </option>
   </component>
@@ -476,10 +326,10 @@
     <handled-path value="$PROJECT_DIR$/src/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="x" value="1672" />
+    <option name="y" value="-158" />
+    <option name="width" value="1936" />
+    <option name="height" value="1216" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -497,6 +347,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -527,7 +378,85 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icon-fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icon-fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commonux-2.0.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icon-fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commonux-2.0.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -559,12 +488,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ui-components-light" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abb-bootstrap.scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -626,32 +559,9 @@
               <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -668,18 +578,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Data\Git\CommonUX\bootstrap\src\js" />
+      <recent name="C:\Data\Git\CommonUX\bootstrap\examples\iot-demo" />
       <recent name="C:\Data\Git\CommonUX\bootstrap\src\css" />
       <recent name="C:\Data\Git\CommonUX\bootstrap\dist\css" />
       <recent name="C:\Data\Git\CommonUX\bootstrap\dist\css\icon-fonts" />
-      <recent name="C:\Data\Git\CommonUX\bootstrap\dist\js" />
-      <recent name="C:\Data\Git\CommonUX\bootstrap\dist\scripts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Data\Git\CommonUX\bootstrap\src\js" />
+      <recent name="C:\Data\Git\CommonUX\bootstrap\src\css" />
       <recent name="C:\Data\Git\CommonUX\bootstrap\dist\fonts" />
       <recent name="C:\Data\Git\CommonUX\bootstrap\examples\iot-demo" />
       <recent name="C:\Data\Git\CommonUX\bootstrap\examples\component-styleguide" />
-      <recent name="C:\Data\Git\CommonUX\bootstrap\examples\example-website" />
-      <recent name="C:\Data\Git\CommonUX\bootstrap\examples\cux-light" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.light.html">
@@ -689,13 +599,13 @@
     <configuration default="false" name="ase.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/src/yaml/ase.js" working-dir="$PROJECT_DIR$/src/yaml">
       <method />
     </configuration>
-    <configuration default="false" name="postcss-ase-color.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="postcss-ase-color.js" working-dir="$PROJECT_DIR$/src/yaml">
-      <method />
-    </configuration>
     <configuration default="false" name="sass to json.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/src/yaml/sass to json.js" working-dir="$PROJECT_DIR$/src/yaml">
       <method />
     </configuration>
     <configuration default="false" name="light.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bootstrap/dist/light.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="modal.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bootstrap/examples/iot-demo/modal.html">
       <method />
     </configuration>
     <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="8080">
@@ -777,17 +687,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.home.html" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.ase.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.postcss-ase-color.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.sass to json.js" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.light.html" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.sass to json.js" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.light.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.modal.html" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.light.html" />
         <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.home.html" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.sass to json.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.ase.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.postcss-ase-color.js" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.modal.html" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.sass to json.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.ase.js" />
       </list>
     </recent_temporary>
   </component>
@@ -864,6 +774,13 @@
       <workItem from="1486730442504" duration="817000" />
       <workItem from="1486982821949" duration="2422000" />
       <workItem from="1486985752103" duration="15322000" />
+      <workItem from="1487074018158" duration="56000" />
+      <workItem from="1487146530364" duration="525000" />
+      <workItem from="1487252799067" duration="32793000" />
+      <workItem from="1487577453415" duration="3107000" />
+      <workItem from="1487663725965" duration="19660000" />
+      <workItem from="1488131592174" duration="184000" />
+      <workItem from="1488269483407" duration="703000" />
     </task>
     <task id="LOCAL-00001" summary="Restructuring colors +yaml +node +edits towards v2.0">
       <created>1480619500901</created>
@@ -876,7 +793,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="309487000" />
+    <option name="totallyTimeSpent" value="366515000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -888,45 +805,45 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="false" />
+    <frame x="1672" y="-158" width="1936" height="1216" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13992763" sideWeight="0.4423963" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22339304" sideWeight="0.4423963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3248848" sideWeight="0.48840886" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15552996" sideWeight="0.5066345" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29489604" sideWeight="0.5179136" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26728112" sideWeight="0.48946258" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3830735" sideWeight="0.48314014" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32405347" sideWeight="0.46838778" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24004824" sideWeight="0.55760366" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31625834" sideWeight="0.4873551" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3830735" sideWeight="0.48314014" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32628062" sideWeight="0.49367756" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46774194" sideWeight="0.4933655" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32603687" sideWeight="0.48914355" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46774194" sideWeight="0.49095297" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2951002" sideWeight="0.48208642" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3248848" sideWeight="0.48840886" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32516703" sideWeight="0.51159114" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46774194" sideWeight="0.50904703" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26728112" sideWeight="0.48946258" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3830735" sideWeight="0.48314014" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32405347" sideWeight="0.46838778" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18440464" sideWeight="0.4423963" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13932449" sideWeight="0.4423963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32628062" sideWeight="0.49367756" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986637" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46774194" sideWeight="0.49095297" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24004824" sideWeight="0.55760366" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31682026" sideWeight="0.48946258" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3156682" sideWeight="0.4873551" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -975,175 +892,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/css/abb-bootstrap.scss" />
-    <entry file="file://$PROJECT_DIR$/src/css/abb-style.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/js/nv.d3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/nv.d3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/scripts/cux_d3_bars.js" />
-    <entry file="file://$PROJECT_DIR$/dist/js/stream_layers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/scripts/functions.js" />
-    <entry file="file://$PROJECT_DIR$/examples/example-website/example-website.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3485">
-          <caret line="205" column="0" lean-forward="false" selection-start-line="205" selection-start-column="0" selection-end-line="211" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/abb-bootstrap.css" />
-    <entry file="file://$PROJECT_DIR$/src/css/d3viz.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/abb-fonts.css" />
-    <entry file="file://$PROJECT_DIR$/src/js/modernizr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="941" column="23" lean-forward="false" selection-start-line="941" selection-start-column="23" selection-end-line="941" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/iconset/iconset-all.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/datatables.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="2156" lean-forward="false" selection-start-line="9" selection-start-column="2156" selection-end-line="9" selection-end-column="2156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/iconset/iconset-glyphicon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/bootstrap-iconpicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="266" column="255" lean-forward="false" selection-start-line="266" selection-start-column="251" selection-end-line="266" selection-end-column="255" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/cux_pnotify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/cux_sweetalert.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-870">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/abb-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="973" column="31" lean-forward="false" selection-start-line="973" selection-start-column="29" selection-end-line="973" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/abb-bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51085">
-          <caret line="3005" column="0" lean-forward="false" selection-start-line="3005" selection-start-column="0" selection-end-line="3005" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/document.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="232" column="0" lean-forward="false" selection-start-line="232" selection-start-column="0" selection-end-line="236" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="106" column="14" lean-forward="false" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/bootstrap-tagsinput.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/cux_ladda.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/daterangepicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="109" column="30" lean-forward="false" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/abb-newfont.scss" />
     <entry file="file://$PROJECT_DIR$/src/css/abb-fonts.scss" />
     <entry file="file://$PROJECT_DIR$/src/css/abb-style.scss">
@@ -1157,7 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,14 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50354">
           <caret line="2962" column="18" lean-forward="false" selection-start-line="2962" selection-start-column="18" selection-end-line="2962" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/light.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="117" column="43" lean-forward="false" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1191,19 +930,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/daterangepicker.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="22" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/cux_datepickers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,7 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1219,7 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="119" column="30" lean-forward="true" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1227,7 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,36 +962,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="556">
           <caret line="256" column="26" lean-forward="false" selection-start-line="237" selection-start-column="20" selection-end-line="256" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/component-styleguide/component-styleguide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="96" column="38" lean-forward="false" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/bootstrap-slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="133" column="14" lean-forward="false" selection-start-line="133" selection-start-column="14" selection-end-line="133" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/document.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
+        <state relative-caret-position="5695">
           <caret line="335" column="20" lean-forward="false" selection-start-line="335" selection-start-column="20" selection-end-line="335" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1272,7 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1284,184 +987,286 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/abb-bootstrap.scss">
+    <entry file="file://$PROJECT_DIR$/src/js/daterangepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4637" column="14" lean-forward="false" selection-start-line="4637" selection-start-column="14" selection-end-line="4637" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="1955">
+          <caret line="115" column="60" lean-forward="false" selection-start-line="115" selection-start-column="60" selection-end-line="115" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/home.html">
+    <entry file="file://$PROJECT_DIR$/src/css/bootstrap-slider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="1310" column="33" lean-forward="true" selection-start-line="1310" selection-start-column="33" selection-end-line="1310" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#78979#78985#0" expanded="true" />
-            <element signature="e#78986#78992#0" expanded="true" />
-            <element signature="e#78993#78999#0" expanded="true" />
-            <element signature="e#79000#79006#0" expanded="true" />
-            <element signature="e#79007#79013#0" expanded="true" />
-            <element signature="e#79014#79020#0" expanded="true" />
-            <element signature="e#79021#79027#0" expanded="true" />
-            <element signature="e#79028#79034#0" expanded="true" />
-            <element signature="e#79035#79041#0" expanded="true" />
-            <element signature="e#79042#79048#0" expanded="true" />
-            <element signature="e#79049#79055#0" expanded="true" />
-            <element signature="e#79056#79062#0" expanded="true" />
-            <element signature="e#79063#79069#0" expanded="true" />
-            <element signature="e#79070#79076#0" expanded="true" />
-            <element signature="e#79077#79083#0" expanded="true" />
-            <element signature="e#79084#79090#0" expanded="true" />
-            <element signature="e#79126#79132#0" expanded="true" />
-            <element signature="e#79133#79139#0" expanded="true" />
-            <element signature="e#79140#79146#0" expanded="true" />
-            <element signature="e#79147#79153#0" expanded="true" />
-            <element signature="e#79154#79160#0" expanded="true" />
-            <element signature="e#79161#79167#0" expanded="true" />
-            <element signature="e#79168#79174#0" expanded="true" />
-            <element signature="e#79175#79181#0" expanded="true" />
-            <element signature="e#79182#79188#0" expanded="true" />
-            <element signature="e#79189#79195#0" expanded="true" />
-            <element signature="e#79196#79202#0" expanded="true" />
-            <element signature="e#79203#79209#0" expanded="true" />
-            <element signature="e#79210#79216#0" expanded="true" />
-            <element signature="e#79217#79223#0" expanded="true" />
-            <element signature="e#79224#79230#0" expanded="true" />
-            <element signature="e#79231#79237#0" expanded="true" />
-            <element signature="e#79238#79244#0" expanded="true" />
-            <element signature="e#79245#79251#0" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#79765#79771#0" expanded="true" />
-            <element signature="e#79772#79778#0" expanded="true" />
-            <element signature="e#79779#79785#0" expanded="true" />
-            <element signature="e#79786#79792#0" expanded="true" />
-            <element signature="e#79793#79799#0" expanded="true" />
-            <element signature="e#79800#79806#0" expanded="true" />
-            <element signature="e#79807#79813#0" expanded="true" />
-            <element signature="e#79814#79820#0" expanded="true" />
-            <element signature="e#79821#79827#0" expanded="true" />
-            <element signature="e#79828#79834#0" expanded="true" />
-            <element signature="e#79835#79841#0" expanded="true" />
-            <element signature="e#79842#79848#0" expanded="true" />
-            <element signature="e#79849#79855#0" expanded="true" />
-            <element signature="e#79856#79862#0" expanded="true" />
-            <element signature="e#79863#79869#0" expanded="true" />
-            <element signature="e#79870#79876#0" expanded="true" />
-            <element signature="e#79912#79918#0" expanded="true" />
-            <element signature="e#79919#79925#0" expanded="true" />
-            <element signature="e#79926#79932#0" expanded="true" />
-            <element signature="e#79933#79939#0" expanded="true" />
-            <element signature="e#79940#79946#0" expanded="true" />
-            <element signature="e#79947#79953#0" expanded="true" />
-            <element signature="e#79954#79960#0" expanded="true" />
-            <element signature="e#79961#79967#0" expanded="true" />
-            <element signature="e#79968#79974#0" expanded="true" />
-            <element signature="e#79975#79981#0" expanded="true" />
-            <element signature="e#79982#79988#0" expanded="true" />
-            <element signature="e#79989#79995#0" expanded="true" />
-            <element signature="e#79996#80002#0" expanded="true" />
-            <element signature="e#80003#80009#0" expanded="true" />
-            <element signature="e#80010#80016#0" expanded="true" />
-            <element signature="e#80017#80023#0" expanded="true" />
-            <element signature="e#80024#80030#0" expanded="true" />
-            <element signature="e#80031#80037#0" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#82102#82108#0" expanded="true" />
-            <element signature="e#82109#82115#0" expanded="true" />
-            <element signature="e#82116#82122#0" expanded="true" />
-            <element signature="e#82123#82129#0" expanded="true" />
-            <element signature="e#82130#82136#0" expanded="true" />
-            <element signature="e#82137#82143#0" expanded="true" />
-            <element signature="e#82144#82150#0" expanded="true" />
-            <element signature="e#82151#82157#0" expanded="true" />
-            <element signature="e#82158#82164#0" expanded="true" />
-            <element signature="e#82165#82171#0" expanded="true" />
-            <element signature="e#82172#82178#0" expanded="true" />
-            <element signature="e#82179#82185#0" expanded="true" />
-            <element signature="e#82186#82192#0" expanded="true" />
-            <element signature="e#82193#82199#0" expanded="true" />
-            <element signature="e#82200#82206#0" expanded="true" />
-            <element signature="e#82207#82213#0" expanded="true" />
-            <element signature="e#82250#82256#0" expanded="true" />
-            <element signature="e#82257#82263#0" expanded="true" />
-            <element signature="e#82264#82270#0" expanded="true" />
-            <element signature="e#82271#82277#0" expanded="true" />
-            <element signature="e#82278#82284#0" expanded="true" />
-            <element signature="e#82285#82291#0" expanded="true" />
-            <element signature="e#82292#82298#0" expanded="true" />
-            <element signature="e#82299#82305#0" expanded="true" />
-            <element signature="e#82306#82312#0" expanded="true" />
-            <element signature="e#82313#82319#0" expanded="true" />
-            <element signature="e#82320#82326#0" expanded="true" />
-            <element signature="e#82327#82333#0" expanded="true" />
-            <element signature="e#82334#82340#0" expanded="true" />
-            <element signature="e#82341#82347#0" expanded="true" />
-            <element signature="e#82348#82354#0" expanded="true" />
-            <element signature="e#82355#82361#0" expanded="true" />
-            <element signature="e#82362#82368#0" expanded="true" />
-            <element signature="e#82369#82375#0" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#82900#82906#0" expanded="true" />
-            <element signature="e#82907#82913#0" expanded="true" />
-            <element signature="e#82914#82920#0" expanded="true" />
-            <element signature="e#82921#82927#0" expanded="true" />
-            <element signature="e#82928#82934#0" expanded="true" />
-            <element signature="e#82935#82941#0" expanded="true" />
-            <element signature="e#82942#82948#0" expanded="true" />
-            <element signature="e#82949#82955#0" expanded="true" />
-            <element signature="e#82956#82962#0" expanded="true" />
-            <element signature="e#82963#82969#0" expanded="true" />
-            <element signature="e#82970#82976#0" expanded="true" />
-            <element signature="e#82977#82983#0" expanded="true" />
-            <element signature="e#82984#82990#0" expanded="true" />
-            <element signature="e#82991#82997#0" expanded="true" />
-            <element signature="e#82998#83004#0" expanded="true" />
-            <element signature="e#83005#83011#0" expanded="true" />
-            <element signature="e#83048#83054#0" expanded="true" />
-            <element signature="e#83055#83061#0" expanded="true" />
-            <element signature="e#83062#83068#0" expanded="true" />
-            <element signature="e#83069#83075#0" expanded="true" />
-            <element signature="e#83076#83082#0" expanded="true" />
-            <element signature="e#83083#83089#0" expanded="true" />
-            <element signature="e#83090#83096#0" expanded="true" />
-            <element signature="e#83097#83103#0" expanded="true" />
-            <element signature="e#83104#83110#0" expanded="true" />
-            <element signature="e#83111#83117#0" expanded="true" />
-            <element signature="e#83118#83124#0" expanded="true" />
-            <element signature="e#83125#83131#0" expanded="true" />
-            <element signature="e#83132#83138#0" expanded="true" />
-            <element signature="e#83139#83145#0" expanded="true" />
-            <element signature="e#83146#83152#0" expanded="true" />
-            <element signature="e#83153#83159#0" expanded="true" />
-            <element signature="e#83160#83166#0" expanded="true" />
-            <element signature="e#83167#83173#0" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#div#5;n#div#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#div#1;n#div#8;n#div#10;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="4403">
+          <caret line="259" column="16" lean-forward="false" selection-start-line="259" selection-start-column="16" selection-end-line="259" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/iot-demo/iot-demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/nv.d3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="907" column="48" lean-forward="false" selection-start-line="907" selection-start-column="48" selection-end-line="907" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/scripts/cux_d3_multichart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/colorsd3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/light.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="267" column="35" lean-forward="true" selection-start-line="267" selection-start-column="35" selection-end-line="267" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/bootstrap-table.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/bootstrap-table-locale-all.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/iot-demo/iot-styling.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="746">
+          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/iot-demo/alerts.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/iot-demo/alerts.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="14" lean-forward="false" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/iot-demo/umc-data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9639">
+          <caret line="567" column="38" lean-forward="false" selection-start-line="567" selection-start-column="19" selection-end-line="567" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/jquery-3.1.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="1" column="31634" lean-forward="false" selection-start-line="1" selection-start-column="31634" selection-end-line="1" selection-end-column="31634" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/bootstrap-table.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4607">
+          <caret line="271" column="17" lean-forward="false" selection-start-line="271" selection-start-column="11" selection-end-line="271" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/bootstrap-table.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2720">
+          <caret line="165" column="44" lean-forward="false" selection-start-line="165" selection-start-column="44" selection-end-line="165" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/iot-demo/modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/iot-demo/modal-fix.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/tinycolor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="1194" column="9" lean-forward="false" selection-start-line="1194" selection-start-column="9" selection-end-line="1194" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/cux_topbar_generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/cux_sweetalert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="54" column="2" lean-forward="false" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/misc_functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+        <state relative-caret-position="457">
+          <caret line="109" column="25" lean-forward="false" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/jquery.xcolor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6698">
+          <caret line="394" column="5" lean-forward="false" selection-start-line="394" selection-start-column="5" selection-end-line="394" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/flatcolorpicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1487769219782" expanded="true" signature="1756:2824" ph="..." />
+            <marker date="1487769219782" expanded="true" signature="1756:2826" ph="..." />
+            <marker date="1487769219782" expanded="true" signature="1756:2999" ph="..." />
+            <marker date="1487769219782" expanded="true" signature="1811:1985" ph="..." />
+            <marker date="1487769219782" expanded="true" signature="2012:2028" ph="..." />
+            <marker date="1487769219782" expanded="true" signature="2012:2029" ph="..." />
+            <marker date="1487769219782" expanded="true" signature="2030:2824" ph="..." />
+            <marker date="1487769219782" expanded="true" signature="2052:2351" ph="..." />
+            <marker date="1487769219782" expanded="true" signature="2102:2343" ph="..." />
+            <marker date="1487769219782" expanded="true" signature="2228:2335" ph="..." />
+            <marker date="1487769219782" expanded="true" signature="2389:2818" ph="..." />
+            <marker date="1487769219782" expanded="true" signature="2465:2810" ph="..." />
+            <marker date="1487769219782" expanded="true" signature="2851:2888" ph="..." />
+            <marker date="1487769219782" expanded="true" signature="2868:2888" ph="..." />
+            <marker date="1487769219782" expanded="true" signature="2889:2999" ph="..." />
+            <marker date="1487769219782" expanded="true" signature="2912:2999" ph="..." />
+            <marker date="1487769219782" expanded="false" signature="2975:2984" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/flatcolorpicker.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/daterangepicker.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/iot-demo/modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2159">
+          <caret line="127" column="51" lean-forward="false" selection-start-line="127" selection-start-column="51" selection-end-line="127" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/abb-colors.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="151" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="151" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/abb-colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2601">
+          <caret line="153" column="25" lean-forward="false" selection-start-line="153" selection-start-column="25" selection-end-line="153" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3111">
+          <caret line="183" column="54" lean-forward="false" selection-start-line="183" selection-start-column="54" selection-end-line="183" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#div#0;n#ul#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#21;n#div#0;n#div#0;n#div#4;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#4;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#4;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#8;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#9;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#12;n#div#10;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#13;n#div#10;n#section#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/example-website/example-website.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/component-styleguide/component-styleguide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="38" lean-forward="false" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/abb-bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2696" column="1" lean-forward="false" selection-start-line="2679" selection-start-column="0" selection-end-line="2696" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/abb-bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="5607" column="40" lean-forward="true" selection-start-line="5607" selection-start-column="40" selection-end-line="5607" selection-end-column="40" />
           <folding />
         </state>
       </provider>

@@ -251,14 +251,15 @@
   background: transparent none;
 }
 .slider-handle.custom {
-  background: transparent none;
+  width: 4px;
+  height: 16px;
 }
-.slider-handle.custom::before {
-  line-height: 20px;
-  font-size: 20px;
-  content: '\2605';
-  color: #726204;
+
+.slider.slider-horizontal .slider-handle.custom {
+  margin-left: 0px;
+  margin-top: -5px;
 }
+
 .slider-tick {
   position: absolute;
   width: 20px;

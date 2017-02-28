@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+
+<head>
+    <link rel="stylesheet" href="../../src/css/abb-style.css"/>
+    <link rel="stylesheet" href="../../src/css/bootstrap-table.css"/>
+    <link rel="stylesheet" href="modal-fix.css"/>
+    <link rel="stylesheet" href="../../src/fonts/icon-fonts/commonux-2.0.0/css/commonux-2.0.0.css">
+    <script src="../../src/js/jquery-3.1.1.min.js"></script>
+    <script src="../../src/js/bootstrap.js"></script>
+    <script src="../../src/js/bootstrap-table.min.js"></script>
+    <script src="modal.js"></script>
+
+
+    <title>Modal</title>
+</head>
+
+<body>
+<main>
+    <div class="container-fluid">
+
+        <button style="margin-bottom: 30px; margin-top: 30px;" type="button" class="btn btn-primary" data-toggle="modal"
+                data-target="#myModal">
+            Failure 1
+        </button>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <h3 class="modal-title" id="myModalLabel">Asset Helper</h3>
+                    </div>
+                    <div class="modal-body">
+                        <h2 id="modalTag"></h2>
+                        <h5 id="modalDescription"></h5>
+                        <div class="row" style="margin-top: 30px;">
+                            <div class="col-lg-1">
+                                <span class="cux abb-cux-error-circle-full cux-24" style="color: #f03040;"/>
+                            </div>
+                            <div class="col-lg-11">
+                                <div class="col-lg-12" style="margin-top: -20px;">
+                                    <h3> Auxiliary Input 1 Error - Fault </h3>
+                                </div>
+                                <div class="col-lg-3">
+                                    <p style="font-weight: 600;"> Possible cause </p>
+                                    <p style="font-weight: 600;"> Suggested action </p>
+                                    <p style="font-weight: 600;"> Severity </p>
+                                </div>
+                                <div class="col-lg-9">
+                                    <p id="modalPossibleCause"></p>
+                                    <p id="modalSuggestedAction"></p>
+                                    <p id="modalSeverity"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row" style="margin-top: 30px;">
+                            <div class="col-lg-1">
+                                <span class="cux abb-cux-warning-triangle cux-24" style="color: #ffd800;"/>
+                            </div>
+                            <div class="col-lg-11">
+                                <div class="col-lg-12" style="margin-top: -20px;">
+                                    <h3> Auxiliary Input 2 Warning - Out of specification </h3>
+                                </div>
+                                <div class="col-lg-3">
+                                    <p style="font-weight: 600;"> Possible cause </p>
+                                    <p style="font-weight: 600;"> Suggested action </p>
+                                    <p style="font-weight: 600;"> Severity </p>
+                                </div>
+                                <div class="col-lg-9">
+                                    <p> The digital input of an IO module has created a trip </p>
+                                    <p> Depends on connected equipment </p>
+                                    <p> 400 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row" style="margin-top: 10px;">
+                            <div class="col-lg-12">
+                                <a href="#" style="align-content: center">Click here to load information for
+                                    inactive conditions</a>
+                            </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i
+                                    class="cux abb-cux-check cux-16 cux-fw"></i> Done
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="well well-transparent">
+            <h2>Active alarms</h2>
+            <div class="row" style="margin-bottom: 20px;">
+                <table id="active-alerts"
+                       data-search="true"
+                       data-show-refresh="true"
+                       data-show-toggle="true"
+                       data-show-columns="true"
+                       data-toolbar="#toolbar">
+                    <thead>
+                    <tr>
+                        <th data-field="state" data-checkbox="true"></th>
+                        <th data-field="status"></th>
+                        <th data-field="time"></th>
+                        <th data-field="tag"></th>
+                        <th data-field="description"></th>
+                        <th data-field="message"></th>
+                        <th data-field="condition"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <form class="form">
+            <label>  Motor tag is: </label>
+            <input class="form-control" type="text" id="table-tag" value="Test1"/>
+        </form>
+
+        <form class="form" style="margin-top: 20px;">
+            <label> Condition is: </label>
+            <input class="form-control" type="text" id="table-condition" value="Test2"/>
+        </form>
+    </div>
+</main>
+</body>
+</html>

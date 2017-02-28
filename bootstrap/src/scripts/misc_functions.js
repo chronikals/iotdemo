@@ -106,3 +106,9 @@ $(function () {
 
 //Copy to clipboard
 new Clipboard('.btn');
+
+//Color palette picker js
+jQuery(document).ready(function($) {
+    $('.flatcolorpicker').flatcolorpicker({
+    });
+});

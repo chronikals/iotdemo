@@ -1,0 +1,82 @@
+[
+  {
+    "status": "alert",
+    "time": "2016-06-02 18:20:34.157",
+    "tag": "Motor 10",
+    "description": "png22two_slot",
+    "message": "Motor has eventually",
+    "condition": "PNQ22 Active"
+  },
+  {
+    "status": "alert",
+    "time": "2016-06-02 18:20:34.158",
+    "tag": "Motor 11",
+    "description": "png22two_slot",
+    "message": "Motor is still available",
+    "condition": "UMC100 Active"
+  },
+  {
+    "status": "error2",
+    "time": "2016-06-02 18:20:34.159",
+    "tag": "Motor 12",
+    "description": "png22two_slot",
+    "message": "Motor has been stopped",
+    "condition": "Thermal Overload Trip"
+  },
+  {
+    "status": "alert",
+    "time": "2016-06-02 18:20:34.160",
+    "tag": "Motor 13",
+    "description": "png22two_slot",
+    "message": "Motor has eventually",
+    "condition": "Phase Loss"
+  },
+  {
+    "status": "alert",
+    "time": "2016-06-02 18:20:34.161",
+    "tag": "Motor 14",
+    "description": "png22two_slot",
+    "message": "Motor is still available",
+    "condition": "Phase Imbalance Error"
+  },
+  {
+    "status": "alert",
+    "time": "2016-06-02 18:20:34.162",
+    "tag": "Motor 15",
+    "description": "png22two_slot",
+    "message": "Motor has been stopped",
+    "condition": "Phase Imbalance Warning"
+  },
+  {
+    "status": "error1",
+    "time": "2016-06-02 18:20:34.163",
+    "tag": "Motor 16",
+    "description": "png22two_slot",
+    "message": "Motor has eventually",
+    "condition": "Locked Rotor"
+  },
+  {
+    "status": "error1",
+    "time": "2016-06-02 18:20:34.164",
+    "tag": "Motor 17",
+    "description": "png22two_slot",
+    "message": "Motor is still available",
+    "condition": "Thermal Load Prewarn"
+  },
+  {
+    "status": "error2",
+    "time": "2016-06-02 18:20:34.165",
+    "tag": "Motor 18",
+    "description": "png22two_slot",
+    "message": "Motor has been stopped",
+    "condition": "PTC Temperature High Error"
+  },
+  {
+    "status": "alert",
+    "time": "2016-06-02 18:20:34.166",
+    "tag": "Motor 19",
+    "description": "png22two_slot",
+    "message": "Motor has been stopped",
+    "condition": "PTC Temperature High Warning"
+  }
+]

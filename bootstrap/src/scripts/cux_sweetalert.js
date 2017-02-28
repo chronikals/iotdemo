@@ -53,29 +53,3 @@ document.querySelector('button#test-5').onclick = function () {
         showCancelButton: false
     });
 };
-document.querySelector('#test-6').onclick = function () {
-    swal({
-        title: "Are you sure to delete this alarm?",
-        text: "HighHigh alarm from tag 200TT201X will be deleted",
-        type: "warning",
-        showCancelButton: true,
-        confirmButtonText: "Continue",
-        confirmButtonClass: 'btn-primary',
-        closeOnConfirm: false
-    }, function () {
-        swal("Deleted!", "The alarm has been deleted.", "success");
-    });
-};
-document.querySelector('#test-7').onclick = function () {
-    swal({
-        title: "Are you sure to delete this tag?",
-        text: "The tag 200TT201X together with all its configured alarms: Low, LowLow, High will be deleted",
-        type: "warning",
-        showCancelButton: true,
-        confirmButtonText: "Continue",
-        confirmButtonClass: 'btn-primary',
-        closeOnConfirm: false
-    }, function () {
-        swal("Deleted!", "The tag and its alarms have been deleted.", "success");
-    });
-};

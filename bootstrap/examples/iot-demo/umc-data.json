@@ -1,0 +1,591 @@
+[{
+    "conditionID": "PNQ22 Active",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "The PNQ22 unit is not communicating on the network",
+    "possibleCause": "A cable maybe disconnected or device is switched off",
+    "suggestedAction": "Check the power supply to the device and the network cable"
+  },
+  {
+    "conditionID": "UMC100 Active",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "The UMC100 is not communicationg with the PNQ22",
+    "possibleCause": "A cable maybe disconnected or device is switched off",
+    "suggestedAction": "Check the power supply to the device and the network cable"
+  },
+  {
+    "conditionID": "Thermal Overload Trip",
+    "subCondition": "Fault",
+    "severity": 900,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to a  thermal overload of the motor.",
+    "possibleCause": "Overload of motor",
+    "suggestedAction": "Check load conditions of motor."
+  },
+  {
+    "conditionID": "Phase Loss",
+    "subCondition": "Fault",
+    "severity": 899,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to a phase-Loss (Current)",
+    "possibleCause": "At least one phase is missing",
+    "suggestedAction": "Check for blown fuse. Check for loose contacts. Check contact wear."
+  },
+  {
+    "conditionID": "Phase Imbalance Error",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Supply side, Load side, Contactors",
+    "possibleCause": "The current in one phase is below the adjusted threshold",
+    "suggestedAction": "Check supply side, Check for loose contacts, Check contact wear"
+  },
+  {
+    "conditionID": "Phase Imbalance Warning",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Supply side, Load side, Contactors",
+    "possibleCause": "The current in one phase is below the adjusted threshold",
+    "suggestedAction": "Check supply side, Check for loose contacts, Check contact wear"
+  },
+  {
+    "conditionID": "Locked Rotor",
+    "subCondition": "Fault",
+    "severity": 997,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to a locked rotor during startup of the motor.",
+    "possibleCause": "The rotor is locked. Load too heavy for motor.",
+    "suggestedAction": "Check installation"
+  },
+  {
+    "conditionID": "Thermal Load Prewarn",
+    "subCondition": "Out of specification",
+    "severity": 399,
+    "description": "Motor is still available; status is out of specification; asset functionality available but decreased due to operating conditions outside the specified limits.",
+    "possibleCause": "Thermal model reached warning level. If overload condition remains a trip follows soon.",
+    "suggestedAction": "Check motor load condition\nCheck for mechanical problems"
+  },
+  {
+    "conditionID": "PTC Temperature High Error",
+    "subCondition": "Fault",
+    "severity": 996,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to a thermal overload indicated by the PTC sensors.",
+    "possibleCause": "PTC element indicated that motor temperature is too high",
+    "suggestedAction": "Check motor for obstructed cooling and the motor load conditions"
+  },
+  {
+    "conditionID": "PTC Temperature High Warning",
+    "subCondition": "Out of specification",
+    "severity": 398,
+    "description": "Motor is still available; status is out of specification; asset functionality available but decreased due to\noperating conditions outside the specified limits.",
+    "possibleCause": "PTC element indicated that motor temperature is too high",
+    "suggestedAction": "Check motor for obstructed cooling and the motor load conditions"
+  },
+  {
+    "conditionID": "PTC Wiring Problem Error",
+    "subCondition": "Fault",
+    "severity": 899,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to PTC wiring problem",
+    "possibleCause": "Wiring problem between UMC and PTC sensor in the motor.",
+    "suggestedAction": "Check wiring"
+  },
+  {
+    "conditionID": "PTC Wiring Problem Warning",
+    "subCondition": "Out of specification",
+    "severity": 400,
+    "description": "Motor is still available; status is out of specification; asset functionality available but decreased due to\nPTC wiring problems.",
+    "possibleCause": "Wiring problem between UMC and PTC sensor in the motor. It can be a broken wire or a short circuit",
+    "suggestedAction": "Check wiring"
+  },
+  {
+    "conditionID": "PTC Wire Brake Error",
+    "subCondition": "Fault",
+    "severity": 985,
+    "description": "A wire is broken between the UMC and PTC",
+    "possibleCause": "Wiring problem between UMC and PTC sensor in the motor.",
+    "suggestedAction": "Check wiring"
+  },
+  {
+    "conditionID": "PTC Wire Brake Warning",
+    "subCondition": "Maintenance required (now)",
+    "severity": 250,
+    "description": "A wire is broken between the UMC and PTC",
+    "possibleCause": "Wiring problem between UMC and PTC sensor in the motor.",
+    "suggestedAction": "Check wiring"
+  },
+  {
+    "conditionID": "PTC Short Circuit Error",
+    "subCondition": "Fault",
+    "severity": 985,
+    "description": "There is a short circuit  between the UMC and PTC",
+    "possibleCause": "Wiring problem between UMC and PTC sensor in the motor.",
+    "suggestedAction": "Check wiring"
+  },
+  {
+    "conditionID": "PTC Short Circuit Warning",
+    "subCondition": "Maintenance required (now)",
+    "severity": 250,
+    "description": "There is a short circuit  between the UMC and PTC",
+    "possibleCause": "Wiring problem between UMC and PTC sensor in the motor.",
+    "suggestedAction": "Check wiring"
+  },
+  {
+    "conditionID": "Check-Back Error",
+    "subCondition": "Fault",
+    "severity": 999,
+    "description": "Expected feedback from a contactor is missing after checkback time was over.",
+    "possibleCause": "No motor current after motor was switched on and checkback time was over. Or motor current falls below 20% while motor is running.",
+    "suggestedAction": "Check wiring of auxiliary contact to the correct UMC input. Check contactor. Increase checkback time. Check power supply side. Check that Ie was set correctly. Check current factor if set"
+  },
+  {
+    "conditionID": "CB Relay 0",
+    "subCondition": "Fault",
+    "severity": 985,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to a check-back error",
+    "possibleCause": "Expected feedback from a contactor is missing after checkback time was over.",
+    "suggestedAction": "Check wiring of auxiliary contact to the correct UMC input.Check contactor Increase checkback time"},
+  {
+    "conditionID": "CB Current",
+    "subCondition": "Fault",
+    "severity": 894,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to a check-back error",
+    "possibleCause": "No motor current after motor was switched on and checkback time was over. Or motor current falls below 20pc while motor is running.",
+    "suggestedAction": "Check supply side Check that Ie was set correctly Check current factor if set Increase checkback time"},
+  {
+    "conditionID": "I Below Trip Level",
+    "subCondition": "Fault",
+    "severity": 893,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to a low current situation.",
+    "possibleCause": "Motor current is below user-defined threshold e.g. motor running idle, dry running pump, conveyer belt broken",
+    "suggestedAction": "Check motor load and motor / processconditions"
+  },
+  {
+    "conditionID": "I Below Warn Level",
+    "subCondition": "Maintenance required (soon)",
+    "severity": 100,
+    "description": "Motor is available; status is maintenance required (soon); asset functionality fully available but\nmaintenance required soon to avoid functional restrictions due to a low current situation.",
+    "possibleCause": "Motor current is below user-defined threshold e.g. motor running idle, dry running pump, conveyer belt broken",
+    "suggestedAction": "Check motor load and motor / process conditions"
+  },
+  {
+    "conditionID": "I Above Trip Level",
+    "subCondition": "Fault",
+    "severity": 892,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to a high current situation.",
+    "possibleCause": "Motor current above threshold caused e.g. by jammed equipment",
+    "suggestedAction": "Check process conditions (remove blocking cause). Wait until cooling time is over."
+  },
+  {
+    "conditionID": "I Above Warn Level",
+    "subCondition": "Maintenance required (soon)",
+    "severity": 99,
+    "description": "Motor is available; status is maintenance required (soon); asset functionality fully available but maintenance required soon to avoid functional restrictions due to a high current situation.",
+    "possibleCause": "Motor current above threshold caused e.g. by jammed equipment",
+    "suggestedAction": "Check process conditions (remove blocking cause). Wait until cooling time is over."
+  },
+  {
+    "conditionID": "Earthfault Trip",
+    "subCondition": "Fault",
+    "severity": 900,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to an earthfault",
+    "possibleCause": "Connection between one or more phases and ground",
+    "suggestedAction": "Check wiring / motor (isolation problem)"
+  },
+  {
+    "conditionID": "Earthfault Warning",
+    "subCondition": "Maintenance required (now)",
+    "severity": 250,
+    "description": "Motor is available; status is maintenance required (now); asset functionality available but maintenance\nrequired now to avoid functional restrictions because of a ground fault.",
+    "possibleCause": "Connection between one or more phases and ground",
+    "suggestedAction": "Check wiring / motor (isolation problem)"
+  },
+  {
+    "conditionID": "UMC SelfTest Error",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to malfunction in the asset itself",
+    "possibleCause": "UMC Selftest Error",
+    "suggestedAction": "Replace UMC"
+  },
+  {
+    "conditionID": "Actuator Error",
+    "subCondition": "Out of specification",
+    "severity": 891,
+    "description": "Motor has eventually been  stopped; status is failure; asset functionality lost due to malfunction of the actuator.",
+    "possibleCause": "Open/close time of actuator exceeded\nbecause of tight valve or other mechanical reasons.",
+    "suggestedAction": "Check runtime parameter and limit and torque switch wiring"
+  },
+  {
+    "conditionID": "Actuator Warning",
+    "subCondition": "Out of specification",
+    "severity": 400,
+    "description": "Motor has eventually been  stopped; status is failure; asset functionality lost due to malfunction of the actuator.",
+    "possibleCause": "Open/close time of actuator exceeded\nbecause of tight valve or other mechanical reasons.",
+    "suggestedAction": "Check runtime parameter and limit and torque switch wiring"
+  },
+  {
+    "conditionID": "IO Module Missing Error",
+    "subCondition": "Fault",
+    "severity": 999,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to a missing UMC IO module",
+    "possibleCause": "Communication cable not connected. Cable break or IO module hardware error.",
+    "suggestedAction": "Check wiring to the IO module.Check that the IO module is ready."
+  },
+  {
+    "conditionID": "IO Module Missing Warning",
+    "subCondition": "Maintenance required (now)",
+    "severity": 249,
+    "description": "Motor is available; status is maintenance required (now); asset functionality available but maintenance required now to avoid functional restrictions because of a missing IO module.",
+    "possibleCause": "Communication cable not connected. Cable break or IO module hardware error.",
+    "suggestedAction": "Check wiring to the IO module.Check that the IO module is ready."
+  },
+  {
+    "conditionID": "IO Module Error",
+    "subCondition": "Fault",
+    "severity": 999,
+    "description": "An IO module is missing or disconnected",
+    "possibleCause": "IO module removed or disconnected or is faulty",
+    "suggestedAction": "Inspect if the IO module is connected and powered on. Replacement may needed"
+  },
+  {
+    "conditionID": "IO Module Warning",
+    "subCondition": "Fault",
+    "severity": 999,
+    "description": "An IO module is missing or disconnected",
+    "possibleCause": "IO module removed or disconnected or is faulty",
+    "suggestedAction": "Inspect if the IO module is connected and powered on. Replacement may needed"
+  },
+  {
+    "conditionID": "Application Error",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to an UMC internal error.",
+    "possibleCause": "An unrecoverable error was detected while processing the custom application\n(e.g. checksum error)",
+    "suggestedAction": "The version of application editor and UMC are not compatible. Reload programm into UMC again."
+  },
+  {
+    "conditionID": "Auxiliary Input 1 Error",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to an fault at  auxiliary input 1",
+    "possibleCause": "The digital input of an IO module has created a trip.",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "Auxiliary Input 1 Warning",
+    "subCondition": "Out of specification",
+    "severity": 400,
+    "description": "Motor is still available; status is out of specification; asset functionality available but possibly decreased.",
+    "possibleCause": "The digital input of an IO module has created a warning.",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "Auxiliary Input 2 Error",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to an fault at  auxiliary input 2",
+    "possibleCause": "The digital input of an IO module has created a trip.",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "Auxiliary Input 2 Warning",
+    "subCondition": "Out of specification",
+    "severity": 400,
+    "description": "Motor is still available; status is out of specification; asset functionality available but possibly decreased.",
+    "possibleCause": "The digital input of an IO module has created a warning.",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "Auxiliary Input 3 Error",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to an fault at  auxiliary input 3",
+    "possibleCause": "The digital input of an IO module has created a trip.",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "Auxiliary Input 3 Warning",
+    "subCondition": "Out of specification",
+    "severity": 400,
+    "description": "Motor is still available; status is out of specification; asset functionality available but possibly decreased.",
+    "possibleCause": "The digital input of an IO module has created a warning.",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "Auxiliary Input 4 Error",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to an fault at  auxiliary input 4",
+    "possibleCause": "The digital input of an IO module has created a trip.",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "Auxiliary Input 4 Warning",
+    "subCondition": "Out of specification",
+    "severity": 400,
+    "description": "Motor is still available; status is out of specification; asset functionality available but possibly decreased.",
+    "possibleCause": "The digital input of an IO module has created a warning.",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "Auxiliary Input 5 Error",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to an fault at  auxiliary input 5",
+    "possibleCause": "The digital input of an IO module has created a trip.",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "Auxiliary Input 5 Warning",
+    "subCondition": "Out of specification",
+    "severity": 400,
+    "description": "Motor is still available; status is out of specification; asset functionality available but possibly decreased.",
+    "possibleCause": "The digital input of an IO module has created a warning.",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "Auxiliary Input 6 Error",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to an fault at  auxiliary input 6",
+    "possibleCause": "The digital input of an IO module has created a trip.",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "Auxiliary Input 6 Warning",
+    "subCondition": "Out of specification",
+    "severity": 400,
+    "description": "Motor is still available; status is out of specification; asset functionality available but possibly decreased.",
+    "possibleCause": "The digital input of an IO module has created a warning.",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "Ext. Fault Mutlif. DI0",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Ext. Fault Multif. DI0",
+    "possibleCause": "A multifunction input of the UMC has triggered a trip.",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "Ext. Fault Mutlif. DI1",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Ext. Fault Multif. DI1",
+    "possibleCause": "A multifunction input of the UMC has triggered a trip.",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "Ext. Fault Mutlif. DI2",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Ext. Fault Multif. DI2",
+    "possibleCause": "A multifunction input of the UMC has triggered a trip.",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "Underload Power Error",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Load side mechanics",
+    "possibleCause": "The motor load is too low.",
+    "suggestedAction": "Check the load e.g. if a pump is running dry or a conveyer load is broken."
+  },
+  {
+    "conditionID": "Underload Power Warning",
+    "subCondition": "Out of specification",
+    "severity": 400,
+    "description": "Load side mechanics",
+    "possibleCause": "The motor load is too low.",
+    "suggestedAction": "Check the load e.g. if a pump is running dry or a conveyer load is broken."
+  },
+  {
+    "conditionID": "Overload Power Error",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Load side mechanics",
+    "possibleCause": "The motor load is too high.",
+    "suggestedAction": "Check if the load is blocked or tight."
+  },
+  {
+    "conditionID": "Overload Power Warning",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Load side mechanics",
+    "possibleCause": "The motor load is too high.",
+    "suggestedAction": "Check if the load is blocked or tight."
+  },
+  {
+    "conditionID": "Voltage Out Of Spec Error",
+    "subCondition": "Out of specification",
+    "severity": 400,
+    "description": "Load side",
+    "possibleCause": "The supply voltage is too low or too high.",
+    "suggestedAction": "Check the voltage supply to the motor "
+  },
+  {
+    "conditionID": "Voltage Out Of Spec Warning",
+    "subCondition": "Out of specification",
+    "severity": 1000,
+    "description": "Load side",
+    "possibleCause": "The supply voltage is too low or too high.",
+    "suggestedAction": "Check the voltage supply to the motor "
+  },
+  {
+    "conditionID": "Voltage Below Trip Level",
+    "subCondition": "Maintenance required (now)",
+    "severity": 250,
+    "description": "The voltage to the motor is just below the trip level",
+    "possibleCause": "The supply voltage is too low.",
+    "suggestedAction": "Check the voltage supply to the motor "
+  },
+  {
+    "conditionID": "Voltage Below Warning Level",
+    "subCondition": "Maintenance required (soon)",
+    "severity": 100,
+    "description": "The voltage to the motor is just below the warning level",
+    "possibleCause": "The supply voltage is too low.",
+    "suggestedAction": "Check the voltage supply to the motor "
+  },
+  {
+    "conditionID": "Voltage Above Trip Level",
+    "subCondition": "Maintenance required (now)",
+    "severity": 250,
+    "description": "The voltage to the motor is just above the trip level",
+    "possibleCause": "The supply voltage is too high.",
+    "suggestedAction": "Check the voltage supply to the motor "
+  },
+  {
+    "conditionID": "Voltage Above Warning Level",
+    "subCondition": "Maintenance required (soon)",
+    "severity": 100,
+    "description": "The voltage to the motor is just above the warning level",
+    "possibleCause": "The supply voltage is too high.",
+    "suggestedAction": "Check the voltage supply to the motor "
+  },
+  {
+    "conditionID": "THD Warning",
+    "subCondition": "Out of specification",
+    "severity": 400,
+    "description": "Supply side",
+    "possibleCause": "The harmonics on the supply side are too high",
+    "suggestedAction": "Check your network."
+  },
+  {
+    "conditionID": "Num Starts Overrun Error",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Application: The number of starts is overrun",
+    "possibleCause": "The motor was started too frequent.",
+    "suggestedAction": "Reset the number of starts accumulation counter"
+  },
+  {
+    "conditionID": "Num Starts Overrun Warning",
+    "subCondition": "Out of specification",
+    "severity": 400,
+    "description": "Application: The number of starts is overrun",
+    "possibleCause": "The motor was started too frequent.",
+    "suggestedAction": "Reset the number of starts accumulation counter"
+  },
+  {
+    "conditionID": "Just One Start Left Error",
+    "subCondition": "Fault",
+    "severity": 1000,
+    "description": "Application: Only one start left for the motor",
+    "possibleCause": "The motor was started too frequent.",
+    "suggestedAction": "Reset the number of starts accumulation counter"
+  },
+  {
+    "conditionID": "Just One Start Left Warning",
+    "subCondition": "Out of specification",
+    "severity": 400,
+    "description": "Application: Only one start left for the motor",
+    "possibleCause": "The motor was started too frequent.",
+    "suggestedAction": "Reset the number of starts accumulation counter"
+  },
+  {
+    "conditionID": "Cooling Time Running",
+    "subCondition": "Out of specification",
+    "severity": 400,
+    "description": "Process, Load side",
+    "possibleCause": "Motor was tripped due to thermal overload.",
+    "suggestedAction": "Restart is possible after cooling time is over"
+  },
+  {
+    "conditionID": "Overload Analog Out0 Error",
+    "subCondition": "Fault",
+    "severity": 890,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to an DX1xx AO overload.",
+    "possibleCause": "Short circuit at analogue output of DX1xx module.",
+    "suggestedAction": "Check Wiring"
+  },
+  {
+    "conditionID": "Overload Analog Out0 Warning",
+    "subCondition": "Maintenance required (now)",
+    "severity": 250,
+    "description": "Motor is available; status is maintenance required (now); asset functionality available but maintenance\nrequired now to avoid functional restrictions.",
+    "possibleCause": "Short circuit at analogue output of DX1xx module.",
+    "suggestedAction": "Check Wiring"
+  },
+  {
+    "conditionID": "Wire Break Analog Out0 Error",
+    "subCondition": "Fault",
+    "severity": 898,
+    "description": "Motor has been stopped; status is failure; asset functionality lost due to a  DX1xx AO wire break",
+    "possibleCause": "Wire break",
+    "suggestedAction": "Check Wiring"
+  },
+  {
+    "conditionID": "Wire Break Analog Out0 Warning",
+    "subCondition": "Maintenance required (soon)",
+    "severity": 100,
+    "description": "Motor is available; status is maintenance required (soon); asset functionality fully available but maintenance required soon to avoid functional restrictions due to DX1xx AO wire break",
+    "possibleCause": "Wire break",
+    "suggestedAction": "Check Wiring"
+  },
+  {
+    "conditionID": "Motor Operation Hour Exceeded",
+    "subCondition": "Maintenance required (soon)",
+    "severity": 100,
+    "description": "The motor operation hours is exceeded",
+    "possibleCause": "The motor has reached the amount of hours for maintenance",
+    "suggestedAction": "Maintain the motor and then reset the operation hours accumulator counter"
+  },
+  {
+    "conditionID": "Motor Stand Still Hour Exceeded",
+    "subCondition": "Maintenance required (soon)",
+    "severity": 100,
+    "description": "The motor stand still hours is exceeded",
+    "possibleCause": "The motor has been standing still for too long",
+    "suggestedAction": "Inspect/maintain the motor and then reset the stand still hours accumulation counter"
+  },
+  {
+    "conditionID": "AM1 Trip Level",
+    "subCondition": "Fault",
+    "severity": 898,
+    "description": "The AM1 has triggered a trip",
+    "possibleCause": "The connected equipment to AM1 has signaled a trip",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "AM1 Warning Level",
+    "subCondition": "Maintenance required (now)",
+    "severity": 250,
+    "description": "The AM1 has issued a warning",
+    "possibleCause": "The connected equipment to AM1 has caused a warning",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "AM2 Trip Level",
+    "subCondition": "Fault",
+    "severity": 898,
+    "description": "The AM2 has triggered a trip",
+    "possibleCause": "The connected equipment to AM2 has caused a trip",
+    "suggestedAction": "Depends on connected equipment"
+  },
+  {
+    "conditionID": "AM2 Warning Level",
+    "subCondition": "Maintenance required (now)",
+    "severity": 250,
+    "description": "The AM2 has issued a warning",
+    "possibleCause": "The connected equipment to AM2 has issued a warning",
+    "suggestedAction": "Depends on connected equipment"
+  }
+]

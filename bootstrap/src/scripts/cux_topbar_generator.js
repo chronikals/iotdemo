@@ -24,10 +24,8 @@ $(function () {
         }
 
         var html = $('#topBar').html().trim();
-        var res = tidy_html5(html, options);
-        console.log(res);
 
-        $('#resultBar').text(res);
+        $('#resultBar').text(html);
 
     };
 
