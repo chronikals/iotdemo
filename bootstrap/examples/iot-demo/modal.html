@@ -22,7 +22,9 @@
     <div class="container-fluid">
 
         <button style="margin-bottom: 30px; margin-top: 30px;" type="button" class="btn btn-primary" data-toggle="modal"
-                data-target="#myModal">
+                data-target="#myModal"><script>var openModal = function() {
+    parent.$("#myModal1").modal();
+};</script>
             Modal 1
         </button>
         <button style="margin-bottom: 30px; margin-top: 30px;" type="button" class="btn btn-primary" data-toggle="modal"
