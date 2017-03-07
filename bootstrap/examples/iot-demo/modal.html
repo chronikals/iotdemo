@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="utf-8">
+<meta http-equiv="X-Frame-Options" content="allow">
 
 <head>
     <link rel="stylesheet" href="../../src/css/abb-style.css"/>
@@ -22,7 +23,11 @@
 
         <button style="margin-bottom: 30px; margin-top: 30px;" type="button" class="btn btn-primary" data-toggle="modal"
                 data-target="#myModal">
-            Failure 1
+            Modal 1
+        </button>
+        <button style="margin-bottom: 30px; margin-top: 30px;" type="button" class="btn btn-primary" data-toggle="modal"
+                data-target="#myModal2">
+            Modal 2
         </button>
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog modal-lg" role="document">
@@ -88,6 +93,61 @@
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i
                                     class="cux abb-cux-check cux-16 cux-fw"></i> Done
                             </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" style="background: #eaeaea;">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <h3 class="modal-title" id="myModalLabel2" style="margin-left: 15px;">Asset Helper</h3>
+                    </div>
+                    <div class="modal-body" style="padding: 0px;">
+                        <div class="col-lg-9">
+                            <div class="row" style="margin-top: 20px;">
+                                <div class="col-lg-2">
+                                    <span class="cux abb-cux-error-circle-full" style="color: #f03040; font-size: 48px;"></span>
+                                </div>
+                                <div class="col-lg-10">
+                                    <h2 id="modalTag2" style="margin-top:5px; margin-left: -30px; ">Motor 10</h2>
+                                    <h5 id="modalDescription2" style="margin-left: -30px; ">png22two_slot</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="row" style="margin-top: 20px;">
+                                        <h3>Severity</h3>
+                                        <p>1000</p>
+                                        <h3>Description</h3>
+                                        <p>Motor has been stopped; status is failure; asset
+                                            functionality lost due to an fault at  auxiliary input 1</p>
+                                        <h3>Possible Cause</h3>
+                                        <p>An unrecoverable error was detected while processing the custom application (e.g. checksum error) functionality lost due to an fault at auxiliary input 1</p>
+                                        <h3>Suggested Action</h3>
+                                        <p> The version of application editor and UMC are not compatible. Reload programm into UMC again.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" style="background: #d7d7d7; height: 470px;">
+                            <h4 style="margin-top: 20px;">ERROR LIST</h4>
+                            <p class="error-item active" style="margin-top: 20px;">Auxiliary Input 2 Warning Out of specification</p>
+                            <p class="error-item" style="margin-top: 20px;">Actuator Warning Out of specification</p>
+                            <p class="error-item" style="margin-top: 20px;">IO Module Warning Fault</p>
+                            <p class="error-item" style="margin-top: 20px;">IO Module Missing Warning Maintenance required (now)</p>
+                            <p class="error-item disabled" style="margin-top: 20px;">Application Error Fault</p>
+                            <p class="error-item disabled" style="margin-top: 20px;">Auxiliary Input 1 Error Fault</p>
+                            <p class="error-item disabled" style="margin-top: 20px;">Auxiliary Input 1 Warning Out of Specification</p>
+                            <p class="error-item disabled" style="margin-top: 20px;">Auxiliary Input 3 Error Fault</p>
+                            <p class="error-item disabled" style="margin-top: 20px;">Auxiliary Input 4 Error Fault</p>
+                        </div>
+                        <div class="modal-footer" style="padding: 0px;">
                         </div>
                     </div>
                 </div>

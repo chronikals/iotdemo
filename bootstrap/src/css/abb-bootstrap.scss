@@ -2816,7 +2816,7 @@ fieldset[disabled] .btn-ghost-dark:hover {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	color: $abb-grey-70;
-	border-top: 4px solid;
+	border-top: 3px solid;
 	@include alpha-attribute('border-top-color',rgba(#d9000f, 0.30), white);
 }
 .navbar-default .navbar-nav > .active > a,
@@ -2920,7 +2920,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > li > a {
 	color: $abb-grey-180;
-	border-top: 4px solid transparent;
+	border-top: 3px solid transparent;
 }
 .navbar-inverse .navbar-nav > .active > a {
 	color: $abb-grey-180;
@@ -2982,6 +2982,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
 	color: #fafafa;
 	background-color: #0096e0;
+}
+.navbar-inverse .navbar-nav .open .dropdown-submenu:hover > a,
+.navbar-inverse .navbar-nav .open .dropdown-submenu:focus > a {
+	color: #fafafa;
+	background-color: #47c2ff;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
@@ -4772,12 +4777,13 @@ input[type="checkbox"][data-indeterminate] + label:after
 }
 
 .close {
-	font-weight: 300;
+	font-weight: 500;
 	line-height: 24px;
 	opacity: 0.6;
 	-webkit-transition: all 0.2s;
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
+	font-size: 32px;
 }
 .close:hover {
 	opacity: 1;

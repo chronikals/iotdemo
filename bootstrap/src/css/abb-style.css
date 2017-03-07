@@ -3055,7 +3055,7 @@ fieldset[disabled] .btn-ghost-dark:hover {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #464646;
-  border-top: 4px solid;
+  border-top: 3px solid;
   border-top-color: #f3b2b7;
   border-top-color: rgba(217, 0, 15, 0.3); }
 
@@ -3160,7 +3160,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 .navbar-inverse .navbar-nav > li > a {
   color: #B4B4B4;
-  border-top: 4px solid transparent; }
+  border-top: 3px solid transparent; }
 
 .navbar-inverse .navbar-nav > .active > a {
   color: #B4B4B4;
@@ -3222,6 +3222,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
   color: #fafafa;
   background-color: #0096e0; }
+
+.navbar-inverse .navbar-nav .open .dropdown-submenu:hover > a,
+.navbar-inverse .navbar-nav .open .dropdown-submenu:focus > a {
+  color: #fafafa;
+  background-color: #47c2ff; }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
@@ -4969,12 +4974,13 @@ input[type="checkbox"][data-indeterminate] + label:after {
   background-color: rgba(0, 0, 0, 0.1); }
 
 .close {
-  font-weight: 300;
+  font-weight: 500;
   line-height: 24px;
   opacity: 0.6;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
-  transition: all 0.2s; }
+  transition: all 0.2s;
+  font-size: 32px; }
 
 .close:hover {
   opacity: 1; }

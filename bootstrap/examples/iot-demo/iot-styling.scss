@@ -1,8 +1,6 @@
-@import "css/abb-colors.scss";
-@import "css/abb-fonts.scss";
+@import "/../../src/css/abb-colors.scss";
 
 body {
-    font-family: "Helvetica Neue eText Pro";
     margin: 40px auto;
     margin-top: 80px;
 }
@@ -32,7 +30,6 @@ h2 {
 }
 
 h1, h2 {
-    font-family: "Helvetica Neue eText Pro";
     text-rendering: optimizeLegibility;
 }
 
